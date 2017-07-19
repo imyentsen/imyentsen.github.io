@@ -1,72 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Nandao</title>
-  <subtitle>Nandao</subtitle>
-  <link href="/atom.xml" rel="self"/>
-  
-  <link href="http://yoursite.com/"/>
-  <updated>2017-07-19T17:25:13.000Z</updated>
-  <id>http://yoursite.com/</id>
-  
-  <author>
-    <name>Yentsen Liu</name>
-    
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>部落格架站紀錄</title>
-    <link href="http://yoursite.com/2017/07/19/201707_record_for_hexo_installation/"/>
-    <id>http://yoursite.com/2017/07/19/201707_record_for_hexo_installation/</id>
-    <published>2017-07-19T04:57:45.000Z</published>
-    <updated>2017-07-19T17:25:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>用 Hexo 當作 CMS（content management system） + Github Pages 當作架站平台，之後希望會是一週至少一篇的方式慢慢留下在芬蘭日子的筆記，如果一年有五十二週，兩年下來應該會有一百多篇吧，到時候回頭來看，一定會發現很多事情已經忘記了，感覺會非常有趣ＸＤ</p>
-<p>希望到芬蘭之後，可以把未來至少兩年的日子當成一場田野。寫部落格就當作督促自己不太嚴謹地做筆記的方式。</p>
-<p>我選擇用 Hexo 當作 CMS（content management system） + Github Pages 當作架站平台，之後希望會是一週至少一篇的方式慢慢留下在芬蘭日子的筆記，如果一年有五十二週，兩年下來應該會有一百多篇吧，到時候回頭來看，一定會發現很多事情已經忘記了，感覺會非常有趣ＸＤ</p>
-<h2 id="ping-tai-de-xuan-ze"><a href="#平台的選擇" class="headerlink" title="平台的選擇"></a>平台的選擇</h2><p>會選擇 <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> 當作 CMS（content management system） + <a href="https://pages.github.com" target="_blank" rel="external">GitHub Pages</a> 作為發佈平台，最主要的考量是發佈的方便性。</p>
-<p>平常我在電腦上是使用支援 <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> 的 <a href="http://www.bear-writer.com" target="_blank" rel="external">Bear App</a> 在做筆記，它格式簡潔、方便好用，並且我在調整格式時，手不用離開鍵盤。習慣之後，真的會回不去，所以我不想每次發佈新文章，都還得慢慢在那邊調整格式。</p>
-<p>根據這個邏輯，台灣最主流的 Medium、Blogger、Pixnet、Facebook Note 以及常見的各種所見即所得（WYSIWYG）編輯/發布平台就通通直接出局。</p>
-<p>我需要的是一個 file-based 的 CMS，讓我可以直接上傳 Bear 輸出的 md. （markdown 原生格式），變成一篇 blog 文章。 Github Pages 提供的靜態網站託管功能正好可以滿足。</p>
-<p>Github Pages 可以用的 CMS 很多，Slant 網站上面有相關比較：<a href="https://www.slant.co/topics/330/~best-static-site-generators" target="_blank" rel="external">34 best static site generators as of 2017 - Slant</a> 。選擇 Hexo 作為 CMS 是看上他不需要資料庫，非常輕量、容易上手，然後基本上使用 node.js，這對我來說比較親切。然後作者 tommy351 是台灣人，有一點加分。然後有還算大的使用社群，碰到問題找解法或現成外掛，算是十分方便。</p>
-<p>之後這邊發的文章，比較認真的才預計會同步到 medium。</p>
-<h2 id="zhu-ti"><a href="#主題" class="headerlink" title="主題"></a>主題</h2><p>主題我使用 <a href="https://github.com/ygunayer/yg-apollo" target="_blank" rel="external">yg-apollo</a> 下去微調，這是一個土耳其人做的，但原型是另一個中國人做的 <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">apollo</a> 。我本來是先用 apollo，它很陽春，但是結構簡單，要調整不難，後來在慢慢找一些想要的功能例如 tags 歸檔頁面等等時，在 apollo 的 fork 清單裡面找到它，想要的剛好都有，就用了。</p>
-<p>不過我還是有做一些調整，譬如縮窄原本過寬的網頁寬度、加上 <a href="https://github.com/bubkoo/hexo-toc" target="_blank" rel="external">hexo-toc</a> 外掛藉由 markdown 的 # tag 自動生成文章目錄、加上 <a href="https://disqus.com" target="_blank" rel="external">Disqus</a> 回應插件等等。</p>
-<p>配色的話，一時之間靈感來自朋友送我的禮物：<img src="iris_dualai.jpg" alt=""></p>
-<h2 id="wai-gua"><a href="#外掛" class="headerlink" title="外掛"></a>外掛</h2><p>我使用的外掛包含以下，經測試與 yg-apollo 相容，事實上他 demo 中一些功能也要使用外掛才跑得出來，但 documentation 沒有說明只得自己找</p>
-<ul>
-<li><a href="https://github.com/fuchen/hexo-less" target="_blank" rel="external">Hexo-Less</a> 用以產生首頁的文章簡介</li>
-<li><a href="https://github.com/bubkoo/hexo-toc" target="_blank" rel="external">Hexo-toc</a> 用以產生文章目錄</li>
-<li><a href="https://hexo.io/docs/asset-folders.html" target="_blank" rel="external">Hexo-Post Asset Folder</a> 此外掛Hexo 3 之後的版本已經內建，適用於採 github 作為圖片等資源存放 hosting 的用家。</li>
-</ul>
-<h2 id="wei-lai-huan-xiang-zuo-de-gong-zuo"><a href="#未來還想做的工作" class="headerlink" title="未來還想做的工作"></a>未來還想做的工作</h2><p>到目前為止整個架站工作花了三四個晚上，還算快，再多時間我也負擔不了ＸＤ，現在的網站算是堪用了，但希望之後可以做到比 medium 還好的閱讀體驗，需要再慢慢修版面，還有加入以下功能：</p>
-<ol>
-<li>Table of Content： 要做到可以滾動監聽，像 dropbox paper 那樣。這個 medium 也還沒有，但我覺得非常重要。</li>
-<li>Inline Comment： 可以逐行回應文章，而非只是下面一個小小區塊。這是 medium 最好用的地方之一</li>
-<li>Caption of Image：文章中的照片可以在旁邊顯示 caption。</li>
-<li>Markdown 渲染器規則：現在的渲染跟 Bear 原生的規則還是有點不一樣，所以有時會有點差異，希望調整到完全同步。</li>
-</ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;用 Hexo 當作 CMS（content management system） + Github Pages 當作架站平台，之後希望會是一週至少一篇的方式慢慢留下在芬蘭日子的筆記，如果一年有五十二週，兩年下來應該會有一百多篇吧，到時候回頭來看，一定會發現很多事情已經忘記了，感覺會非常有趣ＸＤ&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Blogging" scheme="http://yoursite.com/tags/Blogging/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>申請歐美碩士班過程筆記</title>
-    <link href="http://yoursite.com/2017/07/02/201707_notes_for_graduate_admission/"/>
-    <id>http://yoursite.com/2017/07/02/201707_notes_for_graduate_admission/</id>
-    <published>2017-07-01T18:06:27.000Z</published>
-    <updated>2017-07-19T06:39:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="toc">
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 申請歐美碩士班過程筆記 · Nandao</title><meta name="description" content="
+
+
+
+申請結果
+Preface
+申請的準備方式
+(1) 搜集學校資料
+(2) 考英檢
+(3) 推薦信
+(4) 動機信跟作品集
+(5) 面試
+
+
+學校介紹
+Aalto University
+&lt;a href=&quot;#tu-delft-nyu-gothenbu"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="申請結果 Preface 申請的準備方式 (1) 搜集學校資料 (2) 考英檢 (3) 推薦信 (4) 動機信跟作品集 (5) 面試   學校介紹 Aalto University TU Delft/ NYU/ Gothenburg/ KISD/ MIT   外傳：波士頓之旅      申請結果AdmissionTU Delft - Design for Interaction (Part">
+<meta name="keywords" content="Tutorial">
+<meta property="og:type" content="article">
+<meta property="og:title" content="申請歐美碩士班過程筆記">
+<meta property="og:url" content="http://yoursite.com/2017/07/02/201707_notes_for_graduate_admission/index.html">
+<meta property="og:site_name" content="Nandao">
+<meta property="og:description" content="申請結果 Preface 申請的準備方式 (1) 搜集學校資料 (2) 考英檢 (3) 推薦信 (4) 動機信跟作品集 (5) 面試   學校介紹 Aalto University TU Delft/ NYU/ Gothenburg/ KISD/ MIT   外傳：波士頓之旅      申請結果AdmissionTU Delft - Design for Interaction (Part">
+<meta property="og:image" content="https://aaltocre.fi/wp-content/uploads/2014/09/Havainnekuva-pimeällä-ID-151574.jpg">
+<meta property="og:image" content="https://cfl.dropboxstatic.com/static/images/paper/landing_page/hero/organize-vflfWg1zL.png">
+<meta property="og:image" content="http://yoursite.com/2017/07/02/201707_notes_for_graduate_admission/20170605_%E7%94%B3%E8%AB%8B%E9%81%8E%E7%A8%8B%E7%AD%86%E8%A8%98/86CA72D2-A28F-4963-8F61-418A5B280C46.png">
+<meta property="og:updated_time" content="2017-07-19T06:39:27.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="申請歐美碩士班過程筆記">
+<meta name="twitter:description" content="申請結果 Preface 申請的準備方式 (1) 搜集學校資料 (2) 考英檢 (3) 推薦信 (4) 動機信跟作品集 (5) 面試   學校介紹 Aalto University TU Delft/ NYU/ Gothenburg/ KISD/ MIT   外傳：波士頓之旅      申請結果AdmissionTU Delft - Design for Interaction (Part">
+<meta name="twitter:image" content="https://aaltocre.fi/wp-content/uploads/2014/09/Havainnekuva-pimeällä-ID-151574.jpg">
+<meta name="twitter:creator" content="@yentsen"><link rel="short icon" href="/favicon-s.png"><link rel="stylesheet" href="/css/apollo.css?v=1"></head><body><div id="fb-root"></div><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link"><span>Home</span></a></li><li class="nav-list-item"><a href="/about" target="_self" class="nav-list-link"><span>About</span></a></li><li class="nav-list-item"><a href="/browse" target="_self" class="nav-list-link"><span>Browse</span></a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">申請歐美碩士班過程筆記</h1><div class="post-meta"><div class="post-tools"><ul class="sharing-list clearfix"><li class="sharing-list-item"><a href="javascript:void(0)" title="Share on Facebook" class="ssk ssk-facebook ssk-xs"></a></li><li class="sharing-list-item"><a href="javascript:void(0)" title="Tweet" class="ssk ssk-twitter ssk-xs"></a></li></ul></div><div class="post-time">Jul 2, 2017</div></div><div class="post-content"><div class="toc">
 
 <!-- toc -->
 <ul>
@@ -196,23 +159,12 @@
 </ul>
 <hr>
 <h1 id="wai-chuan-bo-shi-dun-zhi-lu"><a href="#外傳：波士頓之旅" class="headerlink" title="外傳：波士頓之旅"></a>外傳：波士頓之旅</h1><p>寫到這邊累了，這篇純粹寫搞笑的，之後再補。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;toc&quot;&gt;
-
-&lt;!-- toc --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#shen-qing-jie-guo&quot;&gt;申請結果&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#preface&quot;&gt;Preface&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#sh
-    
-    </summary>
-    
-    
-      <category term="Tutorial" scheme="http://yoursite.com/tags/Tutorial/"/>
-    
-  </entry>
-  
-</feed>
+</div><aside class="post-extras"><div class="tag-list"><label>Tags: </label><a href="/tags/Tutorial/" class="tag-list-item">Tutorial</a></div></aside></article></div><div class="paginator"><a href="/2017/07/19/201707_record_for_hexo_installation/" class="prev">&#8592; 部落格架站紀錄</a></div><div id="comments"><div id="disqus_thread"></div></div></section><footer><div class="footer-wrap"><aside><p><a href="/atom.xml" target="_blank"><i class="fa fa-rss"></i> <strong>Atom Feed</strong></a></p></aside></div></footer><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-71307141-1",'auto');ga('send','pageview');</script><script src="/js/social-share-kit.min.js"></script><script>SocialShareKit.init()
+</script><script>var disqus_shortname = 'yentsen';
+var disqus_title = '申請歐美碩士班過程筆記';
+var disqus_url = 'http://yoursite.com/2017/07/02/201707_notes_for_graduate_admission/';
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></body></html>
