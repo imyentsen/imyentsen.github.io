@@ -4,9 +4,9 @@
   <subtitle>Nandao</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://imyentsen.github.io/"/>
   <updated>2017-07-21T01:33:47.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://imyentsen.github.io/</id>
   
   <author>
     <name>Yentsen Liu</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>部落格架站紀錄</title>
-    <link href="http://yoursite.com/2017/07/19/201707_record_for_hexo_installation/"/>
-    <id>http://yoursite.com/2017/07/19/201707_record_for_hexo_installation/</id>
+    <link href="https://imyentsen.github.io/2017/07/19/201707_record_for_hexo_installation/"/>
+    <id>https://imyentsen.github.io/2017/07/19/201707_record_for_hexo_installation/</id>
     <published>2017-07-19T04:57:45.000Z</published>
     <updated>2017-07-21T01:33:47.000Z</updated>
     
@@ -55,14 +55,14 @@
     </summary>
     
     
-      <category term="Blogging" scheme="http://yoursite.com/tags/Blogging/"/>
+      <category term="Blogging" scheme="https://imyentsen.github.io/tags/Blogging/"/>
     
   </entry>
   
   <entry>
     <title>申請歐美碩士班過程筆記</title>
-    <link href="http://yoursite.com/2017/07/02/201707_notes_for_graduate_admission/"/>
-    <id>http://yoursite.com/2017/07/02/201707_notes_for_graduate_admission/</id>
+    <link href="https://imyentsen.github.io/2017/07/02/201707_notes_for_graduate_admission/"/>
+    <id>https://imyentsen.github.io/2017/07/02/201707_notes_for_graduate_admission/</id>
     <published>2017-07-01T18:06:27.000Z</published>
     <updated>2017-07-21T01:32:58.000Z</updated>
     
@@ -207,7 +207,7 @@
     </summary>
     
     
-      <category term="Tutorial" scheme="http://yoursite.com/tags/Tutorial/"/>
+      <category term="Tutorial" scheme="https://imyentsen.github.io/tags/Tutorial/"/>
     
   </entry>
   
