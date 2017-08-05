@@ -8,7 +8,7 @@
 <meta property="og:url" content="http://blog.yentsenliu.com/2017/07/19/201707_record_for_hexo_installation/index.html">
 <meta property="og:site_name" content="南島">
 <meta property="og:description" content="用 Hexo 當作 CMS（content management system） + Github Pages 當作架站平台，之後希望會是一週至少一篇的方式慢慢留下在芬蘭日子的筆記，如果一年有五十二週，兩年下來應該會有一百多篇吧。到時候回頭來看，一定會發現很多事情已經忘記了，感覺會非常有趣ＸＤ">
-<meta property="og:updated_time" content="2017-08-05T15:20:40.000Z">
+<meta property="og:updated_time" content="2017-08-05T15:23:47.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="部落格架站紀錄">
 <meta name="twitter:description" content="用 Hexo 當作 CMS（content management system） + Github Pages 當作架站平台，之後希望會是一週至少一篇的方式慢慢留下在芬蘭日子的筆記，如果一年有五十二週，兩年下來應該會有一百多篇吧。到時候回頭來看，一定會發現很多事情已經忘記了，感覺會非常有趣ＸＤ">
@@ -18,8 +18,8 @@
 <p>平常我在電腦上是使用支援 <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> 的 <a href="http://www.bear-writer.com" target="_blank" rel="external">Bear App</a> 在做筆記。它格式簡潔、方便好用，並且我在調整格式時，手不用離開鍵盤。習慣之後，真的會回不去，所以我不想每次發佈新文章，都還得慢慢在那邊調整格式。</p>
 <p>根據這個邏輯，台灣最主流的 Medium、Blogger、Pixnet、Facebook Note 以及常見的各種所見即所得（WYSIWYG）編輯/發布平台就都不太讓人滿意。</p>
 <p>我需要的是一個 file-based 的 CMS，讓我可以直接上傳 Bear 輸出的 md. （markdown 原生格式），變成一篇 blog 文章。 Github Pages 提供的靜態網站託管功能正好可以滿足。</p>
-<p>Github Pages 可以用的 CMS 很多，Slant 網站上面有相關比較：<a href="https://www.slant.co/topics/330/~best-static-site-generators" target="_blank" rel="external">34 best static site generators as of 2017 - Slant</a> 。選擇 Hexo 作為 CMS 是看上他不需要資料庫，非常輕量、容易上手，然後基本上使用 node.js，這對我來說比較親切。然後作者 tommy351 是台灣人，有一點加分。然後有還算大的使用社群，碰到問題找解法或現成外掛，算是十分方便。</p>
-<p>之後這邊發的文章，比較認真的才預計會同步到 medium。</p>
+<p>Github Pages 可以用的 CMS 很多，Slant 網站上面有相關比較：<a href="https://www.slant.co/topics/330/~best-static-site-generators" target="_blank" rel="external">34 best static site generators as of 2017 - Slant</a> 。選擇 Hexo 作為 CMS 是看上他不需要資料庫，非常輕量、容易上手，然後基本上使用 node.js，這對我來說比較親切。然後作者 tommy351 是台灣人，有一點加分。</p>
+<p>（比較大的問題是，我到後來才發現開發社群以華語用戶為主，碰到問題stackoverflow很少討論，我也不習慣開發用語的中文翻譯，要哭了。）</p>
 <h2 id="zhu-ti"><a href="#主題" class="headerlink" title="主題"></a>主題</h2><p>主題我使用 <a href="https://github.com/ygunayer/yg-apollo" target="_blank" rel="external">yg-apollo</a> 下去微調，這是一個土耳其人做的，但原型是另一個中國人做的 <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">apollo</a> 。我本來是先用 apollo，它很陽春，但是結構簡單，要調整不難，後來在慢慢找一些想要的功能例如 tags 歸檔頁面等等時，在 apollo 的 fork 清單裡面找到它，想要的剛好都有，就用了。</p>
 <p>不過我還是有做一些調整，譬如縮窄原本過寬的網頁寬度、加上 <a href="https://github.com/bubkoo/hexo-toc" target="_blank" rel="external">hexo-toc</a> 外掛藉由 markdown 的 # tag 自動生成文章目錄、加上 <a href="https://disqus.com" target="_blank" rel="external">Disqus</a> 回應插件等等。</p>
 <p>最後是想讓每一篇文章都有自己的背景，想讓它們有點像是展開信紙，在某個地方被閱讀的感覺。為此第一次寫了點 jade 的語法（這個主題使用 jade 編譯）。 </p>
