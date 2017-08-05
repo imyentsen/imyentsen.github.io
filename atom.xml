@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.yentsenliu.com/"/>
-  <updated>2017-08-05T13:10:16.000Z</updated>
+  <updated>2017-08-05T15:20:40.000Z</updated>
   <id>http://blog.yentsenliu.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.yentsenliu.com/2017/07/19/201707_record_for_hexo_installation/"/>
     <id>http://blog.yentsenliu.com/2017/07/19/201707_record_for_hexo_installation/</id>
     <published>2017-07-19T04:57:45.000Z</published>
-    <updated>2017-08-05T13:10:16.000Z</updated>
+    <updated>2017-08-05T15:20:40.000Z</updated>
     
     <content type="html"><![CDATA[<p>希望到芬蘭之後，可以把未來至少兩年的日子當成一場田野。寫部落格就當作督促自己不太嚴謹地做筆記的方式。</p>
 <p>我選擇用 Hexo 當作 CMS（content management system） + Github Pages 當作架站平台，之後希望會是一週至少一篇的方式慢慢留下在芬蘭日子的筆記，如果一年有五十二週，兩年下來應該會有一百多篇吧。到時候回頭來看，一定會發現很多事情已經忘記了，感覺會非常有趣ＸＤ</p>
@@ -32,20 +32,21 @@
 <p>之後這邊發的文章，比較認真的才預計會同步到 medium。</p>
 <h2 id="zhu-ti"><a href="#主題" class="headerlink" title="主題"></a>主題</h2><p>主題我使用 <a href="https://github.com/ygunayer/yg-apollo" target="_blank" rel="external">yg-apollo</a> 下去微調，這是一個土耳其人做的，但原型是另一個中國人做的 <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">apollo</a> 。我本來是先用 apollo，它很陽春，但是結構簡單，要調整不難，後來在慢慢找一些想要的功能例如 tags 歸檔頁面等等時，在 apollo 的 fork 清單裡面找到它，想要的剛好都有，就用了。</p>
 <p>不過我還是有做一些調整，譬如縮窄原本過寬的網頁寬度、加上 <a href="https://github.com/bubkoo/hexo-toc" target="_blank" rel="external">hexo-toc</a> 外掛藉由 markdown 的 # tag 自動生成文章目錄、加上 <a href="https://disqus.com" target="_blank" rel="external">Disqus</a> 回應插件等等。</p>
-<p>配色的話，一時之間靈感來自朋友送我的禮物：<img src="iris_dualai.jpg" alt=""></p>
+<p>最後是想讓每一篇文章都有自己的背景，想讓它們有點像是展開信紙，在某個地方被閱讀的感覺。為此第一次寫了點 jade 的語法（這個主題使用 jade 編譯）。 </p>
 <h2 id="wai-gua"><a href="#外掛" class="headerlink" title="外掛"></a>外掛</h2><p>我使用的外掛包含以下，經測試與 yg-apollo 相容。事實上他 demo 中一些功能也要使用外掛才跑得出來，但 documentation 沒有說明只得自己找</p>
 <ul>
 <li><a href="https://github.com/fuchen/hexo-less" target="_blank" rel="external">Hexo-Less</a> 用以產生首頁的文章簡介</li>
 <li><a href="https://github.com/bubkoo/hexo-toc" target="_blank" rel="external">Hexo-toc</a> 用以產生文章目錄</li>
 <li><a href="https://hexo.io/docs/asset-folders.html" target="_blank" rel="external">Hexo-Post Asset Folder</a> 此外掛Hexo 3 之後的版本已經內建，適用於採 github 作為圖片等資源存放 hosting 的用家。</li>
 </ul>
-<h2 id="wei-lai-huan-xiang-zuo-de-gong-zuo"><a href="#未來還想做的工作" class="headerlink" title="未來還想做的工作"></a>未來還想做的工作</h2><p>到目前為止整個架站工作花了三四個晚上，還算快，再多時間我也負擔不了ＸＤ。現在的網站算是堪用了，但希望之後可以做到比 medium 還好的閱讀體驗。需要再慢慢修版面，還有加入以下功能：</p>
+<h2 id="wei-lai-huan-xiang-zuo-de-gong-zuo"><a href="#未來還想做的工作" class="headerlink" title="未來還想做的工作"></a>未來還想做的工作</h2><p>現在的網站算是堪用了，但希望之後可以做到比 medium 還好的閱讀體驗。需要再慢慢修版面，還有加入以下功能：</p>
 <ol>
 <li>站內搜尋： 這個不難，但現在內容也還不多。</li>
 <li>Table of Content： 要做到可以滾動監聽，像 dropbox paper 那樣。這個 medium 也還沒有，但我覺得非常重要。</li>
 <li>Inline Comment： 可以逐行回應文章，而非只是下面一個小小區塊。這是 medium 最好用的地方之一</li>
 <li>Caption of Image：文章中的照片可以在旁邊顯示 caption。</li>
 <li>Markdown 渲染器規則：現在的渲染跟 Bear 原生的規則還是有點不一樣，所以有時會有點差異，希望調整到完全同步。</li>
+<li>想讓文章閱讀的時候，背影照片也有比較慢的滾動效果，所謂的 <a href="https://en.wikipedia.org/wiki/Parallax_scrolling" target="_blank" rel="external">parallel scrolling</a>。這樣「我在某個地方看到這篇文章」的場景感，會逼真一點點吧？！</li>
 </ol>]]></content>
     
     <summary type="html">
