@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.yentsenliu.com/"/>
-  <updated>2017-09-13T08:29:06.000Z</updated>
+  <updated>2017-09-13T08:50:35.000Z</updated>
   <id>http://blog.yentsenliu.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://blog.yentsenliu.com/2017/09/12/201709_UID-Week1/"/>
     <id>http://blog.yentsenliu.com/2017/09/12/201709_UID-Week1/</id>
     <published>2017-09-12T06:49:28.000Z</published>
-    <updated>2017-09-13T08:29:06.000Z</updated>
+    <updated>2017-09-13T08:50:35.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天是正式開學第二天。簡單來寫一下筆記。</p>
-<p>我非常喜歡 Aalto 的一點是，在討論各種設計時，都會把核心理念跟價值講清楚。我跟另一位台灣同學都有本島比較少著墨這點的同感。以 Codesign 為例，他有助於解決跨專業資訊傳遞的障礙、讓使用者可以提供資源與機會、讓社會技術的改變可以有民主參與、達成負責任的設計（此指 responsible design）等。在前一週的 intro 密集課也是先釐清重要的價值為何，再談如何做、做出什麼。這讓我想到 Simon Sinek 有關 Why-How-What 的演講，人總是要知道自己的那個 Why，之後的行動才能真正被 motivated。有關設計作為一種策略性的思考模式，理念與價值有助於建立清晰的戰略，沒有戰略、沒有中心思想，就算執行面的戰術再成功，也只是汪洋中飄蕩一條沒有羅盤的舟。</p>
+<p>我非常喜歡 Aalto 的一點是，在討論各種設計時，都會把核心理念跟價值講清楚。以 Codesign 為例，他有助於解決跨專業資訊傳遞的障礙、讓使用者可以提供資源與機會、讓社會技術的改變可以有民主參與、達成負責任的設計（此指 responsible design）等。在前一週的 intro 密集課也是先釐清重要的價值為何，再談如何做、做出什麼。這讓我想到 Simon Sinek 有關 Why-How-What 的演講，人總是要知道自己的那個 Why，之後的行動才能真正被 motivated。有關設計作為一種策略性的思考模式，理念與價值有助於建立清晰的戰略，沒有戰略、沒有中心思想，就算執行面的戰術再成功，也只是汪洋中飄蕩一條沒有羅盤的舟。</p>
 <p>這兩天上的兩門課，一門是 Design Research，另一門是 User Inspired Design（UID），連同上週的 introduction 課程，都讓我有這樣的感觸。 </p>
 <p><strong>先談談User Inspired Design（UID）</strong>。上面有關 Codesign 的敘述，就是本週 UID 課堂上所做的說明。<strong>UID 的課程分成 Knowing 和 Making 兩個部分</strong>，一個禮拜要上兩天整天，為期七週。授課教授是 Turkka Keinonen（註一）。芬蘭一個學年有五個學期，每個學期大約都是七週，但少數課程會跨越好幾個學期，整個學習在密集的節奏快速前進。曾看過有人說，芬蘭什麼都慢慢的，就只有課程節奏很快。</p>
 <p>我們修過這門必修課之後，可以再往上修進階的 Design Interactions, Design Ethnography, Design for Services, Experience Driven Design, Strategic Codesign……等選修課程。除上述外，還有大約十門其他類型例如策略、管理、創業、材料、造型……等選修。</p>
@@ -38,9 +38,10 @@
 <p><strong>Making</strong> 部分的課程和 Vahanen Gruop 合作，Vahanen是芬蘭最大的營造顧問公司之一（簡單講，有點像芬蘭遠雄），年營業額約 2.7 億歐元，業務橫跨北東歐四國。以前專搞營造，這幾年力圖轉型，跨足都更跟市郊造鎮。</p>
 <p>我們的任務，是要在選定的八個郊區都更潛力點，規劃能夠成功讓居民建立共識，同意更新的參與式設計方法。我們要找到願意跟我們一起規劃這個策略的居民，跟我們一起合作做這個作業。每一組三到四個人配一個 tutor，tutor 是來自 Vahanen 的營建管理專家。</p>
 <p><img src="https://cdn-images-1.medium.com/max/800/1*fn-zIRl9pJ2kA5gTCHIv_g.jpeg" alt="Vahanen Gruop 設計總監 Katja Soini"><span class="image-caption">Vahanen Gruop 設計總監 Katja Soini</span></p>
-<p>在我的認知裡 Suburb Renovation 的第一印象，的是把房子拆掉蓋大樓，其中幾戶還給原住戶，多的拿去賣錢……的台式都更。但這邊似乎不是這樣。前來解說的是 Vahanen Group 的設計總監，她負責在城鎮規劃跟更新過程中為居民提供良好的服務體驗。我們的潛力點居民主要都是 Worker（我不知道她說的worker指的是怎麼樣的worker…）跟退休族，沒什麼錢。Vahanen 之前推過的區域更新案大約是以一千戶為規模，主要做的是房屋基本設備、管線的翻修，而不是拆掉重蓋。另外，芬蘭社區間會有很多公共空間，例如小孩可以玩遊戲的公園，這些空間也會需要經過居民一起同意，然後更新，同意門檻是 60%。對公共空間的投資規模是一千萬歐元，也就是說，住戶一個人大概要付將近一萬歐來做這些事。再算上私宅改造的費用，這是一筆大錢，居民願意投資，一個重要原因是因為想在此終老。</p>
+<p>在我的認知裡 Suburb Renovation 的第一印象，的是把房子拆掉蓋大樓，其中幾戶還給原住戶，多的拿去賣錢……的台式都更。但這邊似乎不是這樣。前來解說的是 Vahanen Group 的設計總監，她負責在城鎮規劃跟更新過程中為居民提供良好的服務體驗。我們的潛力點居民主要都是 Worker（我不知道她說的worker指的是怎麼樣的worker…）跟退休族，經濟並不寬裕。</p>
+<p>Vahanen 之前推過的區域更新案大約是以一千戶為規模，主要做的是房屋基本設備、管線的翻修，而不是拆掉重蓋。另外，芬蘭社區間會有很多公共空間，例如小孩可以玩遊戲的公園，這些空間也會需要經過居民一起同意，然後更新，同意門檻是 60%。對公共空間的投資規模是一千萬歐元，也就是說，住戶一個人大概要付將近一萬歐來做這些事。再算上私宅改造的費用，這是一筆大錢，居民願意投資，一個重要原因是因為想在此終老。</p>
 <p><img src="https://cdn-images-1.medium.com/max/800/1*dXIJP3F6M0lLbDCtHCVaxQ.jpeg" alt="Vahanen Gruop 設計總監 Katja Soini"><span class="image-caption">Vahanen Gruop 設計總監 Katja Soini</span></p>
-<p>Vahanen 的設計總監非常強調整體過程的賦權（empower）跟與居民合作（collaboration）。我們不需要做任何建築或空間設計，我們要做的想辦法找到願意跟我們合作的居民，一起找出一套方法，讓鄰里可以對未來有美好想像，然後對這個想像建立共識。</p>
+<p>Vahanen 的設計總監非常強調整體過程的賦權（empower）跟與居民合作（collaboration）。我們不需要做任何建築或空間設計，我們要做的想辦法找到願意跟我們合作的居民，一起找出一套方法，讓鄰里可以對未來有美好想像，然後對這個想像建立共識。或許是之前看過太多台灣建商噁心的嘴臉，在此感受如此美好仍讓我有些戒慎恐懼。</p>
 <p>Vahanen Group 跟赫爾辛基市政府在九月底在上述潛力點，辦了為期一週的‘Lähiöfest2017’ ，是屬於鄰里的 Festival，目標是讓鄰里對未來生活可以討論、凝聚想像。</p>
 <p>會跟營造顧問公司合作，我真的很意外（註三），但也很高興，畢竟從士林王家、紹興、華光社區的抗爭，到因修陳東升課程跑過田野的蘭州國宅，這些或多或少的參與都留下一些印記。之前在丹麥聽朋友說，哥本哈根的市郊造鎮並不太會引起居民反感或抗爭，居民對建商和政府的信任度是有的，或許從共識凝聚的過程、彼此相信的價值中間可以看出一些端倪？</p>
 <p>我的組員另兩位都是芬蘭人，老師指派組員目的是希望每組都有會講芬語的土著，雖然只有我一個歪國人有點尷尬，但很期待後續發展。</p>
