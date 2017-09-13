@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.yentsenliu.com/"/>
-  <updated>2017-09-13T00:17:22.000Z</updated>
+  <updated>2017-09-13T00:50:26.000Z</updated>
   <id>http://blog.yentsenliu.com/</id>
   
   <author>
@@ -20,21 +20,21 @@
     <link href="http://blog.yentsenliu.com/2017/09/12/201709_UID-Week1/"/>
     <id>http://blog.yentsenliu.com/2017/09/12/201709_UID-Week1/</id>
     <published>2017-09-12T06:49:28.000Z</published>
-    <updated>2017-09-13T00:17:22.000Z</updated>
+    <updated>2017-09-13T00:50:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天是正式開學第二天。簡單來寫一下筆記。</p>
 <p>這兩天上的兩門課，一門是 Design Research，另一門是 User Inspired Design（UID）。 </p>
-<p>先談談UID。昨天排完兩年的修課計畫，確認 Aalto 的課程相當豐富。 User Inspired Design 是碩一的必修課，我們修過這門課之後，可以再往上修進階的 Design Interactions, Design Ethnography, Design for Services, Experience Driven Design, Strategic Codesign……等選修課程，除了 UID 為基礎的選修之外，還有大約十門不同類型的選修。以 UID 為基礎的選修都是10學分（芬蘭2學分約合台灣0.8~1學分），而我們參與式工業設計碩士指定選修有約20學分的額度，也就是說，前面只要修兩門就可以達成。</p>
-<p>以 UID 為基礎的選修課程，都是 project-based，從做中學。教授簡介時有人提問，專案實作的流程多少會有些重複，那這些課程是不是有的會很接近呢？的確是的，所以在課程設計會就個別課程目標，特別加重其所欲訓練的面向，所以選擇哪些課程，多少代表你想專研哪方面的設計。</p>
-<p>UID 的課程分成 Knowing 和 Making 兩個部分，一個禮拜要上兩天整天（09-17），為期七週。授課教授是 Turkka Keinonen（註一）。芬蘭一個學年有五個學期，每個學期大約都是七週，所以要不斷選課（但少數課程會跨越好幾個學期），整個學習在密集的節奏快速前進。曾看過有人說，芬蘭什麼都慢慢的，就只有課程節奏很快。</p>
-<p>Knowing 部分，會請不同專長的教授來執講，他們分別負責前述的進階課程。</p>
-<p>本週是 Codesign。雖然知道 Aalto 的強項之一是參與式設計跟公共服務的創新，但我蠻意外第一週就以此為題。UID 給我使用者導向設計的感覺，在我的認知裡，參與式設計跟此是稍微有點距離的，有的甚至不會使用 user 此一名詞。</p>
-<p><img src="https://cdn-images-1.medium.com/max/800/1*9GF03HxhK5IWqL8nT0_ZgA.jpeg" alt="&quot;Introduction to codesign?&quot; 主講人 Sampsa Hyysalo"><span class="image-caption">&quot;Introduction to codesign?&quot; 主講人 Sampsa Hyysalo</span></p>
-<p>主講人 Sampsa Hyysalo （註二）將整體 User Inspired Design 按照從 designers active 到 users active 的軸線說明，而 Codesign 側重往 users active 這個方向。清楚解答我的疑惑。這天 Knowing 的課程主要就在說明該圖各項內容的定義、適用時機跟案例。台灣這邊 UX 跟參與式設計討論的圈子不一樣，交流也不算很多，我覺得這部分對釐清概念有不少幫助。</p>
-<p><img src="https://cdn-images-1.medium.com/max/800/1*BbKOzaT5rbWnVziki19yNQ.png" alt="圖片取自 Hyysalo, S (2015) The landscape of designing for, with and by users. 簡報"><span class="image-caption">圖片取自 Hyysalo, S (2015) The landscape of designing for, with and by users. 簡報</span></p>
 <p>我非常喜歡 Aalto 的一點是，在討論各種設計時，都會把核心理念跟價值講清楚。以 Codesign 為例，他有助於解決跨專業資訊傳遞的障礙、讓使用者可以提供資源與機會、讓社會技術的改變可以有民主參與、達成負責任的的設計等。在前一週的 intro 密集課也是先釐清重要的價值為何，再談如何做、做出什麼。這讓我想到 Simon Sinek 有關 Why-How-What 的演講，人總是要知道自己的那個 Why，之後的行動才能真正被 motivated。有關設計作為一種策略性的思考模式，理念與價值有助於建立清晰的戰略，沒有戰略、沒有中心思想，就算執行面的戰術再成功，也只是汪洋中飄蕩一條沒有羅盤的舟。</p>
+<p><strong>先談談UID</strong>。上面有關 Codesign 的敘述，是這堂課所做的說明。User Inspired Design 是碩一的必修課，我們修過這門課之後，可以再往上修進階的 Design Interactions, Design Ethnography, Design for Services, Experience Driven Design, Strategic Codesign……等選修課程，除了 UID 為基礎的選修之外，還有大約十門不同類型的選修。</p>
+<p>以 UID 為基礎的選修課程，都是 project-based，從做中學。教授簡介時有人提問，專案實作的流程多少會有些重複，那這些課程是不是有的會很接近呢？的確是的，所以在課程設計會就個別課程目標，特別加重其所欲訓練的面向。所以選修不需要選多，也不用擔心掛一漏萬。選擇哪些課程，多少代表你想專研哪方面的設計，學分概算是只要修兩門，即可達到畢業門檻。</p>
+<p>UID 的課程分成 Knowing 和 Making 兩個部分，一個禮拜要上兩天整天（09-17），為期七週。授課教授是 Turkka Keinonen（註一）。芬蘭一個學年有五個學期，每個學期大約都是七週，所以要不斷選課（但少數課程會跨越好幾個學期），整個學習在密集的節奏快速前進。曾看過有人說，芬蘭什麼都慢慢的，就只有課程節奏很快。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*9GF03HxhK5IWqL8nT0_ZgA.jpeg" alt="&quot;Introduction to codesign?&quot; 主講人 Sampsa Hyysalo"><span class="image-caption">&quot;Introduction to codesign?&quot; 主講人 Sampsa Hyysalo</span></p>
+<p><strong>Knowing</strong> 部分，會請不同專長的教授來執講，他們分別負責前述的進階課程。</p>
+<p>本週是 Codesign。雖然知道 Aalto 的強項之一是參與式設計跟公共服務的創新，但我蠻意外第一週就以此為題。UID 給我使用者導向設計的感覺，在我的認知裡，參與式設計跟此是稍微有點距離的，有的甚至不會使用 user 此一名詞。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*BbKOzaT5rbWnVziki19yNQ.png" alt="圖片取自 Hyysalo, S (2015) The landscape of designing for, with and by users. 簡報"><span class="image-caption">圖片取自 Hyysalo, S (2015) The landscape of designing for, with and by users. 簡報</span></p>
+<p>主講人 Sampsa Hyysalo （註二）將整體 User Inspired Design 按照從 designers active 到 users active 的軸線說明，而 Codesign 側重往 users active 這個方向。清楚解答我的疑惑。這天 Knowing 的課程主要就在說明該圖各項內容的定義、適用時機跟案例。台灣這邊 UX 跟參與式設計討論的圈子不一樣，交流也不算很多，我覺得這部分對釐清概念有不少幫助。</p>
 <p><img src="https://cdn-images-1.medium.com/max/1000/1*CMBFMs7eUGruFFnXuGN4oQ.jpeg" alt=""></p>
-<p>Making 部分的課程和 Vahanen Gruop 合作，Vahanen是芬蘭最大的營造顧問公司之一（簡單講，有點像芬蘭遠雄），年營業額約 2.7 億歐元，業務橫跨北東歐四國。以前專搞營造，這幾年力圖轉型，跨足都更跟市郊造鎮。</p>
+<p><strong>Making</strong> 部分的課程和 Vahanen Gruop 合作，Vahanen是芬蘭最大的營造顧問公司之一（簡單講，有點像芬蘭遠雄），年營業額約 2.7 億歐元，業務橫跨北東歐四國。以前專搞營造，這幾年力圖轉型，跨足都更跟市郊造鎮。</p>
 <p>我們的任務呢，就是要在選定的八個郊區都更潛力點，規劃能夠成功說服居民同意更新的參與式設計策略（嘶！）。我們要找到願意跟我們一起規劃這個策略的居民，跟我們一起合作。每一組三到四個人配一個 tutor，tutor 是 Vahanen 公司的營建管理專家。</p>
 <p><img src="https://cdn-images-1.medium.com/max/800/1*fn-zIRl9pJ2kA5gTCHIv_g.jpeg" alt="Vahanen Gruop 設計總監 Katja Soini"><span class="image-caption">Vahanen Gruop 設計總監 Katja Soini</span></p>
 <p>我一開始想到的是把房子拆掉蓋大樓，其中幾戶還給原住戶，多的拿去賣錢的台式都更，但這邊不是這樣。前來解說的是 Vahanen Group 的設計總監，她負責在城鎮規劃跟更新過程中為居民提供良好的服務體驗。我們的潛力點居民主要都是 Worker（我不知道她說的worker指的是怎麼樣的worker…）跟退休族，沒什麼錢。Vahanen 之前推過的區域更新案大約是以一千戶為規模，主要做的是房屋基本設備管線的翻修，而不是拆掉重蓋。另外，芬蘭社區間會有很多公共空間，例如小孩可以玩遊戲的公園，這些空間也會需要經過居民一起同意，然後更新，同意門檻是 60%。對公共空間的投資規模是一千萬歐元，也就是說，住戶一個人大概要付將近一萬歐來做這些事。再算上私宅改造的費用，這是一筆大錢，居民願意投資，一個重要原因是因為想在此終老。</p>
@@ -46,7 +46,7 @@
 <p>原本想說今天晚上有時間，來寫個筆記，一寫一邊查資料兩個多小時就過去了。真的很累，有關 Design Research 課程容後再補。</p>
 <p>漸漸確認我把筆記視為一種 commitment 在記錄的心情。在這邊學習跟觀察的日子不知不覺剛滿一個月，看得越多，越深刻感受台灣是如何影響我的關懷、我的視野、我思考與行為的方式。人總是在變，話不想說滿，但當討論設計的社會價值、設計可以做些什麼時，儘管我喜歡美麗樸實的芬蘭，但第一個想到的總是台灣。</p>
 <h2 id="zhu"><a href="#註：" class="headerlink" title="註："></a>註：</h2><ol>
-<li><p>Turkka Keinonen 最近剛出了本新書<a href="https://www.amazon.com/Designers-Users-Justice-Turkka-Keinonen/dp/1474245048" target="_blank" rel="external">Designers, Users and Justice</a>，份量不重，有點像是設計版的《正義・一場思辨之旅》，討論設計如何合乎正義原則。舉例來說好了，設計本身具有分配資源的效果，我們如果用功利主義（Utilitarianism，我知道有人不滿意這翻譯…）衡量設計的效益，會有怎麼樣的結果、怎麼樣的盲點？大概是這樣的書籍，用對話錄的方式帶讀者認識Aristotle, Jeremy Bentham, John Stuart Mill, John Rawls, Robert Nozick, Alasdair MacIntyre, Amartya Sen, and Martha Nussbaum……這些哲學家。我看到一半而已，是輕鬆的閒書，有空再來分享。</p>
+<li><p>Turkka Keinonen 最近剛出了本新書 <a href="https://www.amazon.com/Designers-Users-Justice-Turkka-Keinonen/dp/1474245048" target="_blank" rel="external">Designers, Users and Justice</a>，份量不重，有點像是設計版的《正義・一場思辨之旅》，討論設計如何合乎正義原則。舉例來說好了，設計本身具有分配資源的效果，我們如果用功利主義（Utilitarianism，我知道有人不滿意這翻譯…）衡量設計的效益，會有怎麼樣的結果、怎麼樣的盲點？大概是這樣的書籍，用對話錄的方式帶讀者認識Aristotle, Jeremy Bentham, John Stuart Mill, John Rawls, Robert Nozick, Alasdair MacIntyre, Amartya Sen, and Martha Nussbaum……這些哲學家。我看到一半而已，是輕鬆的閒書，有空再來分享。</p>
 </li>
 <li><p>Sampsa Hyysalo 是目前 Aalto 設計學院的 Head of Research，以前是芬蘭STS期刊的主編，跟歐洲STS期刊的Coordinating editor。近年研究專長在醫療科技發展過程中的 co-creation 還有芬蘭的能源轉型政策。三十幾歲就拿到芬蘭中研院（Academy of Finland）的 Award for Social Impact of Research，現在在芬蘭中研院接/參與的計畫規模好幾億臺幣，可以說是少年得志。<br>他是赫爾辛基大學的成人教育博士，但是碩士唸的是文化歷史學。最近兩年發文的期刊 Journal of Cleaner Production/ International Journal of Business Excellence/ Technology and Culture/ Technology Innovation Management Review/ Sosiologia.（「社會學」的芬蘭文）/ International Journal of Innovation Management/ Renewable &amp; Sustainable Energy Reviews/ Research policy/ CoDesign。以上全為第一作者，如果包含非第一作者的話更多……算了算包括環境科學、商業、管理、STS、社會學、政策、設計。覺得有點扯，但看他研究的內容，確實很難被既有領域收納。</p>
 </li>
@@ -56,7 +56,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;今天是正式開學第二天。簡單來寫一下筆記。 &lt;/p&gt;
+      &lt;p&gt;我非常喜歡 Aalto 的一點是，在討論各種設計時，都會把核心理念跟價值講清楚。有關設計作為一種策略性的思考模式，理念與價值有助於建立清晰的戰略，沒有戰略、沒有中心思想，就算執行面的戰術再成功，也只是汪洋中飄蕩一條沒有羅盤的舟。 &lt;/p&gt;
     
     </summary>
     
