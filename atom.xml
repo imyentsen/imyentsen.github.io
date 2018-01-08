@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.yentsenliu.com/"/>
-  <updated>2018-01-08T22:50:02.000Z</updated>
+  <updated>2018-01-08T22:52:02.000Z</updated>
   <id>http://blog.yentsenliu.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-08T22:50:02.000Z</updated>
+    <updated>2018-01-08T22:52:02.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
@@ -70,8 +70,11 @@
 <p>在傳布資料的部分，則統一由 Statistics Finland 做為入口，大部分的資料都能藉由Statistics Finland提供的PX-Web介面取得。但實際測試，仍然有部分資料是從Statistics Finland外連到資料原搜集單位，再從該單位自行提供的PX-Web系統下載。例如由另一個法定統計機關「自然資源研究所」處理的農林漁牧統計，就是獨立在<a href="http://statdb.luke.fi/PXWeb/pxweb/en/LUKE/?rxid=001bc7da-70f4-47c4-a6c2-c9100d8b50db" target="_blank" rel="external">該所的PX-Web網站</a>內。<br><img src="29.png" alt="Luke 的 PX-Web 首頁截圖"><span class="image-caption">Luke 的 PX-Web 首頁截圖</span><br>但至少，就目前的觀察，所有的政府統計，都能成功地以Statistics Finland作為入口而觸及。</p>
 <h2 id="zheng-he-zheng-fu-ru-he-zheng-he-fu-za-de-xi-tong"><a href="#整合：政府如何整合複雜的系統？" class="headerlink" title="整合：政府如何整合複雜的系統？"></a>整合：政府如何整合複雜的系統？</h2><p>政府跨部門的整合不是容易的工作。有鑒於Statistics Finland的一個主要任務就是管理以及發展國家統計服務，建立一個組織來協調部門間的溝通，就很重要。</p>
 <p><img src="28.jpg" alt="Statistics Finland的諮詢委員會扮演整合統計系統運作的角色（此圖下半部）"><span class="image-caption">Statistics Finland的諮詢委員會扮演整合統計系統運作的角色（此圖下半部）</span><br>Statistics Finland的諮詢委員會（Advisory Board）在此承擔了這個責任。他是一個由Statistics Finland以及前述其他13個部門（同樣作為國家統計資訊的產製者）的代表組成的論壇。<br>其中一個產出是前述的 PX-Web API。Statistics Finland負責整合所有的統計資料，其中大部分的資料都可在PX-Web的網頁介面中取得。如同前述它是個圖像化的使用者介面，讓你可以選擇資料集中的不同變項，並且產生表格且提供CSV, JSON, XML等主流格式以供下載。藉由協議並建立相關的API規範，跨部門的資料傳遞與轉換成本，從蒐集到傳布，都可以大幅降低。</p>
-<h2 id="tong-ji-xi-tong-de-mo-shi"><a href="#統計系統的模式" class="headerlink" title="統計系統的模式"></a>統計系統的模式</h2><p>「世界上沒有一個地方有這樣的國家，能讓單一機構承攬所有國家官方統計資料的搜集。相反地，這些統計系統落在一個連續體上。」 (Statistical Division of United Nations, 2003，筆者譯)<br>每個國家都有自己的統計系統，而他們可以用中心化或去中心化來稱呼。中心或去中心化的標準，在於其產品如何被產製以及傳布——例如：是不是有一個中央機構負責提供這些服務？這個中央機構被給予多大的權威？</p>
-<p>如果超過多數的統計產品，是由國家的中央機構產製與傳布，那我們稱之為接近中心化；相對來說，去中心化就是指統計來自數個有不同責任的單位——例如在芬蘭，移民統計來自移民服務單位以及戶政機關。OECD組織PARIS21 (Partnership in Statistics for Development in the 21st Century, 2005) 會議的報告指出，世界上大部分的國家，統計系統都是在完全中心化跟完全去中心化兩個極端構成的連續體中間的混合地帶，簡單的比較（我自己翻譯的）如下圖：<br><img src="30.jpg" alt=""></p>
+<h2 id="tong-ji-xi-tong-de-mo-shi"><a href="#統計系統的模式" class="headerlink" title="統計系統的模式"></a>統計系統的模式</h2><blockquote>
+<p>「世界上沒有一個地方有這樣的國家，能讓單一機構承攬所有國家官方統計資料的搜集。相反地，這些統計系統落在一個連續體上。」 (Statistical Division of United Nations, 2003，筆者譯)</p>
+</blockquote>
+<p>每個國家都有自己的統計系統，而他們可以用中心化或去中心化來稱呼。中心或去中心化的標準，在於其產品如何被產製以及傳布——例如：是不是有一個中央機構負責提供這些服務？這個中央機構被給予多大的權威？</p>
+<p>如果超過多數的統計產品，是由國家的中央機構產製與傳布，那我們稱之為接近中心化；相對來說，去中心化就是指統計來自數個有不同責任的單位——例如在芬蘭，移民統計來自移民服務單位以及戶政機關，而非 Statistics Finland。OECD組織PARIS21 (Partnership in Statistics for Development in the 21st Century, 2005) 會議的報告指出，世界上大部分的國家，統計系統都是在完全中心化跟完全去中心化兩個極端構成的連續體中間的混合地帶，簡單的比較（我自己翻譯的）如下圖：<br><img src="30.jpg" alt=""></p>
 <p>芬蘭的部分，如果考慮大部分的統計資料仍然由獨立統計機關Statistics Finland產製並發布，是偏向中心化的作法。但顯然保有去中心化的特徵。</p>
 <h1 id="tai-wan-de-guan-fang-tong-ji-xi-tong"><a href="#台灣的官方統計系統" class="headerlink" title="台灣的官方統計系統"></a>台灣的官方統計系統</h1><h2 id="tong-ji-chan-zhi"><a href="#統計產製" class="headerlink" title="統計產製"></a>統計產製</h2><p>台灣的主計系統基本上是獨立的組織，行政院主計總處是最高機關，從中央到地方一條鞭地管理全國主計單位，有獨立的人事權，而主計系統的公務員基本上是獨立行使公務，不受所在機關的直接指揮。是以這個系統是相對獨立地、科層地運作，與芬蘭協作的模式有所不同。</p>
 <h2 id="zheng-he-zu-zhi"><a href="#整合組織" class="headerlink" title="整合組織"></a>整合組織</h2><p>有鑒於主計系統獨立，台灣沒有類似芬蘭統計諮詢委員會的整合性組織設計。只有統計法規定之全國主計會議有所相關，不過實務上，該會議據主計總處資料顯示，從1941年在重慶第一次召開至2010年，凡七十年間，才開十次會，在跨部門整合的作用上形同虛設。如同上面討論的，我們可以看到芬蘭的 Statistics Finland 是必須跟十數個政府部門合作才能取得統計資料。或許是因為台灣的主計系統獨立，跨部門常態性的協作管道的需求，就公務員的感受而言可能不如芬蘭那樣殷切。<br>但主計總處仍會就個特定工作事項，召集相關部會開會研議或以專案小組會議行之，另一種是由其他中央部會（例如國發會）、中央常設性會報（例如行政院科技會報、（前）人口政策會報）、專案會議等就主計相關事項邀請主計機關參加或主計長擔任委員。這是相對特定任務導向，非以統計專業需求所設置的整合管道。<br>最後是主計體系會召開自己的主計會議，原則上是每月召開一次，由主計長、副主計長及主計官所組成，以主計體系內部事務為主。</p>
@@ -130,21 +133,36 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-08T22:36:59.000Z</updated>
+    <updated>2018-01-08T22:55:40.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
 <!-- toc -->
 <ul>
-<li><a href="#tai-fen-guan-fang-tong-ji-fu-wu-de-bi-jiao">台芬官方統計服務的比較</a><ul>
-<li><a href="#tong-ji-xi-tong-de-jia-gou">統計系統的架構</a></li>
-<li><a href="#fen-lan-guo-jia-tong-ji-fu-wu">芬蘭國家統計服務</a></li>
-<li><a href="#tai-wan-guo-jia-tong-ji-fu-wu">台灣國家統計服務</a></li>
-<li><a href="#xian-bie-ti-zhe-ge-liao-na-tong-ji-ben-shen-de-pin-zhi-ni">先別提這個了，那統計本身的品質呢？</a></li>
-<li><a href="#fu-ji">附記</a></li>
-<li><a href="#can-kao-zi-liao">參考資料</a></li>
+<li><a href="#tai-fen-guan-fang-tong-ji-fu-wu-de-bi-jiao">台芬官方統計服務的比較</a></li>
+<li><a href="#fen-lan-guo-jia-tong-ji-fu-wu">芬蘭國家統計服務</a><ul>
+<li><a href="#xian-shang-tong-ji-zi-liao-ku">線上統計資料庫</a></li>
+<li><a href="#zi-xun-fu-wu">資訊服務</a></li>
+<li><a href="#gu-wen-fu-wu">顧問服務</a></li>
+<li><a href="#jiao-yu-ke-cheng">教育課程</a></li>
+<li><a href="#guan-fang-tong-ji-bao-gao">官方統計報告</a></li>
 </ul>
 </li>
+<li><a href="#tai-wan-guo-jia-tong-ji-fu-wu">台灣國家統計服務</a><ul>
+<li><a href="#xian-shang-tong-ji-zi-liao-ku-1">線上統計資料庫</a></li>
+<li><a href="#zi-xun-fu-wu-1">資訊服務</a></li>
+<li><a href="#jiao-yu-fu-wu">教育服務</a></li>
+<li><a href="#zi-xun-fu-wu">諮詢服務</a></li>
+<li><a href="#guan-fang-tong-ji-bao-gao-1">官方統計報告</a></li>
+</ul>
+</li>
+<li><a href="#xian-bie-ti-zhe-ge-liao-na-tong-ji-ben-shen-de-pin-zhi-ni">先別提這個了，那統計本身的品質呢？</a></li>
+<li><a href="#fu-ji">附記</a><ul>
+<li><a href="#bei-jing-shuo-ming">背景說明</a></li>
+<li><a href="#px-web">PX-Web</a></li>
+</ul>
+</li>
+<li><a href="#can-kao-zi-liao">參考資料</a></li>
 </ul>
 <!-- tocstop -->
 </div>
@@ -155,38 +173,37 @@
 <p>所以報告會分成三個部分，本篇是第一部分：</p>
 <ol>
 <li>台芬官方統計服務的比較</li>
-<li>國家統計系統的分析</li>
-<li>台灣可以改善的方向</li>
+<li>分析國家統計系統，與改善台灣方服務的可能</li>
 </ol>
 <p><img src="space.png" alt="有關這篇文章的背景說明 (http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/#fu-ji-bei-jing-shuo-ming)"><span class="image-caption">有關這篇文章的背景說明 (http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/#fu-ji-bei-jing-shuo-ming)</span></p>
-<h1 id="tai-fen-guan-fang-tong-ji-fu-wu-de-bi-jiao"><a href="#台芬官方統計服務的比較" class="headerlink" title="台芬官方統計服務的比較"></a>台芬官方統計服務的比較</h1><h2 id="tong-ji-xi-tong-de-jia-gou"><a href="#統計系統的架構" class="headerlink" title="統計系統的架構"></a>統計系統的架構</h2><p><img src="1.jpg" alt="國家統計系統的冰山模型"><span class="image-caption">國家統計系統的冰山模型</span></p>
+<h1 id="tai-fen-guan-fang-tong-ji-fu-wu-de-bi-jiao"><a href="#台芬官方統計服務的比較" class="headerlink" title="台芬官方統計服務的比較"></a>台芬官方統計服務的比較</h1><p><img src="1.jpg" alt="國家統計系統的冰山模型"><span class="image-caption">國家統計系統的冰山模型</span></p>
 <p>官方統計服務例如索取資訊、線上資料庫、官方報告等等，大概都是使用者最熟悉的。只是，如果我們把它看成冰山，在水下面還有一堆看不見的複雜結構，撐起上面那些服務。</p>
-<p>靠著把冰山一層層畫出來，我要用它說明四層架構，包含（1）傳達資料（2）產製資料（3）整合 （4）統計系統模式。</p>
-<p>本篇文章先討論台灣與芬蘭的第一層。</p>
-<h2 id="fen-lan-guo-jia-tong-ji-fu-wu"><a href="#芬蘭國家統計服務" class="headerlink" title="芬蘭國家統計服務"></a>芬蘭國家統計服務</h2><p>在這段我簡單說明一下芬蘭的統計服務有什麼，就是冰山水上面那些大家平常會接觸的東西，之後再拿一些跟台灣相異的部分對照。</p>
+<p>靠著把冰山一層層畫出來，我要用兩篇文章，來說明四層架構，包含（1）傳達資料（2）產製資料（3）整合 （4）統計系統模式。</p>
+<p>本篇文章先討論台灣與芬蘭的第一層「傳達資料」：最表層的服務。</p>
+<h1 id="fen-lan-guo-jia-tong-ji-fu-wu"><a href="#芬蘭國家統計服務" class="headerlink" title="芬蘭國家統計服務"></a>芬蘭國家統計服務</h1><p>在這段我簡單說明一下芬蘭的統計服務有什麼，就是冰山水上面那些大家平常會接觸的東西，之後再拿一些跟台灣相異的部分對照。</p>
 <p>在芬蘭，所有國家統計服務，都被整合到一個單一入口網站 <a href="http://stat.fi" target="_blank" rel="external">Tilastokeskus/Statistics Finland</a>，由他們的國家統計機構 Statistics Finland 開發跟管理。我簡單把所有的服務歸納在下面這張圖：</p>
 <p><img src="2.jpg" alt="圖上面左邊這邊是主要的服務，右邊是他們各自的子項目內容。"><span class="image-caption">圖上面左邊這邊是主要的服務，右邊是他們各自的子項目內容。</span></p>
-<h3 id="xian-shang-tong-ji-zi-liao-ku"><a href="#線上統計資料庫" class="headerlink" title="線上統計資料庫"></a>線上統計資料庫</h3><p>首先是線上統計資料庫，都在一個入口網站上了。 Statistics Finland 給每個新發布與有更新的資料集，都做了類似新聞稿的簡單介紹，同時提供清楚好懂總結式的圖表。<br><img src="3.png" alt=""><br>資料集英文譯名為 Statfin，使用稱為 <a href="http://pxnet2.stat.fi/PXWeb/pxweb/en/StatFin/?rxid=baf6cc95-24f3-4b21-85b0-1e41ee85b52e" target="_blank" rel="external">PX-Web</a>的互動介面，這是由瑞典政府開發的，基於 SQL 資料庫技術的網路程式，在2015年免費開放。目前有將近20國/國際組織使用，芬蘭亦直接沿用之。使用者首先選取資料集，接著選取想要的變項。最後網站會自動產生相關的圖表（視資料內容呈現直方圖、折線圖、純表格……等。）給使用者，並且提供多種格式的下載選項（csv, xlsx, json, px 等）。<br><img src="4.png" alt="PX-Web的介面相當簡單，可以實際找資料集玩玩看。唯一的缺陷是 icon 設計得有點不明所以。"><span class="image-caption">PX-Web的介面相當簡單，可以實際找資料集玩玩看。唯一的缺陷是 icon 設計得有點不明所以。</span></p>
+<h2 id="xian-shang-tong-ji-zi-liao-ku"><a href="#線上統計資料庫" class="headerlink" title="線上統計資料庫"></a>線上統計資料庫</h2><p>首先是線上統計資料庫，都在一個入口網站上了。 Statistics Finland 給每個新發布與有更新的資料集，都做了類似新聞稿的簡單介紹，同時提供清楚好懂總結式的圖表。<br><img src="3.png" alt=""><br>資料集英文譯名為 Statfin，使用稱為 <a href="http://pxnet2.stat.fi/PXWeb/pxweb/en/StatFin/?rxid=baf6cc95-24f3-4b21-85b0-1e41ee85b52e" target="_blank" rel="external">PX-Web</a>的互動介面，這是由瑞典政府開發的，基於 SQL 資料庫技術的網路程式，在2015年免費開放。目前有將近20國/國際組織使用，芬蘭亦直接沿用之。使用者首先選取資料集，接著選取想要的變項。最後網站會自動產生相關的圖表（視資料內容呈現直方圖、折線圖、純表格……等。）給使用者，並且提供多種格式的下載選項（csv, xlsx, json, px 等）。<br><img src="4.png" alt="PX-Web的介面相當簡單，可以實際找資料集玩玩看。唯一的缺陷是 icon 設計得有點不明所以。"><span class="image-caption">PX-Web的介面相當簡單，可以實際找資料集玩玩看。唯一的缺陷是 icon 設計得有點不明所以。</span></p>
 <p>如果你對 PX-Web 資料集細節沒興趣，只想按主題瀏覽整理好的報告，還有專門放上述這些介紹跟報告的網站 <a href="http://findikaattori.fi/en" target="_blank" rel="external">Findicator.fi</a>。</p>
-<h3 id="zi-xun-fu-wu"><a href="#資訊服務" class="headerlink" title="資訊服務"></a>資訊服務</h3><p>接下來是資訊服務， 如果公眾想要特定資料，或對統計有任何疑問，可以直接前往 Statistics 的服務台、電洽、或填寫線上表單索取/詢問。</p>
+<h2 id="zi-xun-fu-wu"><a href="#資訊服務" class="headerlink" title="資訊服務"></a>資訊服務</h2><p>接下來是資訊服務， 如果公眾想要特定資料，或對統計有任何疑問，可以直接前往 Statistics 的服務台、電洽、或填寫線上表單索取/詢問。</p>
 <p>如果是既有簡單的內容，可以免費； 如果資料需要特別編譯、或特別龐大，則需要支付一定費用，但公務機關和學術單位免費。針對研究者，他們提供一個完整的清單，表列 所有可以藉由資訊服務索取的資料（<a href="https://taika.stat.fi/en/index）" target="_blank" rel="external">https://taika.stat.fi/en/index）</a> 。他們也有對公眾開放的統計圖書館跟供租借的電腦間。所有的資料都受到個人資料法的保護。</p>
-<h3 id="gu-wen-fu-wu"><a href="#顧問服務" class="headerlink" title="顧問服務"></a>顧問服務</h3><p>Statistics Finland 同時也提供面向研究的諮詢服務。他們很自信地在網站上這樣宣稱</p>
+<h2 id="gu-wen-fu-wu"><a href="#顧問服務" class="headerlink" title="顧問服務"></a>顧問服務</h2><p>Statistics Finland 同時也提供面向研究的諮詢服務。他們很自信地在網站上這樣宣稱</p>
 <blockquote>
 <p>「Statistics Finland 的訪談與調查服務專業是芬蘭最頂尖的。」，</p>
 </blockquote>
 <p>他們也針對來自公私部門的研究單位，提供收費的顧問服務，例如問卷設計與測試、採樣、調查、訪談。</p>
-<h3 id="jiao-yu-ke-cheng"><a href="#教育課程" class="headerlink" title="教育課程"></a>教育課程</h3><p>我們還可以在 Statistics Finland 網站上找到公共教育課程，有線上也有線下的。</p>
+<h2 id="jiao-yu-ke-cheng"><a href="#教育課程" class="headerlink" title="教育課程"></a>教育課程</h2><p>我們還可以在 Statistics Finland 網站上找到公共教育課程，有線上也有線下的。</p>
 <p>線上課程主要是統計與研究方法的基本素養，也有主題式課程例如勞動、人口等，甚至有芬蘭統計史的課程。線上課程是文圖互動介面，視情況小節尾端會提供案例與隨堂測驗；線下課程則非常具有主題性，有的還跟上時事，譬如「<em>另類真實與事實</em>」、「<em>消費趨勢</em>」、「<em>勞動市場</em>」等，從主題切入，介紹如何運用統計工具跟取得相關資料。<br><img src="5.png" alt="線上課程內容。此圖截自課程網頁，使用google translate翻譯：[Tilastokoulu](https://goo.gl/eNKFvf)"><span class="image-caption">線上課程內容。此圖截自課程網頁，使用google translate翻譯：[Tilastokoulu](https://goo.gl/eNKFvf)</span></p>
-<h3 id="guan-fang-tong-ji-bao-gao"><a href="#官方統計報告" class="headerlink" title="官方統計報告"></a>官方統計報告</h3><p>最後是官方統計報告的發布，也是透過 Statistics Finland 的網站公開。包含各種主題，譬如社會、經濟、環境的發展。同樣的，提供每年芬蘭國情概覽的國家統計年報也可以在此找到。</p>
-<h4 id="xiao-jie"><a href="#小結" class="headerlink" title="小結"></a>小結</h4><p>芬蘭的線上統計服務相當清晰，儘管或許因為有四個統計主管機關，因此某些特定統計會外連到別的網站（例如：芬蘭自然資源研究所），但因為介面都是統一使用 PX-Web，所以整體體驗仍然相當一致，搜尋資料也輕鬆愉快。</p>
+<h2 id="guan-fang-tong-ji-bao-gao"><a href="#官方統計報告" class="headerlink" title="官方統計報告"></a>官方統計報告</h2><p>最後是官方統計報告的發布，也是透過 Statistics Finland 的網站公開。包含各種主題，譬如社會、經濟、環境的發展。同樣的，提供每年芬蘭國情概覽的國家統計年報也可以在此找到。</p>
+<h3 id="xiao-jie"><a href="#小結" class="headerlink" title="小結"></a>小結</h3><p>芬蘭的線上統計服務相當清晰，儘管或許因為有四個統計主管機關，因此某些特定統計會外連到別的網站（例如：芬蘭自然資源研究所），但因為介面都是統一使用 PX-Web，所以整體體驗仍然相當一致，搜尋資料也輕鬆愉快。</p>
 <p><img src="29.png" alt="芬蘭自然資源研究所的資料庫介面，可以從 Statistics Finland 的目錄連過去。介面一樣，只是logo換掉而已。請參考此連結 https://goo.gl/DKYnn8"><span class="image-caption">芬蘭自然資源研究所的資料庫介面，可以從 Statistics Finland 的目錄連過去。介面一樣，只是logo換掉而已。請參考此連結 https://goo.gl/DKYnn8</span></p>
-<h2 id="tai-wan-guo-jia-tong-ji-fu-wu"><a href="#台灣國家統計服務" class="headerlink" title="台灣國家統計服務"></a>台灣國家統計服務</h2><p><img src="comparison.jpg" alt="複習一下。右邊這個是台灣，應該不難辨認吧？"><span class="image-caption">複習一下。右邊這個是台灣，應該不難辨認吧？</span></p>
+<h1 id="tai-wan-guo-jia-tong-ji-fu-wu"><a href="#台灣國家統計服務" class="headerlink" title="台灣國家統計服務"></a>台灣國家統計服務</h1><p><img src="comparison.jpg" alt="複習一下。右邊這個是台灣，應該不難辨認吧？"><span class="image-caption">複習一下。右邊這個是台灣，應該不難辨認吧？</span></p>
 <p>台灣的部分，我會用類似芬蘭的架構去對應台灣的服務，最後再比較彼此不重複的部分。這是台灣的官方入口網站 <a href="https://www1.stat.gov.tw" target="_blank" rel="external">中花民國統計資訊網/Statistical Information Network of the Republic of China</a>。</p>
-<h3 id="xian-shang-tong-ji-zi-liao-ku"><a href="#線上統計資料庫-1" class="headerlink" title="線上統計資料庫"></a>線上統計資料庫</h3><p><img src="7.png" alt=""><br>第一個是<a href="https://data.gov.tw" target="_blank" rel="external">開放政府</a>資料，嚴格來說不算統計。芬蘭也有自己的開放政府網站：<a href="https://www.opendata.fi/en" target="_blank" rel="external">opendata.fi</a>。這不在本文討論範圍所以跳過。</p>
+<h2 id="xian-shang-tong-ji-zi-liao-ku"><a href="#線上統計資料庫-1" class="headerlink" title="線上統計資料庫"></a>線上統計資料庫</h2><p><img src="7.png" alt=""><br>第一個是<a href="https://data.gov.tw" target="_blank" rel="external">開放政府</a>資料，嚴格來說不算統計。芬蘭也有自己的開放政府網站：<a href="https://www.opendata.fi/en" target="_blank" rel="external">opendata.fi</a>。這不在本文討論範圍所以跳過。</p>
 <p><img src="8.png" alt="統計資料庫的畫面"><span class="image-caption">統計資料庫的畫面</span><br>☝️ 第二個資料庫很厲害，請務必點點看該<a href="https://www1.stat.gov.tw/np.asp?CtNode=6168" target="_blank" rel="external">連結</a>。資料庫給我了一份excel檔案，裡面是所有資料的下載連結，要自己複製貼上放到網址欄才可以下載。</p>
 <p><img src="9.png" alt=""><br>☝️ 飽受驚嚇之餘，讓我們試試看左側「地理與環境」&gt;「土地統計」，我最終獲得了一個我沒辦法在mac上打開的 ods 格式。<em>不能選格式…</em></p>
 <p><img src="10.png" alt="慘不忍睹..."><span class="image-caption">慘不忍睹...</span><br>☝️ 同頁面有個不起眼的資料說明連結，點進去的頁面長這樣。</p>
-<h4 id="zhuan-ye-ren-shi-ban-ben-de-tong-ji-zi-liao-ku"><a href="#專業人士版本的統計資料庫" class="headerlink" title="專業人士版本的統計資料庫"></a>專業人士版本的統計資料庫</h4><p>好，統計網有個 for 專業人士的版本，不知道會不會好一些？我很好奇專業人士會獲得怎麼樣的線上統計資料庫服務。</p>
+<h3 id="zhuan-ye-ren-shi-ban-ben-de-tong-ji-zi-liao-ku"><a href="#專業人士版本的統計資料庫" class="headerlink" title="專業人士版本的統計資料庫"></a>專業人士版本的統計資料庫</h3><p>好，統計網有個 for 專業人士的版本，不知道會不會好一些？我很好奇專業人士會獲得怎麼樣的線上統計資料庫服務。</p>
 <p><img src="11.png" alt=""><br>☝️ 首頁看起來還好，雖然視覺上蠻2000年代風格，但我至少知道資料應該在左邊這個menu。</p>
 <p><img src="12.png" alt=""><br>☝️ 選「國民所得與經濟成長」好了，大家對這個好像都蠻關切的。</p>
 <p><img src="13.png" alt=""><br>☝️ 是簡介，下方出現了神秘的資料查詢索引，上面畫底線的通通不能點，讓你在電腦前重溫30年前看說明書操作的惡趣味。</p>
@@ -201,12 +218,12 @@
 <p><img src="20.png" alt=""><br>☝️ 試著點擊該唯一項目，居然跑到電子書的頁面了，我原本以為會直接拿到原始資料。</p>
 <p><img src="21.png" alt=""><br>☝️ 再點進底下「國民所得統計摘要」的子項目，原本以為會看到pdf檔，畢竟是電子書嘛。<br>結果我獲得了大量的excel跟odf，為什麼你們不把這個放在「統計表」那一頁…</p>
 <p>總之，統計線上資料庫跟迷宮一樣實在不太堪用。<br><img src="22.jpg" alt="腦海裡浮現的畫面是這個。"><span class="image-caption">腦海裡浮現的畫面是這個。</span></p>
-<h3 id="zi-xun-fu-wu"><a href="#資訊服務-1" class="headerlink" title="資訊服務"></a>資訊服務</h3><p>台灣的部分，把資訊服務放在上圖橫向menu的最右邊，<a href="https://www.stat.gov.tw/np.asp?ctNode=754" target="_blank" rel="external">連結在此</a>。</p>
+<h2 id="zi-xun-fu-wu"><a href="#資訊服務-1" class="headerlink" title="資訊服務"></a>資訊服務</h2><p>台灣的部分，把資訊服務放在上圖橫向menu的最右邊，<a href="https://www.stat.gov.tw/np.asp?ctNode=754" target="_blank" rel="external">連結在此</a>。</p>
 <p>點進去之後會發現，它還是跟其他統計專區的資料混在一起了，並沒有起理想上該有的分類作用，也沒有說明到底什麼是資訊服務。最下面雖然有個「<a href="https://www.stat.gov.tw/sp.asp?xdURL=bossmail/mail.asp" target="_blank" rel="external">聯絡我們</a>」的線上表格系統。但僅供「歡迎您提出對本總處業務或網站的任何意見或建議」之用。</p>
 <p>儘管如此，我還是在它的子分類找到這個，「<a href="https://www.stat.gov.tw/np.asp?ctNode=1816&amp;mp=4" target="_blank" rel="external">電子書</a>」跟「<a href="http://ebook.dgbas.gov.tw" target="_blank" rel="external">主計總處電子書平台</a>」真的是熟悉又陌生的兩個概念。<br><img src="23.png" alt="電子書"><span class="image-caption">電子書</span></p>
 <p>原來電子書是在統計資訊網抓pdf，電子書平台是另外開一個網站抓pdf，還不能線上看，見識了。<br><img src="24.png" alt="電子書平台，真的很棒。"><span class="image-caption">電子書平台，真的很棒。</span></p>
 <p>統計資訊申請的部分，提供兩個服務，一個是叫你去直接跟政府統計出版品的經銷商買書，另一個是下載docx檔申請書，頗具古風地<em>列印填寫傳真</em>回給主計總處申請，且只能申請普查資料。芬蘭這邊是用網頁表單跟e-mail申請：<a href="https://www.stat.fi/tup/tilastokirjasto/index_en.html" target="_blank" rel="external">Library of Statistics</a>，而且服務範圍廣得多。</p>
-<h3 id="jiao-yu-fu-wu"><a href="#教育服務" class="headerlink" title="教育服務"></a>教育服務</h3><p><a href="https://www.stat.gov.tw/ct.asp?xItem=28948&amp;CtNode=5578&amp;mp=4" target="_blank" rel="external">教育服務的入口</a>非常不明顯，但我還是找到了，有數位教材，也有每年主計節舉辦的研討會。</p>
+<h2 id="jiao-yu-fu-wu"><a href="#教育服務" class="headerlink" title="教育服務"></a>教育服務</h2><p><a href="https://www.stat.gov.tw/ct.asp?xItem=28948&amp;CtNode=5578&amp;mp=4" target="_blank" rel="external">教育服務的入口</a>非常不明顯，但我還是找到了，有數位教材，也有每年主計節舉辦的研討會。</p>
 <p>跳回一般人士的網站，我找到另一個不明顯的入口：「<a href="https://www1.stat.gov.tw/lp.asp?CtNode=2796&amp;CtUnit=1109&amp;BaseDSD=29&amp;mp=3" target="_blank" rel="external">有趣的統計</a>」，看起來也是公眾教育用的數位資源。</p>
 <p><img src="25.png" alt="有趣的統計"><span class="image-caption">有趣的統計</span></p>
 <p>點進去全部都是pdf，作者有相當逗趣的筆名，譬如小魚兒的作品〈中山北路走七擺〉</p>
@@ -216,10 +233,10 @@
 <p><img src="26.png" alt=""><br>☝️ 個人認為〈認識資料探勘〉、〈感謝吾妻〉、〈天上的星比地表的砂多，你相信嗎?〉等堪稱傳世之作。</p>
 <p><img src="27.png" alt="真的很棒。"><span class="image-caption">真的很棒。</span><br>☝️ 給學生的網站，詳參：<a href="http://win.dgbas.gov.tw/dgbas03/learning-resources/index.html" target="_blank" rel="external">歡迎光臨中華民國統計資訊網─統計學習資源專區</a>。我非常好奇是哪家公司接的標案，首頁笑得我心裡發寒。</p>
 <p>裡面有一些相當厲害的<a href="https://kids.stat.gov.tw/lp.asp?ctNode=5344&amp;CtUnit=1620&amp;BaseDSD=7&amp;mp=20" target="_blank" rel="external">藝術作品</a>，離題了，略過不表。<br>主計總處沒有提供如Statistics Finland那樣的實體課程。</p>
-<h3 id="zi-xun-fu-wu"><a href="#諮詢服務" class="headerlink" title="諮詢服務"></a>諮詢服務</h3><p>沒有提供。</p>
-<h3 id="guan-fang-tong-ji-bao-gao"><a href="#官方統計報告-1" class="headerlink" title="官方統計報告"></a>官方統計報告</h3><p>有，就是上面提到的的<a href="http://ebook.dgbas.gov.tw" target="_blank" rel="external">電子書資料庫</a>、線上統計資料庫介面混在一起，無法確認哪邊是統整入口介面。除此之外，有定期以pdf格式發佈的<a href="https://www.stat.gov.tw/np.asp?ctNode=1495" target="_blank" rel="external">國情統計通報</a>，但所引用之相關統計並未如芬蘭一樣提供線上連結。</p>
+<h2 id="zi-xun-fu-wu"><a href="#諮詢服務" class="headerlink" title="諮詢服務"></a>諮詢服務</h2><p>沒有提供。</p>
+<h2 id="guan-fang-tong-ji-bao-gao"><a href="#官方統計報告-1" class="headerlink" title="官方統計報告"></a>官方統計報告</h2><p>有，就是上面提到的的<a href="http://ebook.dgbas.gov.tw" target="_blank" rel="external">電子書資料庫</a>、線上統計資料庫介面混在一起，無法確認哪邊是統整入口介面。除此之外，有定期以pdf格式發佈的<a href="https://www.stat.gov.tw/np.asp?ctNode=1495" target="_blank" rel="external">國情統計通報</a>，但所引用之相關統計並未如芬蘭一樣提供線上連結。</p>
 <p>以上是台灣的部分，其實，芬蘭有的五大類服務，台灣也大致上有，只是最終呈現的服務品質落差甚大。有鑒於政府網站做得很爛並不是只有主計總處才有的事情，所以我不會把上述網站做得不好的部分全部歸因以下要討論的架構。我會試圖專注在架構跟所提供服務本身的關聯。</p>
-<h2 id="xian-bie-ti-zhe-ge-liao-na-tong-ji-ben-shen-de-pin-zhi-ni"><a href="#先別提這個了，那統計本身的品質呢？" class="headerlink" title="先別提這個了，那統計本身的品質呢？"></a>先別提這個了，那統計本身的品質呢？</h2><p>針對統計資料本身，有兩個較為知名且行之有年的標準可供參考，OECD組織(2002)使用七個面向衡量其品質，以下為我自譯與大意：相關（relevance，統計產品與使用者需求相符）、準確（accuracy，大致上就是良好的信效度的意思）、長期（timeliness，資料是否能描述長期現象？）與即時（punctuality，發布是否即時？）、可及（accessibility，資料是否容易為公眾觸及、介面與媒體是否親和？）、可釋性（interpretability，資料是否容易為使用者理解與分析？這部分也與後設資料（metadata）是否有妥善提供有關。）、 一致（coherence，統計產品是否彼此有邏輯地串接與相互一致？例如用詞、統計方法等的一致。）、可信（credibility，資料基於發布者形象而受使用者信賴的程度）；而歐盟使用五個，也是類似的標準：relevance of statistical concept, accuracy of estimates, timeliness and punctuality in disseminating results, accessibility and clarity of the information, comparability, coherence, and completeness。</p>
+<h1 id="xian-bie-ti-zhe-ge-liao-na-tong-ji-ben-shen-de-pin-zhi-ni"><a href="#先別提這個了，那統計本身的品質呢？" class="headerlink" title="先別提這個了，那統計本身的品質呢？"></a>先別提這個了，那統計本身的品質呢？</h1><p>針對統計資料本身，有兩個較為知名且行之有年的標準可供參考，OECD組織(2002)使用七個面向衡量其品質，以下為我自譯與大意：相關（relevance，統計產品與使用者需求相符）、準確（accuracy，大致上就是良好的信效度的意思）、長期（timeliness，資料是否能描述長期現象？）與即時（punctuality，發布是否即時？）、可及（accessibility，資料是否容易為公眾觸及、介面與媒體是否親和？）、可釋性（interpretability，資料是否容易為使用者理解與分析？這部分也與後設資料（metadata）是否有妥善提供有關。）、 一致（coherence，統計產品是否彼此有邏輯地串接與相互一致？例如用詞、統計方法等的一致。）、可信（credibility，資料基於發布者形象而受使用者信賴的程度）；而歐盟使用五個，也是類似的標準：relevance of statistical concept, accuracy of estimates, timeliness and punctuality in disseminating results, accessibility and clarity of the information, comparability, coherence, and completeness。</p>
 <p>而回到分析本身，這是我目前的短板。這遠遠超出我的能力，一方面又囿於台灣的國際困境，我沒辦法找到近期的跨國比較文獻。</p>
 <p>只能先猜測，台灣的官方統計本身品質應該並不差，早在1998年，中國統計學社理事長韋端在年會回顧台灣五十年的統計發展，就曾提到：</p>
 <p>「我政府統計資料品質及確度向獲國內外佳評，例如一九九五年英國「經濟學人 (The Economist) 」雜誌曾對二十四個新興國家之統計品質作評比，其中我國無論在資料時效性、可信度、客觀性及周延性等評價均被列為最佳之Ａ級，顯示統計品質已具國際水準，並深獲使用者肯定。由於政府迅速、精準的提供統計資料，並事前公告發布資料日期，國際工商業界得以及時掌握正確的商情資訊，使我國投資環境受到知名國際投資風險評鑑機構之青睞，如美國商業環境風險評估機構 BERI 、政治暨經濟風險顧問公司 PERC等，即對我國財政金融統計給予甚高的評價，亦使外國投資機構對台灣投資環境具高度的信心。」</p>
@@ -227,12 +244,18 @@
 <p>下一篇會討論服務冰山底下的組織架構，如何與表層的服務相關。</p>
 <p><img src="1.jpg" alt="複習：國家統計系統的冰山模型"><span class="image-caption">複習：國家統計系統的冰山模型</span></p>
 <hr>
-<h2 id="fu-ji"><a href="#附記" class="headerlink" title="附記"></a>附記</h2><h3 id="bei-jing-shuo-ming"><a href="#背景說明" class="headerlink" title="背景說明"></a>背景說明</h3><p>這是我在Aalto第二個學期的期末報告，課程是產品架構設計（Product Architecture Design）。原初是是分析芬蘭的官方統計服務，因為英文有相當嚴苛的字數限制，翻回中文之後，我才補進台灣的部分進一步分析。</p>
+<h1 id="fu-ji"><a href="#附記" class="headerlink" title="附記"></a>附記</h1><h2 id="bei-jing-shuo-ming"><a href="#背景說明" class="headerlink" title="背景說明"></a>背景說明</h2><p>這是我在Aalto第二個學期的期末報告，課程是產品架構設計（Product Architecture Design）。原初是是分析芬蘭的官方統計服務，因為英文有相當嚴苛的字數限制，翻回中文之後，我才補進台灣的部分進一步分析。</p>
 <p>選這個題目的初心來自去年在京都大學參加一個社會學學術工作坊，除了台大外，有首爾大學跟京都大學的師生帶團參加。當時蠻驚訝日本學生如何使用他們的政府統計系統，而且印象中，他們的統計網站可以自動生成圖表以供使用，十分方便。後來來到芬蘭，我發現官方統計也做得相當好懂。此時令我非常感興趣的是，服務設計背後提供服務的組織本身，如何影響其所設計/提供的服務。</p>
 <p>本學期的課程閱讀主要跟產品架構（Architecture）有關。與之有關的創新理論由Henderson 與 Clark (1990) 在哈佛商業評論提出。雖然應用在設計領域，以往偏向硬體的分析，但發展至今，已經不限於有形物件，我將其拓展到提供產品的組織。此外，一個我很有興趣的設計領域是參與式設計，本質上它也在討論設計相關的行動者，應該建立的是怎麼樣的關係，而這樣的關係最終影響設計的產出。這與前開組織與架構的討論有呼應之處。</p>
 <p>限於新的學期就要開始，我必須今天結束這份報告的撰寫。而我在著手這個題目之前，對國家統計這個題目從未涉獵，就手上擁有的資料我無法做出有力的結論。事實上，若能以最後的結論倒敘重新安排文章結構，這篇文章會通暢得多（我還是覺得我找到的這些資料蠻有趣的）。但現在就維持這樣有點類似memo而且口語的形式，當作思路發展的一個紀錄。</p>
+<h2 id="px-web"><a href="#PX-Web" class="headerlink" title="PX-Web"></a>PX-Web</h2><p>這是瑞典政府開發的網頁應用，並且有相關的 API 規範，已經為20多國與國際組織採用，雖然醜，但蠻好用的。<a href="https://www.scb.se/sv_/PC-Axis/Programs/PX-Web/PX-Web-examples/" target="_blank" rel="external">PX-Web examples</a></p>
+<ul>
+<li>瑞典的例子<br><a href="http://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__ME__ME0107__ME0107C/?rxid=7aaa325b-6274-4e59-b568-dc06f01b4944" target="_blank" rel="external">Statistical database - Select table</a></li>
+<li>荷蘭中央統計局雖然不採用 PX-Web，但也是以類似的邏輯去設計線上統計資料庫：<a href="http://statline.cbs.nl/Statweb/dome/?LA=en" target="_blank" rel="external">CBS StatLine - Tables by theme</a></li>
+<li>內地也使用類似的系統，同樣可以自動產生圖表。<br><a href="http://www.e-stat.go.jp/SG1/estat/GL32010102.do" target="_blank" rel="external">Easy Access to main statistics　Portal Site of Official Statistics of Japan GL32010102</a></li>
+</ul>
 <hr>
-<h2 id="can-kao-zi-liao"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
+<h1 id="can-kao-zi-liao"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h1><ul>
 <li>Eurostat, “Assessment of quality in statistics - Definition of Quality in Statistics”, Working Group, Luxembourg, October 2003.</li>
 <li>Henderson, R. M., &amp; Clark, K. B. (1990). Architectural innovation: The reconfiguration of existing product technologies and the failure of established firms. Administrative science quarterly, 9-30.</li>
 <li>Kenett, R. S., &amp; Shmueli, G. (2016). From quality to information quality in official statistics. Journal of Official Statistics, 32(4), 867-885.</li>
