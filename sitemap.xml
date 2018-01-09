@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.yentsenliu.com/about/index.html</loc>
+    
+    <lastmod>2018-01-09T00:31:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/</loc>
     
     <lastmod>2018-01-09T00:07:10.000Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>http://blog.yentsenliu.com/2017/09/12/201709_UID-Week1/</loc>
     
     <lastmod>2017-09-13T21:12:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.yentsenliu.com/about/index.html</loc>
-    
-    <lastmod>2017-08-23T19:59:05.000Z</lastmod>
     
   </url>
   
