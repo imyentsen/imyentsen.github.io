@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.yentsenliu.com/"/>
-  <updated>2018-01-09T21:52:21.000Z</updated>
+  <updated>2018-01-09T21:53:49.000Z</updated>
   <id>http://blog.yentsenliu.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-09T21:52:21.000Z</updated>
+    <updated>2018-01-09T21:53:49.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
@@ -51,7 +51,7 @@
 <li><a href="#gai-shan-de-ke-neng">改善的可能</a></li>
 <li><a href="#fu-zhu">附註</a><ul>
 <li><a href="#tong-ji-xiang-guan-fa-gui">統計相關法規</a></li>
-<li><a href="#qian-zhen-zi-xing-zheng-yuan-gang-song-chu-tong-ji-fa-xiu-zheng-de-cao-an-wo-na-cao-an-gen-fen-lan-tong-ji-fa-zuo-liao-bi-jiao-zhu-yao-zhu-yi-dao-de-ji-dian-bu-tong-shi">前陣子行政院剛送出統計法修正的草案，我拿草案跟芬蘭統計法做了比較，主要注意到的幾點不同是：</a></li>
+<li><a href="#tai-wan-tong-ji-fa-xiu-fa-cao-an-yu-fen-lan-de-bu-tong">台灣統計法修法草案與芬蘭的不同</a></li>
 <li><a href="#can-kao-zi-liao">參考資料</a></li>
 </ul>
 </li>
@@ -109,7 +109,8 @@
 <p>其核心就在於，高齡化又嚴重資訊素養不足的中央政府事務官團隊，無法在既有標案、服務外包的過程中，開出合理的條件與執行細節、建立較長期的合作關係。而縱然有年輕一輩的公務員或能有較佳的相關素養，卻無法獲得上級完整授權，復加獨立的會計、審計系統防弊重於興利，影響公務員做出開創服務的意願。而這套體制要撼動談何容易。</p>
 <p>在維持既有獨立體系與職涯制不動的前提下，短期比較精省能夠提升服務品質的可能，我認為是在中央政府獨立建立一個中期的辦公室編制，負責政府整體資訊服務改造的規劃與執行工作，延攬年輕的資通、管理、設計領域相關人才，繞開國考、外包與標案體制，直接就各部門的服務重新規劃與執行，建立長期的協調與合作關係。或許可以放在國發會下面，類似芬蘭由財政部成立主責機關<a href="http://vm.fi/en/public-sector-ICT" target="_blank" rel="external">Public Sector ICT</a>、服務開發機關<a href="http://www.valtori.fi/en-US/Information_about_Valtori" target="_blank" rel="external">Government ICT Centre Valtori</a>等，開發中央政府的資訊服務這樣的做法。</p>
 <h1 id="fu-zhu"><a href="#附註" class="headerlink" title="附註"></a>附註</h1><h2 id="tong-ji-xiang-guan-fa-gui"><a href="#統計相關法規" class="headerlink" title="統計相關法規"></a>統計相關法規</h2><p>法規是在冰山最底處，基本上根本而原則性的定義跟說明上述這套系統運作遵循的原則。一般來說，最直接的法律基礎稱作「統計法」（Statistics Act），但同時「政府資訊公開法」（英文可能稱作 Openness in Government Activities Act）、「個人資料保護法」（英文可能稱作 Personal Data Act）、「行政院主計總處組織法」（芬蘭則為 Statistics Finland Act）也有相關規定。</p>
-<h2 id="qian-zhen-zi-xing-zheng-yuan-gang-song-chu-tong-ji-fa-xiu-zheng-de-cao-an-wo-na-cao-an-gen-fen-lan-tong-ji-fa-zuo-liao-bi-jiao-zhu-yao-zhu-yi-dao-de-ji-dian-bu-tong-shi"><a href="#前陣子行政院剛送出統計法修正的草案，我拿草案跟芬蘭統計法做了比較，主要注意到的幾點不同是：" class="headerlink" title="前陣子行政院剛送出統計法修正的草案，我拿草案跟芬蘭統計法做了比較，主要注意到的幾點不同是："></a>前陣子行政院剛送出統計法修正的草案，我拿草案跟芬蘭統計法做了比較，主要注意到的幾點不同是：</h2><h3 id="tong-ji-xiang-mu-yu-zhi-xing-fang-shi-zhi-jue-ding"><a href="#統計項目與執行方式之決定" class="headerlink" title="統計項目與執行方式之決定"></a>統計項目與執行方式之決定</h3><p>芬蘭：統計法第六段到第九段，規範統計機關如果要開啟新的統計項目，必須事先諮詢被統計對象或其代表。需提早至決策仍來得及改變前諮詢（例如，不提供資料時，罰鍰該多少？如何開罰？），最終決策須早於實際舉辦統計前通知。<br>台灣：有關決定統計項目者，主要著重在政府部門內部權責之劃分與溝通，沒有與被統計對象之諮詢的相關規定。新增規避、 妨礙或拒絕辦理基本國勢調查或指定統計調查人員進行統計調查的罰則，無芬蘭統計法相關之事先諮詢規定。</p>
+<h2 id="tai-wan-tong-ji-fa-xiu-fa-cao-an-yu-fen-lan-de-bu-tong"><a href="#台灣統計法修法草案與芬蘭的不同" class="headerlink" title="台灣統計法修法草案與芬蘭的不同"></a>台灣統計法修法草案與芬蘭的不同</h2><p>2017年年底，行政院剛送出統計法修正的草案，我順便拿草案跟芬蘭統計法做了比較，主要注意到的幾點不同是：</p>
+<h3 id="tong-ji-xiang-mu-yu-zhi-xing-fang-shi-zhi-jue-ding"><a href="#統計項目與執行方式之決定" class="headerlink" title="統計項目與執行方式之決定"></a>統計項目與執行方式之決定</h3><p>芬蘭：統計法第六段到第九段，規範統計機關如果要開啟新的統計項目，必須事先諮詢被統計對象或其代表。需提早至決策仍來得及改變前諮詢（例如，不提供資料時，罰鍰該多少？如何開罰？），最終決策須早於實際舉辦統計前通知。<br>台灣：有關決定統計項目者，主要著重在政府部門內部權責之劃分與溝通，沒有與被統計對象之諮詢的相關規定。新增規避、 妨礙或拒絕辦理基本國勢調查或指定統計調查人員進行統計調查的罰則，無芬蘭統計法相關之事先諮詢規定。</p>
 <h3 id="tong-ji-zhi-xing-de-fang-shi"><a href="#統計執行的方式" class="headerlink" title="統計執行的方式"></a>統計執行的方式</h3><p>芬蘭：每次執行統計時，都必須告知該統計之用途。並且必須事先以郵寄的方式通知respondent。<br>台灣：統計人員須出示證件。（立法事由是避免詐騙）</p>
 <h3 id="tong-ji-zi-xun-de-gong-kai"><a href="#統計資訊的公開" class="headerlink" title="統計資訊的公開"></a>統計資訊的公開</h3><p>芬蘭：統計調查結果除了政府行為公開法之另有規定、個人資訊的保護，與影響經濟商業行為等事由可以屏蔽外，其餘都必須公開。<br>台灣：無強制公開之相關規定。</p>
 <h2 id="can-kao-zi-liao"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
