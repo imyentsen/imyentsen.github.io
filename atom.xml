@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.yentsenliu.com/"/>
-  <updated>2018-01-08T23:43:03.000Z</updated>
+  <updated>2018-01-09T00:07:10.000Z</updated>
   <id>http://blog.yentsenliu.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-08T23:43:03.000Z</updated>
+    <updated>2018-01-09T00:07:10.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
@@ -65,7 +65,8 @@
 <p>架構（Architecture）作為一種系統內元件的連結圖式，是如何影響一個系統的最終服務？這是這篇文章要分析的事情，由國家統計機關發布的官方統計，一般來說被視為最具權威性的資料來源，可以用以描繪一個國家的樣貌。官方統計的產製與發佈是很複雜的，而最後服務的呈現與體驗與之息息相關。</p>
 <p>我要簡單的分析芬蘭國家統計系統的架構，然後以之與台灣做比較。因為時間跟篇幅都有限，所以我不討論每個細節跟優劣。我只想專注在幾個跟服務結果有關的重要架構特徵，然後，呈現這些關聯，並凸顯架構的重要與改變它所帶來的潛力。</p>
 <h1 id="fen-lan-de-guan-fang-tong-ji-xi-tong"><a href="#芬蘭的官方統計系統" class="headerlink" title="芬蘭的官方統計系統"></a>芬蘭的官方統計系統</h1><h2 id="chan-zhi-zi-liao-jia-gou-zai-shou-ji-jia-gong-san-bu-zi-liao-guo-cheng-ban-yan-de-ying-xiang-li"><a href="#產製資料-架構在收集、加工、散佈資料過程扮演的影響力" class="headerlink" title="產製資料: 架構在收集、加工、散佈資料過程扮演的影響力"></a>產製資料: 架構在收集、加工、散佈資料過程扮演的影響力</h2><p><img src="1.jpg" alt="國家統計系統的冰山模型"><span class="image-caption">國家統計系統的冰山模型</span></p>
-<p>上面簡單帶過了芬蘭與台灣的國家統計服務，這一小節，我要說明統計服務在冰山下產製資料的架構。冰山下的架構包括產製資料、整合、統計系統的模式。這些架構是息息相關而且事實上難以切割的，但為了概念上敘述方便，我仍然試圖條列說明。不過也因為難以切割，為了文意通暢，台灣的部分，我會放到最後面才說明。</p>
+<p>上面簡單帶過了芬蘭與台灣的國家統計服務，這篇文章裡，我要說明統計服務在冰山下產製資料的架構。</p>
+<p>冰山下的架構包括<strong>產製資料、整合、統計系統的模式</strong>。這些架構是息息相關而且事實上難以切割的，但為了概念上敘述方便，我仍然試圖條列說明。不過也因為難以切割，為了文意通暢，台灣的部分，我會放到最後面一次說明。</p>
 <p>Statistics Finland是芬蘭的財政部下一個獨立的統計機構，芬蘭統計法第一章第二段：法定統計機關包括 Statistics Finland、以及另外兩個政府內的研究機構：芬蘭自然資源研究所（Natural Resources Institute Finland）、芬蘭衛福研究所（National Institute for Health and Welfare）、最後是海關（Finnish Customs）。</p>
 <p>而算進不具法定統計機關地位的單位，實務上資料的提供者零零總總包含了14個政府部門，可以按照功能的不同，以及中央與地方政府來做簡單的區分。按芬蘭統計法規定，無論資料搜集由哪個部門當責，最終這些資料由法定統計機關負責統籌與發佈，而不具法定地位的行政單位有義務提供資料。例如，有關社會安全如孩童福利、社會支持體系的支出、學生財務支持等，由Kela提供（Kela在芬蘭扮演社會保險機關的角色）。此外，自治市的資料則由自治市政府提供。我整理一個概視如下圖：<br><img src="28.jpg" alt="如何產製芬蘭官方統計服務的資料（此圖上半部）"><span class="image-caption">如何產製芬蘭官方統計服務的資料（此圖上半部）</span></p>
 <p>如上圖，整體的產製流程可以分成三個部分：收集資料、處理資料以及傳布資料。雖然Statistics Finland自己編製了大約佔全部 2/3 的資料，在整個流程扮演關鍵角色，龐大的工作仍然是芬蘭政府部門的跨部協作。</p>
@@ -75,7 +76,7 @@
 <h2 id="tong-ji-xi-tong-de-mo-shi"><a href="#統計系統的模式" class="headerlink" title="統計系統的模式"></a>統計系統的模式</h2><blockquote>
 <p>「世界上沒有一個地方有這樣的國家，能讓單一機構承攬所有國家官方統計資料的搜集。相反地，這些統計系統落在一個連續體上。」 (Statistical Division of United Nations, 2003，筆者譯)</p>
 </blockquote>
-<p>每個國家都有自己的統計系統，而他們可以用中心化或去中心化來稱呼。中心或去中心化的標準，在於其產品如何被產製以及傳布——例如：是不是有一個中央機構負責提供這些服務？這個中央機構被給予多大的權威？</p>
+<p>每個國家都有自己的統計系統，而他們可以用<strong>中心化</strong>或<strong>去中心化</strong>來稱呼，而你可以想像<strong>中心化</strong>和<strong>去中心化</strong>是一個連續體的兩極。中心或去中心化的標準，在於其產品如何被產製以及傳布——例如：是不是有一個中央機構負責提供這些服務？這個中央機構被給予多大的權威？</p>
 <p>如果超過多數的統計產品，是由國家的中央機構產製與傳布，那我們稱之為接近中心化；相對來說，去中心化就是指統計來自數個有不同責任的單位——例如在芬蘭，移民統計來自移民服務單位以及戶政機關，而非 Statistics Finland。OECD組織PARIS21 (Partnership in Statistics for Development in the 21st Century, 2005) 會議的報告指出，世界上大部分的國家，統計系統都是在完全中心化跟完全去中心化兩個極端構成的連續體中間的混合地帶，簡單的比較（我自己翻譯的）如下圖：<br><img src="30.jpg" alt=""></p>
 <p>芬蘭的部分，如果考慮大部分的統計資料仍然由獨立統計機關Statistics Finland產製並發布，是偏向中心化的作法。但顯然保有去中心化的特徵。</p>
 <h1 id="tai-wan-de-guan-fang-tong-ji-xi-tong"><a href="#台灣的官方統計系統" class="headerlink" title="台灣的官方統計系統"></a>台灣的官方統計系統</h1><h2 id="tong-ji-chan-zhi"><a href="#統計產製" class="headerlink" title="統計產製"></a>統計產製</h2><p>台灣的主計系統基本上是獨立的組織，行政院主計總處是最高機關，從中央到地方一條鞭地管理全國主計單位，有獨立的人事權，而主計系統的公務員基本上是獨立行使公務，不受所在機關的直接指揮。是以這個系統是相對獨立地、科層地運作，與芬蘭協作的模式有所不同。</p>
@@ -130,7 +131,7 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-08T23:45:14.000Z</updated>
+    <updated>2018-01-09T00:01:22.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
@@ -165,7 +166,7 @@
 </div>
 
 <p><img src="comparison.jpg" alt="芬蘭（左）與台灣（右）政府的官方統計網站首頁"><span class="image-caption">芬蘭（左）與台灣（右）政府的官方統計網站首頁</span></p>
-<p>這篇報告目的在分析芬蘭與台灣政府統計機關與其服務架構與組織架構的關聯。我想藉由說明他們怎麼收集、處理跟公開資料，來討論架構的差異，進而指出看不見的架構是如何影響多面的服務產出。我一開始的分析重點偏向整體國家統計體系的中心化與去中心化，然而我發現芬蘭與台灣提供的統計服務體驗與既有理論有所衝突。</p>
+<p>這篇報告目的，是分析芬蘭與台灣政府統計組織與其服務架構的關聯。我想藉由說明他們怎麼收集、處理跟公開資料，指出看不見的架構是如何影響多面的服務產出。我一開始的分析重點，偏向整體國家統計體系的中心化與去中心化，然而我發現，芬蘭與台灣提供的統計服務體驗，與既有理論有所衝突。</p>
 <p>芬蘭的統計體系較台灣去中心化，國家統計牽涉14個主要政府部門間的合作。理論上，它提供的統計服務應該會較難整合，進而影響一般使用者的體驗。然而實際上台灣的官方統計服務卻遠較為差而破碎，甚至讓我一開始誤以為台灣的統計體系是非常去中心化的。是以本文最後試圖轉向，討論中心化與去中心化系統外幾個可能的原因，它包含芬蘭公務體系的職位制、預算規模、台灣統計機關未獲得獨立地位等。最後試著導出台灣如果要改善，怎麼樣的方向會是比較可能的。</p>
 <p>所以報告會分成兩篇，本篇是第一部分：</p>
 <ol>
@@ -186,7 +187,7 @@
 <p>如果是既有簡單的內容，可以免費； 如果資料需要特別編譯、或特別龐大，則需要支付一定費用，但公務機關和學術單位免費。針對研究者，他們提供一個完整的清單，表列 所有可以藉由資訊服務索取的資料（<a href="https://taika.stat.fi/en/index）" target="_blank" rel="external">https://taika.stat.fi/en/index）</a> 。他們也有對公眾開放的統計圖書館跟供租借的電腦間。所有的資料都受到個人資料法的保護。</p>
 <h2 id="gu-wen-fu-wu"><a href="#顧問服務" class="headerlink" title="顧問服務"></a>顧問服務</h2><p>Statistics Finland 同時也提供面向研究的諮詢服務。他們很自信地在網站上這樣宣稱</p>
 <blockquote>
-<p>「Statistics Finland 的訪談與調查服務專業是芬蘭最頂尖的。」，</p>
+<p>「Statistics Finland 的訪談與調查服務專業是芬蘭最頂尖的。」（作者自譯）</p>
 </blockquote>
 <p>他們也針對來自公私部門的研究單位，提供收費的顧問服務，例如問卷設計與測試、採樣、調查、訪談。</p>
 <h2 id="jiao-yu-ke-cheng"><a href="#教育課程" class="headerlink" title="教育課程"></a>教育課程</h2><p>我們還可以在 Statistics Finland 網站上找到公共教育課程，有線上也有線下的。</p>
@@ -229,7 +230,7 @@
 </blockquote>
 <p><img src="26.png" alt=""><br>☝️ 個人認為〈認識資料探勘〉、〈感謝吾妻〉、〈天上的星比地表的砂多，你相信嗎?〉等堪稱傳世之作。</p>
 <p><img src="27.png" alt="真的很棒。"><span class="image-caption">真的很棒。</span><br>☝️ 給學生的網站，詳參：<a href="http://win.dgbas.gov.tw/dgbas03/learning-resources/index.html" target="_blank" rel="external">歡迎光臨中華民國統計資訊網─統計學習資源專區</a>。我非常好奇是哪家公司接的標案，首頁笑得我心裡發寒。</p>
-<p>裡面有一些相當厲害的<a href="https://kids.stat.gov.tw/lp.asp?ctNode=5344&amp;CtUnit=1620&amp;BaseDSD=7&amp;mp=20" target="_blank" rel="external">藝術作品</a>，離題了，略過不表。<br>主計總處沒有提供如Statistics Finland那樣的實體課程。</p>
+<p>裡面有一些相當厲害的<a href="https://www.facebook.com/imyentsen/posts/1743172285695002" target="_blank" rel="external">藝術作品</a>，離題了，略過不表。<br>主計總處沒有提供如Statistics Finland那樣的實體課程。</p>
 <h2 id="zi-xun-fu-wu"><a href="#諮詢服務" class="headerlink" title="諮詢服務"></a>諮詢服務</h2><p>沒有提供。</p>
 <h2 id="guan-fang-tong-ji-bao-gao"><a href="#官方統計報告-1" class="headerlink" title="官方統計報告"></a>官方統計報告</h2><p>有，就是上面提到的的<a href="http://ebook.dgbas.gov.tw" target="_blank" rel="external">電子書資料庫</a>、線上統計資料庫介面混在一起，無法確認哪邊是統整入口介面。除此之外，有定期以pdf格式發佈的<a href="https://www.stat.gov.tw/np.asp?ctNode=1495" target="_blank" rel="external">國情統計通報</a>，但所引用之相關統計並未如芬蘭一樣提供線上連結。</p>
 <p>以上是台灣的部分，其實，芬蘭有的五大類服務，台灣也大致上有，只是最終呈現的服務品質落差甚大。有鑒於政府網站做得很爛並不是只有主計總處才有的事情，所以我不會把上述網站做得不好的部分全部歸因以下要討論的架構。我會試圖專注在架構跟所提供服務本身的關聯。</p>
