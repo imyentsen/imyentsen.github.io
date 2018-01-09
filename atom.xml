@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.yentsenliu.com/"/>
-  <updated>2018-01-09T21:53:49.000Z</updated>
+  <updated>2018-01-09T21:58:16.000Z</updated>
   <id>http://blog.yentsenliu.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-09T21:53:49.000Z</updated>
+    <updated>2018-01-09T21:58:16.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
@@ -62,10 +62,10 @@
 <blockquote>
 <p>「架構式創新的本質，是調整一個既有的系統，把既有元件換個新方式連起來。」– Henderson 與 Clark (1990) </p>
 </blockquote>
-<p>架構（Architecture）作為一種系統內元件的連結圖式，是如何影響一個系統的最終服務？這是這篇文章要分析的事情，由國家統計機關發布的官方統計，一般來說被視為最具權威性的資料來源，可以用以描繪一個國家的樣貌。官方統計的產製與發佈是很複雜的，而最後服務的呈現與體驗與之息息相關。</p>
-<p>我要簡單的分析芬蘭國家統計系統的架構，然後以之與台灣做比較。因為時間跟篇幅都有限，所以我不討論每個細節跟優劣。我只想專注在幾個跟服務結果有關的重要架構特徵，然後，呈現這些關聯，並凸顯架構的重要與改變它所帶來的潛力。</p>
+<p>架構（Architecture）作為一種系統內元件的連結圖式，是如何影響一個系統的最終服務？這是這篇文章要分析的事情。</p>
+<p>由國家統計機關發布的官方統計，一般來說被視為最具權威性的資料來源，可以用以描繪一個國家的樣貌。官方統計的產製與發佈是很複雜的，而最後服務的呈現與體驗與這個架構息息相關。</p>
 <h1 id="fen-lan-de-guan-fang-tong-ji-xi-tong"><a href="#芬蘭的官方統計系統" class="headerlink" title="芬蘭的官方統計系統"></a>芬蘭的官方統計系統</h1><h2 id="chan-zhi-zi-liao-jia-gou-zai-shou-ji-jia-gong-san-bu-zi-liao-guo-cheng-ban-yan-de-ying-xiang-li"><a href="#產製資料-架構在收集、加工、散佈資料過程扮演的影響力" class="headerlink" title="產製資料: 架構在收集、加工、散佈資料過程扮演的影響力"></a>產製資料: 架構在收集、加工、散佈資料過程扮演的影響力</h2><p><img src="1.jpg" alt="國家統計系統的冰山模型"><span class="image-caption">國家統計系統的冰山模型</span></p>
-<p>上面簡單帶過了芬蘭與台灣的國家統計服務，這篇文章裡，我要說明統計服務在冰山下產製資料的架構。</p>
+<p><a href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/">上ㄧ篇</a>簡單帶過了芬蘭與台灣的國家統計服務，這篇文章裡，我要說明統計服務在冰山下產製資料的架構。</p>
 <p>冰山下的架構包括<strong>產製資料、整合、統計系統的模式</strong>。這些架構是息息相關而且事實上難以切割的，但為了概念上敘述方便，我仍然試圖條列說明。不過也因為難以切割，為了文意通暢，台灣的部分，我會放到最後面一次說明。</p>
 <p>Statistics Finland是芬蘭的財政部下一個獨立的統計機構，芬蘭統計法第一章第二段：法定統計機關包括 Statistics Finland、以及另外兩個政府內的研究機構：芬蘭自然資源研究所（Natural Resources Institute Finland）、芬蘭衛福研究所（National Institute for Health and Welfare）、最後是海關（Finnish Customs）。</p>
 <p>而算進不具法定統計機關地位的單位，實務上資料的提供者零零總總包含了14個政府部門，可以按照功能的不同，以及中央與地方政府來做簡單的區分。按芬蘭統計法規定，無論資料搜集由哪個部門當責，最終這些資料由法定統計機關負責統籌與發佈，而不具法定地位的行政單位有義務提供資料。例如，有關社會安全如孩童福利、社會支持體系的支出、學生財務支持等，由Kela提供（Kela在芬蘭扮演社會保險機關的角色）。此外，自治市的資料則由自治市政府提供。我整理一個概視如下圖：<br><img src="28.jpg" alt="如何產製芬蘭官方統計服務的資料（此圖上半部）"><span class="image-caption">如何產製芬蘭官方統計服務的資料（此圖上半部）</span></p>
@@ -145,7 +145,7 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-09T00:36:13.000Z</updated>
+    <updated>2018-01-09T21:58:14.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
@@ -254,7 +254,7 @@
 <p>只能先猜測，台灣的官方統計本身品質應該並不差，早在1998年，中國統計學社理事長韋端在年會回顧台灣五十年的統計發展，就曾提到：</p>
 <p>「我政府統計資料品質及確度向獲國內外佳評，例如一九九五年英國「經濟學人 (The Economist) 」雜誌曾對二十四個新興國家之統計品質作評比，其中我國無論在資料時效性、可信度、客觀性及周延性等評價均被列為最佳之Ａ級，顯示統計品質已具國際水準，並深獲使用者肯定。由於政府迅速、精準的提供統計資料，並事前公告發布資料日期，國際工商業界得以及時掌握正確的商情資訊，使我國投資環境受到知名國際投資風險評鑑機構之青睞，如美國商業環境風險評估機構 BERI 、政治暨經濟風險顧問公司 PERC等，即對我國財政金融統計給予甚高的評價，亦使外國投資機構對台灣投資環境具高度的信心。」</p>
 <p>問題是這篇報導太老了，已經是20年前，參考價值必須打折，但我現階段只能猜測，國內統計資料本身的品質，不會在這段時間太嚴重地往下滑，反倒因為資通科技的應用，而有所提升（如果不跟周邊也同時進步中的國家比的話啦……）。</p>
-<p>下一篇會討論服務冰山底下的組織架構，如何與表層的服務相關。</p>
+<p><a href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys2/#fen-lan-de-guan-fang-tong-ji-xi-tong">下一篇</a>會討論服務冰山底下的組織架構，如何與表層的服務相關。</p>
 <p><img src="1.jpg" alt="複習：國家統計系統的冰山模型"><span class="image-caption">複習：國家統計系統的冰山模型</span></p>
 <hr>
 <h1 id="fu-ji"><a href="#附記" class="headerlink" title="附記"></a>附記</h1><h2 id="bei-jing-shuo-ming"><a href="#背景說明" class="headerlink" title="背景說明"></a>背景說明</h2><p>這是我在Aalto第二個學期的期末報告，課程是產品架構設計（Product Architecture Design）。原初是是分析芬蘭的官方統計服務，因為英文有相當嚴苛的字數限制，翻回中文之後，我才補進台灣的部分進一步分析。</p>
