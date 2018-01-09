@@ -145,7 +145,7 @@
     <link href="http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/"/>
     <id>http://blog.yentsenliu.com/2017/12/16/20180104_statistics_sys1/</id>
     <published>2017-12-15T23:06:16.000Z</published>
-    <updated>2018-01-09T22:54:27.000Z</updated>
+    <updated>2018-01-09T23:26:40.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mu-lu"><a href="#目錄" class="headerlink" title="目錄"></a>目錄</h2><div class="toc">
 
@@ -199,7 +199,7 @@
 <h2 id="xian-shang-tong-ji-zi-liao-ku"><a href="#線上統計資料庫" class="headerlink" title="線上統計資料庫"></a>線上統計資料庫</h2><p>首先是線上統計資料庫，都在一個入口網站上了。 Statistics Finland 給每個新發布與有更新的資料集，都做了類似新聞稿的簡單介紹，同時提供清楚好懂總結式的圖表。<br><img src="3.png" alt=""><br>資料集英文譯名為 Statfin，使用稱為 <a href="http://pxnet2.stat.fi/PXWeb/pxweb/en/StatFin/?rxid=baf6cc95-24f3-4b21-85b0-1e41ee85b52e" target="_blank" rel="external">PX-Web</a>的互動介面，這是由瑞典政府開發的，基於 SQL 資料庫技術的網路程式，在2015年免費開放。目前有將近20國/國際組織使用，芬蘭亦直接沿用之。使用者首先選取資料集，接著選取想要的變項。最後網站會自動產生相關的圖表（視資料內容呈現直方圖、折線圖、純表格……等。）給使用者，並且提供多種格式的下載選項（csv, xlsx, json, px 等）。<br><img src="4.png" alt="PX-Web的介面相當簡單，可以實際找資料集玩玩看。唯一的缺陷是 icon 設計得有點不明所以。"><span class="image-caption">PX-Web的介面相當簡單，可以實際找資料集玩玩看。唯一的缺陷是 icon 設計得有點不明所以。</span></p>
 <p>如果你對 PX-Web 資料集細節沒興趣，只想按主題瀏覽整理好的報告，還有專門放上述這些介紹跟報告的網站 <a href="http://findikaattori.fi/en" target="_blank" rel="external">Findicator.fi</a>。</p>
 <h2 id="zi-xun-fu-wu"><a href="#資訊服務" class="headerlink" title="資訊服務"></a>資訊服務</h2><p>接下來是資訊服務， 如果公眾想要特定資料，或對統計有任何疑問，可以直接前往 Statistics 的服務台、電洽、或填寫線上表單索取/詢問。</p>
-<p>如果是既有簡單的內容，可以免費； 如果資料需要特別編譯、或特別龐大，則需要支付一定費用，但公務機關和學術單位免費。針對研究者，他們提供一個完整的清單，表列 所有可以藉由資訊服務索取的資料（<a href="https://taika.stat.fi/en/index）" target="_blank" rel="external">https://taika.stat.fi/en/index）</a> 。他們也有對公眾開放的統計圖書館跟供租借的電腦間。所有的資料都受到個人資料法的保護。</p>
+<p>如果是既有簡單的內容，可以免費； 如果資料需要特別編譯、或特別龐大，則需要支付一定費用，但公務機關和學術單位免費。針對研究者，他們提供一個<a href="https://taika.stat.fi/en/index" target="_blank" rel="external">完整的清單</a>，表列所有可以藉由資訊服務索取的資料。他們也有對公眾開放的統計圖書館跟供租借的電腦間。所有的資料都受到個人資料法的保護。</p>
 <h2 id="gu-wen-fu-wu"><a href="#顧問服務" class="headerlink" title="顧問服務"></a>顧問服務</h2><p>Statistics Finland 同時也提供面向研究的諮詢服務。他們很自信地在網站上這樣宣稱</p>
 <blockquote>
 <p>「Statistics Finland 的訪談與調查服務專業是芬蘭最頂尖的。」（作者自譯）</p>
@@ -261,7 +261,7 @@
 <p>選這個題目的初心來自去年在京都大學參加一個社會學學術工作坊，除了台大外，有首爾大學跟京都大學的師生帶團參加。當時蠻驚訝日本學生如何使用他們的政府統計系統，而且印象中，他們的統計網站可以自動生成圖表以供使用，十分方便。後來來到芬蘭，我發現官方統計也做得相當好懂。此時令我非常感興趣的是，服務設計背後提供服務的組織本身，如何影響其所設計/提供的服務。</p>
 <p>本學期的課程閱讀主要跟產品架構（Architecture）有關。與之有關的創新理論由Henderson 與 Clark (1990) 在哈佛商業評論提出。雖然應用在設計領域，以往偏向硬體的分析，但發展至今，已經不限於有形物件，我將其拓展到提供產品的組織。此外，一個我很有興趣的設計領域是參與式設計，本質上它也在討論設計相關的行動者，應該建立的是怎麼樣的關係，而這樣的關係最終影響設計的產出。這與前開組織與架構的討論有呼應之處。</p>
 <p>限於新的學期就要開始，我必須今天結束這份報告的撰寫。而我在著手這個題目之前，對國家統計這個題目從未涉獵，就手上擁有的資料我無法做出有力的結論。事實上，若能以最後的結論倒敘重新安排文章結構，這篇文章會通暢得多（我還是覺得我找到的這些資料蠻有趣的）。但現在就維持這樣有點類似memo而且口語的形式，當作思路發展的一個紀錄。</p>
-<h2 id="px-web"><a href="#PX-Web" class="headerlink" title="PX-Web"></a>PX-Web</h2><p>這是瑞典政府開發的網頁應用，並且有相關的 API 規範，已經為20多國與國際組織採用，雖然醜，但蠻好用的。<a href="https://www.scb.se/sv_/PC-Axis/Programs/PX-Web/PX-Web-examples/" target="_blank" rel="external">PX-Web examples</a></p>
+<h2 id="px-web"><a href="#PX-Web" class="headerlink" title="PX-Web"></a>PX-Web</h2><p>這是瑞典政府開發的網頁應用，並且有相關的 API 規範，已經為<a href="https://www.scb.se/sv_/PC-Axis/Programs/PX-Web/PX-Web-examples/" target="_blank" rel="external">20多國與國際組織採用</a>，雖然不美，但蠻好用的。</p>
 <ul>
 <li>瑞典的例子<br><a href="http://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__ME__ME0107__ME0107C/?rxid=7aaa325b-6274-4e59-b568-dc06f01b4944" target="_blank" rel="external">Statistical database Sweden</a></li>
 <li>荷蘭中央統計局雖然不採用 PX-Web，但也是以類似的邏輯去設計線上統計資料庫：<a href="http://statline.cbs.nl/Statweb/dome/?LA=en" target="_blank" rel="external">CBS StatLine</a></li>
