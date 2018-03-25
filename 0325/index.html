@@ -305,7 +305,12 @@ function printframe() {
       <!-- 講者資訊 -->
     	<div class="form-group col-md-8">
         <label for="issueDescInput">主持人資訊 Info of Host</label>
-        <input type="text" class="form-control input-sm" name="info_host" id="info_host" placeholder="ex: 國立臺灣大學社會學系 教授">
+        <select class="form-control" id="info_host" name="info_host">
+        <option value="國立臺灣大學社會學系 教授">國立臺灣大學社會學系 教授</option>
+        <option value="國立臺灣大學社會學系 副教授">國立臺灣大學社會學系 副教授</option>
+        <option value="國立臺灣大學社會學系 助理教授">國立臺灣大學社會學系 助理教授</option>
+        <option value="國立臺灣大學社會學系 特聘教授">國立臺灣大學社會學系 特聘教授</option>
+      </select> 
       </div>
     </div>
 
@@ -323,15 +328,6 @@ function printframe() {
   	<div id="img_preview" class="mb-3">
     </div>
 
-  	<!-- 語言 -->
-    <div class="form-group">
-      <label for="issueDescInput">語言 Language</label>
-      <select class="form-control" id="language" name="language">
-        <option value="Chn">中文</option>
-        <option value="Eng">English</option>
-      </select> 
-    </div>
-    </form>
     <!-- 表單結束 -->
 
     <!-- 產生與列印 -->
