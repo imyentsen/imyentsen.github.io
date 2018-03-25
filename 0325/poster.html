@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Poster Generator for Thursday Sociology</title>
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="poster.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<!-- 接收與監聽來自parent page地message -->
+<script>
+function poster_input(hehe, notation){
+  function bindEvent(element, eventName, eventHandler) {
+      if (element.addEventListener) {
+          element.addEventListener(eventName, eventHandler, false);
+      } else if (element.attachEvent) {
+          element.attachEvent('on' + eventName, eventHandler);
+      }
+  }
+
+  var results = document.getElementById(hehe);
+
+  // Listen to messages from parent window
+  bindEvent(window, 'message', function (e) {
+      results.innerHTML = e.data[notation];
+  });
+}
+</script>
+
+
+<!-- 貼上parent傳來的image link -->
+<script>
+  function poster_img_show() {
+    function bindEvent(element, eventName, eventHandler) {
+      if (element.addEventListener) {
+          element.addEventListener(eventName, eventHandler, false);
+      } else if (element.attachEvent) {
+          element.attachEvent('on' + eventName, eventHandler);
+      }
+    }
+
+    // Listen to messages from parent window
+    bindEvent(window, 'message', function (e) {
+      var src = e.data["image_upload"];
+      img = document.createElement('img');
+      img.src = src;
+      document.getElementById('poster_img_layout').appendChild(img);
+    });
+  }
+</script>
+
+
+ <!-- 海報本體 -->
+<div id="poster">
+  
+  <div id="poster_header" class="col-lg-12">
+    <mark>
+    Thursday's Sociology_<br>
+    _Department of Sociology, National Taiwan University</mark>
+
+  <div id="poster_v_header">
+    <div class="v_header ml-1">週四社會學</div>
+    <div class="v_header ml-1">國立臺灣大學 社會學系</div>
+  </div>
+
+  <div id="poster_logo"></div>
+  </div>
+  <div id="poster_logo_circle"></div>
+
+
+  
+
+<div id="poster_topic_asm">
+    <div id="poster_topic">
+      孩子的世界要比我大
+      <script>
+      poster_input("poster_topic", "topic");
+      </script>
+    </div>
+    <div id="poster_sub_title">
+      中產階級的親職敘事與教養矛盾
+      <script>
+      poster_input("poster_sub_title", "sub_title");
+      </script>
+    </div>
+
+
+    <div id="poster_speaker_asm">
+      <mark>講者 Speaker</mark>
+      <div id="poster_speaker">
+        藍佩嘉
+        <script>
+        poster_input("poster_speaker", "speaker");
+        </script>
+      </div>
+      <div id="poster_info_speaker">
+        臺灣大學社會學系 教授
+        <script>
+        poster_input("poster_info_speaker", "info_speaker");
+        </script>
+      </div>
+    </div>
+
+
+
+
+  <div id="fixed_group_3" class="poster_fixed">
+
+    <div id="poster_date_asm">
+      <mark>時間與地點 Time and Place</mark><br>
+      <div id="poster_date_picked" class="mt-2">
+        March 26
+        <script>poster_input("poster_date_picked", "date_picked" );</script>
+      </div>
+      <div id="poster_time_chosen" class="mt-2">
+        | 12:30
+         <script>poster_input("poster_time_chosen", "time_chosen");
+        </script>
+      </div> 
+      <div id="poster_place">
+      社會系 401
+      <script>
+      poster_input("poster_place", "place");
+      </script>
+      </div>
+    </div>
+    
+
+    <div id="poster_host_asm">
+      <mark>主持人 Host</mark>
+      <div id="poster_host" class="mt-2">
+        曾嬿芬
+        <script>
+        poster_input("poster_host", "host");
+        </script>
+      </div>
+      <div id="poster_info_host">
+        台灣大學社會學系 教授
+        <script>
+        poster_input("poster_info_host", "info_host");
+        </script>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--圖像與形狀區域-->
+
+<div id="poster_img_layout" class="poster_img_layout_all">
+  <script>
+    poster_img_show();
+  </script>
+</div>
+
+<div id="poster_img_layout_2" class="poster_img_layout_all">
+</div>
+
+<div id="poster_img_layout_3" class="poster_img_layout_all">
+  <img src="src/class.JPG" class="poster_img_layout_3_img">
+</div>
+
+<div id="poster_img_layout_4" class="poster_img_layout_all">
+  <img src="src/class.JPG">
+</div>
+
+<div id="bg_svg">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 1129 1164" style="enable-background:new 0 0 1129 1164;" xml:space="preserve">
+        <g>
+          <path class="st0" d="M0,452.6c17,17.7,37.2,32.7,58.8,43.8c62.4,32.1,134.4,38.4,204.3,44.1c105.3,8.7,49.3,69.6,168.9,67.3
+            s320.7-74.4,421-53c75,16,83,62,49,95c-71.6,69.5-142.4,66.9-189.5,111.8c-17.5,16.7-33.3,40.4-26.3,63.5
+            c8.5,28.1,42.1,56.3,111.5,51c198.4-15.3,254.7,11.3,264,40c15.7,48.3-186.7,55.3-108.7,132.7c60.3,59.8,127.8,47.2,175.9,47.2V0H0
+            V452.6z"/>
+        </g>
+        </svg>
+</div>
+
+
+<div id="bg_sto">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 1190.6 1683.8" style="enable-background:new 0 0 1190.6 1683.8;" xml:space="preserve">
+
+        <polygon class="st0" points="-0.5,90.6 29.6,85.6 71.3,107.1 82,159.5 35.4,201.8 -0.5,186.7 "/>
+        <polygon class="st0" points="22.5,237.7 40.8,226.2 26,208.3 -0.5,201.8 -0.5,264.9 19.9,258.5 "/>
+        <polygon class="st0" points="51.9,206.8 82,273.6 106.4,284.3 150.2,254.9 143,238.4 108.6,223.3 91.3,201.8 59.8,193.9 "/>
+        <polygon class="st0" points="47.6,239.1 40.8,239.1 19.9,280.7 40.8,308 70.5,295.1 70.5,277.1 56.9,258.5 58.3,242.7 "/>
+        <polygon class="st0" points="61.4,28.9 56.4,76.2 86.5,90.6 123.1,67.6 123.1,36.1 80.8,24.6 "/>
+        <polygon class="st0" points="49.9,0 66.4,16.1 130.3,24.4 175.5,0 "/>
+        <polygon class="st0" points="168.7,11.2 132.3,59.5 149.7,85.8 185.3,87.3 197,77 210.3,47 229,28.2 215.8,18.2 188.1,15.8 
+          180.7,8.6 "/>
+        <polygon class="st0" points="213.5,0 213.5,7.5 238.6,17.6 258,12.2 270.2,0 "/>
+        <polygon class="st0" points="250.1,24.4 262.3,46.3 291,57.4 311.8,31.9 311.8,17.6 284.2,12.2 "/>
+        </svg>
+
+</div>
+
+<div id="poly1" class="poly">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 1129 1164" style="enable-background:new 0 0 1129 1164;" xml:space="preserve">
+
+        <polygon points="0,0 439.4,0 589.3,57.9 736.6,421.1 711.2,664.9 490.2,1038.3 332.6,1133.7 0,1066.2 "/>
+        </svg>
+</div>
+<div id="poly2" class="poly">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 1129 1164" style="enable-background:new 0 0 1129 1164;" xml:space="preserve">
+        <polygon class="st0" points="1129,197.8 845.4,29.6 360.5,52.6 278.1,333 324.2,418.7 690.3,580.4 819,1028.9 997.1,1134.4 
+          1129,926.7 "/>
+</svg>
+
+</div>
+
+
+<div id="text_deco_1" class="text_deco">THURSDAY's SOCIOLOGY</div>
+
+
+<div id="text_deco_2" class="text_deco">
+    “It's supposed to be automatic, but actually you have to push this button. ”<br> <small>― John Brunner</small>
+</div>
+
+
+</body>
+</html>
