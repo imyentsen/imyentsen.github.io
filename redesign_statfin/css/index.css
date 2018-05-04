@@ -104,7 +104,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header2.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -300,4 +300,10 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+#step2_red_gif, #step2_cur_gif, #step2_redesign, #step2_current {
+  -webkit-transition: height 1s ease-out;
+  /* Safari */
+  transition: height 1s ease-out;
 }
