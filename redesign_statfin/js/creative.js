@@ -94,9 +94,9 @@ function step2_func(x) {
   const step2_lis = step2_btn.getElementsByClassName("step2_li");
   for (var i = 0; i < step2_lis.length; i++) {
     step2_lis[i].addEventListener("click", function() {
-      var current = step2_btn.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
+      var current = step2_btn.getElementsByClassName(" StepActive");
+      current[0].className = current[0].className.replace(" StepActive", "");
+      this.className += " StepActive";
     });
   }
   // Build Json for step2

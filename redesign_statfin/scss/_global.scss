@@ -53,6 +53,12 @@ h6 {
   color: fade-out($white, .3);
 }
 
+.text-masthead{
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+
 section {
   padding: 8rem 0;
 }
@@ -87,4 +93,8 @@ img::-moz-selection {
 #step2_red_gif, #step2_cur_gif, #step2_redesign, #step2_current {
   -webkit-transition: height 1s ease-out; /* Safari */
   transition: height 1s ease-out;
+}
+
+.StepActive{
+  color: $ui-05 !important;
 }

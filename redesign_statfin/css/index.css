@@ -24,7 +24,7 @@
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #7aacff;
+  color: #2063d6;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
@@ -71,6 +71,10 @@
 #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #adb5bd;
   }
+}
+
+.StepActive {
+  color: #ffd3dd;
 }
 
 .text-primary {
@@ -139,7 +143,10 @@ header.masthead p {
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
+  }
+  header.masthead p {
+    font-size: 1.5rem;
   }
 }
 
@@ -272,6 +279,11 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.text-masthead {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 700 !important;
+}
+
 section {
   padding: 8rem 0;
 }
@@ -306,4 +318,8 @@ img::-moz-selection {
   -webkit-transition: height 1s ease-out;
   /* Safari */
   transition: height 1s ease-out;
+}
+
+.StepActive {
+  color: #ffd3dd !important;
 }
