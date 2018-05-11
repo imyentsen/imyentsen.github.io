@@ -98,3 +98,24 @@ img::-moz-selection {
 .StepActive{
   color: $ui-05 !important;
 }
+
+
+#mobile {
+  display: none;
+}
+
+/*>900 overlay for mobile*/
+
+@media screen and (max-width: 899px), (min-aspect-ratio: 9/4), (max-height: 550px)  {
+
+  #contact, #comment, #principle, #concept, #portfolio, #hmasthead, #mainNav {
+    display: none;
+  }
+  #mobile {
+    display: block;
+    margin: 30px;
+    font-size: 30px;
+    line-height: 34px;
+    color: $white;
+  }
+}

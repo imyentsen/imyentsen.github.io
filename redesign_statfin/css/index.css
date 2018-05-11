@@ -143,10 +143,10 @@ header.masthead p {
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   header.masthead p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -322,4 +322,23 @@ img::-moz-selection {
 
 .StepActive {
   color: #ffd3dd !important;
+}
+
+#mobile {
+  display: none;
+}
+
+/*>900 overlay for mobile*/
+@media screen and (max-width: 899px), (min-aspect-ratio: 9/4), (max-height: 550px) {
+  #contact, #comment, #principle, #concept, #portfolio, #hmasthead, #mainNav {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+    margin: 30px;
+    font-size: 30px;
+    line-height: 34px;
+    color: #fff;
+  }
 }
