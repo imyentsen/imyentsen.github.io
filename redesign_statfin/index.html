@@ -1,540 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Redesign Statfin</title>
-  <meta property="og:title"
-  content="Redesign Statfin: The Official Statistics Database of Finland">
-  <meta property="og:description"
-  content="Official statistics in the age of data: how design could lower the threshold of transforming raw data into useful and conprehensive information" />
-  <meta property="og:image" content="http://blog.yentsenliu.com/redesign_statfin/img/header2.jpg" />
-  <!-- Bootstrap -->
-  <!-- Latest compiled and minified CSS -->
-  <!-- Bootstrap JS and CSS + jQuery -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Creative - Start Bootstrap Theme</title>
 
-  <!-- Bootstrap datepicker JS and CSS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css"></link>
-  <link rel="stylesheet" href="css/index.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-</head>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-<body>
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
-<!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Redesign Statfin</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Redesign</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#concept">Concept</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<!-- masthead -->
-<div id="hmasthead">
-  <header class="masthead text-center text-white d-flex">
-    <div class="container my-auto">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h1>
-            <strong>Official Statistics in The Age of Data</strong>
-          </h1>
-          <hr>
-        </div>
-        <div class="col-lg-8 mx-auto">
-          <p class="mb-5 text-masthead text-white" style="font-weight:700;color:white;">By redesigning the user interface of Statfin, the offcial statistics database of Finland, the project aims to demonstrate how design could help the citizens interactively visualise the data, and how design could lower the threshold of transforming raw data into useful and conprehensive information.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger sr-button" href="#portfolio">Find Out More</a>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </header>
-</div>
+    </nav>
 
-<!-- old&new -->
-  <section class="bg-primary" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="container-fluid col-lg-8 mx-auto text-center">
-          <h1 class="section-heading text-white">Redesign Statfin Database</h1><br>
-          <hr class="my-4 light">
-          <p class="mb-5 text-faded"></p>
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
         </div>
       </div>
-  </div>
-    <!-- step1 -->
-    <div class="col-lg-10 col-sm-12 mx-auto mb-5">
-      <div class="row">
-        <div class="col-lg-8 col-sm-6 px-3">
-          <div class="row mb-4 px-3">
-            <div class="col-lg-6 col-sm-12 px-0">
-              <div class="row px-3">
-                <div class="col-lg-2 col-sm-4 px-2">
-                  <div class="section-heading text-white step-num">
-                    1
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">At Your Service</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Sturdy Templates</h3>
+              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Ready to Ship</h3>
+              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Up to Date</h3>
+              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Made with Love</h3>
+              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
                   </div>
                 </div>
-                <div class="col-lg-10 col-sm-8 px-4">
-                  <h2 class="section-heading text-white text-left">Select<br>Table</h2>
-                </div>
               </div>
-            </div>
-            <div class="col-lg-6 col-sm-12 px-2">
-              <div class="project-category text-faded">
-              <p>Redesign</p>
-              </div>
-              <div class="project-step_desc ">
-                <p>The new nested list provides a comprehensive overview of each teable. Only essential information would be shown at the first glance (e.g. period of data collection and categorical information). Clear, straightforward, so you never mess up.</p>
-              </div>
-            </div>
+            </a>
           </div>
-
-        </div>
-        <div class="col-lg-4 col-sm-6 px-3">
-          <div class="row mb-4 px-3">
-            <div class="project-category text-faded">
-              <p>Current</p>
-            </div>
-            <div class="project-step_desc ">
-            On the current system, in order to request a result of the statistics, the users are required to explore through a long list of datasets, select one dataset from it, and then choose the variables they would like to see from several complex lists. It gives the users a sense of uncertainty, as they are not able to have a glance on the data ahead of seeing the final result.
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-sm-6">
-          <div style="position: relative; width: 100%; height: 0px; padding-bottom: 66%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.14902) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px; line-height: 0; background-position: initial initial; background-repeat: initial initial;>
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/step1_red.gif" alt="">
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div style="position: relative; width: 100%; height: 0px; padding-bottom: 66%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.14902) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px; line-height: 0; background-position: initial initial; background-repeat: initial initial;>
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/step1_cur.gif" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- step2 -->
-    <div class="col-lg-10 col-sm-12 mx-auto pt-5 mb-5">
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 px-3">
-          <div class="col-lg-12 col-sm-12 px-0">
-            <div class="row px-3">
-              <div class="col-lg-2 col-sm-4 px-2">
-                <div class="section-heading text-white step-num">
-                  2
-                </div>
-              </div>
-              <div class="col-lg-10 col-sm-8 px-4">
-                <h2 class="section-heading text-white text-left">Interact<br>With Data</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8 col-sm-6 px-3">
-          <nav class="navbar navbar-dark bg-dark mb-5" id="step2_btn">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item StepActive border-bottom">
-                  <a class="nav-link step2_li" onclick="step2_func(0);return false;"><b>Select variables</b><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item border-bottom">
-                  <a class="nav-link step2_li" onclick="step2_func(1);return false;"><b>Scroll</b></a>
-                </li>
-                <li class="nav-item border-bottom">
-                  <a class="nav-link step2_li" onclick="step2_func(2);return false;"><b>Related Release</b></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link step2_li" onclick="step2_func(3);return false;"><b>Display Options</b></a>
-                </li>
-              </ul>
-          </nav>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 px-3">
-          <div class="row mb-4 px-3">
-            <div class="row px-3">
-              <div class="project-category text-faded">
-                <p>Current</p>
-              </div>
-              <div class="project-step_desc" id="step2_current">
-                <p>After selecting the variables, the data is usually shown as a wide and long table that overflows the margin of the display. Nonetheless, the table also fails to provide a comprehensive overview of the data to its users. As a result, the users disappointedly find that they don’t know what to do with the data, not to mention to proceed any furthur analysis.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8 col-sm-6 px-3">
-          <div class="row px-3">
-            <div class="project-category text-faded col-lg-12 px-0">
-              <p>Redesign</p>
-            </div>
-            <div class="project-step_desc mb-4" id="step2_redesign">
-              <p>The new design provides a WYSIWYG (what you see is what you get) selector for variables. Once the selection of variables is modified, the graph/table shown on the right side would be updated simultaneously.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6">
-          <div style="position: relative; width: 100%; height: 0px; padding-bottom: 66%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.14902) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px; line-height: 0; background-position: initial initial; background-repeat: initial initial;>
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" id="step2_cur_gif" src="img/step2-1_cur.gif" alt="">
-          </div>
-        </div>
-        <div class="col-lg-8 col-sm-6">
-          <div style="position: relative; width: 100%; height: 0px; padding-bottom: 66%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.14902) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px; line-height: 0; background-position: initial initial; background-repeat: initial initial;>
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" id="step2_red_gif"src="img/step2-1_red.gif" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- step3 -->
-    <div class="col-lg-10 col-sm-12 mx-auto pt-5 mb-5">
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 px-3">
-          <div class="row mb-4 px-3">
-            <div class="col-lg-12 col-sm-12 px-0">
-              <div class="row px-3">
-                <div class="col-lg-2 col-sm-4 px-2">
-                  <div class="section-heading text-white step-num">
-                    3
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
                   </div>
                 </div>
-                <div class="col-lg-10 col-sm-8 px-4">
-                  <h2 class="section-heading text-white text-left">Compare<br>Data</h2>
-                </div>
               </div>
-            </div>
-            <div class="row px-3">
-              <div class="project-category text-faded">
-                <p>Redesign</p>
-              </div>
-              <div class="project-step_desc ">
-                <p>The redesign also provides a brand-new function that enable the users to compare the variables cross the datasets. The aim of this function is to provide the users a more intuitive way to see possible relations between different variables, and not to be constrained by the official categories.</p>
-              </div>
-            </div>
+            </a>
           </div>
-        </div>
-        <div class="col-lg-8 col-sm-6 px-3">
-          <div class="row px-3">
-            <div style="position: relative; width: 100%; height: 0px; padding-bottom: 66%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.14902) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px; line-height: 0; background-position: initial initial; background-repeat: initial initial;>
-              <img class="img-fluid" src="img/safari_top.png" alt="">
-              <img class="img-fluid" src="img/safari_top.png" alt="">
-              <img class="img-fluid" src="img/step3_red.gif" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- step4 -->
-    <div class="col-lg-10 col-sm-12 mx-auto pt-5 mb-5">
-      <div class="row">
-        <div class="col-lg-8 col-sm-6 px-3">
-          <div class="row mb-4 px-3">
-            <div class="col-lg-6 col-sm-12 px-0">
-              <div class="row px-3">
-                <div class="col-lg-2 col-sm-4 px-2">
-                  <div class="section-heading text-white step-num">
-                    4
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
                   </div>
                 </div>
-                <div class="col-lg-10 col-sm-8 px-4">
-                  <h2 class="section-heading text-white text-left">Export &<br>Share</h2>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-6 col-sm-12 px-2">
-              <div class="project-category text-faded">
-                <p>Redesign</p>
-              </div>
-              <div class="project-step_desc ">
-                Export, social networks, embed codes, and permanent URL are intuitively integrated in a single modal. The embed link function can make the experience of interactive graph consistent on other online publishing platform such as wordpress.
-              </div>
-            </div>
+            </a>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 px-3">
-          <div class="row mb-4 px-3">
-            <div class="project-category text-faded">
-              <p>Current</p>
-            </div>
-            <div class="project-step_desc ">
-              The current formats includes the mainstream table format such as csv, xml, and xlsx. The users can also download the image of visualised chart. There is no other options such as embed interactive charts, and high-resolution image for printing.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-sm-6">
-          <div style="position: relative; width: 100%; height: 0px; padding-bottom: 66%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.14902) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px; line-height: 0; background-position: initial initial; background-repeat: initial initial;>
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/step4_red.gif" alt="">
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div style="position: relative; width: 100%; height: 0px; padding-bottom: 60%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.14902) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px; line-height: 0; background-position: initial initial; background-repeat: initial initial;>
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/safari_top.png" alt="">
-            <img class="img-fluid" src="img/step4_cur.gif" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-      <!-- concept -->
-      <section class="bg-white" id="concept">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-              <h1 class="section-heading">Official Statistics in The Age of Data</h1>
-              <hr class="my-4">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-4 text-left">
-            </div>
-            <div class="col-lg-8 col-md-8 text-left">
-              <img class="col-lg-12  mt-5 pt-5 sr-button" src='img/concept1-2.jpg'>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6 col-md-12 text-left">
-              <div class="service-box mt-5 pt-5 mx-5 sr-button" style="margin-left: -15%;">
-                <h2>In the age that data is power</h2>
-                <br>
-                <p>The Facebook data leak and Mark Zuckerberg's Senate hearings reminded us that data has become a form of private property and, like the other capital forms in the capitalist society, has become a source of social power. Facebook has been widely criticized for its opacue policy on acquisition and use of data from its users, and ,as it has gained a monopoly position on the market of social networks, market failure has happened — you almost have no other choice even if you found yourself one of the victims of the data leak. Fortunately, in the democracies, there are still some opportunities for supervision and regulation by the government – ​​even if the outlook still appears to be full of uncertainty.</p>
-
-                <br>
-                <br>
-                <h2>The resistance against the centralisation of power </h2>
-                <br>
-                <p>Compared to the companies like Facebook which provide services to users in exchange for their data, the states collect people’s data based on the legality and legitimacy of their own governance. Civil society tends to have a higher standard and more expectation for the transparency and openness on operation of state machine than the counterparts on internal corporate governance.</p>
-
-                <p>State machine utilises data from their citizens to plan policies and assess the outcome of implementations. Even though governments do not make captical out of data in general, the use of data still underlies and consolidates the political power of states and its centralisation.</p>
-
-                <p>If citizen's capability of acquiring data from the government is seriously limited and this asymmetry of power deteriorates, they would not be able to understand public affairs in a well-informed manner, and their trust in governments and capabilities of civil participation would be eroded.</p>
-
-                <p>This is why open data is so important in the age that information is power. It has also become a key indicator of the development of democracy. When people have the right and ability to know, they can have a common cognitive basis for discussing public affairs and thus enjoy better democratic participation qualities.</p>
-                <br>
-                <br>
-                <img class="img-fluid sr-button" src="img/concept3.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12I text-left">
-              <div class="service-box mt-5 pt-5 mx-5">
-                <br>
-                <br>
-                <div class="col-lg-12 sr-button">
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <h2>How to assess the quality of official statistics</h2>
-                  <br>
-                  <p>One of the most basic and oldest types of information collected by regimes is statistics. The mastery of various types statistical data reflects the degree of rationality and modernization of governance of a regime. In general, most of the common measurement methods focus on the quality of statistical data, such as the indicators used by the EU and by the OECD:</p>
-
-                  <ul><li><b>Relevance of Concept</b> (the relevance between statistical data and user demand)
-                  </li><li><b>Accuracy of Estimates</b> (reliability and validity)
-                  </li><li><b>Timeliness and Punctuality in Disseminating Results</b> (whether the data can describe long-term phenomenon? whether the publishing is immediate?)
-                  </li><li><b>Accessibility and Clarity of the Information</b> (whether the information is easily accessible to the public, whether the interface and the channels are accessible and user-friendly?)
-                  </li><li><b>Comparability</b> (whether the data is easily understood and analyzed by the user? Whether the metadata is properly provided or not)
-                  </li><li><b>Coherence</b> (whether the statistical products are logically connected to each other? For example, consistency of terms, statistical methods, etc.)
-                  </li><li><b>Completeness</b> (whether the issuers of data are trusted by the users)
-                  </li></ul>
-                  <p>In contrast, the usability for transforming data into information has been long neglected. It can also be seen as decentralisation of the power. How "data" can be used as valuable "information" is equally important as the the accessibility of data (Kenett & Shmueli, 2016). A good quality of official statistical data doesn’t guarantee qualified use/transformation of data. The current measurement for assessment may be just beneficial for the professionals who are familiar with how to utilise raw data for further analysis. </p>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                </div>
-                <div class="col-lg-12 sr-button">
-                  <h2>Design for decentralising the power of transforming data to information </h2>
-                  <br>
-                  <p>We can see a potential of design intervention for empowering data transformation. Design should lower the threshold for citizens to transform the data into forms comprehensive to them, and thus decentralise the power of data. The citizens should be able access, understand, and use the original data on their own, instead of merely being fed with post-truth within their social bubbles. The redesign of the official statistical database interface, which was built with IBM's <a href="http://www.carbondesignsystem.com" target="_blank">Carbon Design System</a>, is an attempt.</p>
-                  <br>
-                  <b>Reference</b><br>
-                  Eurostat. (2003). Assessment of quality in statistics — Definition of Quality in Statistics.<br>
-                  Kenett, R. S., & Shmueli, G. (2016). From quality to information quality in official statistics. Journal of Official Statistics, 32(4), 867–885.<br>
-                  OECD. (2003). Quality Framework for OECD Statistics.<br>
-                </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
-          </div>
-        </div>
-      </section>
-
-  <!-- principle -->
-  <section class="bg-white" id="principle">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Design Principle</h2>
-          <hr class="light my-4">
-          The project of redesign statfin is based on the three principles, which aim to decentralise the power of transforming data to information by lower the threshold of information production.
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <div class="col-lg-4 col-md-4 mx-auto text-center"><img class="img-fluid sr-button" src="img/p1.png" alt=""></div><br>
-            <h3 class="mb-3">Visualisation First</h3>
-            <p class="text-muted mb-0">Always visualise raw data at the first glance, than provide tools for further investigation.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <div class="col-lg-4 col-md-4 mx-auto text-center"><img class="img-fluid sr-button" src="img/p2.png" alt=""></div><br>
-            <h3 class="mb-3">Intuitive Interaction</h3>
-            <p class="text-muted mb-0">Reduce cognitive load and keep the interface intuitive and effective</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <div class="col-lg-4 col-md-4 mx-auto text-center"><img class="img-fluid sr-button" src="img/p3.png" alt=""></div><br>
-            <h3 class="mb-3">Seamless Experience</h3>
-            <p class="text-muted mb-0">Make experience consistent while producing, interacting, and viewing information</p>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </section>
 
-  <!-- comments -->
-  <section class="bg-primary" id="comment">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h1 class="section-heading text-white">Leave a comment</h1>
-          <hr class="my-4 light">
-          <p class="text-faded">I am keen to know how do you think of this project. Any comment would be highly appreciated!</p>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <form method="POST" action="https://formspree.io/imyentsen@gmail.com">
-            <input type="email" class="form-control"  name="email" placeholder="Your email"><br>
-            <textarea name="message"  class="form-control"  placeholder="Your message"></textarea><br>
-            <button type="submit" class="btn btn-secondary btn-xl sr-button">Send</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- contact -->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-white">About Me</h2>
-          <hr class="my-4">
-        </div>
-      </div>
-    </div>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-        <div class="col-lg-6 mx-auto text-center">
-          <h4 class="text-white">Yentsen Liu</h2><br>
-          <p class="mb-5 text-faded">Master Student in Collaborative and Industrial Design at Aalto University</br></br>I am an enthusiastic designer and learner with strong interests in digital design for activism, democracy, and governance. And, I am looking for job & collaboration opportunities!</p>
-          <p class="mb-5 text-faded"><i>This webpage is only for the showcase session of Visualizing Knowledge Conference 2018. Please visit my website for more of my works by scanning the QR code or by the address shown below. :-D</i></p>
-          <img class="img-fluid sr-button" src="img/QR.png" alt=""></br></br>
-          <p class="text-white"><b>yentsenliu.com</b></p></br></br>
-        </div>
-      </div>
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
 
-  </section>
+  </body>
 
-
-  <div id="mobile">
-  <h2>Oops! Σ(;ﾟдﾟ)</h2><br>This website contains animations that are not compatible with the restrictions of small screen formats. For an optimal experience, please go to your desktop browser.
-  </div>
-
-  <noscript>
-    <style type="text/css">
-      section.menu {
-        display: none;
-      }
-      section.maincontenu {
-        display: none;
-      }
-      .noscriptmsg {
-        display: block;
-        margin: 30px;
-        font-size: 30px;
-        line-height: 34px;
-      }
-    </style>
-    <div class="noscriptmsg">
-      <h2>Oops!</h2><br>This website contains complex visualizations that are not working if Javascript is not enabled. For an optimal navigation experience, go to your browser preferences and allow Javascript.
-    </div>
-  </noscript>
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.js"></script>
-
-
-</body>
 </html>
