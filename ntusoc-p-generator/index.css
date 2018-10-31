@@ -1,0 +1,262 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+html, body {
+    background-color: #fae8ff;
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    background-image: -webkit-linear-gradient(#ffdfa0 2px, transparent 2px),
+                    -webkit-linear-gradient(0, #ffdfa0 2px, transparent 2px),
+                    -webkit-linear-gradient(#ead19f 1px, transparent 1px),
+                    -webkit-linear-gradient(0, #ead19f 1px, transparent 1px);
+    background-image: -moz-linear-gradient(#ffdfa0 2px, transparent 2px),
+                    -moz-linear-gradient(0, #ffdfa0 2px, transparent 2px),
+                    -moz-linear-gradient(r#ead19f 1px, transparent 1px),
+                    -moz-linear-gradient(0,#ead19f 1px, transparent 1px);
+    background-image: linear-gradient(#ffdfa0 2px, transparent 2px),
+                    linear-gradient(90deg, #ffdfa0 2px, transparent 2px),
+                    linear-gradient(#ead19f 1px, transparent 1px),
+                    linear-gradient(90deg,#ead19f 1px, transparent 1px);
+    -pie-background: linear-gradient(#ffdfa0 2px, transparent 2px) -2px -2px / 100px,
+                    linear-gradient(90deg, #ffdfa0 2px, transparent 2px) -2px -2px / 100px,
+                    linear-gradient(#ead19f 1px, transparent 1px) -1px -1px / 20px,
+                    linear-gradient(90deg, #ead19f 1px, transparent 1px) -1px -1px / 20px,
+                    #269;
+    behavior: url(/pie/PIE.htc);
+    height: 100% !important;
+}
+
+.gen-title{
+    color:white;
+    text-shadow:3px 3px #000;
+    font-family: 'Kameron', serif;
+}
+
+#title_toolbox {
+  padding-top: 5px;
+  height: 250px;
+}
+
+.info-group{
+    position:relative;
+    bottom:0;
+}
+
+.basic-padding {
+    min-height: 100%;
+    padding: 30px 205px 30px 205px;
+    }
+
+.image_upload {
+    padding: 10px;
+    border: 2px dashed #ddd;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+#img_preview img { 
+    width: 50%;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+
+#preview{
+    top:3%;
+    overflow: hidden;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.bg-bg{
+    background-image: url("src/bg.svg");
+    background-position: 50% 50%;
+    background-size: 100%;
+    overflow: visible;
+}
+
+.img-decagon{
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);  
+}
+.img-nonagon{
+    -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.img-heptagon{
+    -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+.img-circle{
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+
+@media screen and (max-height: 800px) {
+    #preview{
+        top:1%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-height: 901px) {
+    #preview{
+        top:11%;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+
+}
+
+
+@page {
+  size: A2;
+  margin: 0;
+}
+@media print {
+    
+.col-print-1 {-webkit-box-flex:0;-ms-flex:0 0 8%;flex:0 0 8%;max-width:8% !important;  float:left;}
+.col-print-2 {-webkit-box-flex:0;-ms-flex:0 0 16%;flex:0 0 16%;max-width:16% !important; float:left;}
+.col-print-3 {-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25% !important; float:left;}
+.col-print-4 {-webkit-box-flex:0;-ms-flex:0 0 33%;flex:0 0 33%;max-width:33% !important; float:left;}
+.col-print-5 {-webkit-box-flex:0;-ms-flex:0 0 42%;flex:0 0 42%;max-width:42% !important; float:left;}
+.col-print-6 {-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50% !important; float:left;}
+.col-print-7 {-webkit-box-flex:0;-ms-flex:0 0 58%;flex:0 0 58%;max-width:58% !important; float:left;}
+.col-print-8 {-webkit-box-flex:0;-ms-flex:0 0 66%;flex:0 0 66%;max-width:66% !important; float:left;}
+.col-print-9 {-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75% !important; float:left;}
+.col-print-10{-webkit-box-flex:0;-ms-flex:0 0 83%;flex:0 0 83%;max-width:83% !important; float:left;}
+.col-print-11{-webkit-box-flex:0;-ms-flex:0 0 92%;flex:0 0 92%;max-width:92% !important; float:left;}
+.col-print-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100% !important; float:left;}
+
+.gen-title{
+    color:black;
+    text-shadow:none;
+}
+    .basic-padding{
+        padding: 30px 35px 30px 35px;
+    }
+
+    .vi-bottom{
+        position: absolute;
+        bottom: 50%;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        overflow: visible;
+    }
+
+    .info-bottom{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bg-bg{
+        background-image: url("src/bg-p.svg");
+        background-size: 100%;
+        overflow: visible;
+        height: 65%;
+        background-repeat: no-repeat;
+    }
+
+    /* ... 整體表格 ... */
+
+    input[type=text], .form-control {
+        border: none;
+        border-radius: 0px;
+        padding: 0;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+    select {
+        -webkit-appearance: none; 
+        -moz-appearance: none;
+        appearance: none;       /* remove default arrow */
+        background-image: url(...);   /* add custom arrow */
+        padding: 0;
+        border: none;
+        border-radius: 0px;
+        color: #524559;
+    }
+
+    .title-speaker-host{
+        font-size: 15px;
+        font-family: 'Kameron', serif;
+        color: #C1A55F;
+    }
+
+    .form-control{ color: #524559; }
+    .form-control::-webkit-input-placeholder { color: #524559; }  /* WebKit, Blink, Edge */
+    .form-control:-moz-placeholder { color: #524559; }  /* Mozilla Firefox 4 to 18 */
+    .form-control::-moz-placeholder { color: #524559; }  /* Mozilla Firefox 19+ */
+    .form-control:-ms-input-placeholder { color: #524559; }  /* Internet Explorer 10-11 */
+    .form-control::-ms-input-placeholder { color: #524559; }  /* Microsoft Edge */
+
+    select{
+        color: #524559 !important;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    /* ... 主題 ... */
+    input[id=topic] {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 95px;
+        vertical-align: text-bottom;
+    }
+    input[id=sub-topic] {
+        display: inline-block;
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 0;
+        margin-bottom: 30px;
+        margin-top:0;
+        vertical-align: text-top;
+    }
+
+    /* ... 講者 ... */
+    input[id=speaker] {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    input[id=info_speaker] {
+        margin-top:-10px;
+        font-size: 30px;
+    }
+
+    /* ... 主持 ... */
+    input[id=host] {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    #info_host{
+        margin-top:-10px;
+        font-size: 20px;
+    }
+
+    /* ... 時地 ... */
+    #date-picked, #time-chosen, #place{
+        font-size: 30px;
+        overflow: visible;
+        height: 50px;
+        font-family: 'Kameron', serif;
+        }
+
+    #date-picked{
+        color: #524559;
+        padding-left:5px;
+    }
+    
+  /* ... the rest of the rules ... */
+}
+
+
