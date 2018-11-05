@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Poster Generator for Thursday Sociology</title>
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <!-- Bootstrap JS and CSS + jQuery -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+  <!-- Bootstrap datepicker JS and CSS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css"></link>
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Kameron:700" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+  <div class="row bg-bg vi-bottom">
+    <div class="basic-padding col">
+      <!-- 上方標題 -->
+      <div class="row">
+        <div class="col-lg-10 gen-title">
+          <h3 class="d-print-none">Poster Generator for</h3>
+          <h2>Sociology Talks</h2>
+          Department of Sociology<br>
+          National Taiwan University<br><br>
+        </div>
+      </div>
+
+      <!-- 圖片 -->
+      <div class="row my-auto pt-3 pb-5">
+      </div>  
+
+    </div>
+  </div>
+
+  <div class="row info-bottom">
+    <div class="basic-padding col bg-white">
+
+      <!-- 表單開始 -->
+      <div class="row mt-5 info-group ">
+        <div class="col">
+          <h5 class="d-print-none">填入活動基本資料</h5>
+          <form id="poster_info"  enctype='application/json'>
+
+          <!-- 活動主題 -->
+          <div class="row mt-3">
+            <div class="col-3 d-print-none">
+              主題 Topic
+            </div> 
+            <div class="col">
+              <div class="form-group">
+                <label for="issueDescInput"><span class="d-print-none">標題 Title</span><span class="d-none d-print-inline  title-speaker-host">Topic</span></label>
+                <input type="text" class="form-control input-sm" name="topic" id="topic" placeholder="宗教傳統與地方自治傳統">
+              </div>
+              <!-- 活動副標題 -->
+              <div class="form-group">
+                <label for="issueDescInput" class="d-print-none">副標題 Sub-title</label>
+                <input type="text" class="form-control input-sm" name="sub-topic" id="sub-topic" placeholder="近代溫州的龍舟競渡與地方社會">
+              </div>
+            </div>
+          </div>
+
+          <!-- 活動講者 -->
+          <div class="row mt-3">
+            <div class="col-3 d-print-none">
+                講者 Speaker
+            </div> 
+            <div class="col-9 col-print-5">
+                <div class="form-group">
+                  <label for="issueDescInput"><span class="d-print-none">講者姓名 Full Name of Speaker</span><span class="d-none d-print-inline  title-speaker-host">Speaker</span></label>
+                  <input type="text" class="form-control input-sm" id="speaker" name="speaker" placeholder="羅士傑">
+                </div>
+                <!-- 講者資訊 -->
+                <div class="form-group">
+                  <label for="issueDescInput" class="d-print-none">講者資訊 Info of Speaker</label>
+                  <input type="text" class="form-control input-sm" name="info_speaker" id="info_speaker" placeholder="國立臺灣大學歷史學系 教授">
+                </div>
+            </div>
+            <div class="col-12 d-print-none mt-3"> </div> 
+          <!-- 活動主持 -->
+            <div class="col-3 d-print-none">
+                主持 Host
+            </div> 
+            <div class="col-9 col-print-7">
+              <div class="form-group">
+                <label for="issueDescInput"><span class="d-print-none">主持姓名 Full Name of Host</span><span class="d-none d-print-inline title-speaker-host">Host</span></label>
+                <input type="text" class="form-control input-sm" name="host" id="host" placeholder="黃克先">
+              </div>
+
+              <!-- 主持資訊 -->
+              <div class="form-group">
+                <label for="issueDescInput" class="d-print-none">主持人資訊 Info of Host</label>
+                <select class="form-control" id="info_host" name="info_host">
+                  <option value="國立臺灣大學社會學系 教授">國立臺灣大學社會學系 教授</option>
+                  <option value="國立臺灣大學社會學系 副教授">國立臺灣大學社會學系 副教授</option>
+                  <option value="國立臺灣大學社會學系 助理教授">國立臺灣大學社會學系 助理教授</option>
+                  <option value="國立臺灣大學社會學系 特聘教授">國立臺灣大學社會學系 特聘教授</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!-- 活動時間地點 -->
+          <div class="row mt-3">
+              <div class="col-5 d-none d-print-block "></div> 
+              <div class="col-3 d-print-none">
+                  時地資訊 Praciticalities
+              </div> 
+              <div class="col">
+                <div class="form-row">
+                  <div class="form-group date col-md-4 col-print-5">
+                    <label for="issueDescInput" class="d-print-none">活動日期 Date</label>
+                    <input type="text" name="date_picked" id="date-picked" class="form-control" data-date-autoclose="true" data-date-clear-btn="true" data-date-format="MM dd" data-date-today-highlight="true" data-provide="datepicker" placeholder="點我以選擇"/>
+                  </div>
+
+                  <!-- 活動起始時間 -->
+                  <div class="form-group col-md-4 col-print-3">
+                    <label for="issueDescInput" class="d-print-none">起始時間 Time</label>
+                  <select class="form-control" id="time-chosen" name="time_chosen">
+                    <option value="| 12:30">12:30</option>
+                    <option value="| 12:45">12:45</option>
+                    <option value="| 13:00">13:00</option>
+                    <option value="| 13:15">13:15</option>
+                    <option value="| 13:30">13:30</option>
+                    <option value="| 13:45">13:45</option>
+                    <option value="| 14:00">14:00</option>
+                  </select>
+                  </div>
+
+                  <!-- 活動地點 -->
+                  <div class="form-group col-md-4 col-print-4">
+                  <label for="issueDescInput" class="d-print-none">地點 Place</label>
+                  <select class="form-control" id="place" class="text-right" name="place">
+                    <option value="社會系 401">Room 401</option>
+                    <option value="社會系 101">Room 101</option>
+                    <option value="社會系 319">Room 319</option>
+                    <option value="社會系 318B">Room 318B</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        
+
+          <!-- 表單結束 -->
+
+          <!-- 產生與列印 -->
+          <button type="button" class="btn btn-success d-print-none mt-5 pull-right mb-3" value="Open Window" onclick="print();">列印 Print</button>
+
+          <!-- 簽名 -->
+          <div class="footer d-print-none mt-5">
+            <hr/>
+              <h5 class="mt-5">使用步驟</h5>
+              <p>1. 填表：填寫完表單，按下“列印 Print”。</p>
+              <p>2. 選擇紙張尺寸：為 A2 (寬 420 mm * 高 584 mm)。<br>如果電腦沒有內建 A2 尺寸，可以參考 <a href="http://support.epson.com.tw/i-faq/Windows%2010自訂紙張大小.pdf" target="blank">Windows</a> 或 <a href="https://support.apple.com/zh-tw/HT204135" target="blank">Mac (見第四點）</a> 的教學。<br>目前的網頁技術為保護使用者安全，無法從網站直接修改使用者的列印設定。<br>只要設定一次，未來直接在列印選單選擇之前設定的尺寸即可。</p>
+              <p>3. 另存 pdf ：在列印的對話框選擇另存 pdf，選擇儲存位置，即完成可以送印的檔案！</p>
+              <p>4. 製作 jpg 檔案：許多 pdf viewer 都可以把 pdf 檔案轉成 jpg，如果沒有，也可以使用 <a href="https://pdf2jpg.net/convert.php#.W9oBA6eB3OS" target="blank"> pdf2jpg 的網站 </a>，品質選 average 就可以了。</p>
+              <p>&copy <a href="https://yentsenliu.com">Yentsen Liu</a> 授權予 國立臺灣大學社會學系使用。Last Update: 31st Oct., 2018</p>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- FUNCTION: 以下JS腳本區 -->
+<!-- FUNCTION: 以下JS腳本區 -->
+
+<!-- FUNCTION: datepicker -->
+<script>
+$(document).ready(function() {
+    $('#datePicker')
+        .datepicker({
+            format: 'mm/dd/yyyy'
+        })
+        .on('changeDate', function(e) {
+            // Revalidate the date field
+            $('#eventForm').formValidation('revalidateField', 'date');
+        });
+
+    $('#eventForm').formValidation({
+        framework: 'bootstrap',
+        icon: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            name: {
+                validators: {
+                    notEmpty: {
+                        message: 'The name is required'
+                    }
+                }
+            },
+            date: {
+                validators: {
+                    notEmpty: {
+                        message: 'The date is required'
+                    },
+                    date: {
+                        format: 'MM/DD/YYYY',
+                        message: 'The date is not a valid'
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://chancejs.com/chance.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
