@@ -86,9 +86,9 @@
       color: white !important;
       font-weight: 700;
       background: $brand-01;
-      :hover{
-        background: $ui-01;
-      }
+    }
+    .nav-rfrd-link:hover{
+      background: $ui-01;
     }
 }
 .nav-rfrd-fixed{
