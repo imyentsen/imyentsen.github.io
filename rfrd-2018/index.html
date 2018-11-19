@@ -67,16 +67,16 @@
           </p>
         </div>
         <div class="col-lg-8 mx-auto text-white" id="nav-rfrd">
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">07</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">08</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">09</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">10</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">11</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">12</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">13</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">14</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">15</a>
-            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" href="#portfolio">16</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-07" onclick="prop_func(0);return false;" href="#viz">07</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-08" onclick="prop_func(1);return false;" href="#viz">08</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-09" onclick="prop_func(2);return false;" href="#viz">09</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-10" onclick="prop_func(3);return false;" href="#viz">10</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-11" onclick="prop_func(4);return false;" href="#viz">11</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-12" onclick="prop_func(5);return false;" href="#viz">12</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-13" onclick="prop_func(6);return false;" href="#viz">13</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-14" onclick="prop_func(7);return false;" href="#viz">14</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-15" onclick="prop_func(8);return false;" href="#viz">15</a>
+            <a class="nav-rfrd-link sr-button p-3 mx-1 my-2 rounded-circle" id="pro-16" onclick="prop_func(9);return false;" href="#viz">16</a>
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@
 </div>
 
 <!-- old&new -->
-  <section class="bg-dark" id="portfolio">
+  <section class="bg-dark" id="viz">
     
     <!-- step2 -->
     <div class="col-lg-10 col-sm-12 mx-auto pt-5 mb-5">
@@ -93,12 +93,12 @@
           <div class="col-lg-12 col-sm-12 px-0">
             <div class="row px-3 d-flex align-items-center">
               <div class="col-lg-4 col-sm-4 px-2">
-                <div class="section-heading text-white step-num">
+                <div class="section-heading text-white step-num" id="prop_num">
                   07
                 </div>
               </div>
               <div class="col-lg-8 col-sm-8 px-4">
-                <h2 class="section-heading text-white text-left">反空污公投</h2>
+                <h2 class="section-heading text-white text-left" id="prop_name">反空污公投</h2>
               </div>
             </div>
           </div>
@@ -157,9 +157,11 @@
           </div>
         </div>
       </div>
-        <div class="scatter-block">
+      <div class="row">
+        <div id="scatter-block">
           <div id="scp0" class="scatter"></div>
-        </div>  
+        </div>
+      </div>
 
     </div>
   </section>
