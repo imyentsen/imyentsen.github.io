@@ -66,10 +66,55 @@
   font-size: 14px;
 }
 
-.step-num {
-  font-size: 95px;
+#prop_num {
+  font-size: 65px;
   @include sans-serif-font;
   position:relative;
-  top:-30px;
+  top:0px;
+  padding-top: 60px;
+  height: 150px;
   font-weight: bold;
+  text-align: center;
+  background-image: url("../img/box_yellow.svg");
+  background-position: center top;
+  background-size: auto 100%;
+  overflow: visible;
+  background-repeat:  no-repeat;
+}
+
+#prop_name{
+  padding-top: 70px;
+}
+
+
+/*-arc-bar-*/
+
+.arc-bar {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform: rotate(45deg);
+  margin: 55px;
+}
+
+.full-arc {
+  width: inherit;
+  height: inherit;
+}
+
+.full-arc div {
+  width: inherit;
+  height: inherit;
+  border-radius: 99999px;
+}
+
+
+
+.slider {
+  width: 300px;
+}
+
+.state {
+  width: 300px;
+  text-align: center;
 }
