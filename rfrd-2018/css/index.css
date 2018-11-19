@@ -355,6 +355,7 @@ img::-moz-selection {
   border-left: 0.1em solid #D3D3D3;
   float: left;
   padding: 2em 2em 4em 2em;
+  background: #9a55fc;
 }
 
 .scatter:nth-child(2n+1) {
