@@ -28,7 +28,7 @@ d3.csv("data/data.csv").then(function(data) {
 		.call(g => g.select(".domain").remove());
 
 		z = d3.scaleThreshold()
-		.range(["#355C7D", "#F67280"]);
+		.range(["#e6f84d", "#9a55fc"]);
 
 		ind_vars.forEach(function(ind_var, i) {
 
@@ -44,7 +44,7 @@ d3.csv("data/data.csv").then(function(data) {
 
 			const svg = scpdiv.append("svg")
 			.attr("width", width + margin.left + margin.right)
-			.attr("height", height + margin.top + margin.bottom)
+			.attr("height", height + margin.top + margin.bottom + 10)
 			.append("g")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
