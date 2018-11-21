@@ -127,8 +127,11 @@
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
+.navbar-toggler {
+  border: none !important;
+}
+
 html, body {
-  background-color: #f8f9fa;
   height: 100% !important;
   width: 100%;
 }
@@ -228,6 +231,14 @@ img::-moz-selection {
   color: #7c38da !important;
 }
 
+#nav-ul-hide {
+  display: none;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  color: black !important;
+}
+
 header.masthead {
   padding-top: 12rem;
   padding-bottom: calc(10rem - 56px);
@@ -246,6 +257,9 @@ header.masthead h1 {
 }
 header.masthead p {
   font-weight: 300;
+}
+header.masthead #nav-rfrd a {
+  line-height: 4.2rem;
 }
 @media (min-width: 768px) {
   header.masthead p {
@@ -272,22 +286,21 @@ header.masthead p {
   }
 }
 
-#tesssst:before {
-  content: "dd";
-  animation: animate infinite 2s;
+#canvas {
+  position: absolute;
+  z-index: -5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f8f9fa;
 }
 
-@keyframes animate {
-  0% {
-    content: "12312312412";
-  }
-  50% {
-    content: "hello";
-  }
-  100% {
-    content: "yo!";
-  }
+svg {
+  display: block;
+  margin: 0 auto;
 }
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -363,9 +376,17 @@ header.masthead p {
   height: 150px;
   font-weight: bold;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #prop_num {
+    font-size: 50px;
+  }
+}
+#prop_num_bg {
   background-image: url("../img/box_yellow.svg");
-  background-position: center top;
-  background-size: auto 100%;
+  background-position: center 50%;
+  background-size: contain;
   overflow: visible;
   background-repeat: no-repeat;
 }

@@ -75,9 +75,18 @@
   height: 150px;
   font-weight: bold;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #prop_num {
+    font-size: 50px;
+  }
+}
+
+#prop_num_bg {
   background-image: url("../img/box_yellow.svg");
-  background-position: center top;
-  background-size: auto 100%;
+  background-position: center 50%;
+  background-size: contain;
   overflow: visible;
   background-repeat:  no-repeat;
 }
