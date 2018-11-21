@@ -136,6 +136,28 @@
       </g>
 
 
+      <path id="textCurve" stroke-miterlimit="10" stroke="transparent" fill="transparent" d="M10 2 159.3 39.8">         
+      <animate id="animation-to-check"  attributeName="d" dur="4000ms" values="
+      M10 2 159.3 39.8;
+      M10 2 159.3 39.8;
+      M8.3 39.3 33.3 1.8;
+      M8.3 39.3 33.3 1.8;
+      M52.8 2.4 52.8 55.6;
+      M52.8 2.4 52.8 55.6;
+      M83.2 1.9 136.4 40.2;
+      M83.2 1.9 136.4 40.2;
+      M10 2 159.3 39.8"   keyTimes="0;0.125;0.25;0.375;0.5;0.675;0.75;0.875;1" repeatCount="indefinite">
+      </animate>
+      </path>
+      <g transform="translate(240,390) scale(3 3)">
+        <text class="motion-text">   
+          <textPath xlink:href="#textCurve">10923 41092 73412 34012 304712 98351 23048 10923
+            <animate attributeName="startOffset" values="0;1" dur="500ms" repeatCount="indefinite" keyTimes="0;1" />
+          </textPath>  
+        </text>
+      </g>  
+
+
       <g transform="translate(260,410) scale(3 3)">
           <polygon stroke-miterlimit="10" fill="#e6f84d" points="14.6 49.8 10 2 159.3 39.8 155.4 67 116.9 61.1 72.4 94.9 2 86.9 14.6 49.8">
           <animate id="animation-to-check"  attributeName="points" dur="4000ms" values="
@@ -207,33 +229,33 @@
   </div>
 </div>
 
-<!-- Viz -->
+<!-- VIZ -->
   <section class="bg-dark" id="viz">
     
-    <!-- Map -->
-    <div class="col-lg-10 col-sm-12 mx-auto mb-5">
+    <!-- MAP -->
+    <div class="col-lg-10 col-md-11 mx-auto mb-5">
+
+      <!-- TITLE -->
       <div class="row">
-        <div class="col-lg-4 col-sm-6 px-3">
-          <div class="col-lg-12 col-sm-12 px-0">
-            <div class="row px-3 d-flex align-items-center">
-              <div class="col-lg-4 col-sm-4 px-2" id="prop_num_bg">
-                <div class="section-heading text-black my-5 align-bottom" id="prop_num">
-                  07
-                </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-4 col-md-12 " id="prop_num_bg">
+              <div class="section-heading text-black my-5 align-bottom" id="prop_num">
+                07
               </div>
-              <div class="col-lg-8 col-sm-8 px-4">
-                <h2 class="section-heading text-white text-left" id="prop_name">反空污公投</h2>
-              </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h2 class="section-heading text-white" id="prop_name">反空污公投</h2>
             </div>
           </div>
         </div>
       </div>
 
       <div class="row text-white">
-        <div class="col-lg-4 col-sm-6 px-3">
-          <div class="row mb-4 px-3">
-            <div class="row px-3">
-              <div class="project-category text-faded">
+        <div class="col-lg-4 col-sm-12">
+          <div class="row my-4">
+            <div class="col">
+              <div class="small-title text-faded">
                 <p>公投主文</p>
               </div>
               <div class="question py-3"><h4>你是否同意以「平均每年至少降低1%」之方式逐年降低火力發電廠發電量？</h4></div>
@@ -264,9 +286,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-8 col-sm-6 px-3">
-          <div class="row px-3">
-            <div class="project-category text-faded col-lg-12 px-0">
+        <div class="col-lg-1 col-sm-12"></div>
+        <div class="col-lg-7 col-sm-12">
+          <div class="row">
+            <div class="small-title text-faded">
               <p>台灣支持率分佈</p>
             </div>
             <div class="project-step_desc mb-4" id="step2_redesign">
@@ -279,12 +302,12 @@
     </div>
 
 
-    <!-- step4 -->
-    <div class="col-lg-10 col-sm-12 mx-auto pt-5 mb-5 text-white ">
+    <!-- AREAS -->
+    <div class="col-lg-10 col-sm-12 mx-auto pt-5 mb-5 text-white">
       <div class="row">
-        <div class="col-lg-8 col-sm-6 px-3">
+        <div class="col-lg-8 col-sm-6">
           <h2 class="section-heading text-left py-3">地方支持率與人口特徵</h2>
-          <div class="project-category text-faded">
+          <div class="small-title text-faded">
             <p>副標題拉拉</p>
           </div>
           <div class="project-step_desc py-3">

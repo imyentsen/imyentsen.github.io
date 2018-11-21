@@ -21,7 +21,6 @@
       width: 100%;
       transform: translateY(-50%);
       text-align: center;
-      .project-category,
       .project-name {
         padding: 0 15px;
         @include sans-serif-font;
@@ -39,7 +38,7 @@
   @media (min-width: 768px) {
     .portfolio-box-caption {
       .portfolio-box-caption-content {
-        .project-category {
+        .small-title {
           font-size: 16px;
         }
         .project-name {
@@ -50,7 +49,7 @@
   }
 }
 
-.project-category {
+.small-title {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -93,6 +92,7 @@
 
 #prop_name{
   padding-top: 70px;
+  text-align: center;
 }
 
 
