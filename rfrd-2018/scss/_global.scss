@@ -1,9 +1,10 @@
 // Global styling for this template 
 html, body {
+
   height: 100% !important;
-  width: 100%;
-  
-}
+  width: 100%;}
+
+
 
 body {
   @include serif-font;
@@ -25,10 +26,6 @@ a {
   &:hover {
     color: darken($brand-01, .1);
   }
-}
-
-p {
-  line-height: 1.7rem;
 }
 
 h1,
@@ -53,10 +50,6 @@ h6 {
   background-color: $white !important;
 }
 
-.bg-light {
-  background-color: $gray-100;
-}
-
 .text-faded {
   color: fade-out($white, .3);
 }
@@ -73,7 +66,6 @@ section {
 
 .section-heading {
   margin-top: 0;
-  line-height: 4rem !important;
 }
 
 ::-moz-selection {
