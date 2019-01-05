@@ -48,7 +48,7 @@ html, body {
 }
 
 .bg-bg{
-    background-image: url("../src/class.jpg");
+    background-image: url("../src/classroom.jpg");
     background-position: 50% 50%;
     background-size: 100%;
     overflow: visible;
@@ -141,7 +141,7 @@ html, body {
     }
 
     .bg-bg{
-        background-image: url("../src/class.jpg");
+        background-image: url("../src/classroom.jpg");
         background-size: 100% 45%;
         background-position: 50% 0%;
         overflow: visible;
