@@ -14,12 +14,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-
-
   <!-- Bootstrap datepicker JS and CSS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css"></link>
-  <link rel="stylesheet" href="index.css">
+
+  <!-- Swap Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/swapStyle.js"></script>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Kameron:700" rel="stylesheet">
@@ -31,26 +32,27 @@
 
 <div class="container-fluid">
   <div class="row bg-bg vi-bottom">
-    <div class="basic-padding col">
-      <!-- 上方標題 -->
-      <div class="row">
-        <div class="col-lg-10 gen-title">
-          <h3 class="d-print-none">Poster Generator for</h3>
-          <h2>Sociology Talks</h2>
-          Department of Sociology<br>
-          National Taiwan University<br><br>
+    <div class="bg-svg">
+      <div class="basic-padding col">
+        <!-- 上方標題 -->
+        <div class="row">
+          <div class="col-lg-10 gen-title mt-3">
+            <h3 class="d-print-none">Poster Generator for</h3>
+            <h2>Sociology Talks</h2>
+            Department of Sociology<br>
+            National Taiwan University<br><br>
+          </div>
         </div>
-      </div>
 
-      <!-- 圖片 -->
-      <div class="row my-auto pt-3 pb-5">
-      </div>  
+        <!-- 圖片 -->
+        <div class="row my-auto pt-3 pb-5"></div>  
 
+      </div>   
     </div>
   </div>
 
   <div class="row info-bottom">
-    <div class="basic-padding col bg-white">
+    <div class="basic-padding col">
 
       <!-- 表單開始 -->
       <div class="row mt-5 info-group ">
@@ -65,63 +67,76 @@
             </div> 
             <div class="col">
               <div class="form-group">
-                <label for="issueDescInput"><span class="d-print-none">標題 Title</span><span class="d-none d-print-inline  title-speaker-host">Topic</span></label>
-                <input type="text" class="form-control input-sm" name="topic" id="topic" placeholder="宗教傳統與地方自治傳統">
+                <label for="issueDescInput"><span class="d-print-none">標題 Title</span><span class="d-none d-print-none title-speaker-host">Topic</span></label>
+                <input type="text" class="form-control input-sm" name="topic" id="topic" placeholder="虛擬的更可信">
               </div>
               <!-- 活動副標題 -->
               <div class="form-group">
                 <label for="issueDescInput" class="d-print-none">副標題 Sub-title</label>
-                <input type="text" class="form-control input-sm" name="sub-topic" id="sub-topic" placeholder="近代溫州的龍舟競渡與地方社會">
+                <input type="text" class="form-control input-sm" name="sub-topic" id="sub-topic" placeholder="網路小說中的價值構建與公民空間">
               </div>
-            </div>
+            </div> 
           </div>
 
           <!-- 活動講者 -->
           <div class="row mt-3">
             <div class="col-3 d-print-none">
-                講者 Speaker
+                講者與主持 Speaker & host
             </div> 
-            <div class="col-9 col-print-5">
+            <div class="col-9 col-print-7">
                 <div class="form-group">
                   <label for="issueDescInput"><span class="d-print-none">講者姓名 Full Name of Speaker</span><span class="d-none d-print-inline  title-speaker-host">Speaker</span></label>
-                  <input type="text" class="form-control input-sm" id="speaker" name="speaker" placeholder="羅士傑">
+                  <input type="text" class="form-control input-sm" id="speaker" name="speaker" placeholder="田曉麗">
                 </div>
                 <!-- 講者資訊 -->
                 <div class="form-group">
                   <label for="issueDescInput" class="d-print-none">講者資訊 Info of Speaker</label>
-                  <input type="text" class="form-control input-sm" name="info_speaker" id="info_speaker" placeholder="國立臺灣大學歷史學系 教授">
+                  <input type="text" class="form-control input-sm" name="info_speaker" id="info_speaker" placeholder="香港大學社會學系 副教授">
+                </div>
+                <div class="form-group">
+                  <label for="issueDescInput"><span class="d-print-none">主持姓名 Full Name of Host</span><span class="d-none d-print-inline title-speaker-host">Host</span></label>
+                  <input type="text" class="form-control input-sm" name="host" id="host" placeholder="柯志哲">
+                </div>
+  
+                <!-- 主持資訊 -->
+                <div class="form-group">
+                  <label for="issueDescInput" class="d-print-none">主持人資訊 Info of Host</label>
+                  <select class="form-control" id="info_host" name="info_host">
+                    <option value="國立臺灣大學社會學系 教授">國立臺灣大學社會學系 教授</option>
+                    <option value="國立臺灣大學社會學系 副教授">國立臺灣大學社會學系 副教授</option>
+                    <option value="國立臺灣大學社會學系 助理教授">國立臺灣大學社會學系 助理教授</option>
+                    <option value="國立臺灣大學社會學系 特聘教授">國立臺灣大學社會學系 特聘教授</option>
+                  </select>
                 </div>
             </div>
             <div class="col-12 d-print-none mt-3"> </div> 
-          <!-- 活動主持 -->
+          <!-- 活動與講者簡介 -->
             <div class="col-3 d-print-none">
-                主持 Host
+              關於 About 
             </div> 
-            <div class="col-9 col-print-7">
+            <div class="col-9 col-print-5">
               <div class="form-group">
-                <label for="issueDescInput"><span class="d-print-none">主持姓名 Full Name of Host</span><span class="d-none d-print-inline title-speaker-host">Host</span></label>
-                <input type="text" class="form-control input-sm" name="host" id="host" placeholder="黃克先">
+                <label for="issueDescInput"><span class="d-print-none">演講內容 About this talk</span><span class="d-none d-print-inline  title-speaker-host">About this talk</span></label>
+                <textarea rows="10" cols="50" name="content" form="usrform" class="form-control input-sm col-print-12 h-35 no-scroll" placeholder=
+                "閱讀網路小說已經成為中國網路使用者的日常生活的重要組成部分。為什麼唯有在當今的中國社會， 網路小說如此興盛，並且成為其他文化創意產業，如遊戲、電視劇、電影等的重要創意來源？本研究探索閱讀網路小說與網路使用者的日常體驗的關係，以及網路小說的創作模式和線民的價值訴求如何形塑網路小說中的價值建構。例如，近年來網路小說越來越有虛擬化的傾向，也就是說，以完全虛擬的世界而非現實的當代人類社會作為故事的背景，這包括網路小說中最流行的幾大類型：玄幻，奇幻，和穿越。基於長達8年的網上民族志研究，對有代表性的流行網路小說的內容分析，以及對網路小說讀者和作者的深度訪談，本研究解析網路文學這一中國互聯網獨特的現象對瞭解當今中國的啟示和反思。"
+                ></textarea>
               </div>
-
-              <!-- 主持資訊 -->
-              <div class="form-group">
-                <label for="issueDescInput" class="d-print-none">主持人資訊 Info of Host</label>
-                <select class="form-control" id="info_host" name="info_host">
-                  <option value="國立臺灣大學社會學系 教授">國立臺灣大學社會學系 教授</option>
-                  <option value="國立臺灣大學社會學系 副教授">國立臺灣大學社會學系 副教授</option>
-                  <option value="國立臺灣大學社會學系 助理教授">國立臺灣大學社會學系 助理教授</option>
-                  <option value="國立臺灣大學社會學系 特聘教授">國立臺灣大學社會學系 特聘教授</option>
-                </select>
+              <p class="d-none d-print-inline title-speaker-host">.</p>
+              <div class="form-group top-print">
+                <label for="issueDescInput"><span class="d-print-none">講者介紹 About the speaker</span><span class="d-none d-print-inline title-speaker-host">About the speaker</span></label>
+                <textarea rows="10" cols="50" name="content" form="usrform" class="form-control input-sm col-print-12 h-35 no-scroll" placeholder=
+                "田曉麗是美國芝加哥大學社會學博士，現為香港大學社會學系副教授。她的研究興趣包括：互聯網與社會互動研究，符號互動論，微觀社會學，知識社會學，認知社會學，以及社會語言學。她致力於研究既定思維模式與行為規範影響人們應對環境變化的方式，以及對新資訊的處理方式。她的研究成果發表在American Journal of Sociology; Qualitative Sociology; Modern China; Information, Communication and Society; Journal of Contemporary Ethnography; Media, Culture and Society; Symbolic Interaction, Journal of Social and Personal Relationships等期刊上。"
+                ></textarea>
               </div>
             </div>
           </div>
+         
           <!-- 活動時間地點 -->
           <div class="row mt-3">
-              <div class="col-5 d-none d-print-block "></div> 
               <div class="col-3 d-print-none">
                   時地資訊 Praciticalities
               </div> 
-              <div class="col">
+              <div class="col col-print-6">
                 <div class="form-row">
                   <div class="form-group date col-md-4 col-print-5">
                     <label for="issueDescInput" class="d-print-none">活動日期 Date</label>
@@ -172,7 +187,7 @@
               <p>2. 選擇紙張尺寸：為 A2 (寬 420 mm * 高 584 mm)。<br>如果電腦沒有內建 A2 尺寸，可以參考 <a href="http://support.epson.com.tw/i-faq/Windows%2010自訂紙張大小.pdf" target="blank">Windows</a> 或 <a href="https://support.apple.com/zh-tw/HT204135" target="blank">Mac (見第四點）</a> 的教學。<br>目前的網頁技術為保護使用者安全，無法從網站直接修改使用者的列印設定。<br>只要設定一次，未來直接在列印選單選擇之前設定的尺寸即可。</p>
               <p>3. 另存 pdf ：在列印的對話框選擇另存 pdf，選擇儲存位置，即完成可以送印的檔案！</p>
               <p>4. 製作 jpg 檔案：許多 pdf viewer 都可以把 pdf 檔案轉成 jpg，如果沒有，也可以使用 <a href="https://pdf2jpg.net/convert.php#.W9oBA6eB3OS" target="blank"> pdf2jpg 的網站 </a>，品質選 average 就可以了。</p>
-              <p>&copy <a href="https://yentsenliu.com">Yentsen Liu</a> 授權予 國立臺灣大學社會學系使用。Last Update: 31st Oct., 2018</p>
+              <p>&copy <a href="https://yentsenliu.com">Yentsen Liu</a> 授權予 國立臺灣大學社會學系使用。Last Update: 4th Jan., 2019</p>
           </div>
         </div>      
       </div>
@@ -184,51 +199,10 @@
 
 
 <!-- FUNCTION: 以下JS腳本區 -->
-<!-- FUNCTION: 以下JS腳本區 -->
 
-<!-- FUNCTION: datepicker -->
-<script>
-$(document).ready(function() {
-    $('#datePicker')
-        .datepicker({
-            format: 'mm/dd/yyyy'
-        })
-        .on('changeDate', function(e) {
-            // Revalidate the date field
-            $('#eventForm').formValidation('revalidateField', 'date');
-        });
+<script src="js/datePicker.js"></script>
 
-    $('#eventForm').formValidation({
-        framework: 'bootstrap',
-        icon: {
-            valid: 'glyphicon glyphicon-ok',
-            invalid: 'glyphicon glyphicon-remove',
-            validating: 'glyphicon glyphicon-refresh'
-        },
-        fields: {
-            name: {
-                validators: {
-                    notEmpty: {
-                        message: 'The name is required'
-                    }
-                }
-            },
-            date: {
-                validators: {
-                    notEmpty: {
-                        message: 'The date is required'
-                    },
-                    date: {
-                        format: 'MM/DD/YYYY',
-                        message: 'The date is not a valid'
-                    }
-                }
-            }
-        }
-    });
-});
-</script>
-
+<!-- FUNCTION: CDN JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://chancejs.com/chance.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
