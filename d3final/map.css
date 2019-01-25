@@ -1,0 +1,61 @@
+body {
+	margin: 5px;
+	text-align: center;
+	background-color: #000000;
+  }
+  
+  svg {
+	width: calc(100% -0.5em);
+	outline: 1px solid rgb(28, 18, 59);
+	background-color: rgb(23, 14, 48);
+	stroke-linejoin: round;
+	stroke-linecap: round;
+  }
+  
+/* MAP */  
+  path.feature {
+	stroke-width: 1px;
+	stroke: rgb(45, 11, 85);
+	fill: #524580;
+  }
+
+  path.feature_clicked {
+	stroke-width: 1px;
+	stroke: rgb(31, 24, 32);
+	fill: #83a5ad;
+  }
+
+
+/* CAPITAL */  
+  circle.capitals {
+	  fill: #e094be;
+  }
+
+
+/* LABEL */
+  text.labels {
+	font-size: 4px;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	fill: #ddd;
+	}
+
+
+/* HTML TEXT */
+
+#masthead{
+	margin: 10% 20% 5% 20%;
+}
+
+  h1{
+	color: white;
+	font-family: Montserrat, sans-serif;
+	line-height: 45px;
+  }
+  
+  p, a {
+	color: white;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+  }
+  
+  

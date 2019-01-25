@@ -1,0 +1,101 @@
+Direction of investment,Country,Data,2004,2005,2006,2007,2008,2009,2010,2011,2012
+Inward,Argentina,Flow,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Inward,Austria,Flow,-36,8,105,135,26,62,-425,45,-20
+Inward,Australia,Flow,2,-1,-2,0,-9,89,15,-11,33
+Inward,Belgium,Flow,372,78,157,1164,412,-731,-1059,-2028,115
+Inward,Brazil,Flow,2,-2,-3,13,-21,6,2,-11,30
+Inward,Canada,Flow,60,-48,110,182,-217,-7,50,-74,96
+Inward,Switzerland,Flow,232,-231,-107,62,-257,-66,82,109,165
+Inward,Chile,Flow,NA,NA,NA,5,1,0,1,0,-1
+Inward,China,Flow,9,-1,-6,-3,-63,26,55,-51,83
+Inward,Cyprus,Flow,NA,NA,NA,NA,0,-47,-2,12,14
+Inward,Czech Republic,Flow,1,1,1,1,2,0,2,0,7
+Inward,Germany,Flow,368,-70,573,-60,968,-1035,2469,1327,-2737
+Inward,Denmark,Flow,-162,-37,326,4324,9,72,163,-35,550
+Inward,Estonia,Flow,14,-2,-32,-28,-58,31,44,64,-54
+Inward,Spain,Flow,54,47,13,17,45,24,-8,3,48
+Inward,France,Flow,4,233,144,202,60,-126,-51,272,-215
+Inward,United Kingdom,Flow,-45,-295,541,711,-5442,59,-308,28,572
+Inward,Greece,Flow,-18,19,-5,1,9,-9,0,5,-2
+Inward,Hong Kong,Flow,3,2,-45,-34,60,-32,12,0,14
+Inward,Hungary,Flow,-1,-3,106,-5,-15,-6,8,-26,-25
+Inward,Indonesia,Flow,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Inward,Ireland,Flow,19,-352,311,-252,-68,-22,275,293,-180
+Inward,India,Flow,NA,NA,NA,NA,-14,-5,2,-51,28
+Inward,Iceland,Flow,-17,1,110,376,-10,NA,NA,30,-100
+Inward,Italy,Flow,16,179,180,98,82,-159,-4,68,-49
+Inward,Japan,Flow,-128,-60,66,-79,-55,31,24,-13,556
+Inward,Korea,Flow,-6,6,-3,13,-21,14,3,-23,25
+Inward,Lithuania,Flow,NA,NA,NA,NA,NA,-7,1,0,5
+Inward,Luxembourg,Flow,376,-8,-55,-155,-23,992,1486,276,-247
+Inward,Latvia,Flow,5,-1,-3,-10,-10,3,3,0,6
+Inward,Mexico,Flow,NA,NA,NA,NA,NA,1,0,1,0
+Inward,Malaysia,Flow,0,1,1,-4,3,74,-74,2,-1
+Inward,Netherlands,Flow,72,105,1053,1325,141,1674,1979,840,2271
+Inward,Norway,Flow,-212,356,-163,135,-377,283,-226,-30,441
+Inward,New Zealand,Flow,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Inward,Philippines,Flow,NA,NA,NA,NA,NA,NA,NA,NA,0
+Inward,Poland,Flow,-20,-12,-184,68,-76,23,4,-18,107
+Inward,Portugal,Flow,-4,6,-2,3,4,-9,0,6,-6
+Inward,Romania,Flow,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Inward,Russian Federation,Flow,48,38,19,64,-35,138,77,60,9
+Inward,Sweden,Flow,1182,3794,2386,669,4289,-290,1229,626,901
+Inward,Singapore,Flow,0,NA,NA,NA,NA,NA,NA,3,-4
+Inward,Slovenia,Flow,NA,NA,NA,0,2,-3,0,2,-2
+Inward,Slovakia,Flow,NA,NA,NA,NA,2,-3,4,3,-5
+Inward,Thailand,Flow,NA,NA,NA,NA,NA,2,0,2,-2
+Inward,Turkey,Flow,2,-2,-3,-16,-20,9,2,-8,56
+Inward,Ukraine,Flow,NA,NA,NA,-13,-19,6,2,-5,11
+Inward,United States,Flow,100,203,115,31,48,-666,-16,389,490
+Inward,World (all entities),Flow,2267,3821,6099,9096,-769,517,5556,1834,3233
+Inward,South Africa,Flow,NA,NA,NA,-16,-18,7,2,-4,9
+Outward,Argentina,Flow,23,-9,-19,NA,13,0,0,-1,34
+Outward,Austria,Flow,-75,194,353,-201,97,32,239,-65,38
+Outward,Australia,Flow,15,0,-8,-85,26,-94,308,-615,128
+Outward,Belgium,Flow,-47,-26,7557,4225,4568,694,2430,-845,-13807
+Outward,Brazil,Flow,116,-38,23,125,36,38,-79,54,36
+Outward,Canada,Flow,108,977,-16,-276,214,-78,-23,110,-68
+Outward,Switzerland,Flow,-609,-3872,-219,1563,-4189,1821,-1157,-569,304
+Outward,Chile,Flow,0,4,5,2,5,-2,18,24,17
+Outward,China,Flow,450,90,39,572,-53,845,1481,-1479,-581
+Outward,Cyprus,Flow,2,16,3,3,111,160,-13,-27,-328
+Outward,Czech Republic,Flow,25,-9,-10,-34,-8,-39,9,35,1
+Outward,Germany,Flow,-406,-434,478,-339,-501,-501,583,-104,1768
+Outward,Denmark,Flow,30,178,70,95,64,-174,159,151,-80
+Outward,Estonia,Flow,52,411,133,-251,-53,-56,225,-15,-98
+Outward,Spain,Flow,-72,-175,19,-37,-22,253,88,103,-59
+Outward,France,Flow,-110,369,-123,-246,-501,-54,59,-207,-230
+Outward,United Kingdom,Flow,39,372,-159,-364,84,-207,28,28,1419
+Outward,Greece,Flow,8,10,-17,-6,4,-5,4,-5,-7
+Outward,Hong Kong,Flow,1,25,-27,-65,19,24,10,-3,-30
+Outward,Hungary,Flow,151,288,-479,82,175,92,92,-767,-119
+Outward,Indonesia,Flow,6,29,28,-82,41,33,-38,5,-7
+Outward,Ireland,Flow,-572,-61,23,289,-19,-28,11,34,10577
+Outward,India,Flow,11,20,119,93,222,243,157,185,-31
+Outward,Iceland,Flow,NA,NA,NA,NA,NA,NA,NA,NA,5
+Outward,Italy,Flow,11,83,209,113,-184,-71,0,-10,-34
+Outward,Japan,Flow,32,41,-28,-12,-23,-55,38,-9,-9
+Outward,Korea,Flow,-16,14,-138,-129,27,-151,21,34,-13
+Outward,Lithuania,Flow,-31,58,62,-61,32,-113,38,34,1
+Outward,Luxembourg,Flow,35,NA,-4206,961,-253,-168,33,819,-817
+Outward,Latvia,Flow,67,88,-202,-14,-22,-179,6,17,-38
+Outward,Mexico,Flow,-51,127,-21,-79,-29,-4,-19,78,-21
+Outward,Malaysia,Flow,12,25,25,-8,-27,-1,33,15,-5
+Outward,Netherlands,Flow,808,1613,938,1098,1345,103,646,1371,5545
+Outward,Norway,Flow,-85,85,-393,-10,219,-120,492,1141,-106
+Outward,New Zealand,Flow,5,9,2,-15,3,22,2,-1,-20
+Outward,Philippines,Flow,2,0,0,-3,0,1,3,-2,0
+Outward,Poland,Flow,122,194,43,176,133,-192,138,199,163
+Outward,Portugal,Flow,63,2,51,-11,-1,-15,-40,46,-14
+Outward,Romania,Flow,-3,5,19,26,60,22,58,-50,-16
+Outward,Russian Federation,Flow,150,71,404,345,763,-313,691,575,318
+Outward,Sweden,Flow,-1699,-1829,-930,-1184,-869,2870,1020,2959,2535
+Outward,Singapore,Flow,72,40,135,10,87,210,419,75,129
+Outward,Slovenia,Flow,3,0,1,15,-15,-4,5,3,13
+Outward,Slovakia,Flow,0,1,7,57,10,22,70,2,28
+Outward,Thailand,Flow,11,-41,-40,-22,-16,-17,0,-1,3
+Outward,Turkey,Flow,28,27,165,59,37,-101,47,34,-121
+Outward,Ukraine,Flow,2,2,9,37,17,6,-14,29,2
+Outward,United States,Flow,474,106,-1,-848,4569,-1056,-815,268,-351
+Outward,World (all entities),Flow,-941,3344,3824,5412,6380,4029,7693,3605,5871
+Outward,South Africa,Flow,15,2,11,7,4,12,8,20,32

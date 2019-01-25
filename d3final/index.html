@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My map</title>
+<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="map.css">
+
+    
+<script src="https://unpkg.com/topojson-client@3.0.0/dist/topojson-client.min.js"></script>
+<style></style>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300, 700" rel="stylesheet">
+</head>
+<body>
+    <div id="masthead">
+        <h1>The inward foreign direct investment flow of Finland from 2004 to 2017</h1>
+        <p>A visualisation of the investment by foreign companies purchases another business or establishes new operations for an existing business in Finland.</p>
+        <p>Unit: EUR million<br><br></p>
+    </div>
+    <svg viewBox="0 0 960 800">
+            <!--  we'll put SVG <path> elements here with D3js -->
+    </svg>
+    
+
+    Source:
+      <a href="http://tilastokeskus.fi/til/ssij/index_en.html" target="_blank">
+        Statfin database, Statistics Finland 
+      </a>
+    
+    <script type="text/javascript" src="inward.js"></script>
+    <script type="text/javascript" src="capitals.js"></script>
+    <script type="text/javascript" src="world-110m.js"></script>
+    <script type="text/javascript" src="d3_map.js"></script>
+
+
+</body>
+</html>
