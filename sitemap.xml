@@ -16,4 +16,5 @@
 <url> <loc>https://yentsenliu.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yentsenliu.com/fakeindex/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yentsenliu.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yentsenliu.com/updates/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
