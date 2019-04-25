@@ -18,9 +18,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css"></link>
 
-  <!-- Swap Styles -->
+  <!-- Styles -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <script src="js/swapStyle.js"></script>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Kameron:700" rel="stylesheet">
@@ -31,16 +30,16 @@
 <body>
 
 <div class="container-fluid">
-  <div class="row bg-bg vi-bottom">
+  <div class="row bg-bg vi">
     <div class="bg-svg">
       <div class="basic-padding col">
         <!-- 上方標題 -->
         <div class="row">
           <div class="col-lg-10 gen-title mt-3">
             <h3 class="d-print-none">Poster Generator for</h3>
-            <h2>Sociology Talks</h2>
-            Department of Sociology<br>
-            National Taiwan University<br><br>
+            <div id="soc-logo">Sociology Talks</div>
+            <div id="soc-org"><span class="d-none d-print-inline">[Sociology Talks]<br></span>Department of Sociology,<br> National Taiwan University<br><br>
+            </div>
           </div>
         </div>
 
@@ -61,13 +60,13 @@
           <form id="poster_info"  enctype='application/json'>
 
           <!-- 活動主題 -->
-          <div class="row mt-3">
+          <div class="row">
             <div class="col-3 d-print-none">
               主題 Topic
             </div> 
-            <div class="col">
+            <div class="col col-print-11">
               <div class="form-group">
-                <label for="issueDescInput"><span class="d-print-none">標題 Title</span><span class="d-none d-print-none title-speaker-host">Topic</span></label>
+                <label for="issueDescInput"><span class="d-print-none">標題 Title</span><span class="d-none d-print-inline title-speaker-host">Topic</span></label>
                 <input type="text" class="form-control input-sm" name="topic" id="topic" placeholder="虛擬的更可信">
               </div>
               <!-- 活動副標題 -->
@@ -101,12 +100,7 @@
                 <!-- 主持資訊 -->
                 <div class="form-group">
                   <label for="issueDescInput" class="d-print-none">主持人資訊 Info of Host</label>
-                  <select class="form-control" id="info_host" name="info_host">
-                    <option value="國立臺灣大學社會學系 教授">國立臺灣大學社會學系 教授</option>
-                    <option value="國立臺灣大學社會學系 副教授">國立臺灣大學社會學系 副教授</option>
-                    <option value="國立臺灣大學社會學系 助理教授">國立臺灣大學社會學系 助理教授</option>
-                    <option value="國立臺灣大學社會學系 特聘教授">國立臺灣大學社會學系 特聘教授</option>
-                  </select>
+                  <input type="text" class="form-control input-sm" name="info_host" id="info-host" placeholder="臺灣大學社會學系 教授">
                 </div>
             </div>
             <div class="col-12 d-print-none mt-3"> </div> 
@@ -114,17 +108,17 @@
             <div class="col-3 d-print-none">
               關於 About 
             </div> 
-            <div class="col-9 col-print-5">
+            <div class="col-9 col-print-5 mb-5">
               <div class="form-group">
                 <label for="issueDescInput"><span class="d-print-none">演講內容 About this talk</span><span class="d-none d-print-inline  title-speaker-host">About this talk</span></label>
-                <textarea rows="10" cols="50" name="content" form="usrform" class="form-control input-sm col-print-12 h-35 no-scroll" placeholder=
+                <textarea rows="10" cols="50" name="content" form="usrform" class="form-control input-sm col-print-12 h-45 no-scroll" id="desc-talk" placeholder=
                 "閱讀網路小說已經成為中國網路使用者的日常生活的重要組成部分。為什麼唯有在當今的中國社會， 網路小說如此興盛，並且成為其他文化創意產業，如遊戲、電視劇、電影等的重要創意來源？本研究探索閱讀網路小說與網路使用者的日常體驗的關係，以及網路小說的創作模式和線民的價值訴求如何形塑網路小說中的價值建構。例如，近年來網路小說越來越有虛擬化的傾向，也就是說，以完全虛擬的世界而非現實的當代人類社會作為故事的背景，這包括網路小說中最流行的幾大類型：玄幻，奇幻，和穿越。基於長達8年的網上民族志研究，對有代表性的流行網路小說的內容分析，以及對網路小說讀者和作者的深度訪談，本研究解析網路文學這一中國互聯網獨特的現象對瞭解當今中國的啟示和反思。"
                 ></textarea>
               </div>
               <p class="d-none d-print-inline title-speaker-host">.</p>
               <div class="form-group top-print">
                 <label for="issueDescInput"><span class="d-print-none">講者介紹 About the speaker</span><span class="d-none d-print-inline title-speaker-host">About the speaker</span></label>
-                <textarea rows="10" cols="50" name="content" form="usrform" class="form-control input-sm col-print-12 h-35 no-scroll" placeholder=
+                <textarea rows="10" cols="50" name="content" form="usrform" class="form-control input-sm col-print-12 h-45 no-scroll" id="desc-speaker" placeholder=
                 "田曉麗是美國芝加哥大學社會學博士，現為香港大學社會學系副教授。她的研究興趣包括：互聯網與社會互動研究，符號互動論，微觀社會學，知識社會學，認知社會學，以及社會語言學。她致力於研究既定思維模式與行為規範影響人們應對環境變化的方式，以及對新資訊的處理方式。她的研究成果發表在American Journal of Sociology; Qualitative Sociology; Modern China; Information, Communication and Society; Journal of Contemporary Ethnography; Media, Culture and Society; Symbolic Interaction, Journal of Social and Personal Relationships等期刊上。"
                 ></textarea>
               </div>
@@ -201,6 +195,7 @@
 <!-- FUNCTION: 以下JS腳本區 -->
 
 <script src="js/datePicker.js"></script>
+<script src="js/swapStyle.js"></script>
 
 <!-- FUNCTION: CDN JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

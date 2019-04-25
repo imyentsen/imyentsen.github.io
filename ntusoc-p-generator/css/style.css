@@ -9,6 +9,10 @@ html, body {
     font-family: 'Kameron', serif;
 }
 
+#soc-logo{
+    font-size:1.7em;
+}
+
 #title_toolbox {
   padding-top: 5px;
   height: 250px;
@@ -54,23 +58,6 @@ html, body {
     overflow: visible;
 }
 
-.img-decagon{
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);  
-}
-.img-nonagon{
-    -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
-    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
-}
-.img-heptagon{
-    -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-}
-.img-circle{
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
-}
-
 
 @media screen and (max-height: 800px) {
     #preview{
@@ -92,10 +79,11 @@ html, body {
 
 
 @page {
-  size: A2;
+  size: A1;
   margin: 0;
 }
 @media print {
+.form-control{background-color: transparent;}
 .col-print-1 {-webkit-box-flex:0;-ms-flex:0 0 8%;flex:0 0 8%;max-width:8% !important;  float:left;}
 .col-print-2 {-webkit-box-flex:0;-ms-flex:0 0 16%;flex:0 0 16%;max-width:16% !important; float:left;}
 .col-print-3 {-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25% !important; float:left;}
@@ -114,145 +102,175 @@ html, body {
     color:black;
     text-shadow:none;
 }
-    .basic-padding{
-        padding: 30px 35px 30px 35px;
+
+#soc-logo{
+    font-size:5em;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    margin-left: 40px;
+    margin-top: -510px;
+}
+#soc-org{
+    font-size:1.5em;
+    margin-left: 50px;
+    margin-top: -220px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.basic-padding{
+    padding: 500px 85px 30px 35px;
+}
+
+.vi{
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: visible;
     }
 
-    .vi-bottom{
-        position: absolute;
-        bottom: 0%;
-        left: 0px;
-        right: 0px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        top: 0;
-        overflow: visible;
-        }
+.info-bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-    .info-bottom{
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
+.bg-bg{
+    background-image: url("../src/classroom.jpg");
+    background-size: 100% 40%;
+    background-position: 0% 0%;
+    overflow: visible;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.bg-svg{
+    height: 28%;
+    width: 55%;
+    overflow: visible;
+    background-size: 100% 100%;
+    background-image: url("../src/pattern1.svg");
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
 
-    .bg-bg{
-        background-image: url("../src/classroom.jpg");
-        background-size: 100% 45%;
-        background-position: 50% 0%;
-        overflow: visible;
-        height: 100%;
-        background-repeat: no-repeat;
-    }
-    .bg-svg{
-        height: 45%;
-        background-size: 100% 100%;
-        background-image: url("../src/pattern1.svg");
-        background-repeat: no-repeat;
-    }
 
-    /* ... 整體表格 ... */
+/* ... 整體表格 ... */
 
-    input[type=text], .form-control {
-        border: none;
-        border-radius: 0px;
-        padding: 0;
-        font-family: 'Noto Sans TC', sans-serif;
-    }
-    select {
-        -webkit-appearance: none; 
-        -moz-appearance: none;
-        appearance: none;       /* remove default arrow */
-        background-image: url(...);   /* add custom arrow */
-        padding: 0;
-        border: none;
-        border-radius: 0px;
-        color: #121212;
-    }
+input[type=text], .form-control {
+    border: none;
+    border-radius: 0px;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;       /* remove default arrow */
+    background-image: url(...);   /* add custom arrow */
+    padding: 0;
+    border: none;
+    border-radius: 0px;
+    color: #121212;
+}
 
-    .title-speaker-host{
-        font-size: 15px;
-        font-family: 'Kameron', serif;
-    }
+.title-speaker-host{
+    font-size: 15px;
+    font-family: 'Kameron', serif;
+}
 
-    .form-control{ color: #121212; }
-    .form-control::-webkit-input-placeholder { color: #121212; }  /* WebKit, Blink, Edge */
-    .form-control:-moz-placeholder { color: #121212; }  /* Mozilla Firefox 4 to 18 */
-    .form-control::-moz-placeholder { color: #121212; }  /* Mozilla Firefox 19+ */
-    .form-control:-ms-input-placeholder { color: #121212; }  /* Internet Explorer 10-11 */
-    .form-control::-ms-input-placeholder { color: #121212; }  /* Microsoft Edge */
+.form-control{ color: #121212; }
+.form-control::-webkit-input-placeholder { color: #121212; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #121212; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #121212; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #121212; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #121212; }  /* Microsoft Edge */
 
-    select{
-        color: #121212 !important;
-        font-family: 'Noto Sans TC', sans-serif;
-    }
+select{
+    color: #121212 !important;
+    font-family: 'Noto Sans TC', sans-serif;
+}
 
-    /* ... 主題 ... */
-    input[id=topic] {
-        font-size: 80px;
-        font-weight: 700;
-        line-height: 95px;
-        vertical-align: text-bottom;
-    }
-    input[id=sub-topic] {
-        display: inline-block;
-        font-size: 50px;
-        font-weight: 600;
-        padding-top: 0;
-        margin-bottom: 90px;
-        margin-top:0;
-        vertical-align: text-top;
-    }
+/* ... 主題 ... */
+input[id=topic] {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    vertical-align: text-bottom;
+}
+input[id=sub-topic] {
+    display: inline-block;
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 0;
+    margin-bottom: 35px;
+    margin-top:0;
+    vertical-align: text-top;
+}
 
-    /* ... 講者 ... */
-    input[id=speaker] {
-        font-size: 60px;
-        font-weight: 700;
-    }
-    input[id=info_speaker] {
-        margin-top:-10px;
-        font-size: 30px;
-    }
+/* ... 講者 ... */
+input[id=speaker] {
+    font-size: 48px;
+    font-weight: 700;
+}
+input[id=info_speaker] {
+    margin-top:-10px;
+    font-size: 25px;
+    font-weight: 700;
+}
 
-    /* ... 主持 ... */
-    input[id=host] {
-        font-size: 40px;
-        font-weight: 700;
-    }
-    #info_host{
-        margin-top:-10px;
-        font-size: 20px;
-    }
+/* ... 主持 ... */
+input[id=host] {
+    font-size: 36px;
+    font-weight: 700;
+}
+input[id=info-host]{
+    margin-top:-10px;
+    font-size: 20px;
+    font-weight: 700;
+}
 
-    /* ... 時地 ... */
-    #date-picked, #time-chosen, #place{
-        font-size: 30px;
-        overflow: visible;
-        height: 50px;
-        font-family: 'Kameron', serif;
-        }
-
-    #date-picked{
-        color: #121212;
-        padding-left:5px;
-    }
-    
-    .top-print{
-        margin-top: 0.5cm;
+/* ... 時地 ... */
+#date-picked, #time-chosen, #place{
+    font-size: 30px;
+    overflow: visible;
+    height: 50px;
+    font-family: 'Kameron', serif;
     }
 
-    .no-scroll{
-        overflow:hidden;
-    }
+#date-picked{
+    color: #121212;
+    padding-left:5px;
+}
 
-    .no-scroll::-webkit-scrollbar { 
-        display: none; 
-    }
-    
+/* ... Description of speaker and talk ... */
+
+#desc-speaker, #desc-talk{
+    font-size: 12px;
+}
+
+.top-print{
+    margin-top: 0.5cm;
+}
+
+.no-scroll{
+    overflow:hidden;
+}
+
+.no-scroll::-webkit-scrollbar { 
+    display: none; 
+}
+
   /* ... the rest of the rules ... */
 }
 
