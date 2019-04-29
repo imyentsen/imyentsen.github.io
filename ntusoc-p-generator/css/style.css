@@ -1,4 +1,6 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700|Kameron:400,700');
+
 html, body {
     height: 100% !important;
 }
@@ -179,7 +181,7 @@ input[type=text], .form-control {
     border: none;
     border-radius: 0px;
     padding: 0;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Pragati Narrow','Noto Sans TC', sans-serif;
 }
 select {
     -webkit-appearance: none; 
@@ -212,20 +214,22 @@ select{
 
 /* ... 主題 ... */
 input[id=topic] {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 800;
-    line-height: 80px;
+    line-height: 110px;
     padding-bottom: 0;
     margin-bottom: 0px;
     vertical-align: text-bottom;
+
 }
 input[id=sub-topic] {
     display: inline-block;
     font-size: 38px;
     font-weight: 600;
     padding-top: 0;
-    margin-bottom: 35px;
-    margin-top:0;
+    margin-bottom: 15px;
+    line-height: 30px;
+    margin-top: -35px;
     vertical-align: text-top;
 }
 
@@ -255,7 +259,7 @@ input[id=info-host]{
 #date-picked, #time-chosen, #place{
     font-size: 30px;
     overflow: visible;
-    height: 50px;
+    height: 40px;
     font-family: 'Kameron', serif;
     font-weight: 700;
     }
@@ -268,7 +272,9 @@ input[id=info-host]{
 /* ... Description of speaker and talk ... */
 
 #desc-speaker, #desc-talk{
-    font-size: 12px;
+    font-size: 11px;
+    height: 200px;
+    margin-top:0;
 }
 
 .top-print{
