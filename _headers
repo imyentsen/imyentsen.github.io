@@ -44,28 +44,6 @@
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-04552f9a779bcd544711.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
-/rearia-hai/
-  Link: </webpack-runtime-bbacd872d00de5ad95c4.js>; rel=preload; as=script
-  Link: </framework-bdff714b932dbc8d5dcb.js>; rel=preload; as=script
-  Link: </app-421d637193ffca05215f.js>; rel=preload; as=script
-  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
-  Link: </c1e069c20e24a3b408d38d1996676b65908f782b-9dc345f748d52acfa589.js>; rel=preload; as=script
-  Link: </00b87aa46ff88a21f53b30f7cac81af19c99f603-5963946cf89dae5ae760.js>; rel=preload; as=script
-  Link: </a24b81352cfcd84cc391edc6101ad3ea362eedae-c0223e59ac6adfdf5c6f.js>; rel=preload; as=script
-  Link: </component---src-templates-index-js-1983fbc75a0935acf640.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/rearia-hai/page-data.json>; rel=preload; as=fetch; crossorigin
-/slogan/
-  Link: </webpack-runtime-bbacd872d00de5ad95c4.js>; rel=preload; as=script
-  Link: </framework-bdff714b932dbc8d5dcb.js>; rel=preload; as=script
-  Link: </app-421d637193ffca05215f.js>; rel=preload; as=script
-  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
-  Link: </c1e069c20e24a3b408d38d1996676b65908f782b-9dc345f748d52acfa589.js>; rel=preload; as=script
-  Link: </00b87aa46ff88a21f53b30f7cac81af19c99f603-5963946cf89dae5ae760.js>; rel=preload; as=script
-  Link: </a24b81352cfcd84cc391edc6101ad3ea362eedae-c0223e59ac6adfdf5c6f.js>; rel=preload; as=script
-  Link: </component---src-templates-index-js-1983fbc75a0935acf640.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/slogan/page-data.json>; rel=preload; as=fetch; crossorigin
 /rfrd-tw-2018/
   Link: </webpack-runtime-bbacd872d00de5ad95c4.js>; rel=preload; as=script
   Link: </framework-bdff714b932dbc8d5dcb.js>; rel=preload; as=script
@@ -198,6 +176,28 @@
   Link: </component---src-templates-index-js-1983fbc75a0935acf640.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/miaomiao/page-data.json>; rel=preload; as=fetch; crossorigin
+/slogan/
+  Link: </webpack-runtime-bbacd872d00de5ad95c4.js>; rel=preload; as=script
+  Link: </framework-bdff714b932dbc8d5dcb.js>; rel=preload; as=script
+  Link: </app-421d637193ffca05215f.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </c1e069c20e24a3b408d38d1996676b65908f782b-9dc345f748d52acfa589.js>; rel=preload; as=script
+  Link: </00b87aa46ff88a21f53b30f7cac81af19c99f603-5963946cf89dae5ae760.js>; rel=preload; as=script
+  Link: </a24b81352cfcd84cc391edc6101ad3ea362eedae-c0223e59ac6adfdf5c6f.js>; rel=preload; as=script
+  Link: </component---src-templates-index-js-1983fbc75a0935acf640.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/slogan/page-data.json>; rel=preload; as=fetch; crossorigin
+/rearia-hai/
+  Link: </webpack-runtime-bbacd872d00de5ad95c4.js>; rel=preload; as=script
+  Link: </framework-bdff714b932dbc8d5dcb.js>; rel=preload; as=script
+  Link: </app-421d637193ffca05215f.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </c1e069c20e24a3b408d38d1996676b65908f782b-9dc345f748d52acfa589.js>; rel=preload; as=script
+  Link: </00b87aa46ff88a21f53b30f7cac81af19c99f603-5963946cf89dae5ae760.js>; rel=preload; as=script
+  Link: </a24b81352cfcd84cc391edc6101ad3ea362eedae-c0223e59ac6adfdf5c6f.js>; rel=preload; as=script
+  Link: </component---src-templates-index-js-1983fbc75a0935acf640.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/rearia-hai/page-data.json>; rel=preload; as=fetch; crossorigin
 /about/
   Link: </webpack-runtime-bbacd872d00de5ad95c4.js>; rel=preload; as=script
   Link: </framework-bdff714b932dbc8d5dcb.js>; rel=preload; as=script
