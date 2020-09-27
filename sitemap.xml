@@ -16,6 +16,7 @@
 <url> <loc>https://yentsenliu.com/rearia-hai/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yentsenliu.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yentsenliu.com/fakeindex/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yentsenliu.com/how/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yentsenliu.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yentsenliu.com/updates/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
