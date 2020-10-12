@@ -1,0 +1,207 @@
+<!--這是 RDM 首頁的 html 結構，詳細頁面請參考 https://www.figma.com/file/okD7dIfbcwRAaAdHr4wGOq/RDM-Depositar?node-id=0%3A1-->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="allstyle.css">
+</head>
+<body>
+
+<!-- nav bar -->
+<div id="navcontainer">
+  <div class="logo"><a href="index.html"> </a></div>
+  <div class="nav_desktop">
+    <ul>
+      <li id="active"><a href="about.html">關於</a></li>
+      <li><a href="news.html">新聞與活動</a></li>
+      <li class="dropdown">
+        <div class="dropBtn">
+          <a href="support.html">支援</a>
+        </div>
+        <div class="dropdown-content">
+          <a href="support.html#tutorial">教學</a>
+          <a href="support.html#case">案例</a>
+        </div>
+      </li>
+    </ul>
+  
+    <!-- 搜尋模塊 部分 -->
+    <div class="align_search">
+      <div class="search">
+        <input type="text" class="form-control" aria-label="search">
+        <button class="btn-search" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" class="iconify iconify--codicon" width="1.7em" height="1.7em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="transform: rotate(360deg);"><g fill="currentColor"><path d="M15.25 0a8.25 8.25 0 0 0-6.18 13.72L1 22.88l1.12 1l8.05-9.12A8.251 8.251 0 1 0 15.25.01V0zm0 15a6.75 6.75 0 1 1 0-13.5a6.75 6.75 0 0 1 0 13.5z"></path></g></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- 行動版 menu 部分 -->
+  <div class="nav_collapse">
+    <div class="menuBtn"></div>
+    <ul class="collapse_content">
+      <!-- 搜尋模塊 部分 -->
+      <div class="align_search">
+        <div class="search">
+          <input type="text" class="form-control" aria-label="search">
+          <button class="btn-search" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" class="iconify iconify--codicon" width="1.7em" height="1.7em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="transform: rotate(360deg);"><g fill="currentColor"><path d="M15.25 0a8.25 8.25 0 0 0-6.18 13.72L1 22.88l1.12 1l8.05-9.12A8.251 8.251 0 1 0 15.25.01V0zm0 15a6.75 6.75 0 1 1 0-13.5a6.75 6.75 0 0 1 0 13.5z"></path></g></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Menu 模塊 部分 -->
+      <li id="active"><a href="about.html">關於</a></li>
+      <li><a href="news.html">新聞與活動</a></li>
+      <li class="dropdown">
+        <div class="dropBtn">
+          <a href="support.html">支援</a>
+        </div>
+        <div class="dropdown-content">
+          <a href="support.html#tutorial">教學</a>
+          <a href="support.html#case">案例</a>
+        </div>
+      </li>
+      <li>
+        
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- 以下為頁面部分 -->
+<div class="masthead">
+  <div class="container">
+    <!-- 首頁一開始的文字說明與三個連結區塊（masthead） -->
+    <div class="section">
+      <!-- 文字說明區塊，class "grid-1-2" 是用 css grid 設定左右兩欄，比例為 1:2 -->
+      <div class="grid-1-2">
+        <div class="title">
+          Research Data Management
+        </div>
+        <div class="desc">
+          Research Data Management (RDM) 迷途漫漫，終有一歸。所有動物一律平等，但有些動物比其他動物更平等。迷途漫漫，終有一歸... 
+        </div>
+      </div>
+      <!-- 三個連結區塊，class "grid-3c" 是用 css grid 設定 3 個 column  -->
+      <div class="grid-3c">
+        <!-- 三個連結區塊的其中一個，為了html碼精簡不重複三次  -->
+        <div class="shortcut">
+          <div class="thumbnail">
+            <img src="./img/start.jpg">
+          </div>
+          <div class="text">
+            <div class="instruction">
+              開始參與教學課程
+            </div>
+            <div class="call2action">
+              <span>Depositar 教學</span>
+            </div>
+          </div>
+        </div>
+        <div class="shortcut">
+          <div class="thumbnail">
+            <img src="./img/start.jpg">
+          </div>
+          <div class="text">
+            <div class="instruction">
+              開始參與教學課程
+            </div>
+            <div class="call2action">
+              <span>Depositar 教學</span>
+            </div>
+          </div>
+        </div>
+        <div class="shortcut">
+          <div class="thumbnail">
+            <img src="./img/start.jpg">
+          </div>
+          <div class="text">
+            <div class="instruction">
+              開始參與教學課程
+            </div>
+            <div class="call2action">
+              <span>Depositar 教學</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- 首頁的最新消息部分 -->
+<div class="indexNews">
+  <div class="container">
+    <div class="section">
+      <!-- class "grid-1-2" 是用 css grid 設定左右兩欄，比例為 1:2 -->
+      <div class="grid-1-2">
+        <!-- 區塊標題 部分 -->
+        <div class="sectionInfo">
+          <div class="title">最新消息</div>
+          <div class="desc">測試內容：這張畫，我偶然滴了一點紅色顏料在上面。開始我叫苦不迭，後來倒欣賞起它來了。</div>
+        </div>
+        <!-- 列表 部分 -->
+        <div class="newslist">
+          <!-- highlight 部分 -->
+          <div class="item highlight">
+            <div class="info">
+              <div class="text">
+                <div class="header"><span>這是一段測試標題</span></div>
+                <div class="content"><span>測試內容：這張畫，我偶然滴了一點紅色顏料在上面。開始我叫苦不迭，後來倒欣賞起它來了。它一直流下去，看起來像一道裂縫。它把這個建築工地變成了一個關合的陳舊景幕，景幕上畫了些建築工地而已。</span></div>
+              </div>
+              <div class="pic">
+                <img src="./img/highlight.png">
+              </div>
+            </div>
+            <div class="link">
+              <div class="more"><span>了解更多</span></div>
+              <div class="date"><span>Aug 18</span></div>
+            </div>
+          </div>  
+          <!-- 一般 item 部分 -->
+          <div class="item">
+            <div class="header"><span>測試標題是這個，可以按按看</span></div>
+            <div class="date"><span>Aug 13</span></div>
+          </div>
+          <!-- More 按鍵部分 -->
+          <div class="loadmore">
+            <div class="more">
+              <div>More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="grid-1-2">
+      <div class="statement">
+        <p>有任何問題嗎？請聯繫 info@rdm.io</p>
+        <p>Copyright © 2020 Research Data Management</p>
+      </div>
+      <div class="siteinfo">
+        <div class="sitemap">
+          <ul>
+            <li><span>首頁</span></li>
+            <li><span>新聞與最新活動</span></li>
+            <li><span>Data Repository</span></li>
+            <li><span>支援</span></li>
+            <li><span>關於</span></li>
+          </ul>
+        </div>
+        <div class="logo"></div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+
+</body>
+
+<!-- 結構修改註解 -->
+
+<!-- class "container, section" 獨立在一個 div 運作 -->
+<!-- 新增 class "sectionInfo" 來指定樣式給 class "section" 內，section 左邊的標題（class "title"）與敘述（class "desc"） -->
+<!-- 更改首頁的最新消息部分 class 名稱為 "indexNews" （原為 "news" ）-->
+<!-- class "footer" 內增加 class "container"、class "grid-1-2" -->

@@ -1,0 +1,180 @@
+<!--這是 RDM About 頁面的 html 結構，詳細頁面請參考 https://www.figma.com/file/okD7dIfbcwRAaAdHr4wGOq/RDM-Depositar?node-id=0%3A1-->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="allstyle.css">
+</head>
+<body>
+
+  <!-- nav bar -->
+  <div id="navcontainer">
+    <div class="logo"></div>
+    <div class="nav_desktop">
+      <ul>
+        <li id="active"><a href="about.html">About</a></li>
+        <li><a href="news.html">News & Event</a></li>
+        <li class="dropdown">
+          <div class="dropBtn">
+            <a href="support.html">Support</a>
+          </div>
+          <div class="dropdown-content">
+            <a href="support.html#tutorial">Tutorial</a>
+            <a href="support.html#case">Case</a>
+          </div>
+        </li>
+      </ul>
+    
+      <!-- 搜尋模塊 部分 -->
+      <div class="align_search">
+        <div class="search">
+          <input type="text" class="form-control" aria-label="search">
+          <button class="btn-search" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" class="iconify iconify--codicon" width="1.7em" height="1.7em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="transform: rotate(360deg);"><g fill="currentColor"><path d="M15.25 0a8.25 8.25 0 0 0-6.18 13.72L1 22.88l1.12 1l8.05-9.12A8.251 8.251 0 1 0 15.25.01V0zm0 15a6.75 6.75 0 1 1 0-13.5a6.75 6.75 0 0 1 0 13.5z"></path></g></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- 行動版 menu 部分 -->
+    <div class="nav_collapse">
+      <div class="menuBtn"></div>
+      <ul class="collapse_content">
+        <!-- 搜尋模塊 部分 -->
+        <div class="align_search">
+          <div class="search">
+            <input type="text" class="form-control" aria-label="search">
+            <button class="btn-search" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" class="iconify iconify--codicon" width="1.7em" height="1.7em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="transform: rotate(360deg);"><g fill="currentColor"><path d="M15.25 0a8.25 8.25 0 0 0-6.18 13.72L1 22.88l1.12 1l8.05-9.12A8.251 8.251 0 1 0 15.25.01V0zm0 15a6.75 6.75 0 1 1 0-13.5a6.75 6.75 0 0 1 0 13.5z"></path></g></svg>
+            </button>
+          </div>
+        </div>
+        <!-- Menu 模塊 部分 -->
+        <li id="active"><a href="about.html">About</a></li>
+        <li><a href="news.html">News & Event</a></li>
+        <li class="dropdown">
+          <div class="dropBtn">
+            <a href="support.html">Support</a>
+          </div>
+          <div class="dropdown-content">
+            <a href="support.html#tutorial">Tutorial</a>
+            <a href="support.html#case">Case</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 麵包屑，實際上動態產生，示意用僅作一層 -->
+  <div class="breadcrumb bg-light">
+    <div class="container">
+      <a class="parent">Home</a><span class="slash">/</span><span class="current">About</span>
+    </div>
+  </div>
+  
+  
+  <!-- 以下為頁面部分 -->
+  <div class="post bg-light">
+    <div class="container">
+      <div class="section">
+        <!-- class "grid-1-2" 是用 css grid 設定左右兩欄，比例為 1:2 -->
+        <div class="grid-1-2">
+          <!-- 區塊標題 部分 -->
+          <div class="sectionInfo">
+            <div class="title">About</div>
+            <div class="desc">Research Data Management is a ...</div>
+          </div>
+          <!-- Post 內容部分（一欄） -->
+          <div>
+            <div class="content">
+              <img src="./img/highlight.png">
+              <h2>What is depositar?</h2>
+              <p>“[T]he District’s selection of art to display in public places is a form of government speech that is not subject to First Amendment scrutiny,” the motion reads. “And even if the District did create a forum for public expression, it has not engaged in viewpoint discrimination by denying plaintiff’s request for a permit to paint a mural on a District street because no such permit exists.”</p>
+            </div>
+            <div class="ending-mark"></div>
+            <div class="cc-license"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <!-- 回到頁首按鈕  -->
+  <div class="back2top bg-light"><a>Back to Top</a></div>
+
+  <!-- 頁面尾端的推薦連結區塊，這邊在子 div 內加上 "dark" class，讓區塊反白 -->
+  <div class="recommendation">
+    <div class="container">
+      <div class="section">
+        <!-- 標題  -->
+        <div class="title">More about RDM</div>
+        <!-- 三個連結區塊，class "grid-3c" 是用 css grid 設定 3 個 column  -->
+        <div class="grid-3c">
+          <!-- 三個連結區塊的其中一個，為了html碼精簡不重複三次  -->
+          <div class="shortcut">
+            <div class="thumbnail">
+              <img src="./img/start.jpg">
+            </div>
+            <div class="text">
+              <div class="instruction">
+                Start with our tutorial
+              </div>
+              <div class="call2action">
+                <span>Depositar Tutorial</span>
+              </div>
+            </div>
+          </div>
+          <div class="shortcut">
+            <div class="thumbnail">
+              <img src="./img/start.jpg">
+            </div>
+            <div class="text">
+              <div class="instruction">
+                Start with our tutorial
+              </div>
+              <div class="call2action">
+                <span>Depositar Tutorial</span>
+              </div>
+            </div>
+          </div>
+          <div class="shortcut">
+            <div class="thumbnail">
+              <img src="./img/start.jpg">
+            </div>
+            <div class="text">
+              <div class="instruction">
+                Start with our tutorial
+              </div>
+              <div class="call2action">
+                <span>Depositar Tutorial</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="grid-1-2">
+        <div class="statement">
+          <p>Have questions? Email us at info@rdm.io</p>
+          <p>Copyright © 2020 Research Data Management</p>
+        </div>
+        <div class="siteinfo">
+          <div class="sitemap">
+            <ul>
+              <li><span>Home</span></li>
+              <li><span>News & Events</span></li>
+              <li><span>Data Repository</span></li>
+              <li><span>Support</span></li>
+              <li><span>About</span></li>
+            </ul>
+          </div>
+          <div class="logo"></div>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+</body>  

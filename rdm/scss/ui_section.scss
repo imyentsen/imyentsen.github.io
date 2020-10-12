@@ -1,0 +1,88 @@
+// 這份 SCSS 是 Section 元素們的樣式
+// Section 是在一個頁面中會占滿全部寬度的大元件。它可能是 component 的 parent，其包含數個 ui_component.scss 中的元件
+// 它跟 global.scss 內大元件的差別是：這份文件中出現的元件不一定會出現在所有頁面。以下的註解，會標明這些元件出現的頁面名稱
+
+// Index 頁面使用的 Section
+.masthead{
+    // 這是首頁最上方的網站名稱（.title）與基本資訊（.desc）欄位
+    font-size: $font-size-xl;
+    background-color: $primary-900;
+    color: $white;
+    background-image: url("./img/data-shelf.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0, 14, 9, 0.8);
+    height: 420px;
+    @media (max-width: $screen-md) {
+        height: 100%;
+    }
+    .title{
+        color: $gray-200;
+        font-weight: $font-weight-bold;
+    }
+    .desc{
+        padding-right: 25%;
+        padding-left: 18px;
+        @media (max-width: $screen-lg) {
+            padding-right: 10%;
+            padding-bottom: 15px;
+            padding-left: 0;
+        }
+        @media (max-width: $screen-md) {
+            padding-right: 0px;
+        }
+    }
+    .shortcut{
+        //放在這個欄位裡的 .shortcut component 被往上拉高 80 像素以創造頁面延續的視覺效果
+        margin-top: 80px;
+    }
+}
+
+// About, News, Support, Post 頁面使用的 Section 大元件
+.recommendation{
+    // 這是在除首頁之外的其他頁面底部，會出現的網站重要資訊推薦 Section
+    background-color: $primary-900;
+    .title{
+        font-size: $font-size-xl;
+        color: $gray-200;
+        font-weight: $font-weight-bold;
+        @media (max-width: $screen-md){
+            margin: 10px 0;
+        }
+    }
+    .shortcut{
+        // 由於這個 Section 相對各頁面主要內容，是比較不重要的部分，所以背景是深色。在這個 Section 中 .shortcut 元件針對深色的背景也做了相應的調整
+        margin: 20px 0;
+        background-color: $secondary-800;
+        .text{
+            color: $gray-100;
+            .call2action{
+                color: $gray-100;
+                ::after{
+                    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" class="iconify iconify--codicon" width="1.5em" height="1.5sem" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16" style="transform: rotate(360deg);"><g fill="lightgray"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.072 8.024L5.715 3.667l.618-.62L11 7.716v.618L6.333 13l-.618-.619l4.357-4.357z"></path></g></svg>');
+
+                }
+            }
+        }
+    }
+}
+
+// 這是首頁會出現的最新消息欄位。裡面有 .newslist component，它的樣式放在 ui_component.scss 檔案內。
+.indexNews{
+    margin-top: 90px;
+    @media (max-width: $screen-md) {
+        margin-top: 0px;
+    }
+}
+
+// Post 頁面的圖片，自動延展到跟右邊的欄位同寬
+.post{
+    padding-bottom: 25px;
+    .content{
+        img{
+            width: 100%;
+        }
+    }
+}

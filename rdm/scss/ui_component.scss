@@ -1,0 +1,311 @@
+// ui_component 文件內的樣式都是在其他的 Section 或是頁面會重複出現的小元件。
+
+// 頁面頂端告知使用者現在在網站何處的麵包屑
+.breadcrumb{
+  padding-top: 50px;
+  @media (max-width: $screen-md) {
+      padding-top: 25px;
+  }
+  .parent{
+    color: $gray-700;
+    font-weight: $font-weight-normal;
+  }
+  .slash{
+    margin: 0 6px;
+  }
+  .current{
+    color: $primary-900;
+  }
+}
+
+// Section 內左側資訊列
+.sectionInfo{
+  padding-right: 20%;
+  @media (max-width: $screen-md) {
+      padding-right: 0%;
+  }  
+  .block{
+    border-top: 1px solid $gray-400;
+    margin: 10px 0;
+    padding: 15px 0;
+  }
+  .title{
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+      margin: 35px 0 15px 0;
+      @media (max-width: $screen-md) {
+          margin: 20px 0 10px 0;
+      }
+  }
+  .title:first-of-type{
+      margin: 0 0 15px 0;
+      @media (max-width: $screen-md) {
+          margin: 0 0 10px 0;
+      }
+  }
+  .desc{
+    margin-bottom: 15px;
+  }
+  .caption{
+    font-size: $font-size-xs;
+    font-weight: $font-weight-bold;
+  }
+  .author{
+      margin: 25px 0 5px 0;
+      font-size: $font-size-base;
+      font-weight: $font-weight-bold;
+  }
+  .date-sharing{
+    // 用來放文章發佈日期以及社群網路分享選項的欄位
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    height: 25px;
+    .date{
+      font-size: $font-size-xs;
+    }
+    .sharing{
+      svg{
+        color: $gray-700;
+        cursor: pointer;
+      }
+      svg:hover{
+        color: $black;
+      }
+    }
+  }
+  .tag{
+    font-size: $font-size-xs;
+    margin-top: 10px;
+    span {
+      cursor: pointer;
+      background-color: $gray-300;
+      border-radius: 100px;
+      padding: 4px 10px;
+      margin: 5px 5px 0 0;
+    }
+    span:hover{
+      background-color: $gray-400;
+    }
+  } 
+  .cc-license{
+    color: $gray-700;
+    cursor: pointer;
+  }
+  .search{
+    margin: 25px 0;
+  }
+}
+
+// Section 右側欄位 module 的標題（.moduleTitle）跟說明（.moduleDesc）。例如 Support.html 頁面，同時包含 .shortcut 跟 .newslist 兩種板塊，在他們的上面，就需要有標題跟說明。
+.moduleTitle{
+  font-size: $font-size-lg;
+  margin: 35px 0 15px 0;
+  @media (max-width: $screen-md) {
+      margin: 20px 0 10px 0;
+  }
+}
+.moduleTitle:first-of-type{
+  margin: 0 0 15px 0;
+  @media (max-width: $screen-md) {
+      margin: 0 0 10px 0;
+  }
+}
+.moduleDesc{
+  margin-bottom: 15px;
+}
+
+// shortcut 元件，出現在很多頁面，例如：首頁、支援，也被使用在 recommendation Section
+.shortcut{
+  background-color: $secondary-100;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  padding: 0 !important;
+  height: 228px;
+  @media (max-width: $screen-md) {
+    max-height: 120px;
+    margin: 0 0 10px 0 !important;
+  }
+  .thumbnail{
+    object-fit: cover;
+    overflow: hidden;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .text{
+      display: flex;
+      justify-content: space-between;
+      padding: 24px 30px;
+      color: $gray-900;
+      flex-direction: column;
+      .instruction{
+        font-size: $font-size-sm;
+        align-self: flex-start;
+      }
+      .call2action{
+        cursor: pointer;
+        font-size: $font-size-base;
+        font-weight: $font-weight-bold;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        :hover{ 
+          text-decoration: underline;
+        }
+        ::after{
+          position: relative;
+          top: 6px;
+          content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" role="img" class="iconify iconify--codicon" width="1.5em" height="1.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16" style="transform: rotate(360deg);"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.072 8.024L5.715 3.667l.618-.62L11 7.716v.618L6.333 13l-.618-.619l4.357-4.357z"></path></g></svg>');
+        }
+      }
+  }
+}
+
+// 新內容清單
+.newslist{
+  .item:first-of-type{
+    border-top: none;
+  }
+  .item{
+    border-top: 1px solid $gray-400;
+    background-color: $white;
+    padding: 24px 18px;
+    display: flex;
+    justify-content: space-between;
+    .header{
+      font-size: $font-size-base;
+      cursor: pointer;
+      :hover{ 
+        text-decoration: underline;
+      }
+    }
+    .content{
+      margin-top: 10px;
+    }
+  }
+  .highlight{
+    background-color: $orange-100;
+    padding: 0 !important;
+    display: block !important;
+    .info{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 42px;
+      @media (max-width: $screen-sm){
+        display: flex;
+        flex-direction: column-reverse;
+        grid-gap: 0;
+      }
+      .text{
+        padding: 24px 18px;
+        .header{
+          font-size: $font-size-lg;
+        }
+      }
+      .pic{
+        img{
+          width:100%;
+          height:auto;
+        }
+      }
+    }
+    .link{
+      padding: 24px 18px;
+      display: flex;
+      justify-content: space-between;
+      .more{
+        font-weight: $font-weight-bold;
+        cursor: pointer;
+        :hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .loadmore{
+    border-top: 1px solid $gray-400;
+    background-color: $white;
+    padding: 24px 18px;
+    .more{
+      div{
+        display:grid;
+        grid-template-columns: 1fr;
+      }
+      cursor: pointer;
+      font-weight: $font-weight-bold;
+      text-align: center;
+      :hover{
+        text-decoration: underline;
+      }
+      ::before{
+        content:"";
+        position: relative;
+        padding:10px;
+        margin-right: 5px;
+        background: url('https://api.iconify.design/codicon:arrow-down.svg') no-repeat center center / contain; 
+        opacity: 0.4;     
+      }
+    }
+  }
+}
+
+// 搜尋按鈕元件
+.search{
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  width: 50px;
+  .form-control{
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    width: auto;
+    margin: 0px;
+    
+  }
+  input[type=text] {
+    padding: 0;
+    width:0;
+    transition: 0.5s all;
+  }
+  input[type=text]:focus {
+    padding: 0 10px;
+    width: 125px;
+  }
+  .btn-search{
+    cursor: pointer;
+    background-color: $white;
+    width:50px;
+    height:50px;
+    border: none;
+    margin: 0;
+  }
+  .btn-search:hover{
+    background-color: $gray-300;
+  }
+}
+.search:hover input[type=text]{
+  padding: 0 10px;
+  width: 125px;
+}
+.search:hover{
+  width: auto;
+}
+
+// 回到頁首
+.back2top{
+  text-align: center;
+  padding: 5px 0;
+  a{
+    color: $primary-900;
+    font-weight: $font-weight-normal;
+    opacity: 0.7;
+  }
+  a:hover{
+    opacity: 1;
+  }
+}
