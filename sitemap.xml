@@ -6,7 +6,6 @@
 <url> <loc>https://imyentsen.github.io/thursday-sociology/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/rfrd-tw-2018/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/data-depositar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/masters-thesis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/performing-unreal-economies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/statfin/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/espoo-business-services/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -16,9 +15,14 @@
 <url> <loc>https://imyentsen.github.io/aidmics-biotechnology/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/play-design-hotel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/miaomiao/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/masters-thesis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/fakeindex/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/how/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/updates/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/thur_soc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/thur_soc/components/calendar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/thur_soc/components/collapse/collapse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/thur_soc/components/collapse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
