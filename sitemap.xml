@@ -21,12 +21,12 @@
 <url> <loc>https://imyentsen.github.io/how/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/updates/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/thur_soc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/thur_soc/poster/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/components/calendar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/components/collapse/collapse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/components/collapse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/components/img_upload/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/thur_soc/poster/src/PicTopLeft/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster_gen/thur_soc/poster/src/PicTopRight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/ntusoc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/components/calendar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/components/collapse/collapse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/components/collapse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/components/img_upload/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/ntusoc/poster/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/ntusoc/poster/src/PicTopLeft/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/ntusoc/poster/src/PicTopRight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
