@@ -1,5 +1,7 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/classroom.jpg": "static/classroom-8c756f5b9e2980739990a67869082c92.jpg"
+  "static/classroom.jpg": "static/classroom-8c756f5b9e2980739990a67869082c92.jpg",
+  "static/sample1.jpg": "static/sample1-cd107c4a088e22c91ad2f2908b01a6f1.jpg",
+  "static/sample2.jpg": "static/sample2-0f783cdeab2cd15d965df6c826a62b62.jpg"
 }
