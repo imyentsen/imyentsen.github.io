@@ -28,6 +28,7 @@
 <url> <loc>https://imyentsen.github.io/project/poster/components/collapse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/components/img_upload/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntucsoc/poster/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://imyentsen.github.io/project/poster/ntusoc/poster/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntucsoc/poster/src/FrameGrid/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntucsoc/poster/src/FrameNtuCSoc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntucsoc/poster/src/FrameSplitLeft/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -36,7 +37,6 @@
 <url> <loc>https://imyentsen.github.io/project/poster/ntucsoc/poster/src/FrameSplitTop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntucsoc/poster/src/PicTopLeft/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntucsoc/poster/src/PicTopRight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://imyentsen.github.io/project/poster/ntusoc/poster/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntusoc/poster/src/PicTopLeft/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://imyentsen.github.io/project/poster/ntusoc/poster/src/PicTopRight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

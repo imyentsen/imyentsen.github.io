@@ -45,7 +45,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-project-poster-ntucsoc-poster-index-js-fae47f84d0ba3d9e7aa4.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-project-poster-ntucsoc-index-js-603f6e7762748875131f.js
+/component---src-pages-project-poster-ntucsoc-index-js-0aed50aec5b176ac3453.js
   Cache-Control: public, max-age=31536000, immutable
 /7aaa3c79ff55d6406854595e014eeb214cb618b1-3f3bc2dcc740289b8a75.js
   Cache-Control: public, max-age=31536000, immutable
@@ -58,6 +58,8 @@
 /component---src-pages-project-poster-components-collapse-index-js-4c9998bc2ccda086f878.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-project-poster-components-img-upload-index-js-402f50a9dbd9aa2133f1.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-project-poster-ntusoc-poster-index-js-9937ca7888c0a34ef8c4.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-project-poster-ntucsoc-poster-src-frame-grid-js-387ea72b8599d9a83790.js
   Cache-Control: public, max-age=31536000, immutable
@@ -73,13 +75,11 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-project-poster-ntucsoc-poster-src-pic-top-right-js-2448e42067891c290053.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-project-poster-ntusoc-poster-index-js-9937ca7888c0a34ef8c4.js
-  Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-project-poster-ntusoc-poster-src-pic-top-left-js-fd5ea9dc6d097953e380.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-project-poster-ntusoc-poster-src-pic-top-right-js-c07f90a2123b2a14d4ef.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-52bced7e30c585d9e56a.js
+/webpack-runtime-07c995f32491f416007a.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-1d1c5cf86b4657b85854.js
   Cache-Control: public, max-age=31536000, immutable
@@ -90,14 +90,14 @@
 /sw.js
   Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-956e1ecfcf2e7954c8de.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
 /research-data-management/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -110,7 +110,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/research-data-management/page-data.json>; rel=preload; as=fetch; crossorigin
 /rearia-hai/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -123,7 +123,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/rearia-hai/page-data.json>; rel=preload; as=fetch; crossorigin
 /slogan/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -136,7 +136,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/slogan/page-data.json>; rel=preload; as=fetch; crossorigin
 /thursday-sociology/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -149,7 +149,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/thursday-sociology/page-data.json>; rel=preload; as=fetch; crossorigin
 /rfrd-tw-2018/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -162,7 +162,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/rfrd-tw-2018/page-data.json>; rel=preload; as=fetch; crossorigin
 /data-depositar/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -175,7 +175,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/data-depositar/page-data.json>; rel=preload; as=fetch; crossorigin
 /masters-thesis/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -188,7 +188,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/masters-thesis/page-data.json>; rel=preload; as=fetch; crossorigin
 /performing-unreal-economies/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -201,7 +201,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/performing-unreal-economies/page-data.json>; rel=preload; as=fetch; crossorigin
 /statfin/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -214,7 +214,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/statfin/page-data.json>; rel=preload; as=fetch; crossorigin
 /espoo-business-services/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -227,7 +227,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/espoo-business-services/page-data.json>; rel=preload; as=fetch; crossorigin
 /mumu/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -240,7 +240,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/mumu/page-data.json>; rel=preload; as=fetch; crossorigin
 /ntu-all-gender-restroom/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -253,7 +253,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/ntu-all-gender-restroom/page-data.json>; rel=preload; as=fetch; crossorigin
 /eatgether/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -266,7 +266,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/eatgether/page-data.json>; rel=preload; as=fetch; crossorigin
 /aidmics-biotechnology/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -279,7 +279,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/aidmics-biotechnology/page-data.json>; rel=preload; as=fetch; crossorigin
 /play-design-hotel/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -292,7 +292,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/play-design-hotel/page-data.json>; rel=preload; as=fetch; crossorigin
 /miaomiao/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -305,7 +305,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/miaomiao/page-data.json>; rel=preload; as=fetch; crossorigin
 /about/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -316,7 +316,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /fakeindex/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -329,7 +329,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/fakeindex/page-data.json>; rel=preload; as=fetch; crossorigin
 /how/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -342,7 +342,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/how/page-data.json>; rel=preload; as=fetch; crossorigin
 /
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -355,7 +355,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
 /updates/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -366,7 +366,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/updates/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/ntucsoc/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -377,11 +377,11 @@
   Link: </5a9d23e348eaa07181b9d10f603d9080fdeb741b-fcf6fd2216025a842ef2.js>; rel=preload; as=script
   Link: </8b06a9c583ae4f387b2804b4b8a8b8c936793d11-5839697ea26a48061667.js>; rel=preload; as=script
   Link: </component---src-pages-project-poster-ntucsoc-poster-index-js-fae47f84d0ba3d9e7aa4.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-index-js-603f6e7762748875131f.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-index-js-0aed50aec5b176ac3453.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/ntucsoc/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/ntusoc/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -395,7 +395,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/ntusoc/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/components/calendar/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -406,7 +406,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/components/calendar/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/components/collapse/collapse/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </e9b48a2208b895135195043e54332438fa2a30fa-080703713f8116a76e5a.js>; rel=preload; as=script
@@ -414,7 +414,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/components/collapse/collapse/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/components/collapse/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </e9b48a2208b895135195043e54332438fa2a30fa-080703713f8116a76e5a.js>; rel=preload; as=script
@@ -422,7 +422,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/components/collapse/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/components/img_upload/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </c717a1736f0c0922a4cdff2c3ad7831126b347e5-49546712553b20dd4bb8.js>; rel=preload; as=script
@@ -430,7 +430,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/components/img_upload/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/ntucsoc/poster/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-ntu-c-soc-js-2fffe73f729c3a577f7f.js>; rel=preload; as=script
@@ -439,64 +439,8 @@
   Link: </component---src-pages-project-poster-ntucsoc-poster-index-js-fae47f84d0ba3d9e7aa4.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/ntucsoc/poster/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/FrameGrid/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-grid-js-387ea72b8599d9a83790.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/FrameGrid/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/FrameNtuCSoc/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-ntu-c-soc-js-2fffe73f729c3a577f7f.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/FrameNtuCSoc/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/FrameSplitLeft/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-left-js-46761214d2fa95f630b0.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitLeft/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/FrameSplitRen/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-ren-js-db3d91e1785b950f6ebc.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitRen/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/FrameSplitRight/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-right-js-eb01fdfcf0b503edb1cb.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitRight/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/FrameSplitTop/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-top-js-4c86bc38ee0f3f815cab.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitTop/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/PicTopLeft/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-pic-top-left-js-3a04a8e6bf6b44ee59e1.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/PicTopLeft/page-data.json>; rel=preload; as=fetch; crossorigin
-/project/poster/ntucsoc/poster/src/PicTopRight/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
-  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
-  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
-  Link: </component---src-pages-project-poster-ntucsoc-poster-src-pic-top-right-js-2448e42067891c290053.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/project/poster/ntucsoc/poster/src/PicTopRight/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/ntusoc/poster/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
@@ -506,15 +450,71 @@
   Link: </component---src-pages-project-poster-ntusoc-poster-index-js-9937ca7888c0a34ef8c4.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/ntusoc/poster/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/FrameGrid/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-grid-js-387ea72b8599d9a83790.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/FrameGrid/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/FrameNtuCSoc/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-ntu-c-soc-js-2fffe73f729c3a577f7f.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/FrameNtuCSoc/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/FrameSplitLeft/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-left-js-46761214d2fa95f630b0.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitLeft/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/FrameSplitRen/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-ren-js-db3d91e1785b950f6ebc.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitRen/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/FrameSplitRight/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-right-js-eb01fdfcf0b503edb1cb.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitRight/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/FrameSplitTop/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-frame-split-top-js-4c86bc38ee0f3f815cab.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/FrameSplitTop/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/PicTopLeft/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-pic-top-left-js-3a04a8e6bf6b44ee59e1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/PicTopLeft/page-data.json>; rel=preload; as=fetch; crossorigin
+/project/poster/ntucsoc/poster/src/PicTopRight/
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
+  Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
+  Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
+  Link: </component---src-pages-project-poster-ntucsoc-poster-src-pic-top-right-js-2448e42067891c290053.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/project/poster/ntucsoc/poster/src/PicTopRight/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/ntusoc/poster/src/PicTopLeft/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </component---src-pages-project-poster-ntusoc-poster-src-pic-top-left-js-fd5ea9dc6d097953e380.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/project/poster/ntusoc/poster/src/PicTopLeft/page-data.json>; rel=preload; as=fetch; crossorigin
 /project/poster/ntusoc/poster/src/PicTopRight/
-  Link: </webpack-runtime-52bced7e30c585d9e56a.js>; rel=preload; as=script
+  Link: </webpack-runtime-07c995f32491f416007a.js>; rel=preload; as=script
   Link: </framework-1d1c5cf86b4657b85854.js>; rel=preload; as=script
   Link: </app-8ca3c8cc15ec70200c83.js>; rel=preload; as=script
   Link: </component---src-pages-project-poster-ntusoc-poster-src-pic-top-right-js-c07f90a2123b2a14d4ef.js>; rel=preload; as=script
