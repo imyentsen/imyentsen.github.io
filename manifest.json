@@ -1,7 +1,11 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/classroom.jpg": "static/classroom-8c756f5b9e2980739990a67869082c92.jpg",
+  "static/bgpic1.jpg": "static/bgpic1-8c756f5b9e2980739990a67869082c92.jpg",
+  "static/bgpic2.png": "static/bgpic2-3c920db2e408041c88646cc62862ae2c.png",
+  "static/bgpic3.png": "static/bgpic3-af62ce157da80a38b233800a0b41fa94.png",
+  "static/bgpic4.png": "static/bgpic4-eda97f4edc34f1312bcf09d60f25c705.png",
+  "static/bgpic5.png": "static/bgpic5-a94d0cbe1e1cb19630e598c8fd7ddfbb.png",
   "static/photo1.jpg": "static/photo1-69bdbd46aec92c07c4ebe54c2cb96564.jpg",
   "static/photo10.jpg": "static/photo10-921f0cd5eff0f6896f8f49d77f02f7f6.jpg",
   "static/photo11.jpg": "static/photo11-156b2485a7fa62f59501f445ee0d20de.jpg",
