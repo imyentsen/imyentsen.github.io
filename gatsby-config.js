@@ -9,18 +9,17 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Yen-tsen Ansin Liu's Portfolio`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Yen-tsen Ansin Liu`,
+      summary: `Senior UX Designer specializing in data-heavy design, digital twins, and design systems.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `Growing scalable user experience`,
+    siteUrl: `https://imyentsen.github.io/`, 
   },
   plugins: [
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -43,7 +42,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 1920,
+              linkImagesToOriginal: false,
             },
           },
           {
@@ -123,3 +123,4 @@ module.exports = {
     },
   ],
 }
+
