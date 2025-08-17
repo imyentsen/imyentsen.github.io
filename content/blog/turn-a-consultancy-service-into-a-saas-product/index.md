@@ -4,7 +4,7 @@ desc: "Led UX design and research of a gamified campaign maker that turns a cons
 slug: "/turn-a-consultancy-service-into-a-saas-product"
 org: "Re:lab Ltd."
 year: 2022
-coverImage: "image.png"
+coverImage: "cover.jpg"
 highlightImage: "highlight.jpg"
 ---
 
