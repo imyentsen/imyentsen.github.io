@@ -10,7 +10,7 @@ export default function Banner({ frontmatter }) {
   return (
     <section className="w-full">
       <div className="">
-        <div className="content-container px-6">
+        <div className="content-container lg:px-6 md:px-3 px-2">
           <div className="py-8">
             <h1 className="font-['Syne'] font-medium text-[32px] leading-none text-foreground">
               {frontmatter.title}
@@ -28,13 +28,13 @@ export default function Banner({ frontmatter }) {
               style={{ objectFit: "cover" }}
             />
           )}
-<div className="content-container px-6">
+<div className="content-container lg:px-6 md:px-3 px-2">
           <div className="py-6 max-w-[720px] lg:pb-20">
             <div className="flex items-center gap-8 mb-9 font-['Syne'] font-normal text-base text-[#555555]">
               <span>{frontmatter.org}</span>
               <span>{frontmatter.year}</span>
             </div>
-            <div className="font-['Syne'] font-normal text-lg text-[#555555] leading-normal">
+            <div className="font-['Syne'] font-normal text-[18px] text-[#555555] leading-normal">
               {frontmatter.desc}
             </div>
           </div>

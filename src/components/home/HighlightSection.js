@@ -149,14 +149,14 @@ export default function HighlightSection() {
     <section className="relative shrink-0 w-full pt-6 sm:pt-0">
       <div className="relative size-full">
         {/* Section Header - Always visible */}
-        <div className="box-border content-stretch flex flex-row gap-2.5 items-start justify-start pb-6 pt-20 px-6 relative w-full">
+        <div className="box-border content-stretch flex flex-row gap-2.5 items-start justify-start pb-6 pt-20  lg:px-6 md:px-3 px-2 relative w-full">
           <div className="font-['Syne',_sans-serif] text-[18px] leading-none relative shrink-0 text-black text-left text-nowrap">
             <p className="block leading-normal whitespace-pre">Portfolio highlight</p>
           </div>
         </div>
 
         {/* Highlight Content */}
-        <div className="box-border content-stretch flex flex-col gap-8 items-start justify-start p-6 relative w-full">
+        <div className="box-border content-stretch flex flex-col gap-8 items-start justify-start  lg:px-6 md:px-3 px-2 relative w-full">
           <HighlightCategory
             title="Design System"
             description="I've led key design system initiatives at a multi-national enterprise setting, including a major design system upgrade and object-oriented UX operation to better align patterns with user workflows."

@@ -28,12 +28,12 @@ export default function Content({ markdownHtml, markdownRaw, title }) {
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-8">
         
         {/* 左側文章內容 */}
-        <div className="w-full px-6">
+        <div className="w-full lg:px-6 md:px-3 px-2">
           <article
             className="
               prose prose-lg
               prose-headings:font-['Syne'] prose-headings:font-medium
-              prose-p:text-[20px] prose-p:leading-7
+              prose-p:text-[18px] prose-p:leading-7
               prose-img:rounded-md prose-img:mx-auto
             "
             dangerouslySetInnerHTML={{ __html: processedHtml }}

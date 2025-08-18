@@ -12,7 +12,7 @@ export default function Footer() {
 
   return (
     <footer className="pt-12">
-      <div className="mx-auto px-6 py-8">
+      <div className="mx-auto  lg:px-6 md:px-3 px-2 py-8">
         {/* Back to top 按鈕（非首頁才顯示） */}
         {!isHome && (
           <div className="mb-6">

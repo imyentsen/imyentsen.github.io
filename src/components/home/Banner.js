@@ -4,7 +4,7 @@ export default function Banner() {
     <section className="relative shrink-0 w-full">
       <div className="relative size-full">
         {/* 三欄 grid，gap 用來控制欄間空白 */}
-        <div className="box-border flex flex-col gap-3 p-6 pt-12 lg:pt-6 relative w-full
+        <div className="box-border flex flex-col gap-3  lg:px-6 md:px-3 px-2 pt-12 lg:pt-6 relative w-full
           lg:grid lg:grid-cols-3 lg:gap-3 lg:items-start lg:justify-start">
 
           {/* Summary - Left column，右邊加右邊框線(分隔線)*/}

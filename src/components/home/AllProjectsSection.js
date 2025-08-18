@@ -49,7 +49,7 @@ export default function AllProjectsSection() {
 
         {/* Sticky Filter Section */}
         <div className="sticky top-0 z-10">
-          <div className="box-border content-stretch flex flex-col sm:flex-row font-['Syne',_sans-serif] gap-2 items-start justify-start leading-none pb-6 pt-6 mt-14 px-6 relative text-[20px] text-left w-full">
+          <div className="box-border content-stretch flex flex-col sm:flex-row font-['Syne',_sans-serif] gap-2 items-start justify-start leading-none pb-6 pt-6 mt-14  lg:px-6 md:px-3 px-2 relative text-[20px] text-left w-full">
             <div className="flex flex-wrap gap-2 items-center">
               <div className="relative shrink-0 text-black">
                 <p className="block leading-normal text-nowrap whitespace-pre">More projects</p>
@@ -59,7 +59,7 @@ export default function AllProjectsSection() {
         </div>
 
         {/* Projects Grid */}
-        <div className="box-border p-6 pt-0 relative w-full">
+        <div className="box-border  py-6  lg:px-6 md:px-3 px-2 pt-0 relative w-full">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 w-full">
             {projects.map((project, index) => (
               <ProjectCard

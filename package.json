@@ -54,6 +54,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy-root": "gatsby build && cp -r public/* . && git add . && git commit -m \"deploy static site to root\" && git push origin main"
   }
 }
