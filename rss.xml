@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Growing scalable user experience]]></description><link>https://imyentsen.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 18 Aug 2025 22:57:31 GMT</lastBuildDate><item><title><![CDATA[Turning consultancy into SaaS product]]></title><description><![CDATA[Objectives My client and I aimed to transform their consultancy business, RE:LAB, from a marketing design service to a SaaS company.  The…]]></description><link>https://imyentsen.github.io/turn-a-consultancy-service-into-a-saas-product/</link><guid isPermaLink="false">https://imyentsen.github.io/turn-a-consultancy-service-into-a-saas-product/</guid><content:encoded>&lt;h1&gt;Objectives&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Growing scalable user experience]]></description><link>https://imyentsen.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Aug 2025 23:31:14 GMT</lastBuildDate><item><title><![CDATA[Turning consultancy into SaaS product]]></title><description><![CDATA[Objectives My client and I aimed to transform their consultancy business, RE:LAB, from a marketing design service to a SaaS company.  The…]]></description><link>https://imyentsen.github.io/turn-a-consultancy-service-into-a-saas-product/</link><guid isPermaLink="false">https://imyentsen.github.io/turn-a-consultancy-service-into-a-saas-product/</guid><content:encoded>&lt;h1&gt;Objectives&lt;/h1&gt;
 &lt;p&gt;My client and I aimed to transform their consultancy business, RE:LAB, from a marketing design service to a SaaS company.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -870,339 +870,7 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Visit the legacy website&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://rearia.github.io/hai&quot;&gt;Rearia Hai&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The business has been terminated in 2020, but you can still visit the archived legacy site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Not just a new design system]]></title><description><![CDATA[Objectives We were tasked to rework the entire design system in parallel with a new generation of our product. The product were a…]]></description><link>https://imyentsen.github.io/not-just-a-new-design-system/</link><guid isPermaLink="false">https://imyentsen.github.io/not-just-a-new-design-system/</guid><content:encoded>&lt;h1&gt;Objectives&lt;/h1&gt;
-&lt;p&gt;We were tasked to rework the entire design system in parallel with a new generation of our product. The product were a combination of around 40 small applications as a spin-off from Aker Solutions. Throughout the rebranding and product rework process, we aimed to unify the experience, learned from our previous experience, and fixed the design and tech debt that we didn’t have a proper opportunity to touch.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsTUgqv//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEAAQUCX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAEFAQAAAAAAAAAAAAAAACEAESAxUYH/2gAIAQEAAT8hOovfI//aAAwDAQACAAMAAAAQmw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAAEFAQAAAAAAAAAAAAAAAREAECExQYH/2gAIAQEAAT8QiTxwjVKGuMcEHtDINkHYW//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Slides.jpg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/f1213555456633114a5aa49f5c33c37c/0f98f/Slides.jpg&quot;
-        srcset=&quot;/static/f1213555456633114a5aa49f5c33c37c/7cc5e/Slides.jpg 480w,
-/static/f1213555456633114a5aa49f5c33c37c/6a068/Slides.jpg 960w,
-/static/f1213555456633114a5aa49f5c33c37c/0f98f/Slides.jpg 1920w,
-/static/f1213555456633114a5aa49f5c33c37c/eec88/Slides.jpg 2880w,
-/static/f1213555456633114a5aa49f5c33c37c/01fc7/Slides.jpg 3200w&quot;
-        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;My role&lt;/h1&gt;
-&lt;p&gt;I am one of the two designers in the design system team. In this initiative, I was responsible for around half of the tokens, components, and patterns. I also collaborated and helped the other designer, the design lead of the team, to define the strategy and ways of working.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe1miKP/xAAVEAEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAQUAAAAAAAAAAAAAAAAAAAERICFh/9oACAEBAAE/IU0W8f/aAAwDAQACAAMAAAAQAw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAAMBAAAAAAAAAAAAAAABEQAgIWH/2gAIAQEAAT8QolIPmWgkB44Wda6f/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Slides-5.jpg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/f4f39eb6e52d51dcfbecd19144d53aa2/0f98f/Slides-5.jpg&quot;
-        srcset=&quot;/static/f4f39eb6e52d51dcfbecd19144d53aa2/7cc5e/Slides-5.jpg 480w,
-/static/f4f39eb6e52d51dcfbecd19144d53aa2/6a068/Slides-5.jpg 960w,
-/static/f4f39eb6e52d51dcfbecd19144d53aa2/0f98f/Slides-5.jpg 1920w,
-/static/f4f39eb6e52d51dcfbecd19144d53aa2/eec88/Slides-5.jpg 2880w,
-/static/f4f39eb6e52d51dcfbecd19144d53aa2/01fc7/Slides-5.jpg 3200w&quot;
-        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;Challenge&lt;/h1&gt;
-&lt;p&gt;The major issue was twofold.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Firstly, the design system needed to work as fast as the product teams. We found it challenging to create mature components while the product teams were still working on novel and explorative idea. The scenarios kept changing and made it difficult to scope the components down.&lt;/li&gt;
-&lt;li&gt;Secondly, we needed to adopt the product branding guidelines from an agency we hired. Their offering looked fancy but did not consider accessibility and component structure well. We needed to comply with the new design languages while localising them in our product context.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Approach&lt;/h1&gt;
-&lt;h2&gt;Tighten collaboration between product and design system teams&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaUlEQVR42qVTS0oDQRCdS5jP9K96unumJyNmJok/iCCo0YVJIEHXou7Ele48gPhZBIIrQS+QC3gIQSEXUNy5cOEF7DEIyWRMBGtRm3rvVdXraov+EowxOi2scU4i/kpORU+QsMZBcWKUEMpguETHFUbIxAQlKI/tHDbQ3Az+KcUJ2RiApZM551p7Srp6Tp701q/6zcZxOZ/BwBm2iclr9eXq6hLnELcYJpu2ACBdgTJw0Fm5+9ztvra6L62w6hq+UHD2sHn/vtc+3MAoXmqEbMS01qVyRLLOfqd6+7Fz3W/evLUXar4ORVCRF0/1y+dGIVJm+OTYA7dMc5RHsyV92qudP9a3j0og2OKWrwrcURBViuVoPgxDA0s3zHjjgKAYhHTsLHEEF4qDwwgiSnlhWAyCQEo5WNtKnBQAV0oa8zzX077neVopN65CLI0QwhgnDRvmD2rxs+Hvt2N0+pGknqdZb8KFWv/5GF+0+X2hKensYQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/53ac8945daa96efa5de8040544aa9fd4/5b6ee/image1.png&quot;
-        srcset=&quot;/static/53ac8945daa96efa5de8040544aa9fd4/e85cb/image1.png 480w,
-/static/53ac8945daa96efa5de8040544aa9fd4/d9199/image1.png 960w,
-/static/53ac8945daa96efa5de8040544aa9fd4/5b6ee/image1.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;We changed our workflow. During the rebranding project, we aimed to be more active and provocative. We organised syncing session for and with designers on a weekly basis. We prepare for the theme, presentation, mini-workshop, and questions in advance. It became a new ritual and a platform for all designers to learn the latest progress on the design system side and allow them to contribute. It helped us to adopt the new design language and align in a more organic and collaborative way.&lt;/p&gt;
-&lt;h2&gt;Made simpler components by shifting philosophy&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 80.20833333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLUlEQVR42mVTXY/SQBTlP6iApTPTaTv9oEWgQOkXUCDsxoUFdDe6IT4ZdaO+mPgRX0z00Z/gk9l/6mm7i9A9uW2nnZ57zz29rdA7EELyE2GM4dYwDD8HFniiKAq9h0pxKbYBLHRdmKbV6XR6vb7n9Vy3JYTgnOfZ75FlWUb69Xq72TxL01kQRGEYx/HI94MiXZG9wP7JLRkphTDm88VicTqZTEejCWI8TsMwwqvYle+wz1IiC5SKoiRJxsNh2O+j2SAMYlRSVRW7eo59/XJl0BBIAdlRHEdJHEaxwpmmaY7jNJtNy7IKzXvzKriRJElVtUItuh0MhiibTqfxKOaQTUlDkrNoyCQX3sAqb6GCi+d1oyiCWjCLQOkwTIZBYDhcM5luK6pgXCdcUK5TmNlutxtyowLNrVbL8zyI4QdQGBc2728lb1PrrKq9bS2+4strb7Zz/aBv282sMt5zXRf9HLqagzBVXn4xrm/8d38HTz+r/qWUvKLBJW26luO4KFbBoeYAGd4Uxli2lfmik+lbtvwqzr8bwU46+6affFLaZ1Vhqlzh/90u3IcKTIvIoFMUNijUdtYPuptHFz/t9zfBy98uyIpGiUyOxrPIcquYZMaC7L+oD69qwa6+/WE+/2W//uMtPmiUkfJsl4BBVg3WW0nd83p39fjJadWZPTz5KOZvDHy8I3KJD+PhYpqmmDrLNhWVcg2fipFcG2W0TD4Ems9cy9DEH5ZVKuL4r/oHqMGZ8ZDehdkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1d7a9442760414a04bedb79d566e8a80/5b6ee/image2.png&quot;
-        srcset=&quot;/static/1d7a9442760414a04bedb79d566e8a80/e85cb/image2.png 480w,
-/static/1d7a9442760414a04bedb79d566e8a80/d9199/image2.png 960w,
-/static/1d7a9442760414a04bedb79d566e8a80/5b6ee/image2.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Instead of focusing on use scenarios and creating bespoke components, we shifted our focus to the shapes of design. We managed to keep the component specific and simple. We broke down the big components into smaller simple components and made them agnostic in terms of use cases.&lt;/p&gt;
-&lt;h2&gt;Created user-contribution process&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAABnUlEQVR42pVSy67TMBDNZ7RO/Bi/87Dd1kmTtuz4ACQkFqhicb+AHRI7FiCxgW9mkpRLke5ddHQ8skZzPDNnXDDGqr9GKWWPWIFHKWWMsdbi5WFyjDHnPI5jCOGh4jOZkJJsyHZDyJbQ6lUyPluVFIdDv6bNZNtK1yFUnZRpgC1Jq19BK1YSqqzwUbogfZK2hRsZOd1Rh9Fg1EVpWimt4MCVA+1BO5BGmBr8TtZ75QK0WSEZGym44Jjx7nP/6ec5DJYx/v5L/+Hr0Ud1/TE9/b5cv09vr/Hp1+XjtwmDUoLxgCxsrVimYYe8my4DCiaEjIPvTzuUHzRTRoBi1pnxdOyHQ0rJO88o/ycYmtbGGoyysqw4E0KAAI6jYm+ovwRo6sYayzmfxbhXe9VSe2lrZRutLCwUygWjs7ZVievY4i7KklT36yjWHYAUhynux64/pzS0UgHIuXibXMxN2NfxsPjc2Fo//4XnynPDZFMar/Ip5HMc3qTYN64x3b5ukut2vk0ePSa8QOb8hnWKBbe2/0P1wsyvGF9wf7n7nn8ASON0di05+pAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/e64785d281c824890e66d6f1742c6d10/5b6ee/image3.png&quot;
-        srcset=&quot;/static/e64785d281c824890e66d6f1742c6d10/e85cb/image3.png 480w,
-/static/e64785d281c824890e66d6f1742c6d10/d9199/image3.png 960w,
-/static/e64785d281c824890e66d6f1742c6d10/5b6ee/image3.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The teams needed to create their own custom components fast but still comply with the new design language. We created a process and documentation space for them to safely work with and share their documentation with the other teams. The improved transparency of documentation also allowed us to adopt and internalise their work into the new design system more efficiently.&lt;/p&gt;
-&lt;h1&gt;Outcome&lt;/h1&gt;
-&lt;p&gt;The rework is still an ongoing process as of this writing. In a one-year period, we has created&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;a new token system defining the colours, spacing, typography, radius, breakpoints, etc&lt;/li&gt;
-&lt;li&gt;a documentation framework&lt;/li&gt;
-&lt;li&gt;a minimal set (approx. 15-20 components) of essential components that can speed up and unify the ongoing UX exploration&lt;/li&gt;
-&lt;li&gt;a few key patterns for cross-component governance and particular use scenarios&lt;/li&gt;
-&lt;li&gt;a regular design audit and syncing ritual that accommodates a company-wide new ways of working&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It reinforced my belief that a successful design system isn’t just about components. It’s about culture, communication, and creating space for contribution and iteration.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;Note&lt;/h1&gt;
-&lt;h2&gt;Confidentiality concerns&lt;/h2&gt;
-&lt;p&gt;All visual materials in this article were created solely to illustrate the process and outcomes of this project. They do not represent the actual product and respect the company’s intellectual property and the client’s business confidentiality.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mapping Undefined Objects]]></title><description><![CDATA[Objectives We wanted to align the inconsistent representation of objects in the complicated digital twin scenarios and user flow.  In the…]]></description><link>https://imyentsen.github.io/mapping-undefined-objects/</link><guid isPermaLink="false">https://imyentsen.github.io/mapping-undefined-objects/</guid><content:encoded>&lt;h1&gt;Objectives&lt;/h1&gt;
-&lt;p&gt;We wanted to align the inconsistent representation of objects in the complicated digital twin scenarios and user flow.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdedkMA//8QAFxABAQEBAAAAAAAAAAAAAAAAAQIRIP/aAAgBAQABBQJcmG14/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAcQIgIf/aAAgBAQAGPwJomp3FC9f/xAAbEAACAgMBAAAAAAAAAAAAAAABIQAQETFRYf/aAAgBAQABPyFQM5CMezQjFadf/9oADAMBAAIAAwAAABCTD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQADAAMAAAAAAAAAAAAAAAEAESEQUYH/2gAIAQEAAT8QuwbAhYbvt5Y/DCWK4AVAHuKuuz//2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Slides-1.jpg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/c7079757ee772df119aa0f783cbfaba1/0f98f/Slides-1.jpg&quot;
-        srcset=&quot;/static/c7079757ee772df119aa0f783cbfaba1/7cc5e/Slides-1.jpg 480w,
-/static/c7079757ee772df119aa0f783cbfaba1/6a068/Slides-1.jpg 960w,
-/static/c7079757ee772df119aa0f783cbfaba1/0f98f/Slides-1.jpg 1920w,
-/static/c7079757ee772df119aa0f783cbfaba1/eec88/Slides-1.jpg 2880w,
-/static/c7079757ee772df119aa0f783cbfaba1/01fc7/Slides-1.jpg 3200w&quot;
-        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;In the energy industries, the objects (e.g., “Tag”, “Work Order”, “Document”, “Anomalies”) look differently in the different features of our product. We need to develop a feasible way to align them and offer our users a clear mental model to do their everyday’s jobs, such as planning, operation, and maintenance for the heavy assets.&lt;/p&gt;
-&lt;h1&gt;My role&lt;/h1&gt;
-&lt;p&gt;I led the initiative by mapping the object-oriented mental models and  redesigning pilot components and patterns.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdqsgD//xAAVEAEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAQUAAAAAAAAAAAAAAAAAAAERICFh/9oACAEBAAE/IU0W8f/aAAwDAQACAAMAAAAQAA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAIDAAAAAAAAAAAAAAABEQBBEFFx/9oACAEBAAE/EKJSHmWxADeF23K98//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Slides-6.jpg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/8d955155456b06a5cb1b53818715724e/0f98f/Slides-6.jpg&quot;
-        srcset=&quot;/static/8d955155456b06a5cb1b53818715724e/7cc5e/Slides-6.jpg 480w,
-/static/8d955155456b06a5cb1b53818715724e/6a068/Slides-6.jpg 960w,
-/static/8d955155456b06a5cb1b53818715724e/0f98f/Slides-6.jpg 1920w,
-/static/8d955155456b06a5cb1b53818715724e/eec88/Slides-6.jpg 2880w,
-/static/8d955155456b06a5cb1b53818715724e/01fc7/Slides-6.jpg 3200w&quot;
-        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;Challenge&lt;/h1&gt;
-&lt;p&gt;Our product used to be a combination of approx. 40 small applications as a spin-off from Aker Solutions. The objects are presented very differently in the different user flows of our product. The lack of consistent inner logic reflects the past company organisational structure.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJUlEQVR42kVT7Y6qMBT0DTZuVIQWKlAEFBWkFBBQwO9db3L/7vu/yB3AzT0JCZyPmTPTMjIMY/EbRh+6rhONUE0lOl2wd4kxhjwlhGiqqhFd7zpHyNZ1/Xg8mqYxTRMd3ObbOBRFW+0jkQiUbreb67oACqLtTpR/H/nxWRvMHFFKhRDn8/l0Oh0Oh46Z6kkuk6J0LNv3/bZtUSrL8lhVIpdOENZF7vpL0IzwADWOY0BwzrGXoiiz6ZQZhkaI4zhlH/v9fh2slZky/vj4nExUVe3WxrBt26hVVYWmoiigcDqdcu4QQtfrdZZleZ6DYDKZzFV1Pp9DuWVa72GE53lhGIIfQJh0Pe/7XGdFEYvk9XpBM/LL5TIIgrppfv58NcmJUNIZtukD8rCMTqnBmIjlIY4s27YsC3JQ0jQtiiKgSynjfWT2RzPCA7cBf7/fAYFPmWZ19SUCf65q2HbQDM9ACwjgcYcTcGAYbm+3WwiG1ejY7XbKbDZTFBsdmgrD0jQFG3oGUdjL91Yut99uD4IxNtwHWOL7XlvdN7G0LHMorfpIE1ne2vz0zDYByDtmQOKccUngKo5qPB6vVn4cJqbNEyGu1yuqcAugYJYyfdTR89pyc9kNAxuyj8fjoBkWwidKu4sItsvlAlwowubIo7Mp05XvMoP9Xxs1vKAbOod3iqvKOdzGasigB8M4IYMtcAXeboOc9IGX4dhpH++f5DeGap+jwy/0D7VniNQE/d34AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;This is an example of our list pattern. The diversity without clear logic harmed our UX.&quot;
-        title=&quot;&quot;
-        src=&quot;/static/7c399110836888817332b4ee3da72c58/5b6ee/image.png&quot;
-        srcset=&quot;/static/7c399110836888817332b4ee3da72c58/e85cb/image.png 480w,
-/static/7c399110836888817332b4ee3da72c58/d9199/image.png 960w,
-/static/7c399110836888817332b4ee3da72c58/5b6ee/image.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;This is an example of our list pattern. The diversity without clear logic harmed our UX.&lt;/p&gt;
-&lt;p&gt;The diversity in the presentation led to cognitive fragmentation in our user flows. It also resulted in the failure to provide our users a comprehensive mental model on the objects that matches their domain knowledge on the objects.&lt;/p&gt;
-&lt;h1&gt;Approach&lt;/h1&gt;
-&lt;h2&gt;1. Mapped out the objects&lt;/h2&gt;
-&lt;p&gt;We chose the &lt;a href=&quot;https://www.ooux.com&quot;&gt;OOUX framework&lt;/a&gt; as our mapping technique and establish the map collaboratively. It gave us an overview on the objects in our products. It also helped us to clarify and align our understanding on the objects given the deep prerequisite domain knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACuklEQVR42mOQQwXyMADnojGQAQOcJSsrq6io6Ojo6ObmZmRk5OTk5O7uDmQ4OztDRFxcXIAMHTDQ1dVVUVFB0aykpOTj7RcaEmZhbhEQEBgZEWVpYRUUGBwRHglkhISEAhmGhkBzjIyNjdXU1NA0K7p5OXj7u5qaG1nbWjo42xka6dvaW9k72QIZDk42Tq522tpaGuoampqaQJsYgHqAZmhoqEtLSatpqBR3hNZMjgpPcZq7O3/NucrMar95ewtWnalIK/eZujFrwYEiZ29zFWU1bW1tZWVlqM0yYAA0SEJcTERYWEVNPrHQJbXMzcXXOC7fKaHAOTjBdsXJwvWXSj2CLNVUNHT1dEGagRqAXjcwMNDU1FBV1cjK7y+tmuvlmxgV05SaPtHVLTYlvT89c3pQWNr0ZRvnr9vj4uGtpqYKDDCozQoKCqqqqsC40NDU7Z60f+aCS4mpDZNmHV+67nF8cm15zfymjnWBIZlFpfOq6lZZWbtraKghNAMdLCUtLSUlqa6p29C7q3/uxeDIIt/grJjkJkMTex5+Xn4RYTEJCSExEQERIWCMA3UCYwvqbKC1RoaGsnJy2uqaa9unH5y+MicstsDXqzEiLMzBviclfUpmdqybe29q+vTsXCdzcw0tLT09PVA8Q6IXGHqKSko66urbmqvOTOrIDfEL93FODvEKc3c6OqHjzLSe6tjI/T2t56b1BTjaq6ir6+nqotisraOrr6N+amvD41N91QXBZbn+HbWRSVEu+1dXnNhcW1sYfG5H492jnSF+9mrqWgb6+tAUBtQP8raUtIqyYkSQXXK0i7mpDr+gGBevsJmxzrGN1We31ydHuYT42SRGORvqayooKKqoKAODmQE5P8jKyomKSwqLSkhJyygpAWXlVVWV7K0NnOyM1NWUhUQkRMQkpcHJAQjk5OQAKDHaAS0d/5wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/14055c5ec592c6f837760ce08ed7ed0e/5b6ee/image1.png&quot;
-        srcset=&quot;/static/14055c5ec592c6f837760ce08ed7ed0e/e85cb/image1.png 480w,
-/static/14055c5ec592c6f837760ce08ed7ed0e/d9199/image1.png 960w,
-/static/14055c5ec592c6f837760ce08ed7ed0e/5b6ee/image1.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;2. Defined priorities&lt;/h2&gt;
-&lt;p&gt;We chose data label and list components as our two top priorities. They are both very prominent in our UX. Investing in the two components could yield most improvement.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACpElEQVR42m1SS09aQRhl0TRtGo2gXO5j5sLFO9yHClzRSsU3LSg+ESrRAL6NRAut1QbwAZWYtrYbo8bYYozUWtMmXfUvdNPEpBvTbvtPOoghxPTL2cyX78ycOedTsSzLcZxezxoMBr0+j0LpceuqjEYjQqh4LC0VnpOlWoqhtVVqQquhKC1BaKoqK0iKhFAPGGBVrE12u8HA/YcMAHzkcQz3uAeGpvyBheD4km8kMuSfd3V6XK4WXuAbrYqIeJIkAGBukhkaBmc98fnp9fTH1Nb5RuYslTnLbH+bDUeHvV1CrfDwgWPUH+r3hhsam2maLtWvInVM/NXocSa5s/dj/+hiP3ux9/7nYe4yOpP0DrXIVqmt4f7zp69XVrP9gyEIAVtKZhjY52sbHx4Ihl+EppLBiURoMjExm+p1eVscChJ5W11dLPZ2bfN8ei4tihIAgGWv+SosA0JeoyPLy26rK+7qtOXqijtl924RuiqO4yGA1QjxCBk5zmisvuG5imZgONARC45GnryLLe+uJA6iSzvR5f2Ad7yvrx3Jpo4m+0w4gkwSQ9M3DcPkqbHOlclQfO147eVpMp1bTec2tr7MBBf9/i7ZItWIss3WiPNnWVikFSSotDqwu+n7vr15cPQr++lP9vT3h9zlyde/z+ZTgwPNNVap3my122w0k88J746imBWlXhRFCKEKtwQR4YMsm+WaEgiyxVwL9NDZ7Aj09JI0jaeRgJyeLlEQ8VJeuQ2Au7U10N3rdPld3YErjLh7xhzt7bzJiA0DEFIAYJ14UjIJjz39ZosFk/Mvkwyz4PO9iSwuxQ+TqVxi4yS+jj//OTQ9Z1EEkM/12mJ8C+INzlYrVllo5aMiKEpDEDqiEm91AVpCTdNUMc9iQchSFAPzUefJ/wAI5r1/u7co9gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/306ebfc5fb8c05370153b305994856bc/5b6ee/image2.png&quot;
-        srcset=&quot;/static/306ebfc5fb8c05370153b305994856bc/e85cb/image2.png 480w,
-/static/306ebfc5fb8c05370153b305994856bc/d9199/image2.png 960w,
-/static/306ebfc5fb8c05370153b305994856bc/5b6ee/image2.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;3. Created pilot components&lt;/h2&gt;
-&lt;p&gt;We designed and developed two pilot components, &lt;strong&gt;Data Label&lt;/strong&gt; and &lt;strong&gt;List&lt;/strong&gt;. They served as the pilot components for us to validate this approach and satisfied the priority needs of the product teams.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACpklEQVR42n2SWU8TURiG50rxBkKAdtYzM90oszDtTFu6t5RutEAxSIEipaXI7tYiFhtB1oQrV0IgLlGjMRFivPIXmHDjXzDxRv+GZ6YuJCa+ec/knPnynjnfMwcBABjOiGVZ+KRpGmiifwucEf1rAAQWJEmyaZJlWVEcLldXu8VCkAQJRRC4pj8bURRFwBpOaGEAwza7bBf4DgzTo6gOw1CMwExGYwfPC4LgcDoVh8KyDHwPt6JptlOwiLIEaAZhGCYcDqXT/ZeG8z5/3O3piUaSiWxuIJ0NhoJOj7s3EY8nUja7Q5Fd0b60L9o/nomEe8MUgGEDW1pIri0uv3j37e2H79Cv33998/HH7OQ1K8OkRoO1hYlKeX9t52Rj92T3/qeJsfmY0xVQnFS9Z7GTc8jOeDIbSwxrzsaSWbvNAfFZre0iz/NcpyjaBcHG8VKHlYdETGaT2jMcEABO4Ki+Va8Z1bdBw/YIghAlye33e70uktA1Nl5oa23W6VohMYvBAr+qhimKhAwhCZY1MqwBUBAiDSc4SfaFwzdz4/nC8mSplsuvDA7mUrnS9PSNkVSCJGn12IFAqDsS8XqcqL4FQ1s4QXBLSl93r0mSM4FAdfxyYap2tfzoeuVhobQ6Nbc5OFLi7WZ4XoRhmZ6op5idWF1/Wa4e3qo93d473tg5zg6MWs0mXpQUr0+RuZbmhobzSFPjOVTXZOPIbn/QyJoQWg13lYbGijObV+a3p+e2ijP3irNbA4kMZzKHYp7C6MWV209W119VqkeV6sHdzee18p1k2McyxjowCsUhHhRSU01g0CSgMIyMZbyL+aGt7ZP9Z18eH50+PPj84PB0aWlP5qw0wyB/r+u/ogGBUzoUByrBulWqcElpdQT8XzRgYIg6K/XX1Is/ATwOtxxM7FRaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/8ae1e6386832d8a59ee632bb8dec0921/5b6ee/image3.png&quot;
-        srcset=&quot;/static/8ae1e6386832d8a59ee632bb8dec0921/e85cb/image3.png 480w,
-/static/8ae1e6386832d8a59ee632bb8dec0921/d9199/image3.png 960w,
-/static/8ae1e6386832d8a59ee632bb8dec0921/5b6ee/image3.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;4. Encouraged adoption, iterated, and reviewed&lt;/h2&gt;
-&lt;p&gt;Through out the process of component research and redesign, the communication with the teams is the key. We interviewed and facilitated workshops with the managers, designers, and developers to establish trust, gather feedback, and reach a shared imagination on the roadmap.&lt;/p&gt;
-&lt;p&gt;We also encouraged component adoption by organising checkin and feedback sessions. We also documented the key examples in the guidelines for references and iterations.&lt;/p&gt;
-&lt;h1&gt;Outcome&lt;/h1&gt;
-&lt;h2&gt;MVP components&lt;/h2&gt;
-&lt;p&gt;We designed and developed two pilot components, &lt;strong&gt;Data Label&lt;/strong&gt; and &lt;strong&gt;List&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACrklEQVR42nVS+09ScRy9/4KNEiVwookXuSDX++Y+vveiKYiJaCCGGRfMcBKh+Zo6H2A5pqllqXOp2WxWlplzrdVW/t5j9Rf1RWq5Hme7Z999vt+zc3Y/BxH/AkcJilIDABAF4eRcOoHcBPnjWpZBvUqofT2+4GUHxwo8LwgCnEN2HIPjOJ7n/yEWRaHW5Yqkm7sGBhua/ILIuzz1sqzQNG02m/Eq3I7bSZKEZ71ebzAYfot5jpcVJbW4MrX4sGc+pNQ6JCDVN14Ix67JihNFy3kWCLxEkIROp8vLy9NoND/FEhA5ibo+NLS2s+ePqqGxOl+opTuRiMW7R2cywXA0X5MvBSq483aaYGmK4liurMyEiJIgi9WNqjR46PR0AF8w4vEHW9XE9sGbj5++br54nVpYblU7C87oxABKyVglhlMUTI4WFBYgMJsEP1l0ukAgEm2P3YiPTmXub6492ss8WB+5PdfVO+D2+jDqnJU2NfRUgWqBdTA4WVlWXoqwLMtQZFv46sBkZnJuaevVwfPDD5GUNzBOxfp6mwNBmqEZhi4uKcKY0sYk7qxRoLiktLio2IC0h6P946mlrZ2jL9+PPn/b2N0fSt8JDXqvTLpbQiG4GBgMGsDYRvRsXZcVNaM2q02r1WZ/2PLjZ2tP91++O9p9+/7WvdXh6dmWDjWoxmPJCW9bR22dG26Y5dhCLRTrPYlKzIoRBAG3lRXfXd9eebI7u7Ixllnon5j2+gMVFowH4FK0s6m1LdecrLO20GQ3VEnlmMUKYbPZjEYjkhweg5nnVjdG0jOwjSRJZK1YBjJsaI5Zjjl9SuuOY1IDzrMSkAFFUbAnCAByLHkzPb/UfNEPFyjLcs4tW7df3YZ9tFgsKIpCth4DxjaZTAh8Ae/g6xyL/4GcAzQ9BjwqivID+DD4J3kUe4kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/7c1da15fb467b8bb5209f4eefee8268e/5b6ee/image4.png&quot;
-        srcset=&quot;/static/7c1da15fb467b8bb5209f4eefee8268e/e85cb/image4.png 480w,
-/static/7c1da15fb467b8bb5209f4eefee8268e/d9199/image4.png 960w,
-/static/7c1da15fb467b8bb5209f4eefee8268e/5b6ee/image4.png 1672w&quot;
-        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;Data Label&lt;/strong&gt; component signifies different object types with strong visual connections to other elements like Lists, displaying key information such as ID, description, and time series across single, group, or cluster labels. It supports colour coding for data visualisation and adapts seamlessly to both 2D and 3D industrial environments.&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;List&lt;/strong&gt; component complements this by providing a consistent structure for various use cases—such as search results, object history, and user-created folders—while maintaining visual coherence with Data Labels. It includes well-defined interactive states, offers clear usage guidelines, and allows flexibility through configurable swap-in actions.&lt;/p&gt;
-&lt;h2&gt;Shared and aligned roadmap&lt;/h2&gt;
-&lt;p&gt;Besides the two key components, we also designed the wireframe and guidelines for the other component updates on our &lt;strong&gt;roadmap&lt;/strong&gt;, such as Tree, Card, and Tag component. This fostered interface coherence and cultural alignment across teams.&lt;/p&gt;
-&lt;p&gt;Grounded in collaboration and domain respect, our scalable components empower users and creators, clarifying both product and people.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;Note&lt;/h1&gt;
-&lt;h2&gt;Confidentiality concerns&lt;/h2&gt;
-&lt;p&gt;All visual materials in this article were created solely to illustrate the process and outcomes of this project. They do not represent the actual product and respect the company’s intellectual property and the client’s business confidentiality.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Making statistics accessible]]></title><description><![CDATA[Objective By redesigning the user interface of Statfin, the official statistics database of Finland, the project aims to demonstrate how…]]></description><link>https://imyentsen.github.io/making-statistics-accessible/</link><guid isPermaLink="false">https://imyentsen.github.io/making-statistics-accessible/</guid><content:encoded>&lt;h1&gt;Objective&lt;/h1&gt;
+&lt;p&gt;The business has been terminated in 2020, but you can still visit the archived legacy site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Making statistics accessible]]></title><description><![CDATA[Objective By redesigning the user interface of Statfin, the official statistics database of Finland, the project aims to demonstrate how…]]></description><link>https://imyentsen.github.io/making-statistics-accessible/</link><guid isPermaLink="false">https://imyentsen.github.io/making-statistics-accessible/</guid><content:encoded>&lt;h1&gt;Objective&lt;/h1&gt;
 &lt;p&gt;By redesigning the user interface of Statfin, the official statistics database of Finland, the project aims to demonstrate how design could help interactively visualise data, and how design can lower the threshold of transforming raw data into conprehensive information. It could be helpful not only to the citizens, but also to the government employees who need to make data-based reports. This transformation could also provide a basis for strengthening civil society.&lt;/p&gt;
 &lt;h1&gt;My Role&lt;/h1&gt;
 &lt;p&gt;I independently led the design, research, and prototyping of this coursework project, which was selected as a showcase piece for the &lt;em&gt;Visualising Knowledge&lt;/em&gt; Conference 2018 in Helsinki. The work explored the intersection of data visualisation and public communication. Following the conference, I was invited by Statistics Finland—the central statistics authority of Finland—to present a live demo and discuss the project&apos;s relevance to their public outreach and data communication strategies.&lt;/p&gt;
@@ -2355,4 +2023,438 @@
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Not just a new design system]]></title><description><![CDATA[Objectives We were tasked to rework the entire design system in parallel with a new generation of our product. The product were a…]]></description><link>https://imyentsen.github.io/not-just-a-new-design-system/</link><guid isPermaLink="false">https://imyentsen.github.io/not-just-a-new-design-system/</guid><content:encoded>&lt;h1&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;We were tasked to rework the entire design system in parallel with a new generation of our product. The product were a combination of around 40 small applications as a spin-off from Aker Solutions. Throughout the rebranding and product rework process, we aimed to unify the experience, learned from our previous experience, and fixed the design and tech debt that we didn’t have a proper opportunity to touch.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsTUgqv//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEAAQUCX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAEFAQAAAAAAAAAAAAAAACEAESAxUYH/2gAIAQEAAT8hOovfI//aAAwDAQACAAMAAAAQmw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAAEFAQAAAAAAAAAAAAAAAREAECExQYH/2gAIAQEAAT8QiTxwjVKGuMcEHtDINkHYW//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Slides.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f1213555456633114a5aa49f5c33c37c/0f98f/Slides.jpg&quot;
+        srcset=&quot;/static/f1213555456633114a5aa49f5c33c37c/7cc5e/Slides.jpg 480w,
+/static/f1213555456633114a5aa49f5c33c37c/6a068/Slides.jpg 960w,
+/static/f1213555456633114a5aa49f5c33c37c/0f98f/Slides.jpg 1920w,
+/static/f1213555456633114a5aa49f5c33c37c/eec88/Slides.jpg 2880w,
+/static/f1213555456633114a5aa49f5c33c37c/01fc7/Slides.jpg 3200w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;My role&lt;/h1&gt;
+&lt;p&gt;I am one of the two designers in the design system team. In this initiative, I was responsible for around half of the tokens, components, and patterns. I also collaborated and helped the other designer, the design lead of the team, to define the strategy and ways of working.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe1miKP/xAAVEAEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAQUAAAAAAAAAAAAAAAAAAAERICFh/9oACAEBAAE/IU0W8f/aAAwDAQACAAMAAAAQAw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAAMBAAAAAAAAAAAAAAABEQAgIWH/2gAIAQEAAT8QolIPmWgkB44Wda6f/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Slides-5.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f4f39eb6e52d51dcfbecd19144d53aa2/0f98f/Slides-5.jpg&quot;
+        srcset=&quot;/static/f4f39eb6e52d51dcfbecd19144d53aa2/7cc5e/Slides-5.jpg 480w,
+/static/f4f39eb6e52d51dcfbecd19144d53aa2/6a068/Slides-5.jpg 960w,
+/static/f4f39eb6e52d51dcfbecd19144d53aa2/0f98f/Slides-5.jpg 1920w,
+/static/f4f39eb6e52d51dcfbecd19144d53aa2/eec88/Slides-5.jpg 2880w,
+/static/f4f39eb6e52d51dcfbecd19144d53aa2/01fc7/Slides-5.jpg 3200w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;Challenge&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB5CowkbJ//8QAFRABAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQEAAQUCY//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABUQAQEAAAAAAAAAAAAAAAAAACAx/9oACAEBAAY/Aov/xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgQf/aAAgBAQABPyHBDq//2gAMAwEAAgADAAAAEPQv/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qp//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAYEAEBAQEBAAAAAAAAAAAAAAABEQAhMf/aAAgBAQABPxACKu+NlyTEk3dx5zIZC7//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;challenge.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e5c9e7d48fb692747ffc332d213edec1/0f98f/challenge.jpg&quot;
+        srcset=&quot;/static/e5c9e7d48fb692747ffc332d213edec1/7cc5e/challenge.jpg 480w,
+/static/e5c9e7d48fb692747ffc332d213edec1/6a068/challenge.jpg 960w,
+/static/e5c9e7d48fb692747ffc332d213edec1/0f98f/challenge.jpg 1920w,
+/static/e5c9e7d48fb692747ffc332d213edec1/eec88/challenge.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The challenge came from the migration in parallel on both the product side and the design system.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firstly, the design system needed to work as fast as the product teams. We found it challenging to create mature components while the product teams were still working on novel and explorative idea. The scenarios kept changing and made it difficult to scope the components down.&lt;/li&gt;
+&lt;li&gt;Secondly, we needed to adopt the product branding guidelines from an agency we hired. Their offering looked fancy but did not consider accessibility and component structure well. We needed to comply with the new design languages while localising them in our product context.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Approach&lt;/h1&gt;
+&lt;h2&gt;Support the wild product exploration with structured design system delivery&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHkLIrSP//EABsQAAEEAwAAAAAAAAAAAAAAAAEAAhARMTJB/9oACAEBAAEFAlwC4OWa/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAICAwAAAAAAAAAAAAAAAAABECERQVH/2gAIAQEAAT8h0dUPXKHDZD//2gAMAwEAAgADAAAAEFjf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFR/9oACAEDAQE/EF6//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxAf/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITGR/9oACAEBAAE/ECRQ+ZA4VfJkkIM64kNzjaowhzf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;approach1.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5f11f7018345848a21cd6e186185e344/0f98f/approach1.jpg&quot;
+        srcset=&quot;/static/5f11f7018345848a21cd6e186185e344/7cc5e/approach1.jpg 480w,
+/static/5f11f7018345848a21cd6e186185e344/6a068/approach1.jpg 960w,
+/static/5f11f7018345848a21cd6e186185e344/0f98f/approach1.jpg 1920w,
+/static/5f11f7018345848a21cd6e186185e344/eec88/approach1.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Faster and smaller component delivery by shifting architectural philosophy&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHjroMlp//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEAAQUCX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAMAAwAAAAAAAAAAAAAAAAABEBFhgf/aAAgBAQABPyHhjUQ5/9oADAMBAAIAAwAAABDkL//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EKf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAGBABAQEBAQAAAAAAAAAAAAAAAQARMSH/2gAIAQEAAT8Q3wMSu6C9ibDADkhvL//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;approach2.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e815b442bdee355ba77ab3e9790fa3d1/0f98f/approach2.jpg&quot;
+        srcset=&quot;/static/e815b442bdee355ba77ab3e9790fa3d1/7cc5e/approach2.jpg 480w,
+/static/e815b442bdee355ba77ab3e9790fa3d1/6a068/approach2.jpg 960w,
+/static/e815b442bdee355ba77ab3e9790fa3d1/0f98f/approach2.jpg 1920w,
+/static/e815b442bdee355ba77ab3e9790fa3d1/eec88/approach2.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Instead of focusing on use scenarios and creating bespoke components, we shifted our focus to the shapes of design. We managed to keep the component specific and simple. We broke down the big components into smaller simple components and made them agnostic in terms of use cases.&lt;/p&gt;
+&lt;h2&gt;Improved governance and federated contribution&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAByB2Ckkn/xAAXEAEBAQEAAAAAAAAAAAAAAAABABAx/9oACAEBAAEFApNeF//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAICAwAAAAAAAAAAAAAAAAABETEQIYH/2gAIAQEAAT8h4MSmNYQ9Ch//2gAMAwEAAgADAAAAEETv/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qp//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVGR/9oACAEBAAE/EBwKfIAuPVQb5CWZGbuBmQiZ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;approach3.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/56003e3d92d7974bc3101523bebcc53b/0f98f/approach3.jpg&quot;
+        srcset=&quot;/static/56003e3d92d7974bc3101523bebcc53b/7cc5e/approach3.jpg 480w,
+/static/56003e3d92d7974bc3101523bebcc53b/6a068/approach3.jpg 960w,
+/static/56003e3d92d7974bc3101523bebcc53b/0f98f/approach3.jpg 1920w,
+/static/56003e3d92d7974bc3101523bebcc53b/eec88/approach3.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We changed our workflow. During the rebranding project, we aimed to be more active and provocative. We organised syncing session for and with designers on a weekly basis. We prepare for the theme, presentation, mini-workshop, and questions in advance. It became a new ritual and a platform for all designers to learn the latest progress on the design system side and allow them to contribute. It helped us to adopt the new design language and align in a more organic and collaborative way.&lt;/p&gt;
+&lt;p&gt;The teams needed to create their own custom components fast but still comply with the new design language. We created a process and documentation space for them to safely work with and share their documentation with the other teams. The improved transparency of documentation also allowed us to adopt and internalise their work into the new design system more efficiently.&lt;/p&gt;
+&lt;h2&gt;Create tools for teams to run faster&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeOy4RC//8QAFxABAAMAAAAAAAAAAAAAAAAAAQIQIP/aAAgBAQABBQLEwK//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAACEBEgUf/aAAgBAQAGPwKgxi//xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhMRCB/9oACAEBAAE/IXWQedGqTtDpn//aAAwDAQACAAMAAAAQ7w//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFhEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAECAQE/EHSf/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAMSFBUWGB/9oACAEBAAE/EFQIxuUovYc0h04Lm8RZWXAQhzP/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;approach4.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/985bd11cd0a6860a963459e744b2da54/0f98f/approach4.jpg&quot;
+        srcset=&quot;/static/985bd11cd0a6860a963459e744b2da54/7cc5e/approach4.jpg 480w,
+/static/985bd11cd0a6860a963459e744b2da54/6a068/approach4.jpg 960w,
+/static/985bd11cd0a6860a963459e744b2da54/0f98f/approach4.jpg 1920w,
+/static/985bd11cd0a6860a963459e744b2da54/eec88/approach4.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The teams needed to create their own custom components fast but still comply with the new design language. We created a process and documentation space for them to safely work with and share their documentation with the other teams. The improved transparency of documentation also allowed us to adopt and internalise their work into the new design system more efficiently.&lt;/p&gt;
+&lt;h2&gt;Accelerate and scale prototyping with vibe coding&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAGGZywWbJ//xAAZEAEAAgMAAAAAAAAAAAAAAAABAxIAEEH/2gAIAQEAAQUCYwg6ZZrr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAEQACEEEBEiH/2gAIAQEABj8Ca89zSAjWp//EABoQAQADAQEBAAAAAAAAAAAAAAEAETEhUYH/2gAIAQEAAT8hOt2ppk1jHkVkvKecI2LSn2Hes//aAAwDAQACAAMAAAAQhC//xAAWEQADAAAAAAAAAAAAAAAAAAABEGH/2gAIAQMBAT8QFX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQIBAT8Quq//xAAcEAEAAwACAwAAAAAAAAAAAAABABEhMUFRgfD/2gAIAQEAAT8QokinyPfqIrCc2NKqm8q3QZ9cWg3NIibaK6s//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;approach5.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/384138b940730f1abb587b407c6aaa9d/0f98f/approach5.jpg&quot;
+        srcset=&quot;/static/384138b940730f1abb587b407c6aaa9d/7cc5e/approach5.jpg 480w,
+/static/384138b940730f1abb587b407c6aaa9d/6a068/approach5.jpg 960w,
+/static/384138b940730f1abb587b407c6aaa9d/0f98f/approach5.jpg 1920w,
+/static/384138b940730f1abb587b407c6aaa9d/eec88/approach5.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The unique nature of digital twins requires extensive prototyping in both 3D model viewers and 2D collaborative canvases. Accomplishing this in Figma Design is challenging. We adopted the latest Figma Make feature early on to enable rapid prototyping and efficient concept validation. For example, we shortened the design delivery of the data label components into 1 sprint, compared to the previous version.&lt;/p&gt;
+&lt;p&gt;Working closely with our developers, we broke down the prompts into small, specific steps. These steps help minimize errors and prevent the AI from exploring unrelated directions, ensuring more consistent and reproducible outcomes for designers. Additionally, we established a standardized set of prompts that empowers designers to independently create 3D testing boilerplates.&lt;/p&gt;
+&lt;h1&gt;Outcome&lt;/h1&gt;
+&lt;p&gt;The rework is still an ongoing process as of this writing. In a one-year period, we has created&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a new token system defining the colours, spacing, typography, radius, breakpoints, etc&lt;/li&gt;
+&lt;li&gt;a documentation framework&lt;/li&gt;
+&lt;li&gt;a minimal set (approx. 25 components) of essential components that can speed up and unify the ongoing UX exploration&lt;/li&gt;
+&lt;li&gt;a few key patterns for cross-component governance and particular use scenarios&lt;/li&gt;
+&lt;li&gt;a regular design audit and syncing ritual that accommodates a company-wide new ways of working&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It reinforced my belief that a successful design system isn’t just about components. It’s about culture, communication, and creating space for contribution and iteration.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Note&lt;/h1&gt;
+&lt;h2&gt;Confidentiality concerns&lt;/h2&gt;
+&lt;p&gt;All visual materials in this article were created solely to illustrate the process and outcomes of this project. They do not represent the actual product and respect the company’s intellectual property and the client’s business confidentiality.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mapping Undefined Objects]]></title><description><![CDATA[Objectives We wanted to align the inconsistent representation of objects in the complicated digital twin scenarios and user flow.  In the…]]></description><link>https://imyentsen.github.io/mapping-undefined-objects/</link><guid isPermaLink="false">https://imyentsen.github.io/mapping-undefined-objects/</guid><content:encoded>&lt;h1&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;We wanted to align the inconsistent representation of objects in the complicated digital twin scenarios and user flow.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdedkMA//8QAFxABAQEBAAAAAAAAAAAAAAAAAQIRIP/aAAgBAQABBQJcmG14/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAcQIgIf/aAAgBAQAGPwJomp3FC9f/xAAbEAACAgMBAAAAAAAAAAAAAAABIQAQETFRYf/aAAgBAQABPyFQM5CMezQjFadf/9oADAMBAAIAAwAAABCTD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQADAAMAAAAAAAAAAAAAAAEAESEQUYH/2gAIAQEAAT8QuwbAhYbvt5Y/DCWK4AVAHuKuuz//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Slides-1.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c7079757ee772df119aa0f783cbfaba1/0f98f/Slides-1.jpg&quot;
+        srcset=&quot;/static/c7079757ee772df119aa0f783cbfaba1/7cc5e/Slides-1.jpg 480w,
+/static/c7079757ee772df119aa0f783cbfaba1/6a068/Slides-1.jpg 960w,
+/static/c7079757ee772df119aa0f783cbfaba1/0f98f/Slides-1.jpg 1920w,
+/static/c7079757ee772df119aa0f783cbfaba1/eec88/Slides-1.jpg 2880w,
+/static/c7079757ee772df119aa0f783cbfaba1/01fc7/Slides-1.jpg 3200w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the energy industries, the objects (e.g., “Tag”, “Work Order”, “Document”, “Anomalies”) look differently in the different features of our product. We need to develop a feasible way to align them and offer our users a clear mental model to do their everyday’s jobs, such as planning, operation, and maintenance for the heavy assets.&lt;/p&gt;
+&lt;h1&gt;My role&lt;/h1&gt;
+&lt;p&gt;I led the initiative by mapping the object-oriented mental models and  redesigning pilot components and patterns.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdqsgD//xAAVEAEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAQUAAAAAAAAAAAAAAAAAAAERICFh/9oACAEBAAE/IU0W8f/aAAwDAQACAAMAAAAQAA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAIDAAAAAAAAAAAAAAABEQBBEFFx/9oACAEBAAE/EKJSHmWxADeF23K98//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Slides-6.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8d955155456b06a5cb1b53818715724e/0f98f/Slides-6.jpg&quot;
+        srcset=&quot;/static/8d955155456b06a5cb1b53818715724e/7cc5e/Slides-6.jpg 480w,
+/static/8d955155456b06a5cb1b53818715724e/6a068/Slides-6.jpg 960w,
+/static/8d955155456b06a5cb1b53818715724e/0f98f/Slides-6.jpg 1920w,
+/static/8d955155456b06a5cb1b53818715724e/eec88/Slides-6.jpg 2880w,
+/static/8d955155456b06a5cb1b53818715724e/01fc7/Slides-6.jpg 3200w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;Challenge&lt;/h1&gt;
+&lt;p&gt;Our product used to be a combination of approx. 40 small applications as a spin-off from Aker Solutions. The objects are presented very differently in the different user flows of our product. The lack of consistent inner logic reflects the past company organisational structure.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJUlEQVR42kVT7Y6qMBT0DTZuVIQWKlAEFBWkFBBQwO9db3L/7vu/yB3AzT0JCZyPmTPTMjIMY/EbRh+6rhONUE0lOl2wd4kxhjwlhGiqqhFd7zpHyNZ1/Xg8mqYxTRMd3ObbOBRFW+0jkQiUbreb67oACqLtTpR/H/nxWRvMHFFKhRDn8/l0Oh0Oh46Z6kkuk6J0LNv3/bZtUSrL8lhVIpdOENZF7vpL0IzwADWOY0BwzrGXoiiz6ZQZhkaI4zhlH/v9fh2slZky/vj4nExUVe3WxrBt26hVVYWmoiigcDqdcu4QQtfrdZZleZ6DYDKZzFV1Pp9DuWVa72GE53lhGIIfQJh0Pe/7XGdFEYvk9XpBM/LL5TIIgrppfv58NcmJUNIZtukD8rCMTqnBmIjlIY4s27YsC3JQ0jQtiiKgSynjfWT2RzPCA7cBf7/fAYFPmWZ19SUCf65q2HbQDM9ACwjgcYcTcGAYbm+3WwiG1ejY7XbKbDZTFBsdmgrD0jQFG3oGUdjL91Yut99uD4IxNtwHWOL7XlvdN7G0LHMorfpIE1ne2vz0zDYByDtmQOKccUngKo5qPB6vVn4cJqbNEyGu1yuqcAugYJYyfdTR89pyc9kNAxuyj8fjoBkWwidKu4sItsvlAlwowubIo7Mp05XvMoP9Xxs1vKAbOod3iqvKOdzGasigB8M4IYMtcAXeboOc9IGX4dhpH++f5DeGap+jwy/0D7VniNQE/d34AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;This is an example of our list pattern. The diversity without clear logic harmed our UX.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7c399110836888817332b4ee3da72c58/5b6ee/image.png&quot;
+        srcset=&quot;/static/7c399110836888817332b4ee3da72c58/e85cb/image.png 480w,
+/static/7c399110836888817332b4ee3da72c58/d9199/image.png 960w,
+/static/7c399110836888817332b4ee3da72c58/5b6ee/image.png 1672w&quot;
+        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is an example of our list pattern. The diversity without clear logic harmed our UX.&lt;/p&gt;
+&lt;p&gt;The diversity in the presentation led to cognitive fragmentation in our user flows. It also resulted in the failure to provide our users a comprehensive mental model on the objects that matches their domain knowledge on the objects.&lt;/p&gt;
+&lt;h1&gt;Approach&lt;/h1&gt;
+&lt;h2&gt;1. Mapped out the objects&lt;/h2&gt;
+&lt;p&gt;We chose the &lt;a href=&quot;https://www.ooux.com&quot;&gt;OOUX framework&lt;/a&gt; as our mapping technique and establish the map collaboratively. It gave us an overview on the objects in our products. It also helped us to clarify and align our understanding on the objects given the deep prerequisite domain knowledge.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACuklEQVR42mOQQwXyMADnojGQAQOcJSsrq6io6Ojo6ObmZmRk5OTk5O7uDmQ4OztDRFxcXIAMHTDQ1dVVUVFB0aykpOTj7RcaEmZhbhEQEBgZEWVpYRUUGBwRHglkhISEAhmGhkBzjIyNjdXU1NA0K7p5OXj7u5qaG1nbWjo42xka6dvaW9k72QIZDk42Tq522tpaGuoampqaQJsYgHqAZmhoqEtLSatpqBR3hNZMjgpPcZq7O3/NucrMar95ewtWnalIK/eZujFrwYEiZ29zFWU1bW1tZWVlqM0yYAA0SEJcTERYWEVNPrHQJbXMzcXXOC7fKaHAOTjBdsXJwvWXSj2CLNVUNHT1dEGagRqAXjcwMNDU1FBV1cjK7y+tmuvlmxgV05SaPtHVLTYlvT89c3pQWNr0ZRvnr9vj4uGtpqYKDDCozQoKCqqqqsC40NDU7Z60f+aCS4mpDZNmHV+67nF8cm15zfymjnWBIZlFpfOq6lZZWbtraKghNAMdLCUtLSUlqa6p29C7q3/uxeDIIt/grJjkJkMTex5+Xn4RYTEJCSExEQERIWCMA3UCYwvqbKC1RoaGsnJy2uqaa9unH5y+MicstsDXqzEiLMzBviclfUpmdqybe29q+vTsXCdzcw0tLT09PVA8Q6IXGHqKSko66urbmqvOTOrIDfEL93FODvEKc3c6OqHjzLSe6tjI/T2t56b1BTjaq6ir6+nqotisraOrr6N+amvD41N91QXBZbn+HbWRSVEu+1dXnNhcW1sYfG5H492jnSF+9mrqWgb6+tAUBtQP8raUtIqyYkSQXXK0i7mpDr+gGBevsJmxzrGN1We31ydHuYT42SRGORvqayooKKqoKAODmQE5P8jKyomKSwqLSkhJyygpAWXlVVWV7K0NnOyM1NWUhUQkRMQkpcHJAQjk5OQAKDHaAS0d/5wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/14055c5ec592c6f837760ce08ed7ed0e/5b6ee/image1.png&quot;
+        srcset=&quot;/static/14055c5ec592c6f837760ce08ed7ed0e/e85cb/image1.png 480w,
+/static/14055c5ec592c6f837760ce08ed7ed0e/d9199/image1.png 960w,
+/static/14055c5ec592c6f837760ce08ed7ed0e/5b6ee/image1.png 1672w&quot;
+        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;2. Defined priorities&lt;/h2&gt;
+&lt;p&gt;We chose data label and list components as our two top priorities. They are both very prominent in our UX. Investing in the two components could yield most improvement.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACpElEQVR42m1SS09aQRhl0TRtGo2gXO5j5sLFO9yHClzRSsU3LSg+ESrRAL6NRAut1QbwAZWYtrYbo8bYYozUWtMmXfUvdNPEpBvTbvtPOoghxPTL2cyX78ycOedTsSzLcZxezxoMBr0+j0LpceuqjEYjQqh4LC0VnpOlWoqhtVVqQquhKC1BaKoqK0iKhFAPGGBVrE12u8HA/YcMAHzkcQz3uAeGpvyBheD4km8kMuSfd3V6XK4WXuAbrYqIeJIkAGBukhkaBmc98fnp9fTH1Nb5RuYslTnLbH+bDUeHvV1CrfDwgWPUH+r3hhsam2maLtWvInVM/NXocSa5s/dj/+hiP3ux9/7nYe4yOpP0DrXIVqmt4f7zp69XVrP9gyEIAVtKZhjY52sbHx4Ihl+EppLBiURoMjExm+p1eVscChJ5W11dLPZ2bfN8ei4tihIAgGWv+SosA0JeoyPLy26rK+7qtOXqijtl924RuiqO4yGA1QjxCBk5zmisvuG5imZgONARC45GnryLLe+uJA6iSzvR5f2Ad7yvrx3Jpo4m+0w4gkwSQ9M3DcPkqbHOlclQfO147eVpMp1bTec2tr7MBBf9/i7ZItWIss3WiPNnWVikFSSotDqwu+n7vr15cPQr++lP9vT3h9zlyde/z+ZTgwPNNVap3my122w0k88J746imBWlXhRFCKEKtwQR4YMsm+WaEgiyxVwL9NDZ7Aj09JI0jaeRgJyeLlEQ8VJeuQ2Au7U10N3rdPld3YErjLh7xhzt7bzJiA0DEFIAYJ14UjIJjz39ZosFk/Mvkwyz4PO9iSwuxQ+TqVxi4yS+jj//OTQ9Z1EEkM/12mJ8C+INzlYrVllo5aMiKEpDEDqiEm91AVpCTdNUMc9iQchSFAPzUefJ/wAI5r1/u7co9gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/306ebfc5fb8c05370153b305994856bc/5b6ee/image2.png&quot;
+        srcset=&quot;/static/306ebfc5fb8c05370153b305994856bc/e85cb/image2.png 480w,
+/static/306ebfc5fb8c05370153b305994856bc/d9199/image2.png 960w,
+/static/306ebfc5fb8c05370153b305994856bc/5b6ee/image2.png 1672w&quot;
+        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;3. Created pilot components&lt;/h2&gt;
+&lt;p&gt;We designed and developed two pilot components, &lt;strong&gt;Data Label&lt;/strong&gt; and &lt;strong&gt;List&lt;/strong&gt;. They served as the pilot components for us to validate this approach and satisfied the priority needs of the product teams.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1672px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACpklEQVR42n2SWU8TURiG50rxBkKAdtYzM90oszDtTFu6t5RutEAxSIEipaXI7tYiFhtB1oQrV0IgLlGjMRFivPIXmHDjXzDxRv+GZ6YuJCa+ec/knPnynjnfMwcBABjOiGVZ+KRpGmiifwucEf1rAAQWJEmyaZJlWVEcLldXu8VCkAQJRRC4pj8bURRFwBpOaGEAwza7bBf4DgzTo6gOw1CMwExGYwfPC4LgcDoVh8KyDHwPt6JptlOwiLIEaAZhGCYcDqXT/ZeG8z5/3O3piUaSiWxuIJ0NhoJOj7s3EY8nUja7Q5Fd0b60L9o/nomEe8MUgGEDW1pIri0uv3j37e2H79Cv33998/HH7OQ1K8OkRoO1hYlKeX9t52Rj92T3/qeJsfmY0xVQnFS9Z7GTc8jOeDIbSwxrzsaSWbvNAfFZre0iz/NcpyjaBcHG8VKHlYdETGaT2jMcEABO4Ki+Va8Z1bdBw/YIghAlye33e70uktA1Nl5oa23W6VohMYvBAr+qhimKhAwhCZY1MqwBUBAiDSc4SfaFwzdz4/nC8mSplsuvDA7mUrnS9PSNkVSCJGn12IFAqDsS8XqcqL4FQ1s4QXBLSl93r0mSM4FAdfxyYap2tfzoeuVhobQ6Nbc5OFLi7WZ4XoRhmZ6op5idWF1/Wa4e3qo93d473tg5zg6MWs0mXpQUr0+RuZbmhobzSFPjOVTXZOPIbn/QyJoQWg13lYbGijObV+a3p+e2ijP3irNbA4kMZzKHYp7C6MWV209W119VqkeV6sHdzee18p1k2McyxjowCsUhHhRSU01g0CSgMIyMZbyL+aGt7ZP9Z18eH50+PPj84PB0aWlP5qw0wyB/r+u/ogGBUzoUByrBulWqcElpdQT8XzRgYIg6K/XX1Is/ATwOtxxM7FRaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8ae1e6386832d8a59ee632bb8dec0921/5b6ee/image3.png&quot;
+        srcset=&quot;/static/8ae1e6386832d8a59ee632bb8dec0921/e85cb/image3.png 480w,
+/static/8ae1e6386832d8a59ee632bb8dec0921/d9199/image3.png 960w,
+/static/8ae1e6386832d8a59ee632bb8dec0921/5b6ee/image3.png 1672w&quot;
+        sizes=&quot;(max-width: 1672px) 100vw, 1672px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;4. Encouraged adoption, iterated, and reviewed&lt;/h2&gt;
+&lt;p&gt;Through out the process of component research and redesign, the communication with the teams is the key. We interviewed and facilitated workshops with the managers, designers, and developers to establish trust, gather feedback, and reach a shared imagination on the roadmap.&lt;/p&gt;
+&lt;p&gt;We also encouraged component adoption by organising checkin and feedback sessions. We also documented the key examples in the guidelines for references and iterations.&lt;/p&gt;
+&lt;h1&gt;Outcome&lt;/h1&gt;
+&lt;h2&gt;MVP components&lt;/h2&gt;
+&lt;p&gt;We designed and developed two pilot components, &lt;strong&gt;Data Label&lt;/strong&gt; and a set of &lt;strong&gt;List&lt;/strong&gt; components.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAATmTiBW4/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQMAAhIiM//aAAgBAQABBQJIxVcAWiebRrP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAABBQEAAAAAAAAAAAAAAAAAAQIQYXED/9oACAEBAAY/An4VHTBq1H//xAAZEAEBAAMBAAAAAAAAAAAAAAABERAhQQD/2gAIAQEAAT8hoHtQZ6NkRdZwDqdsf//aAAwDAQACAAMAAAAQgC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBYYH/2gAIAQEAAT8QZOudFjMWEDUN1Syw2dsBf7PkG5mtfNBKJ//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;outcome1.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/baa0fd0c07ad3b559dc4169d75c75c56/0f98f/outcome1.jpg&quot;
+        srcset=&quot;/static/baa0fd0c07ad3b559dc4169d75c75c56/7cc5e/outcome1.jpg 480w,
+/static/baa0fd0c07ad3b559dc4169d75c75c56/6a068/outcome1.jpg 960w,
+/static/baa0fd0c07ad3b559dc4169d75c75c56/0f98f/outcome1.jpg 1920w,
+/static/baa0fd0c07ad3b559dc4169d75c75c56/eec88/outcome1.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Data Label&lt;/strong&gt; component signifies different object types with strong visual connections to other elements like Lists, displaying key information such as ID, description, and time series across single, group, or cluster labels. It supports colour coding for data visualisation and adapts seamlessly to both 2D and 3D industrial environments.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB5KdBmUT/AP/EABUQAQEAAAAAAAAAAAAAAAAAABBB/9oACAEBAAEFAmn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAEBAAMBAAAAAAAAAAAAAAABABARMSH/2gAIAQEAAT8hNKCT3AwPI5f/2gAMAwEAAgADAAAAEBwv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAEQD/2gAIAQIBAT8QSb//xAAaEAEAAwADAAAAAAAAAAAAAAABABEhMUFx/9oACAEBAAE/EEAQDUxfYAxpfFx1wqJY6CAiyG9T/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;outcome2.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f3c26c33d59e0799af4bb42b0235daa7/0f98f/outcome2.jpg&quot;
+        srcset=&quot;/static/f3c26c33d59e0799af4bb42b0235daa7/7cc5e/outcome2.jpg 480w,
+/static/f3c26c33d59e0799af4bb42b0235daa7/6a068/outcome2.jpg 960w,
+/static/f3c26c33d59e0799af4bb42b0235daa7/0f98f/outcome2.jpg 1920w,
+/static/f3c26c33d59e0799af4bb42b0235daa7/eec88/outcome2.jpg 2880w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Beside the data label, we also developed a dedicated set of list components to support the object-oriented user journey. The pilot &lt;strong&gt;List&lt;/strong&gt; components provide a consistent structure for various use cases—such as search results, object history, and user-created folders—while maintaining visual coherence with Data Labels.&lt;/p&gt;
+&lt;p&gt;It includes well-defined interactive states, offers clear usage guidelines, and allows flexibility through configurable swap-in actions. Moreover, we also govern the usage of them with the documentation on patterns.&lt;/p&gt;
+&lt;h2&gt;Shared and aligned roadmap&lt;/h2&gt;
+&lt;p&gt;Besides the two key components, we also designed the wireframe and guidelines for the other component updates on our &lt;strong&gt;roadmap&lt;/strong&gt;, such as Tree, Card, and Tag component. This fostered interface coherence and cultural alignment across teams.&lt;/p&gt;
+&lt;p&gt;Grounded in collaboration and domain respect, our scalable components empower users and creators, clarifying both product and people.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Note&lt;/h1&gt;
+&lt;h2&gt;Confidentiality concerns&lt;/h2&gt;
+&lt;p&gt;All visual materials in this article were created solely to illustrate the process and outcomes of this project. They do not represent the actual product and respect the company’s intellectual property and the client’s business confidentiality.&lt;/p&gt;</content:encoded></item></channel></rss>

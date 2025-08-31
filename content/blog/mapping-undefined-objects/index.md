@@ -63,13 +63,18 @@ We also encouraged component adoption by organising checkin and feedback session
 
 ## MVP components
 
-We designed and developed two pilot components, **Data Label** and **List**. 
+We designed and developed two pilot components, **Data Label** and a set of **List** components. 
 
-![image.png](./image4.png)
+![outcome1.jpg](./outcome1.jpg)
 
 The **Data Label** component signifies different object types with strong visual connections to other elements like Lists, displaying key information such as ID, description, and time series across single, group, or cluster labels. It supports colour coding for data visualisation and adapts seamlessly to both 2D and 3D industrial environments. 
 
-The **List** component complements this by providing a consistent structure for various use cases—such as search results, object history, and user-created folders—while maintaining visual coherence with Data Labels. It includes well-defined interactive states, offers clear usage guidelines, and allows flexibility through configurable swap-in actions.
+
+![outcome2.jpg](./outcome2.jpg)
+
+Beside the data label, we also developed a dedicated set of list components to support the object-oriented user journey. The pilot **List** components provide a consistent structure for various use cases—such as search results, object history, and user-created folders—while maintaining visual coherence with Data Labels. 
+
+It includes well-defined interactive states, offers clear usage guidelines, and allows flexibility through configurable swap-in actions. Moreover, we also govern the usage of them with the documentation on patterns. 
 
 ## Shared and aligned roadmap
 
