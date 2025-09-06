@@ -1,5 +1,5 @@
 ---
-title: "Signs of Change"
+title: "Signs of change"
 slug: "/signs-of-change"
 desc: "Designed Taiwan’s first identity for all-gender restrooms that highlights visually inclusive, emotionally safe, and publicly adaptable values."
 org: "National Taiwan University"

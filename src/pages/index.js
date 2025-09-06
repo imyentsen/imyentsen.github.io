@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <Layout>
       {/* Blur canvas background */}
-      <BlurCanvas />
+      {/* <BlurCanvas /> */}
       <Banner />
       <HighlightSection />
       <AllProjectsSection />

@@ -1,5 +1,5 @@
 ---
-title: "Designing Dignity"
+title: "Designing dignity"
 org: "Rearia Ltd."
 year: 2021
 desc: "Crafted an inclusive identity for assistive headphones — one that celebrates users instead of stigmatising them."

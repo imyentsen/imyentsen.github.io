@@ -5,7 +5,7 @@ export default function Banner() {
       <div className="relative size-full">
         {/* 三欄 grid，gap 用來控制欄間空白 */}
         <div className="box-border flex flex-col gap-3  lg:px-6 md:px-3 px-2 pt-12 lg:pt-6 relative w-full
-          lg:grid lg:grid-cols-3 lg:gap-3 lg:items-start lg:justify-start">
+          lg:grid lg:[grid-template-columns:3fr_2fr_1fr] lg:gap-3 lg:items-start lg:justify-start">
 
           {/* Summary - Left column，右邊加右邊框線(分隔線)*/}
           <div className="relative text-[18px] flex flex-col gap-3 pr-3 items-start justify-start min-w-0 p-0 pr-3 shrink-0 w-full lg:w-auto">
@@ -28,7 +28,7 @@ export default function Banner() {
           </div>
 
           {/* Work Experience - Center column，左右各有1px邊框（分隔線）*/}
-          <div className="relative hidden lg:flex flex-col gap-3 items-start justify-start min-w-0 p-0 px-3 shrink-0">
+          <div className="relative hidden lg:flex flex-col gap-3 items-start justify-start min-w-0 p-0 px-3 shrink-0 w-full lg:w-auto">
             <div className="absolute top-0 right-0 h-full w-px bg-[#ddd]" />
             <p className="text-black font-['Syne',_sans-serif] text-[18px] block leading-normal relative z-10">Work Experience</p>
             <div className="flex flex-col gap-4 text-[#767676] text-[18px] leading-normal relative z-10">
@@ -48,7 +48,7 @@ export default function Banner() {
           </div>
 
           {/* Contact - Right column */}
-          <div className="hidden lg:flex flex-col gap-3 items-start justify-start min-w-0 p-0 pl-3 shrink-0">
+          <div className="hidden lg:flex flex-col gap-3 items-start justify-start min-w-0 p-0 pl-3 shrink-0 w-full lg:w-auto">
             <p className="text-black font-['Syne',_sans-serif] text-[18px] block leading-normal">Contact</p>
             <div className="flex flex-col gap-3 font-['Syne',_sans-serif] text-[18px]">
               <a

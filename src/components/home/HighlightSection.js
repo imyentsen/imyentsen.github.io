@@ -61,19 +61,23 @@ function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightIm
       <div
         onMouseEnter={() => setHoverSlug(slug)}
         onMouseLeave={() => setHoverSlug(null)}
-        className={`box-border content-stretch flex flex-col gap-2 items-start justify-start p-0 relative shrink-0 w-full group cursor-pointer transition-opacity 
-          ${isHovered ? "opacity-80" : "opacity-100"}
-        `}
+        className={`box-border content-stretch flex flex-col gap-2 items-start justify-start p-0 relative shrink-0 w-full group cursor-pointer transition-opacity`}
       >
         {/* 封面圖片 */}
         {image && (
-          <div className="w-full">
+          <div className="w-full relative">
             <GatsbyImage
               image={image}
               alt={title}
               style={{ height: "100%" }}
               imgStyle={{ objectFit: "cover" }}
-              className="rounded-md bg-white"
+              className="bg-white"
+            />
+            {/* Gradient overlay at bottom, appears on hover */}
+            <div
+              className="absolute left-0 bottom-0 w-full h-1/3 pointer-events-none
+                opacity-0 group-hover:opacity-70 transition-opacity
+                bg-gradient-to-t from-white to-transparent"
             />
           </div>
         )}
@@ -151,7 +155,7 @@ export default function HighlightSection() {
         {/* Section Header - Always visible */}
         <div className="box-border content-stretch flex flex-row gap-2.5 items-start justify-start pb-6 pt-20  lg:px-6 md:px-3 px-2 relative w-full">
           <div className="font-['Syne',_sans-serif] text-[18px] leading-none relative shrink-0 text-black text-left text-nowrap">
-            <p className="block leading-normal whitespace-pre">Portfolio highlight</p>
+            <p className="block leading-normal whitespace-pre">Portfolio Highlight</p>
           </div>
         </div>
 

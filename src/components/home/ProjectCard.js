@@ -6,10 +6,10 @@ function ProjectCard({ title, org, year, href, coverImage }) {
   // coverImage 已經是 getImage() 回傳的 GatsbyImageData 了
   return (
     <Link to={href} className="block group cursor-pointer w-full">
-      <div className="box-border flex flex-col gap-2 items-start p-0 relative self-start shrink-0 w-full">
-        <div className="shrink-0 w-full group-hover:opacity-80 transition-opacity">
+      <div className="box-border flex flex-col gap-2 lg:pt-6 items-start p-0 relative self-start shrink-0 w-full">
+        <div className="shrink-0 w-full relative">
           {coverImage ? (
-            <GatsbyImage image={coverImage} alt={title} style={{ width: "100%" }} className="bg-white rounded-md"/>
+            <GatsbyImage image={coverImage} alt={title} style={{ width: "100%" }} className="bg-white"/>
           ) : (
             <img
               src="/fallback-image.jpg"
@@ -17,6 +17,12 @@ function ProjectCard({ title, org, year, href, coverImage }) {
               style={{ width: "100%" }}
             />
           )}
+          {/* Gradient overlay at bottom, appears on hover */}
+          <div
+            className="absolute left-0 bottom-0 w-full h-1/3 pointer-events-none
+              opacity-0 group-hover:opacity-70 transition-opacity
+              bg-gradient-to-t from-white to-transparent"
+          />
         </div>
 
         <div className="flex flex-col items-start justify-start w-full">
