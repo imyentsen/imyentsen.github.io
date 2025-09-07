@@ -15,7 +15,9 @@ export default function PortfolioTemplate({ data }) {
   const defaultKeywords = "UX Design, Design Systems, Digital Twins, Portfolio";
 
   // Dynamic values
-  const pageTitle = frontmatter.title || defaultTitle;
+  const pageTitle = frontmatter.title
+    ? `${frontmatter.title} | Yen-tsen Ansin Liu`
+    : defaultTitle;
   const pageDescription = frontmatter.desc || defaultDescription;
   const pageOgImage = frontmatter.coverImage?.publicURL
     ? frontmatter.coverImage.publicURL

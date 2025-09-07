@@ -11,6 +11,9 @@ coverImage: "cover.jpg"
 
 To create a distinctive and inclusive brand identity for the assistive headphone product, combating stigma and reinforcing its mission of empowering hard-of-hearing users. The branding needed to evoke warmth, innovation, and accessibility while differentiating the product from traditional medical devices.
 
+
+![a cochlear implant user](./maija.jpg)
+
 # My Role
 
 As the lead designer, I was responsible for:

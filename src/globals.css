@@ -132,7 +132,7 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'DM Sans', sans-serif;
-    background-color:rgb(240, 240, 240);
+    background-color: #FDFDFD;
   }
 
   *, *::before, *::after {
