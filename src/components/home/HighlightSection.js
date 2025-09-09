@@ -55,48 +55,14 @@ function DescriptionWithLinks({ text, links, hoverSlug, setHoverSlug }) {
   );
 }
 
-// 單張卡片
-function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightImage, hoverSlug, setHoverSlug, imagesVisible }) {
-  const [scrollProgress, setScrollProgress] = useState(0);
-  const cardRef = useRef(null);
+// 單張卡片 - 不再自己監聽滾動，接收 scrollProgress props
+function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightImage, hoverSlug, setHoverSlug, imagesVisible, scrollProgress }) {
   const image = getImage(useHighlightImage ? highlightImage : coverImage);
   const isHovered = hoverSlug === slug;
-
-  useEffect(() => {
-    // 檢查是否在桌面版
-    const checkDesktop = () => window.innerWidth >= 768; // md breakpoint
-
-    const handleScroll = () => {
-      if (!cardRef.current || !checkDesktop()) {
-        setScrollProgress(0);
-        return;
-      }
-
-      const rect = cardRef.current.getBoundingClientRect();
-
-      // 當卡片超出螢幕上界一半才開始變淡
-      if (rect.top <= -(rect.height * 0.5)) {
-        const progress = Math.min(1, Math.max(0, (-(rect.height * 0.5) - rect.top) / (rect.height * 0.5)));
-        setScrollProgress(progress);
-      } else {
-        setScrollProgress(0);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleScroll);
-    handleScroll(); // 初始檢查
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleScroll);
-    };
-  }, []);
 
   return (
     <Link to={slug} className="block w-full">
       <div
-        ref={cardRef}
         onMouseEnter={() => setHoverSlug(slug)}
         onMouseLeave={() => setHoverSlug(null)}
         className={`box-border content-stretch flex flex-col gap-2 items-start justify-start p-0 relative shrink-0 w-full group cursor-pointer md:transition-all duration-600 ease-out ${
@@ -126,8 +92,13 @@ function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightIm
           </div>
         )}
 
-        {/* Title row - 沒有底色，只有文字 */}
-        <div className={`pb-2 box-border content-stretch flex flex-row ${fontClasses.syne} gap-2 items-start justify-start leading-none p-0 relative shrink-0 text-black text-[18px] text-left w-full md:transition-opacity ${isHovered ? "md:opacity-70" : "opacity-100"}`}>
+        {/* Title row - 使用與圖片相同的 scrollProgress */}
+        <div 
+          className={`pb-2 box-border content-stretch flex flex-row ${fontClasses.syne} gap-2 items-start justify-start leading-none p-0 relative shrink-0 text-black text-[18px] text-left w-full md:transition-opacity ${isHovered ? "md:opacity-70" : "opacity-100"}`}
+          style={{
+            opacity: imagesVisible ? Math.max(0.1, 1 - scrollProgress) : 0
+          }}
+        >
           <div className="grow">
             <p className={`block leading-normal md:transition-all ${isHovered ? "md:no-underline" : "underline"}`}>
               {title}
@@ -139,7 +110,7 @@ function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightIm
   );
 }
 
-// HighlightCategory
+// HighlightCategory - 統一管理所有滾動監聽
 function HighlightCategory({
   title,
   description,
@@ -152,27 +123,42 @@ function HighlightCategory({
   textVisible,
   imagesVisible,
 }) {
-  const [scrollProgress, setScrollProgress] = useState(0);
+  const [textScrollProgress, setTextScrollProgress] = useState(0);
+  const [imagesScrollProgress, setImagesScrollProgress] = useState(0);
   const textRef = useRef(null);
+  const imagesRef = useRef(null);
 
   useEffect(() => {
-    // 檢查是否在桌面版
-    const checkDesktop = () => window.innerWidth >= 768; // md breakpoint
+    // 檢查是否在 1024px
+    const checkDesktop = () => window.innerWidth >= 1024; // lg breakpoint
 
     const handleScroll = () => {
-      if (!textRef.current || !checkDesktop()) {
-        setScrollProgress(0);
+      if (!checkDesktop()) {
+        setTextScrollProgress(0);
+        setImagesScrollProgress(0);
         return;
       }
 
-      const rect = textRef.current.getBoundingClientRect();
+      // 處理文字區塊淡出
+      if (textRef.current) {
+        const textRect = textRef.current.getBoundingClientRect();
+        if (textRect.top <= 0) {
+          const progress = Math.min(1, Math.max(0, (-textRect.top) / (textRect.height * 0.3)));
+          setTextScrollProgress(progress);
+        } else {
+          setTextScrollProgress(0);
+        }
+      }
 
-      // 當文字區塊上端碰觸到螢幕上界才開始變淡
-      if (rect.top <= 0) {
-        const progress = Math.min(1, Math.max(0, (-rect.top) / (rect.height * 0.3)));
-        setScrollProgress(progress);
-      } else {
-        setScrollProgress(0);
+      // 處理圖片區塊淡出 - 統一監聽所有圖片
+      if (imagesRef.current) {
+        const imagesRect = imagesRef.current.getBoundingClientRect();
+        if (imagesRect.top <= -(imagesRect.height * 0.5)) {
+          const progress = Math.min(1, Math.max(0, (-(imagesRect.height * 0.5) - imagesRect.top) / (imagesRect.height * 0.5)));
+          setImagesScrollProgress(progress);
+        } else {
+          setImagesScrollProgress(0);
+        }
       }
     };
 
@@ -188,16 +174,16 @@ function HighlightCategory({
 
   return (
     <div className="box-border gap-3 grid grid-cols-1 lg:grid-cols-6 p-0 relative shrink-0 w-full">
-      {/* Summary - Column 1 - 調整 sticky 和 height 讓文字區塊底端高於圖片底端 */}
+      {/* Summary - Column 1 */}
       <div 
         ref={textRef}
-        className={`lg:col-span-2 lg:pr-6 box-border content-stretch flex flex-col ${fontClasses.dmSans} gap-3 items-start justify-start leading-none p-0 md:sticky md:top-12 self-start shrink-0 text-[18px] text-left md:transition-all duration-600 ease-out md:min-h-[30vh] ${
+        className={`lg:col-span-2 lg:pr-6 box-border content-stretch flex flex-col ${fontClasses.dmSans} gap-3 items-start justify-start leading-none p-0 lg:sticky lg:top-12 self-start shrink-0 text-[18px] text-left lg:transition-all duration-600 ease-out lg:min-h-[30vh] ${
           textVisible 
-            ? 'opacity-100 md:transform md:translate-y-0' 
-            : 'opacity-0 md:transform md:translate-y-[30px]'
+            ? 'opacity-100 lg:transform lg:translate-y-0' 
+            : 'opacity-0 lg:transform lg:translate-y-[30px]'
         }`}
         style={{
-          opacity: textVisible ? Math.max(0.1, 1 - scrollProgress) : 0
+          opacity: textVisible ? Math.max(0.1, 1 - textScrollProgress) : 0
         }}
       >
         {/* Section title */}
@@ -205,7 +191,7 @@ function HighlightCategory({
           <p className={`${fontClasses.syne} text-[18px] block leading-normal`}>{title}</p>
         </div>
         {/* Description (hidden on mobile) */}
-        <div className="relative shrink-0 text-[#767676] w-full hidden md:block">
+        <div className="relative shrink-0 text-[#767676] w-full hidden lg:block">
           <DescriptionWithLinks
             text={description}
             links={links}
@@ -214,13 +200,13 @@ function HighlightCategory({
           />
         </div>
         {/* Clients (hidden on mobile) */}
-        <div className="relative shrink-0 text-[#767676] w-full hidden md:block">
+        <div className="relative shrink-0 text-[#767676] w-full hidden lg:block">
           <p className="text-[16px]">{clients}</p>
         </div>
       </div>
 
       {/* Cards - Columns 3-6 on desktop */}
-      <div className="lg:col-span-4 box-border content-stretch flex flex-col md:flex-col gap-3 items-start justify-start p-0 relative self-start shrink-0 w-full">
+      <div ref={imagesRef} className="lg:col-span-4 box-border content-stretch flex flex-col md:flex-col gap-3 items-start justify-start p-0 relative self-start shrink-0 w-full">
         {highlights.map((post, index) => (
           <HighlightCard
             key={post.frontmatter.slug}
@@ -232,6 +218,7 @@ function HighlightCategory({
             hoverSlug={hoverSlug}
             setHoverSlug={setHoverSlug}
             imagesVisible={imagesVisible}
+            scrollProgress={imagesScrollProgress} // 傳入統一的滾動進度
           />
         ))}
       </div>
@@ -317,7 +304,7 @@ export default function HighlightSection() {
     <section className="relative shrink-0 w-full pt-6 sm:pt-0">
       <div className="relative size-full">
         {/* Section Header - "Selected Work" 只有 fade in */}
-        <div className={`box-border content-stretch flex flex-row gap-2.5 items-start justify-start pb-6 pt-20 lg:px-6 md:px-3 px-2 relative w-full md:transition-opacity duration-600 ease-out ${
+        <div className={`box-border content-stretch flex flex-row gap-2.5 items-start justify-start pb-6 pt-20 lg:px-6 md:px-3 px-2 relative w-full lg:transition-opacity duration-600 ease-out ${
           headerVisible ? 'opacity-100' : 'opacity-0'
         }`}>
           <div className={`${fontClasses.syne} text-[18px] leading-none relative shrink-0 text-black text-left text-nowrap flex flex-col gap-3`}>
