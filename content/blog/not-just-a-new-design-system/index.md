@@ -5,7 +5,7 @@ year: 2025
 desc: "I co-led the overhaul of our design system to support a new product generation, balancing fast-paced product exploration with scalable tokens and accessible components/patterns."
 slug: "/not-just-a-new-design-system"
 coverImage: "cover.jpg"
-highlightImage: "highlight.jpg"
+highlightImage: "cover.jpg"
 ---
 
 # Objectives

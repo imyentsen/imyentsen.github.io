@@ -140,6 +140,17 @@
   }
 }
 
+/* src/styles/global.css */
+.font-syne {
+  font-family: 'Syne', sans-serif;
+  font-display: swap;
+}
+
+.font-dm-sans {
+  font-family: 'DM Sans', sans-serif;
+  font-display: swap;
+}
+
 /**
  * Base typography. This is not applied to elements which have an ancestor with a Tailwind text class.
  */
@@ -285,4 +296,27 @@ html {
       max-width: 720px;
     }
   }
+}
+
+
+/* Animaiton */
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 800ms ease-out forwards;
+}
+
+.fade-up-initial {
+  opacity: 0;
+  transform: translateY(30px);
 }

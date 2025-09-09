@@ -6,7 +6,7 @@ year: 2021
 status: Published
 slug: "/redefine-music-listening-for-the-deaf"
 coverImage: "image.png"
-highlightImage: "highlight.jpg"
+highlightImage: "image.png"
 ---
 
 # Objectives

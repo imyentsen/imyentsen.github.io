@@ -5,7 +5,7 @@ year: 2024
 desc: "I designed scalable, widely adopted components—like Data Labels—bringing clarity to millions of complex industrial assets in high-stakes environments."
 slug: "/mapping-undefined-objects"
 coverImage: "cover.jpg"
-highlightImage: "highlight.jpg"
+highlightImage: "cover.jpg"
 ---
 
 

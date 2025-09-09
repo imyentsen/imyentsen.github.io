@@ -5,9 +5,8 @@ slug: "/turn-a-consultancy-service-into-a-saas-product"
 org: "Re:lab Ltd."
 year: 2022
 coverImage: "cover.jpg"
-highlightImage: "highlight.jpg"
+highlightImage: "cover.jpg"
 ---
-
 # Objectives
 
 My client and I aimed to transform their consultancy business, RE:LAB, from a marketing design service to a SaaS company. 
@@ -46,6 +45,14 @@ At the early stages, I focused on developing and refining user journeys and inte
 
 Early wireframes and key user journeys. They are blurred because of the confidentiality concerns.
 
+During the research stage, we faced an important turning point. At first, we assumed that our potential users needed an easy-to-use psychological game maker with bespoke visual material and templates. However, the interviews showed a different reality: what they actually wanted was an online game maker that could be applied directly for marketing purposes.  
+
+This meant our initial direction did not fully align with the real user needs. At that point, the project was already in the middle phase, with limited time and budget left. To address this, we reviewed the entire product flow, identified key opportunities to shift direction, and adjusted the design to match user needs.  
+
+Within half a year, we successfully reshaped the product journey and delivered an MVP that could be tested and iterated further. The MVP was later used in a real pilot marketing case, receiving over 3000 responses, and became a stepping stone for the product’s success in Taiwan and beyond.  
+
+Besides the practical design and research skills I applied during the process, the most valuable takeaway for me was a mindset: when working on a startup product, always stay open to change. Adjustments can be painful and stressful, but they often lead to rewarding outcomes when they truly address the users’ pain points.  
+
 As we moved toward the MVP, I improved the design quality for implementation and worked closely with developers to bring it to life. I also collaborated with a potential client to turn the MVP into a gamified survey, which was used in **a real pilot marketing case and received over 3000 responses**. 
 
 At the handover stage, I **helped present the design process and provided guidance for building a future design system.**
@@ -56,7 +63,7 @@ At the handover stage, I **helped present the design process and provided guidan
 
 We delivered a successful minimal viable product and a solid foundation of work flow for the client company to continue to scale. The product, [**OOOPEN Lab**](https://ooopenlab.cc/en), has obtained 60+ clients in Taiwan and now preparing to expand oversea.
 
-![Screenshot 2025-06-10 at 11.52.42 PM.png](./asm.png)
+![Screenshot 2025-06-10 at 11.52.42 PM.png](./asm.png)
 
 ## Note
 
