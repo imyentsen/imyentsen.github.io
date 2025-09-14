@@ -14,30 +14,37 @@ We were tasked to rework the entire design system in parallel with a new generat
 
 ![Slides.jpg](Slides.jpg)
 
+
 # My role
 
 I am one of the two designers in the design system team. In this initiative, I was responsible for around half of the tokens, components, and patterns. I also collaborated and helped the other designer, the design lead of the team, to define the strategy and ways of working. 
 
 ![Slides-5.jpg](Slides-5.jpg)
 
+
 # Challenge
 
+## Migrate design system and product exploration together
 
 ![challenge.jpg](challenge.jpg)
 
 The challenge came from the migration in parallel on both the product side and the design system.
 
-- Firstly, the design system needed to work as fast as the product teams. We found it challenging to create mature components while the product teams were still working on novel and explorative idea. The scenarios kept changing and made it difficult to scope the components down.
-- Secondly, we needed to adopt the product branding guidelines from an agency we hired. Their offering looked fancy but did not consider accessibility and component structure well. We needed to comply with the new design languages while localising them in our product context.
+- Design system is supposed to be slow and to stablise the product exploration. The ideal conflicted against our migration, as it was hard to create mature components while the product teams were still working on novel and explorative idea. The use scenarios kept changing and made it difficult to scope the components down.
+- Secondly, we needed to adopt the product branding guidelines from an agency we hired. Their guidelines looked fancy but did not consider accessibility and component structure well. We needed to comply with the new design languages while localising them in our product context.
 
 
 # Approach
-
-## Support the wild product exploration with structured design system delivery
+## Support wild product exploration with structured delivery
 
 ![approach1.jpg](approach1.jpg)
 
-## Faster and smaller component delivery by shifting architectural philosophy
+
+We structured our delivery with the different tiers: tokens, components, and patterns. By breaking down the tiers, we could define the ownership and scope smarter, and support faster product exploration.
+
+For example, when the product teams wanted to create a set of component for a very conceptual user flow without design system components, by using the properly structured tokens, they can still ensure the consistency of our design language. What's more, if we decide to adopt the conceptual design to our design system, the assigned tokens can make the process faster and more transparent. 
+
+## Smaller component scope
 
 ![approach2.jpg](approach2.jpg)
 
@@ -52,7 +59,7 @@ We changed our workflow. During the rebranding project, we aimed to be more acti
 
 The teams needed to create their own custom components fast but still comply with the new design language. We created a process and documentation space for them to safely work with and share their documentation with the other teams. The improved transparency of documentation also allowed us to adopt and internalise their work into the new design system more efficiently.
 
-## Create tools for teams to run faster
+## Create design tools for teams to run faster
 
 ![approach4.jpg](approach4.jpg)
 
