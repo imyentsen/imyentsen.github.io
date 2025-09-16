@@ -49,7 +49,7 @@ export default function Banner({ frontmatter }) {
             <GatsbyImage
               image={imageData}
               alt={frontmatter.title || "Cover Image"}
-              className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[648px] rounded-md"
+              className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[648px]"
               style={{ objectFit: "cover" }}
             />
           </div>

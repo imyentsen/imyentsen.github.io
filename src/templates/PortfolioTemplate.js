@@ -51,7 +51,7 @@ export const pageQuery = graphql`
         year
         coverImage {
           childImageSharp {
-            gatsbyImageData(width: 720, placeholder: BLURRED)
+            gatsbyImageData(width: 720, placeholder: BLURRED,quality: 90)
           }
           publicURL
         }
