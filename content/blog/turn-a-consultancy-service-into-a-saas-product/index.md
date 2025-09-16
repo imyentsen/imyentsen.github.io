@@ -37,33 +37,48 @@ As such, my client didn’t have a clear image on product-oriented culture. They
 
 My approach focused on both the establishment of product development cycles and team organisation. Throughout a 10-month course of project, we **delivered a MVP and transformed a consultancy team into a product development team.** 
 
+
 In this project, I took a structured and collaborative approach from the start. Together with the team, we **clarified the key value propositions and set clear goals, timelines, ways of working, and milestones**. 
 
-At the early stages, I focused on developing and refining user journeys and interactive wireframes, which we **tested through interviews with participants from 16 different client companies**. We used the data to solidify the key user journeys.
 
-![Early wireframes and key user journeys. They are blurred because of the confidentiality concerns.](./image2.png)
+![Early wireframes and key user journeys. They are blurred because of the confidentiality concerns.](./workshop.jpg)
 
-Early wireframes and key user journeys. They are blurred because of the confidentiality concerns.
+At the early stages, I focused on developing and refining user journeys and interactive wireframes, which we **tested through interviews with participants from 16 different client companies**. 
 
-During the research stage, we faced an important turning point. At first, we assumed that our potential users needed an easy-to-use psychological game maker with bespoke visual material and templates. However, the interviews showed a different reality: what they actually wanted was an online game maker that could be applied directly for marketing purposes.  
+![research.jpg](./research.jpg)
 
-This meant our initial direction did not fully align with the real user needs. At that point, the project was already in the middle phase, with limited time and budget left. To address this, we reviewed the entire product flow, identified key opportunities to shift direction, and adjusted the design to match user needs.  
+We interviewed the participants about their major pain points on adopting new marketing and survey tools in their coroporate settins, and invited them to go through the **key user flow** with an interactive prototype on Figma. We used the data gathered to solidify the key value proposition and the fundamental usability.
 
-Within half a year, we successfully reshaped the product journey and delivered an MVP that could be tested and iterated further. The MVP was later used in a real pilot marketing case, receiving over 3000 responses, and became a stepping stone for the product’s success in Taiwan and beyond.  
+![userflow.jpg](./userflow.jpg)
 
-Besides the practical design and research skills I applied during the process, the most valuable takeaway for me was a mindset: when working on a startup product, always stay open to change. Adjustments can be painful and stressful, but they often lead to rewarding outcomes when they truly address the users’ pain points.  
+During the research stage, we faced an important turning point. **The key finding indicates that we should differentiate the product from our competitor further**. 
 
-As we moved toward the MVP, I improved the design quality for implementation and worked closely with developers to bring it to life. I also collaborated with a potential client to turn the MVP into a gamified survey, which was used in **a real pilot marketing case and received over 3000 responses**. 
 
-At the handover stage, I **helped present the design process and provided guidance for building a future design system.**
+![keyfinding.jpg](./keyfinding.jpg)
+
+At first, we assumed that our potential users needed an easy-to-use survey maker with bespoke visual material and templates. However, the interviews showed a different reality: the direction makes the product too similar to the existing survey solution. **What they actually wanted was an online game maker that could be customised for marketing purposes**.  
+
+This meant our initial direction did not fully align with the real user needs. At that point, the project was already in the middle phase, with limited time and budget left. To address this challenge, we reviewed the entire product flow, identified the key opportunity to narrow down the scope, and adjusted the design to match the scope.  
+
+We defined the game experience as the key scope, and aimed to keep the change on the other user steps (e.g., analysis dashboard) minimal. Within half a year, we successfully reshaped the survey creation module for game creation. 
+
+Furthermore, in order to validate our idea, we worked closely with a partner company and delivered **an MVP for pilot test**. The pilot run was combined with the partner's marketing campaign, receiving over 3000 responses, and became a stepping stone for the product’s success in Taiwan and beyond.  
+
+![mvp.png](./mvp.jpg)
+
+
+Besides the practical design and research skills I applied during the process, the most valuable takeaway for me was a mindset: **when working on a startup product, always stay open to change**. Adjustments can be painful and stressful, but they often lead to rewarding outcomes when they truly address the users’ pain points.  
 
 # Outcome
 
-![image.png](./image3.png)
+![mvpflow.png](./mvpflow.jpg)
 
-We delivered a successful minimal viable product and a solid foundation of work flow for the client company to continue to scale. The product, [**OOOPEN Lab**](https://ooopenlab.cc/en), has obtained 60+ clients in Taiwan and now preparing to expand oversea.
+We delivered a successful minimal viable product and a solid foundation of work flow for the client company to continue to scale. The product, [**OOOPEN Lab**](https://ooopenlab.cc/en), has obtained 60+ clients in Taiwan and now preparing to expand oversea as of this writing (mid 2025).
 
 ![Screenshot 2025-06-10 at 11.52.42 PM.png](./asm.png)
+
+
+After the project, the collaboration continued. I **helped the client to present the design process to their investors and provided guidance for building a future design system**.
 
 ## Note
 
