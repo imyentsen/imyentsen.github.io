@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Gatsby build output
+public/
+.cache/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*

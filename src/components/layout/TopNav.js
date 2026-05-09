@@ -1,0 +1,32 @@
+import { Link } from "gatsby"
+import React, { useEffect, useState } from 'react';
+
+export default function TopNav() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    // TopNav 立即開始動畫
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 50);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <nav className={`relative shrink-0 w-full transition-opacity duration-600 ease-out ${
+      isVisible ? 'opacity-100' : 'opacity-0'
+    }`}>
+      <div className="relative size-full">
+        <div className="box-border content-stretch flex flex-row gap-2.5 items-start justify-start p-6 lg:px-6 md:px-3 px-2 relative w-full">
+          <Link 
+            to="/" 
+            className="font-syne text-[20px] leading-none relative shrink-0 text-black text-left text-nowrap hover:opacity-60 transition-opacity cursor-pointer"
+          >
+            Yen-tsen Ansin Liu
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
+}
