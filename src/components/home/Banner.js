@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { useLang } from "../../i18n/useLang";
+import { locales } from "../../i18n/locales";
 
 export default function Banner() {
   const [isVisible, setIsVisible] = useState(false);
+  const lang = useLang();
+  const t = locales[lang];
 
   useEffect(() => {
     // Banner 在 TopNav 完成後 150ms 開始動畫
@@ -24,16 +28,17 @@ export default function Banner() {
           {/* Summary - Left column，右邊加右邊框線(分隔線)*/}
           <div className="relative text-[18px] flex flex-col gap-3 pr-3 items-start justify-start min-w-0 p-0 shrink-0 w-full lg:w-auto">
             <div className="absolute top-0 right-0 h-full w-px bg-[#dfdfdf] hidden lg:block" />
-            <p className="text-[#767676] leading-normal z-10 relative">
-              Senior UX Designer passionate about transforming complex data into intuitive experiences. Specializing in {' '}
-              <span className="text-black">design systems</span>,{' '}
-              <span className="text-black">digital twins</span>, and{' '}
-              <span className="text-black">productivity-focused solutions</span>.<br/>
-              MA in Collaborative and Industrial Design,{' '}
-              <span className="text-black">Aalto University</span>, Finland.
-            </p>
-            <p className="text-[#767676] leading-normal z-10 relative">
-              
+            <p className="font-dm-sans text-[#767676] leading-normal z-10 relative">
+              {t.bannerSummary1}
+              <span className="text-black">{t.bannerSpecialty1}</span>
+              {t.bannerSummary2}
+              <span className="text-black">{t.bannerSpecialty2}</span>
+              {t.bannerSummary3}
+              <span className="text-black">{t.bannerSpecialty3}</span>
+              {t.bannerSummary4}<br/>
+              {t.bannerEdu}
+              <span className="text-black">{t.bannerSchool}</span>
+              {t.bannerEduSuffix}
             </p>
           </div>
 
@@ -42,7 +47,7 @@ export default function Banner() {
             <div className="absolute top-0 right-0 h-full w-px bg-[#dfdfdf]" />
             <div className="flex flex-col text-[#767676] text-[18px] leading-normal relative z-10">
 
-            <span className="font-syne text-[18px] block leading-normal relative z-10 text-[#767676] ">Work Experience </span>
+            <span className="font-syne text-[18px] block leading-normal relative z-10 text-[#767676]">{t.workExperience}</span>
               <div>
                 <span className="font-syne text-black">Aize AS</span> <span className="pl-2 text-[#767676] text-[16px]">Norway, 2022 - Present</span>
               </div>
@@ -59,7 +64,7 @@ export default function Banner() {
           <div className="hidden lg:flex flex-col gap-3 items-start justify-start min-w-0 p-0 pl-3 shrink-0 w-full lg:w-auto">
             <div className="flex flex-col font-syne text-[18px]">
               <div>
-                <span className=" text-[#767676]  font-syne text-[18px] block leading-normal">Contact</span></div>
+                <span className="text-[#767676] font-syne text-[18px] block leading-normal">{t.contact}</span></div>
               <a
                 className="text-black underline block cursor-pointer leading-normal whitespace-pre hover:opacity-70 hover:no-underline transition-opacity"
                 href="mailto:imyentsen@gmail.com"

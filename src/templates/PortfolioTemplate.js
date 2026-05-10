@@ -5,7 +5,8 @@ import Layout from "../components/layout/Layout";
 import Banner from "../components/portfolio/Banner";
 import Content from "../components/portfolio/Content";
 
-export default function PortfolioTemplate({ data }) {
+export default function PortfolioTemplate({ data, pageContext }) {
+  const lang = pageContext?.lang || "en";
   const { frontmatter, html, rawMarkdownBody } = data.markdownRemark;
 
   // Fallbacks
@@ -32,7 +33,7 @@ export default function PortfolioTemplate({ data }) {
         <meta property="og:image" content={pageOgImage} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
-        <html lang="en" />
+        <html lang={lang} />
       </Helmet>
       <div className="portfolio-hero">
         <Banner frontmatter={frontmatter} />

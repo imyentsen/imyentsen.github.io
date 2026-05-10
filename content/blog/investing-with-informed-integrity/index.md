@@ -1,7 +1,7 @@
 ---
-title: "Investing with informed integrity"
+title: "Making informed sustainable investment"
 desc: "How can design boost the ethical capabilities of investors? In this MA thesis project, I created a data-driven platform that empowers responsible investing by connecting wellbeing data with actionable, transparent insights—already in use by a Finnish startup."
-slug: "/investing-with-informed-integrity"
+slug: "/making-informed-sustainable-investment"
 org: "Work Ahead Oy"
 year: 2019
 coverImage: "cover.jpg"

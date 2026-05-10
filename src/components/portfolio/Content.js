@@ -3,7 +3,11 @@ import Outline from "./Outline";
 
 export default function Content({ markdownHtml, markdownRaw, title }) {
   const createSlug = (text) =>
-    text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    text
+      .toLowerCase()
+      .replace(/[^a-z0-9一-鿿㐀-䶿\s-]/g, "")
+      .replace(/[\s]+/g, "-")
+      .replace(/(^-|-$)/g, "");
 
   // 加 id 並保留原 h1 屬性（class、style 等）
   const addHeadingIds = (html) => {
@@ -87,7 +91,7 @@ export default function Content({ markdownHtml, markdownRaw, title }) {
             className="
               prose prose-lg max-w-none
               prose-headings:font-['Syne'] prose-headings:font-medium prose-headings:pt-4 
-              prose-p:text-[18px] prose-p:leading-7
+              prose-p:text-[18px] prose-p:leading-[1.8]
               prose-img:pb-6 prose-img:mx-auto prose-img:w-full lg:prose-img:max-w-[976px] prose-img:h-auto
               prose-a:font-bold prose-a:underline prose-a:text-black prose-a:underline
               hover:prose-a:text-[#767676] hover:prose-a:no-underline

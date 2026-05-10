@@ -1,6 +1,8 @@
 import { Link, graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import React, { useState, useEffect, useRef } from "react";
+import { useLang, slugWithLang } from "../../i18n/useLang";
+import { locales } from "../../i18n/locales";
 
 // 統一字體類別定義
 const fontClasses = {
@@ -56,7 +58,7 @@ function DescriptionWithLinks({ text, links, hoverSlug, setHoverSlug }) {
 }
 
 // 單張卡片 - 不再自己監聽滾動，接收 scrollProgress props
-function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightImage, hoverSlug, setHoverSlug, imagesVisible, scrollProgress }) {
+function HighlightCard({ title, org, year, slug, coverImage, highlightImage, useHighlightImage, hoverSlug, setHoverSlug, imagesVisible, scrollProgress }) {
   const image = getImage(useHighlightImage ? highlightImage : coverImage);
   const isHovered = hoverSlug === slug;
 
@@ -93,8 +95,8 @@ function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightIm
         )}
 
         {/* Title row - 使用與圖片相同的 scrollProgress */}
-        <div 
-          className={`pb-2 box-border content-stretch flex flex-row ${fontClasses.syne} gap-2 items-start justify-start leading-none p-0 relative shrink-0 text-black text-[18px] text-left w-full md:transition-opacity ${isHovered ? "md:opacity-70" : "opacity-100"}`}
+        <div
+          className={`pb-2 box-border content-stretch flex flex-row ${fontClasses.syne} gap-2 items-end justify-start leading-none p-0 relative shrink-0 text-black text-[18px] text-left w-full md:transition-opacity ${isHovered ? "md:opacity-70" : "opacity-100"}`}
           style={{
             opacity: imagesVisible ? Math.max(0.1, 1 - scrollProgress) : 0
           }}
@@ -104,6 +106,11 @@ function HighlightCard({ title, slug, coverImage, highlightImage, useHighlightIm
               {title}
             </p>
           </div>
+          {(org || year) && (
+            <div className="hidden md:block shrink-0 text-right text-[#767676] whitespace-nowrap">
+              <p className="block leading-normal">{[org, year].filter(Boolean).join(" · ")}</p>
+            </div>
+          )}
         </div>
       </div>
     </Link>
@@ -117,6 +124,7 @@ function HighlightCategory({
   clients,
   links,
   highlights,
+  lang,
   hoverSlug,
   setHoverSlug,
   useHighlightImage = false,
@@ -188,7 +196,7 @@ function HighlightCategory({
       >
         {/* Section title */}
         <div className="relative shrink-0 text-black w-full">
-          <p className={`${fontClasses.syne} text-[18px] block leading-normal`}>{title}</p>
+          <p className={`${fontClasses.syne} text-[18px] block leading-normal ${lang === 'zh' ? 'font-medium' : ''}`}>{title}</p>
         </div>
         {/* Description (hidden on mobile) */}
         <div className="relative shrink-0 text-[#767676] w-full hidden lg:block">
@@ -211,14 +219,16 @@ function HighlightCategory({
           <HighlightCard
             key={post.frontmatter.slug}
             title={post.frontmatter.title}
-            slug={post.frontmatter.slug}
+            org={post.frontmatter.org}
+            year={post.frontmatter.year}
+            slug={slugWithLang(post.frontmatter.slug, lang)}
             coverImage={post.frontmatter.coverImage}
             highlightImage={post.frontmatter.highlightImage}
             useHighlightImage={useHighlightImage}
             hoverSlug={hoverSlug}
             setHoverSlug={setHoverSlug}
             imagesVisible={imagesVisible}
-            scrollProgress={imagesScrollProgress} // 傳入統一的滾動進度
+            scrollProgress={imagesScrollProgress}
           />
         ))}
       </div>
@@ -232,6 +242,8 @@ export default function HighlightSection() {
   const [headerVisible, setHeaderVisible] = useState(false);
   const [textVisible, setTextVisible] = useState(false);
   const [imagesVisible, setImagesVisible] = useState(false);
+  const lang = useLang();
+  const t = locales[lang];
 
   useEffect(() => {
     // "Selected Work" 標題在 Banner 完成後開始動畫
@@ -263,9 +275,14 @@ export default function HighlightSection() {
         sort: { frontmatter: { year: DESC } }
       ) {
         nodes {
+          fields {
+            lang
+          }
           frontmatter {
             title
             slug
+            org
+            year
             coverImage {
               childImageSharp {
                 gatsbyImageData(
@@ -290,14 +307,16 @@ export default function HighlightSection() {
     }
   `);
 
-  const highlightsDS = data.allMarkdownRemark.nodes.filter(post =>
-    ["/mapping-undefined-objects", "/not-just-a-new-design-system"].includes(post.frontmatter.slug)
+  // 依目前語言過濾，en posts 的 fields.lang 預設為 "en"
+  const langPosts = data.allMarkdownRemark.nodes.filter(
+    post => (post.fields?.lang || "en") === lang
   );
-  const highlightsProduct = data.allMarkdownRemark.nodes.filter(post =>
-    [
-      "/turn-a-consultancy-service-into-a-saas-product",
-      "/redefine-music-listening-for-the-deaf",
-    ].includes(post.frontmatter.slug)
+
+  const highlightsDS = langPosts.filter(post =>
+    t.highlightSlugsDS.includes(post.frontmatter.slug)
+  );
+  const highlightsProduct = langPosts.filter(post =>
+    t.highlightSlugsProduct.includes(post.frontmatter.slug)
   );
 
   return (
@@ -308,21 +327,22 @@ export default function HighlightSection() {
           headerVisible ? 'opacity-100' : 'opacity-0'
         }`}>
           <div className={`${fontClasses.syne} text-[18px] leading-none relative shrink-0 text-black text-left text-nowrap flex flex-col gap-3`}>
-            <p className="block leading-normal whitespace-pre">Selected work</p>
+            <p className={`block leading-normal whitespace-pre ${lang === 'zh' ? 'font-medium' : ''}`}>{t.selectedWork}</p>
           </div>
         </div>
 
         {/* Highlight Content */}
         <div className="box-border content-stretch flex flex-col gap-8 items-start justify-start lg:px-6 md:px-3 px-2 relative w-full">
           <HighlightCategory
-            title="Design System"
-            description="I've led key design system initiatives in multi-national enterprise settings, including a major design system upgrade and object-oriented UX operations to better align patterns with user workflows."
-            clients="Design systems powering solutions used by ExxonMobil, Aker BP, and SBM Offshore."
+            title={t.dsTitle}
+            description={t.dsDesc}
+            clients={t.dsClients}
             links={[
-              { text: "major design system upgrade", slug: "/not-just-a-new-design-system" },
-              { text: "object-oriented UX operations", slug: "/mapping-undefined-objects" },
+              { text: t.dsLink1Text, slug: slugWithLang(t.dsLink1Slug, lang) },
+              { text: t.dsLink2Text, slug: slugWithLang(t.dsLink2Slug, lang) },
             ]}
             highlights={highlightsDS}
+            lang={lang}
             hoverSlug={hoverSlug}
             setHoverSlug={setHoverSlug}
             useHighlightImage={true}
@@ -331,14 +351,15 @@ export default function HighlightSection() {
           />
 
           <HighlightCategory
-            title="Product Design"
-            description="Working as a product design consultant and a startup founder, I led full-cycle research and design for MVPs — including a marketing tech SaaS product and a hardware-driven audio experience."
-            clients="Created solutions adopted by organizations including Pfizer, L'Occitane, Uber, Amnesty International, and Seagate."
+            title={t.pdTitle}
+            description={t.pdDesc}
+            clients={t.pdClients}
             links={[
-              { text: "marketing tech SaaS product", slug: "/turn-a-consultancy-service-into-a-saas-product" },
-              { text: "hardware-driven audio experience", slug: "/redefine-music-listening-for-the-deaf" },
+              { text: t.pdLink1Text, slug: slugWithLang(t.pdLink1Slug, lang) },
+              { text: t.pdLink2Text, slug: slugWithLang(t.pdLink2Slug, lang) },
             ]}
             highlights={highlightsProduct}
+            lang={lang}
             hoverSlug={hoverSlug}
             setHoverSlug={setHoverSlug}
             useHighlightImage={true}

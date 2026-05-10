@@ -24,6 +24,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id
           fields {
             slug
+            lang
           }
         }
       }
@@ -54,6 +55,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         component: blogPost,
         context: {
           id: post.id,
+          lang: post.fields.lang,
           previousPostId,
           nextPostId,
         },
@@ -69,13 +71,24 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const fileNode = getNode(node.parent)
+    const filePath = fileNode.absolutePath || ""
 
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
+    // Detect language from filename: index.zh.md → zh, index.md → en
+    const isZh = filePath.endsWith(".zh.md")
+
+    let slug
+    if (isZh) {
+      // Extract directory name from .../content/blog/post-name/index.zh.md
+      const match = filePath.match(/\/blog\/([^/]+)\//)
+      const dirName = match ? match[1] : ""
+      slug = `/zh/${dirName}/`
+    } else {
+      slug = createFilePath({ node, getNode })
+    }
+
+    createNodeField({ name: `slug`, node, value: slug })
+    createNodeField({ name: `lang`, node, value: isZh ? "zh" : "en" })
   }
 }
 
@@ -120,6 +133,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Fields {
       slug: String
+      lang: String
     }
   `)
 }

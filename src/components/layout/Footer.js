@@ -92,7 +92,7 @@ export default function Footer() {
         </div>
 
         {/* 版權宣告 */}
-        <div className="text-base text-gray-500">
+        <div className="font-syne text-[18px] text-gray-500">
           <p>© {new Date().getFullYear()} Yen-tsen Ansin Liu</p>
         </div>
       </div>

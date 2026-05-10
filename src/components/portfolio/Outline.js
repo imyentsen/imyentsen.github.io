@@ -5,7 +5,11 @@ export default function Outline({ content, title }) {
   const safeContent = typeof content === "string" ? content : "";
 
   const createSlug = (text) =>
-    text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    text
+      .toLowerCase()
+      .replace(/[^a-z0-9一-鿿㐀-䶿\s-]/g, "")
+      .replace(/[\s]+/g, "-")
+      .replace(/(^-|-$)/g, "");
 
   const parseMarkdown = (markdown) => {
     if (!markdown) return [];
