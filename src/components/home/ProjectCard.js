@@ -8,14 +8,8 @@ function ProjectCard({ title, org, year, href, coverImage }) {
     <Link to={href} className="block group cursor-pointer w-full">
       <div className="box-border flex flex-col gap-2 lg:pt-6 items-start p-0 relative self-start shrink-0 w-full">
         <div className="shrink-0 w-full relative">
-          {coverImage ? (
-            <GatsbyImage image={coverImage} alt={title} style={{ width: "100%" }} className="bg-white"/>
-          ) : (
-            <img
-              src="/fallback-image.jpg"
-              alt="Fallback coverImage"
-              style={{ width: "100%" }}
-            />
+          {coverImage && (
+            <GatsbyImage image={coverImage} alt={title} loading="eager" style={{ width: "100%" }} className="bg-white"/>
           )}
           {/* Gradient overlay at bottom, appears on hover */}
           <div

@@ -1,7 +1,7 @@
 ---
 title: "永續投資調查資訊儀表板"
 desc: "設計如何提升投資人的倫理能力？在這個碩士論文專案中，我建立了一個資料驅動的平台，透過將員工福祉數據與透明、可行的洞察相連結，賦能責任投資——目前已被一家芬蘭新創公司採用。"
-slug: "/making-informed-sustainable-investment"
+slug: "/investing-with-informed-integrity"
 org: "Work Ahead Oy"
 year: 2019
 coverImage: "cover.jpg"

@@ -63,14 +63,14 @@ The teams needed to create their own custom components fast but still comply wit
 
 ![approach4.jpg](approach4.jpg)
 
-The teams needed to create their own custom components fast but still comply with the new design language. We created a process and documentation space for them to safely work with and share their documentation with the other teams. The improved transparency of documentation also allowed us to adopt and internalise their work into the new design system more efficiently.
+We created internal accessiblity and responsiveness tools for designers to quickly check if they have complied with the correct standards and internal acceptance criterion. With the tools, we empowered the design team members to run faster autonomously. 
 
 
 ## Accelerate and scale prototyping with vibe coding
 
 ![approach5.jpg](approach5.jpg)
 
-The unique nature of digital twins requires extensive prototyping in both 3D model viewers and 2D collaborative canvases. Accomplishing this in Figma Design is challenging. We adopted the latest Figma Make feature early on to enable rapid prototyping and efficient concept validation. For example, we shortened the design delivery of the data label components into 1 sprint, compared to the previous version.
+The unique nature of digital twins requires extensive prototyping in both 3D model viewers and 2D collaborative canvases. Accomplishing this in Figma Design is challenging. We adopted the latest vibe/agentic coding tools (e.g., Figma Make and Codex) early on to enable rapid prototyping and efficient concept validation. For example, we shortened the design delivery of the data label component (a component used for marking the data points in the 2D&3D environments, similar to the pin in Google Maps) into 1 sprint, compared to the previous version.
 
 Working closely with our developers, we broke down the prompts into small, specific steps. These steps help minimize errors and prevent the AI from exploring unrelated directions, ensuring more consistent and reproducible outcomes for designers. Additionally, we established a standardized set of prompts that empowers designers to independently create 3D testing boilerplates.
 

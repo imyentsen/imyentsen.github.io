@@ -84,7 +84,7 @@ function HighlightCard({ title, org, year, slug, coverImage, highlightImage, use
               <GatsbyImage
                 image={image}
                 alt={title}
-                style={{ height: "100%" }}
+                loading="eager"
                 imgStyle={{ objectFit: "cover" }}
                 className="bg-white"
               />

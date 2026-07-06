@@ -3,7 +3,7 @@ title: "Hai-聽力輔具品牌識別"
 org: "Rearia Ltd."
 year: 2021
 desc: "為輔助耳機打造具包容性的品牌識別，鼓勵而非污名化使用者。"
-slug: "/branding-for-assistive-technology"
+slug: "/designing-dignity"
 coverImage: "cover.jpg"
 ---
 
