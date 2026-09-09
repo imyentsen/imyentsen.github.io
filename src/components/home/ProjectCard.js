@@ -1,15 +1,21 @@
 import React from "react";
 import { Link } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
+import LoopVideo from "../LoopVideo";
 
-function ProjectCard({ title, org, year, href, coverImage }) {
-  // coverImage 已經是 getImage() 回傳的 GatsbyImageData 了
+// coverImage 已經是 getImage() 回傳的 GatsbyImageData 了
+// videoUrl 目前選填：AllProjectsSection 尚未提供素材，未傳入時完全 fallback 成原本的純圖片行為
+function ProjectCard({ title, org, year, href, coverImage, videoUrl }) {
   return (
     <Link to={href} className="block group cursor-pointer w-full">
       <div className="box-border flex flex-col gap-2 lg:pt-6 items-start p-0 relative self-start shrink-0 w-full">
         <div className="shrink-0 w-full relative">
           {coverImage && (
-            <GatsbyImage image={coverImage} alt={title} loading="eager" style={{ width: "100%" }} className="bg-white"/>
+            <LoopVideo
+              image={coverImage}
+              videoUrl={videoUrl}
+              alt={title}
+              className="bg-white"
+            />
           )}
           {/* Gradient overlay at bottom, appears on hover */}
           <div

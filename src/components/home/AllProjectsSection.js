@@ -21,6 +21,7 @@ export default function AllProjectsSection() {
             title
             org
             year
+            yearRange
             slug
             coverImage {
               childImageSharp {
@@ -41,13 +42,20 @@ export default function AllProjectsSection() {
     "/redefine-music-listening-for-the-deaf"
   ];
 
+  // 尚未上線的草稿：建立在 content/blog 但先不在首頁露出
+  const draftSlugs = [
+    "/design-system-revamp-for-complex-digital-twin",
+    "/governing-ux-patterns-for-tools-and-objects"
+  ];
+
   const projects = data.allMarkdownRemark.nodes
     .filter(node => (node.fields?.lang || "en") === lang)
     .filter(node => !highlightSlugs.includes(node.frontmatter.slug))
+    .filter(node => !draftSlugs.includes(node.frontmatter.slug))
     .map(node => ({
       title: node.frontmatter.title,
       org: node.frontmatter.org,
-      year: node.frontmatter.year,
+      year: node.frontmatter.yearRange || node.frontmatter.year,
       href: slugWithLang(node.frontmatter.slug, lang),
       image: node.frontmatter.coverImage ? getImage(node.frontmatter.coverImage) : null,
     }));

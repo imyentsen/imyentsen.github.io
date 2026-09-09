@@ -6,6 +6,7 @@ desc: "我共同主導了設計系統（Design System）的全面翻新，以支
 slug: "/not-just-a-new-design-system"
 coverImage: "cover.jpg"
 highlightImage: "cover.jpg"
+highlightVideo: "cover-card.mp4"
 ---
 
 # 目標

@@ -129,6 +129,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      # 明確宣告 highlightVideo，讓 schema 不依賴「至少一篇文章已經填了這個欄位」才能被推論出來，
+      # 避免在還沒有任何影片素材時，highlightVideo 的 GraphQL 查詢直接建置失敗。
+      # @fileByRelativePath 是 Gatsby 用來把 frontmatter 裡的相對路徑字串（例如 "loop.mp4"）
+      # 解析成同資料夾底下對應 File node 的標準做法，跟 coverImage/highlightImage 目前依賴自動推論解析的機制相同。
+      highlightVideo: File @fileByRelativePath
+      # 跨年度專案的顯示用字串（例如 "2025-2026"）。year 保持數字，只當排序鍵用。
+      yearRange: String
     }
 
     type Fields {

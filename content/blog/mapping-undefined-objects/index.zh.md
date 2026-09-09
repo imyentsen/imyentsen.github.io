@@ -6,6 +6,7 @@ desc: "我設計了可擴展且廣泛採用的元件（如 Data Label），為�
 slug: "/mapping-undefined-objects"
 coverImage: "cover.jpg"
 highlightImage: "cover.jpg"
+highlightVideo: "cover-card.mp4"
 ---
 
 

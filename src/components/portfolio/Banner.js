@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { getImage } from "gatsby-plugin-image";
+import LoopVideo from "../LoopVideo";
 
 export default function Banner({ frontmatter }) {
   const [imageVisible, setImageVisible] = useState(false);
@@ -39,18 +40,19 @@ export default function Banner({ frontmatter }) {
           </div>
         </div>
 
-        {/* GatsbyImage with fade up animation */}
+        {/* Cover image / loop video with fade up animation */}
         {imageData && (
           <div className={`transition-all duration-600 ease-out ${
-            imageVisible 
-              ? 'opacity-100 transform translate-y-0' 
+            imageVisible
+              ? 'opacity-100 transform translate-y-0'
               : 'opacity-0 transform translate-y-[30px]'
           }`}>
-            <GatsbyImage
+            <LoopVideo
               image={imageData}
+              videoUrl={frontmatter.highlightVideo?.publicURL}
               alt={frontmatter.title || "Cover Image"}
               className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[648px]"
-              style={{ objectFit: "cover" }}
+              imgStyle={{ objectFit: "cover" }}
             />
           </div>
         )}
@@ -64,7 +66,7 @@ export default function Banner({ frontmatter }) {
           }`}>
             <div className="flex items-center gap-8 mb-9 font-['Syne'] font-normal text-base text-[#555555]">
               <span>{frontmatter.org}</span>
-              <span>{frontmatter.year}</span>
+              <span>{frontmatter.yearRange || frontmatter.year}</span>
             </div>
             <div className="font-['Syne'] font-normal text-[18px] text-[#555555] leading-normal">
               {frontmatter.desc}

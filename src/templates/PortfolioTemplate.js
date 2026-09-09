@@ -50,11 +50,16 @@ export const pageQuery = graphql`
         title
         org
         year
+        yearRange
         coverImage {
           childImageSharp {
             gatsbyImageData(width: 720, placeholder: BLURRED,quality: 90)
           }
           publicURL
+        }
+        highlightVideo {
+          publicURL
+          extension
         }
         desc
       }

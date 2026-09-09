@@ -6,6 +6,7 @@ desc: "I designed scalable, widely adopted components—like Data Labels—bring
 slug: "/mapping-undefined-objects"
 coverImage: "cover.jpg"
 highlightImage: "cover.jpg"
+highlightVideo: "cover-card.mp4"
 ---
 
 

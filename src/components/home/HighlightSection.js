@@ -1,8 +1,9 @@
 import { Link, graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { getImage } from "gatsby-plugin-image";
 import React, { useState, useEffect, useRef } from "react";
 import { useLang, slugWithLang } from "../../i18n/useLang";
 import { locales } from "../../i18n/locales";
+import LoopVideo from "../LoopVideo";
 
 // 統一字體類別定義
 const fontClasses = {
@@ -58,8 +59,9 @@ function DescriptionWithLinks({ text, links, hoverSlug, setHoverSlug }) {
 }
 
 // 單張卡片 - 不再自己監聽滾動，接收 scrollProgress props
-function HighlightCard({ title, org, year, slug, coverImage, highlightImage, useHighlightImage, hoverSlug, setHoverSlug, imagesVisible, scrollProgress }) {
+function HighlightCard({ title, org, year, slug, coverImage, highlightImage, highlightVideo, useHighlightImage, hoverSlug, setHoverSlug, imagesVisible, scrollProgress }) {
   const image = getImage(useHighlightImage ? highlightImage : coverImage);
+  const videoUrl = highlightVideo?.publicURL;
   const isHovered = hoverSlug === slug;
 
   return (
@@ -76,16 +78,15 @@ function HighlightCard({ title, org, year, slug, coverImage, highlightImage, use
         {/* 封面圖片 - 只有圖片區域有底色 */}
         {image && (
           <div className="w-full relative" style={{ backgroundColor: '#e2e2e2ff' }}>
-            <div 
+            <div
               style={{
                 opacity: imagesVisible ? Math.max(0.1, 1 - scrollProgress) : 0
               }}
             >
-              <GatsbyImage
+              <LoopVideo
                 image={image}
+                videoUrl={videoUrl}
                 alt={title}
-                loading="eager"
-                imgStyle={{ objectFit: "cover" }}
                 className="bg-white"
               />
               {/* Gradient overlay - 統一使用 isHovered 控制 */}
@@ -220,10 +221,11 @@ function HighlightCategory({
             key={post.frontmatter.slug}
             title={post.frontmatter.title}
             org={post.frontmatter.org}
-            year={post.frontmatter.year}
+            year={post.frontmatter.yearRange || post.frontmatter.year}
             slug={slugWithLang(post.frontmatter.slug, lang)}
             coverImage={post.frontmatter.coverImage}
             highlightImage={post.frontmatter.highlightImage}
+            highlightVideo={post.frontmatter.highlightVideo}
             useHighlightImage={useHighlightImage}
             hoverSlug={hoverSlug}
             setHoverSlug={setHoverSlug}
@@ -283,6 +285,7 @@ export default function HighlightSection() {
             slug
             org
             year
+            yearRange
             coverImage {
               childImageSharp {
                 gatsbyImageData(
@@ -300,6 +303,10 @@ export default function HighlightSection() {
                   placeholder: BLURRED
                 )
               }
+            }
+            highlightVideo {
+              publicURL
+              extension
             }
           }
         }

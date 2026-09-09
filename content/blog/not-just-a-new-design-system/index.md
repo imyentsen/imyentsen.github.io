@@ -6,6 +6,7 @@ desc: "I co-led the overhaul of our design system to support a new product gener
 slug: "/not-just-a-new-design-system"
 coverImage: "cover.jpg"
 highlightImage: "cover.jpg"
+highlightVideo: "cover-card.mp4"
 ---
 
 # Objectives
