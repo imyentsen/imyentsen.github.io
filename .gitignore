@@ -11,3 +11,7 @@ public/
 # Environment variables
 .env
 .env.*
+
+# Working files
+_to_delete/
+Claude outputs/

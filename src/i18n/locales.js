@@ -23,7 +23,7 @@ export const locales = {
     dsDesc:
       "I've led key design system initiatives in multi-national enterprise settings, including a major design system upgrade and the creation of object-oriented UX pattern to improve digital twin product experiences.",
     dsLink1Text: "major design system upgrade",
-    dsLink1Slug: "/not-just-a-new-design-system",
+    dsLink1Slug: "/design-system-revamp-for-complex-digital-twin",
     dsLink2Text: "object-oriented UX pattern",
     dsLink2Slug: "/mapping-undefined-objects",
     dsClients:
@@ -43,7 +43,7 @@ export const locales = {
     moreProjects: "More Projects",
 
     // Highlight slugs for filtering
-    highlightSlugsDS: ["/mapping-undefined-objects", "/not-just-a-new-design-system"],
+    highlightSlugsDS: ["/mapping-undefined-objects", "/design-system-revamp-for-complex-digital-twin"],
     highlightSlugsProduct: [
       "/turn-a-consultancy-service-into-a-saas-product",
       "/redefine-music-listening-for-the-deaf",
@@ -74,7 +74,7 @@ export const locales = {
     dsDesc:
       "我在跨國企業中主導多項設計系統計畫，包含大規模的設計系統升級與物件導向的 UX Pattern 規範，提升數位孿生產品體驗。",
     dsLink1Text: "大規模的設計系統升級",
-    dsLink1Slug: "/not-just-a-new-design-system",
+    dsLink1Slug: "/design-system-revamp-for-complex-digital-twin",
     dsLink2Text: "物件導向的 UX Pattern 規範",
     dsLink2Slug: "/mapping-undefined-objects",
     dsClients: "產品為 ExxonMobil、Aker BP 及 SBM Offshore 等企業提供服務。",
@@ -93,7 +93,7 @@ export const locales = {
     moreProjects: "More work",
 
     // Highlight slugs for filtering (same base slugs, lang handled by prefix)
-    highlightSlugsDS: ["/mapping-undefined-objects", "/not-just-a-new-design-system"],
+    highlightSlugsDS: ["/mapping-undefined-objects", "/design-system-revamp-for-complex-digital-twin"],
     highlightSlugsProduct: [
       "/turn-a-consultancy-service-into-a-saas-product",
       "/redefine-music-listening-for-the-deaf",

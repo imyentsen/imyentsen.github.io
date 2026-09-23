@@ -36,7 +36,7 @@ export default function AllProjectsSection() {
 
   // 所有 highlight 的 slug（用來過濾掉，不在 More Projects 重複顯示）
   const highlightSlugs = [
-    "/not-just-a-new-design-system",
+    "/design-system-revamp-for-complex-digital-twin",
     "/mapping-undefined-objects",
     "/turn-a-consultancy-service-into-a-saas-product",
     "/redefine-music-listening-for-the-deaf"
@@ -44,7 +44,6 @@ export default function AllProjectsSection() {
 
   // 尚未上線的草稿：建立在 content/blog 但先不在首頁露出
   const draftSlugs = [
-    "/design-system-revamp-for-complex-digital-twin",
     "/governing-ux-patterns-for-tools-and-objects"
   ];
 

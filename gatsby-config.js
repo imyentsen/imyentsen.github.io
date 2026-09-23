@@ -45,6 +45,9 @@ module.exports = {
             options: {
               maxWidth: 1920,
               linkImagesToOriginal: false,
+              // only the markdown title becomes a <figcaption>; alt is never used,
+              // so images without a title stay caption-free
+              showCaptions: ["title"],
             },
           },
           `gatsby-remark-gifs`,

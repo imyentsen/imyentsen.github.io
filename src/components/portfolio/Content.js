@@ -93,10 +93,14 @@ export default function Content({ markdownHtml, markdownRaw, title }) {
               prose-headings:font-['Syne'] prose-headings:font-medium prose-headings:pt-4 
               prose-p:text-[18px] prose-p:leading-[1.8]
               prose-img:pb-6 prose-img:mx-auto prose-img:w-full lg:prose-img:max-w-[976px] prose-img:h-auto
+              [&_figure]:pb-6 [&_figure_img]:pb-0
+              prose-figcaption:text-[14px] prose-figcaption:leading-[1.6]
+              prose-figcaption:text-[#767676] prose-figcaption:text-center
+              prose-figcaption:mt-3 prose-figcaption:mx-auto lg:prose-figcaption:max-w-[720px]
               prose-a:font-bold prose-a:underline prose-a:text-black prose-a:underline
               hover:prose-a:text-[#767676] hover:prose-a:no-underline
               prose-a:transition-colors prose-a:duration-200
-              lg:[&>*:not(img)]:max-w-[696px] 
+              lg:[&>*:not(img):not(figure)]:max-w-[696px] 
             "
             dangerouslySetInnerHTML={{ __html: processedHtml }}
           />
