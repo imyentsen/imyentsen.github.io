@@ -319,12 +319,17 @@ export default function HighlightSection() {
     post => (post.fields?.lang || "en") === lang
   );
 
-  const highlightsDS = langPosts.filter(post =>
-    t.highlightSlugsDS.includes(post.frontmatter.slug)
-  );
-  const highlightsProduct = langPosts.filter(post =>
-    t.highlightSlugsProduct.includes(post.frontmatter.slug)
-  );
+  // 卡片順序以 locales 的 slug 陣列為準。GraphQL 只做 year DESC 排序，
+  // 同年份的先後並不穩定，所以這裡依陣列位置重新排一次。
+  const bySlugOrder = order => (a, b) =>
+    order.indexOf(a.frontmatter.slug) - order.indexOf(b.frontmatter.slug);
+
+  const highlightsDS = langPosts
+    .filter(post => t.highlightSlugsDS.includes(post.frontmatter.slug))
+    .sort(bySlugOrder(t.highlightSlugsDS));
+  const highlightsProduct = langPosts
+    .filter(post => t.highlightSlugsProduct.includes(post.frontmatter.slug))
+    .sort(bySlugOrder(t.highlightSlugsProduct));
 
   return (
     <section className="relative shrink-0 w-full pt-6 sm:pt-0">
