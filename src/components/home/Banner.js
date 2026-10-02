@@ -49,7 +49,7 @@ export default function Banner() {
 
             <span className="font-syne text-[18px] block leading-normal relative z-10 text-[#767676]">{t.workExperience}</span>
               <div>
-                <span className="font-syne text-black">Aize AS</span> <span className="pl-2 text-[#767676] text-[16px]">Norway, 2022 - Present</span>
+                <span className="font-syne text-black">Aize AS</span> <span className="pl-2 text-[#767676] text-[16px]">Norway, 2022 - 2026</span>
               </div>
               <div>
                 <span className="font-syne text-black">Dualai Design Ltd.</span><span className="pl-2 text-[#767676] text-[16px]">Taiwan, 2021 - 2022</span>
