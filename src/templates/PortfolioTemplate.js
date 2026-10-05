@@ -4,9 +4,11 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/layout/Layout";
 import Banner from "../components/portfolio/Banner";
 import Content from "../components/portfolio/Content";
+import useAbsoluteUrl from "../utils/useSiteUrl";
 
-export default function PortfolioTemplate({ data, pageContext }) {
+export default function PortfolioTemplate({ data, pageContext, location }) {
   const lang = pageContext?.lang || "en";
+  const absoluteUrl = useAbsoluteUrl();
   const { frontmatter, html, rawMarkdownBody } = data.markdownRemark;
 
   // Fallbacks
@@ -30,7 +32,8 @@ export default function PortfolioTemplate({ data, pageContext }) {
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
         <meta name="keywords" content={defaultKeywords} />
-        <meta property="og:image" content={pageOgImage} />
+        <meta property="og:image" content={absoluteUrl(pageOgImage)} />
+        <meta property="og:url" content={absoluteUrl(location?.pathname || "/")} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <html lang={lang} />
