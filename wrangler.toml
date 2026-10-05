@@ -2,6 +2,11 @@
 name = "imyentsen"
 compatibility_date = "2026-10-01"
 
+# Serve the site on the custom domain; wrangler deploy creates the DNS record and certificate
+routes = [
+  { pattern = "ansin.dev", custom_domain = true }
+]
+
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
