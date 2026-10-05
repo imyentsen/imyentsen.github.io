@@ -1,6 +1,7 @@
 # Cloudflare Workers (static assets) config for the Gatsby build
 name = "imyentsen"
 compatibility_date = "2026-10-01"
+main = "worker/index.js"
 
 # Serve the site on the custom domain; wrangler deploy creates the DNS record and certificate
 routes = [
@@ -9,4 +10,17 @@ routes = [
 
 [assets]
 directory = "./public"
+binding = "ASSETS"
 not_found_handling = "404-page"
+# Only these paths run worker/index.js (the password check); everything else is
+# served as plain static files. Keep the page and its page-data in sync.
+run_worker_first = [
+  "/design-system-revamp-for-complex-digital-twin*",
+  "/zh/design-system-revamp-for-complex-digital-twin*",
+  "/governing-ux-patterns-for-tools-and-objects*",
+  "/zh/governing-ux-patterns-for-tools-and-objects*",
+  "/page-data/design-system-revamp-for-complex-digital-twin/*",
+  "/page-data/zh/design-system-revamp-for-complex-digital-twin/*",
+  "/page-data/governing-ux-patterns-for-tools-and-objects/*",
+  "/page-data/zh/governing-ux-patterns-for-tools-and-objects/*",
+]
