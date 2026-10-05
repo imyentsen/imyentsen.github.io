@@ -9,7 +9,7 @@ module.exports = {
       summary: `Senior UX Designer specializing in data-heavy design, digital twins, and design systems.`,
     },
     description: `Growing scalable user experience`,
-    siteUrl: `https://imyentsen.github.io/`,
+    siteUrl: `https://imyentsen.pages.dev`,
     image: `/og-image.jpg`,
     keywords: [`UX Design`, `Design Systems`, `Digital Twins`, `Portfolio`],
     lang: `en`,
