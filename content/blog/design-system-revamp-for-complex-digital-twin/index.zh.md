@@ -8,6 +8,7 @@ slug: "/design-system-revamp-for-complex-digital-twin"
 coverImage: "cover.jpg"
 highlightImage: "cover.jpg"
 highlightVideo: "cover-card.mp4"
+bannerVideo: "cover-banner.mp4"
 ---
 
 # 目標

@@ -8,6 +8,7 @@ slug: "/governing-ux-patterns-for-tools-and-objects"
 coverImage: "cover.jpg"
 highlightImage: "cover.jpg"
 highlightVideo: "cover-card.mp4"
+bannerVideo: "cover-banner.mp4"
 ---
 
 # 目標

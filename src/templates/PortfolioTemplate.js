@@ -64,6 +64,10 @@ export const pageQuery = graphql`
           publicURL
           extension
         }
+        bannerVideo {
+          publicURL
+          extension
+        }
         desc
       }
       html

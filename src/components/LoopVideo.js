@@ -78,7 +78,8 @@ export default function LoopVideo({
           }
         });
       },
-      { rootMargin: "300px 0px" }
+      // 提早一點開始下載，使用者捲到時影片多半已經緩衝好
+      { rootMargin: "600px 0px" }
     );
 
     observer.observe(containerRef.current);
@@ -110,7 +111,9 @@ export default function LoopVideo({
           muted
           loop
           playsInline
-          preload="none"
+          // <video> 只在接近可視範圍時才掛載，掛載後就該立刻開始緩衝；
+          // 用 "none" 會讓部分瀏覽器（尤其 Safari）等到 play() 才開始抓資料，起播變慢
+          preload="auto"
           aria-hidden="true"
           onPlaying={() => setIsPlaying(true)}
           className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${

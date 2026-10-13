@@ -49,7 +49,7 @@ export default function Banner({ frontmatter }) {
           }`}>
             <LoopVideo
               image={imageData}
-              videoUrl={frontmatter.highlightVideo?.publicURL}
+              videoUrl={(frontmatter.bannerVideo || frontmatter.highlightVideo)?.publicURL}
               alt={frontmatter.title || "Cover Image"}
               className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[648px]"
               imgStyle={{ objectFit: "cover" }}

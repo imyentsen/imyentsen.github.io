@@ -134,6 +134,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       # @fileByRelativePath 是 Gatsby 用來把 frontmatter 裡的相對路徑字串（例如 "loop.mp4"）
       # 解析成同資料夾底下對應 File node 的標準做法，跟 coverImage/highlightImage 目前依賴自動推論解析的機制相同。
       highlightVideo: File @fileByRelativePath
+      # 文章內頁 banner 專用的高解析度影片（1920x1080）。沒填時 banner 退回用 highlightVideo。
+      bannerVideo: File @fileByRelativePath
       # 跨年度專案的顯示用字串（例如 "2025-2026"）。year 保持數字，只當排序鍵用。
       yearRange: String
     }
