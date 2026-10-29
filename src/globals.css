@@ -417,13 +417,8 @@ html {
   --link-underline-offset: 0px;
 }
 
-/* 文章內文連結：hover 時拿掉底線、文字變灰（維持原本行為） */
-.prose a:hover {
-  background-image: none;
-}
-
 /* ---------- Link flow：首頁連結 hover 時，文字本身變成流動漸層 ----------
- * 用法：在連結加上 .link-flow
+ * 用法：在連結加上 .link-flow（文章內文的連結 .prose a 也自動套用）
  *   - 滑鼠移上去（:hover）
  *   - 或父層 .group 被 hover（例如整張卡片）
  *   - 或 JS 加上 .is-active（例如描述文字和卡片連動）
@@ -441,7 +436,8 @@ html {
 @media (hover: hover) {
   .link-flow:hover,
   .link-flow.is-active,
-  .group:hover .link-flow {
+  .group:hover .link-flow,
+  .prose a:hover {
     color: transparent;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -455,12 +451,30 @@ html {
     animation: link-flow var(--link-flow-duration) linear infinite;
   }
 
-  /* 連結裡的 icon 用 currentColor，文字變透明時改用漸層第一色，避免 icon 消失 */
-  .link-flow:hover svg,
-  .link-flow.is-active svg,
-  .group:hover .link-flow svg {
-    color: var(--link-flow-1);
+  /* 外部連結 icon：hover 時跟文字一樣變成流動漸層 */
+  .link-flow:hover .ext-icon,
+  .link-flow.is-active .ext-icon,
+  .group:hover .link-flow .ext-icon,
+  .prose a:hover .ext-icon {
+    background-color: transparent;
+    background-image: var(--link-flow-gradient);
+    background-size: var(--link-flow-size);
+    background-repeat: repeat;
+    animation: link-flow var(--link-flow-duration) linear infinite;
   }
+}
+
+/* 外部連結 icon（↗）：用 mask 畫，平常跟文字同色（currentColor），
+ * hover 時換成流動漸層（見上方）。文章內文由 Content.js 自動加上，Footer 的 LinkedIn 也用這個。 */
+.ext-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.2em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 /* 圖片 hover：同一組流動漸層，由下往上從不透明淡到透明
@@ -485,7 +499,9 @@ html {
   .link-flow:hover,
   .link-flow.is-active,
   .group:hover .link-flow,
+  .prose a:hover,
+  .ext-icon,
   .image-flow {
-    animation: none;
+    animation: none !important;
   }
 }

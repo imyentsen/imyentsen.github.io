@@ -50,12 +50,8 @@ export default function Content({ markdownHtml, markdownRaw, title }) {
             // 創建外部連結圖示和說明文字
             const iconSpan = document.createElement('span');
             iconSpan.className = 'external-link-icon';
-            iconSpan.innerHTML = `
-              <svg aria-hidden="true" class="inline w-4 h-4" fill="none" stroke="#4f6084ff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-              </svg>
-              <span class="sr-only"> (opens in new tab)</span>
-            `;
+            // icon 樣式在 globals.css 的 .ext-icon（平常跟文字同色，hover 跟文字一樣變漸層）
+            iconSpan.innerHTML = `<span class="ext-icon" aria-hidden="true"></span><span class="sr-only"> (opens in new tab)</span>`;
             link.appendChild(iconSpan);
           }
         }
@@ -98,8 +94,6 @@ export default function Content({ markdownHtml, markdownRaw, title }) {
               prose-figcaption:text-[#767676] prose-figcaption:text-center
               prose-figcaption:mt-3 prose-figcaption:mx-auto lg:prose-figcaption:max-w-[720px]
               prose-a:font-bold prose-a:no-underline prose-a:text-black
-              hover:prose-a:text-[#767676]
-              prose-a:transition-colors prose-a:duration-200
               lg:[&>*:not(img):not(figure)]:max-w-[696px] 
             "
             dangerouslySetInnerHTML={{ __html: processedHtml }}
