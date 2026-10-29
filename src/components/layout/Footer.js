@@ -20,11 +20,11 @@ export default function Footer() {
             <button
               type="button"
               onClick={scrollToTop}
-              className="w-12 h-12 rounded-full border border-[#222] bg-[#fafafa] flex items-center justify-center hover:border-transparent hover:bg-[#7a7a7a] transition-all duration-100 group"
+              className="w-12 h-12 rounded-full border border-[#222] bg-background flex items-center justify-center hover:border-transparent hover:bg-[#333] transition-all duration-100 group"
               aria-label="Back to top"
             >
               <svg
-                className="w-5 h-5 text-[#222] group-hover:text-[#fafafa] transition-colors duration-100"
+                className="w-5 h-5 text-[#222] group-hover:text-background transition-colors duration-100"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -42,7 +42,7 @@ export default function Footer() {
         )}
 
         {/* Footer 主要內容 */}
-        <div className="mt-10 md:mt-20 pt-10 md:pt-20  border-t border-[#dfdfdf] grid grid-cols-1 md:grid-cols-3 gap-3 mb-6">
+        <div className="mt-10 md:mt-20 pt-10 md:pt-20  border-t border-divider grid grid-cols-1 md:grid-cols-3 gap-3 mb-6">
           {/* Title */}
           <div>
             <Link 
@@ -57,13 +57,13 @@ export default function Footer() {
           <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-6">
             <a
               href="mailto:imyentsen@gmail.com"
-              className="font-medium underline hover:no-underline hover:text-[#767676] transition-colors duration-200"
+              className="font-medium w-fit link-underline link-flow"
             >
               Email
             </a>
             <a
               href="https://www.linkedin.com/in/yentsenliu/"
-              className="font-medium underline hover:no-underline hover:text-[#767676] transition-colors duration-200 inline-flex items-center"
+              className="font-medium w-fit link-underline link-flow inline-flex items-center"
               target="_blank"
               rel="noopener noreferrer"
             >

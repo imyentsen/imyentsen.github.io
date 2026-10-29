@@ -94,7 +94,7 @@ function LangDropdown({ lang }) {
         <ul
           role="menu"
           aria-label="Language"
-          className="absolute right-0 top-full mt-2 z-50 min-w-[128px] bg-white border border-[#e2e2e2] shadow-[0_4px_16px_rgba(0,0,0,0.08)] overflow-hidden"
+          className="absolute right-0 top-full mt-2 z-50 min-w-[128px] bg-background border border-divider shadow-[0_4px_16px_rgba(0,0,0,0.08)] overflow-hidden"
         >
           {LANG_OPTIONS.map((o, idx) => {
             const isCurrent = o.code === lang;

@@ -12,7 +12,7 @@ const fontClasses = {
 };
 
 // 把描述字串中的特定詞轉成超連結元件，管理 hover 狀態
-function DescriptionWithLinks({ text, links, hoverSlug, setHoverSlug }) {
+function DescriptionWithLinks({ lead, text, links, hoverSlug, setHoverSlug }) {
   let parts = [text];
   links.forEach(({ text: linkText, slug }) => {
     let newParts = [];
@@ -30,7 +30,7 @@ function DescriptionWithLinks({ text, links, hoverSlug, setHoverSlug }) {
                   e.preventDefault();
                   window.location.href = slug;
                 }}
-                className={`${fontClasses.syne} text-[18px] text-black underline cursor-pointer md:hover:no-underline md:hover:opacity-70 transition-opacity`}
+                className={`${fontClasses.syne} text-[18px] text-black link-underline cursor-pointer link-flow ${hoverSlug === slug ? "is-active" : ""}`}
               >
                 {linkText}
               </span>
@@ -47,6 +47,7 @@ function DescriptionWithLinks({ text, links, hoverSlug, setHoverSlug }) {
 
   return (
     <p className="block leading-normal">
+      {lead}
       {parts.map((part, i) =>
         typeof part === "string" ? (
           <React.Fragment key={"text-" + i}>{part}</React.Fragment>
@@ -90,20 +91,20 @@ function HighlightCard({ title, org, year, slug, coverImage, highlightImage, hig
                 className="bg-white"
               />
               {/* Gradient overlay - 統一使用 isHovered 控制 */}
-              <div className={`absolute left-0 bottom-0 w-full h-1/3 pointer-events-none md:transition-opacity bg-gradient-to-t from-white to-transparent ${isHovered ? "md:opacity-70" : "opacity-0"}`} />
+              <div className={`absolute left-0 bottom-0 w-full h-1/3 pointer-events-none md:transition-opacity image-flow ${isHovered ? "md:opacity-70 is-active" : "opacity-0"}`} />
             </div>
           </div>
         )}
 
         {/* Title row - 使用與圖片相同的 scrollProgress */}
         <div
-          className={`pb-2 box-border content-stretch flex flex-row ${fontClasses.syne} gap-2 items-end justify-start leading-none p-0 relative shrink-0 text-black text-[18px] text-left w-full md:transition-opacity ${isHovered ? "md:opacity-70" : "opacity-100"}`}
+          className={`pb-2 box-border content-stretch flex flex-row ${fontClasses.syne} gap-2 items-end justify-start leading-none p-0 relative shrink-0 text-black text-[18px] text-left w-full`}
           style={{
             opacity: imagesVisible ? Math.max(0.1, 1 - scrollProgress) : 0
           }}
         >
           <div className="grow">
-            <p className={`block leading-normal md:transition-all ${isHovered ? "md:no-underline" : "underline"}`}>
+            <p className={`inline leading-normal link-underline link-flow ${isHovered ? "is-active" : ""}`}>
               {title}
             </p>
           </div>
@@ -195,13 +196,15 @@ function HighlightCategory({
           opacity: textVisible ? Math.max(0.1, 1 - textScrollProgress) : 0
         }}
       >
-        {/* Section title */}
-        <div className="relative shrink-0 text-black w-full">
-          <p className={`${fontClasses.syne} text-[18px] block leading-normal ${lang === 'zh' ? 'font-medium' : ''}`}>{title}</p>
-        </div>
-        {/* Description (hidden on mobile) */}
-        <div className="relative shrink-0 text-[#767676] w-full hidden lg:block">
+        {/* 分類標題 + 描述合成一段，手機也顯示 */}
+        <div className="relative shrink-0 text-[#767676] w-full">
           <DescriptionWithLinks
+            lead={
+              <>
+                <span className={`${fontClasses.syne} text-black ${lang === 'zh' ? 'font-medium' : ''}`}>{title}</span>
+                <span aria-hidden="true" className="inline-block align-middle w-[60px] h-px bg-divider mx-3" />
+              </>
+            }
             text={description}
             links={links}
             hoverSlug={hoverSlug}

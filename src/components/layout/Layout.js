@@ -2,11 +2,14 @@ import TopNav from "./TopNav";
 import Footer from "./Footer";
 import React from 'react';
 import { Helmet } from "react-helmet";
+import { useLocation } from "@reach/router";
 import "../../globals.css";
 import useAbsoluteUrl from "../../utils/useSiteUrl";
 
 export default function Layout({ children, className = "" }) {
   const absoluteUrl = useAbsoluteUrl();
+  const { pathname } = useLocation();
+  const htmlLang = pathname.startsWith("/zh") ? "zh-Hant-TW" : "en";
   return (
     <div className={`page-container relative min-h-screen flex flex-col ${className}`}>
       <Helmet>
@@ -18,7 +21,7 @@ export default function Layout({ children, className = "" }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:title" content="Yen-tsen Ansin Liu's Portfolio" />
         <meta property="og:description" content="Senior UX Designer specializing in data-heavy design, digital twins, and design systems." />
-        <html lang="en" />
+        <html lang={htmlLang} />
       </Helmet>
       <TopNav />
       <main className="flex-1">

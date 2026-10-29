@@ -21,14 +21,14 @@ function ProjectCard({ title, org, year, href, coverImage, videoUrl }) {
           <div
             className="absolute left-0 bottom-0 w-full h-1/3 pointer-events-none
               opacity-0 group-hover:opacity-70 transition-opacity
-              bg-gradient-to-t from-white to-transparent"
+              image-flow"
           />
         </div>
 
         <div className="flex flex-col items-start justify-start w-full">
           {/* Title，樣式跟 Highlight 一樣 */}
-          <p className="font-['Syne',_sans-serif] text-[18px] text-black block leading-normal transition-opacity group-hover:opacity-70">
-            {title}
+          <p className="font-['Syne',_sans-serif] text-[18px] text-black block leading-normal">
+            <span className="link-flow">{title}</span>
           </p>
           {/* org + year 灰色，縮小字型 */}
           <p className="font-['Syne',_sans-serif] text-[#767676] text-[16px] block leading-normal">

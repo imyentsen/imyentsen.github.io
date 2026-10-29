@@ -6,8 +6,32 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  /* ---------- Brand tokens（視覺更新 2026-10） ---------- */
+  --color-bg: #FFF9F1;        /* 網站背景 */
+  --color-divider: rgb(51 51 51 / 0.3);  /* #333, 30% */   /* 分隔線、閱讀進度 inactive 線、分隔點點 */
+
+  /* 首頁連結 hover：傾斜流動漸層 */
+  --link-flow-1: #1F6E52;
+  --link-flow-2: #369AA5;
+  --link-flow-3: #9884C4;
+  --link-flow-angle: 120deg;          /* 漸層方向；條紋與垂直線夾 30 度 */
+  --link-flow-period: 480px;          /* 一輪顏色的長度（沿漸層方向），越長同時看到的顏色越少 */
+  --link-flow-duration: 24s;          /* 走完一輪的時間，數字越大越慢 */
+  --link-underline-opacity: 50%;     /* 超連結漸層底線不透明度 */
+  --link-underline-thickness: 2px;    /* 超連結漸層底線粗細 */
+  --link-underline-offset: 2px;       /* 底線離文字框底部的距離 */
+  /* 由上面的 token 組出來，通常不用動 */
+  --link-flow-gradient: repeating-linear-gradient(
+    var(--link-flow-angle),
+    var(--link-flow-1) 0,
+    var(--link-flow-2) calc(var(--link-flow-period) / 3),
+    var(--link-flow-3) calc(var(--link-flow-period) * 2 / 3),
+    var(--link-flow-1) var(--link-flow-period)
+  );
+  --link-flow-size: calc(var(--link-flow-period) / 0.866) calc(var(--link-flow-period) / 0.5);
+
   --font-size: 16px;
-  --background: #ffffff;
+  --background: var(--color-bg);
   --foreground: oklch(0.145 0 0);
   --card: #ffffff;
   --card-foreground: oklch(0.145 0 0);
@@ -23,7 +47,7 @@
   --accent-foreground: #030213;
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
-  --border: rgba(0, 0, 0, 0.1);
+  --border: var(--color-divider);
   --input: transparent;
   --input-background: #f3f3f5;
   --switch-background: #cbced4;
@@ -132,7 +156,7 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'DM Sans', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
-    background-color: #FDFDFD;
+    background-color: var(--color-bg);
   }
 
   *, *::before, *::after {
@@ -365,4 +389,103 @@ html {
 .fade-up-initial {
   opacity: 0;
   transform: translateY(30px);
+}
+
+
+/* ---------- Link underline：超連結底線改成靜態漸層 ----------
+ * 用 1px 高的背景畫底線（text-decoration 不能上漸層），顏色沿用 --link-flow-*。
+ * 套用在 .link-underline 與文章內文的連結；hover 時 .link-flow 會蓋掉這條線。
+ */
+.link-underline,
+.prose a {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--link-flow-1) var(--link-underline-opacity), transparent),
+    color-mix(in srgb, var(--link-flow-2) var(--link-underline-opacity), transparent),
+    color-mix(in srgb, var(--link-flow-3) var(--link-underline-opacity), transparent)
+  );
+  background-size: 100% var(--link-underline-thickness);
+  background-position: 0 calc(100% - var(--link-underline-offset));
+  background-repeat: no-repeat;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* 中文頁面：底線往下移 2px（中文字沒有下伸部，底線太貼字） */
+:root:lang(zh) {
+  --link-underline-offset: 0px;
+}
+
+/* 文章內文連結：hover 時拿掉底線、文字變灰（維持原本行為） */
+.prose a:hover {
+  background-image: none;
+}
+
+/* ---------- Link flow：首頁連結 hover 時，文字本身變成流動漸層 ----------
+ * 用法：在連結加上 .link-flow
+ *   - 滑鼠移上去（:hover）
+ *   - 或父層 .group 被 hover（例如整張卡片）
+ *   - 或 JS 加上 .is-active（例如描述文字和卡片連動）
+ * 顏色、角度、速度都在 :root 的 --link-flow-* token 調整。
+ *
+ * 無縫 loop 的做法：背景 tile 的寬 = period / sin(角度)、高 = period / |cos(角度)|，
+ * 這樣 tile 左右、上下接縫處的顏色剛好差一整輪，往右移一個 tile 寬就回到原點。
+ * 120deg 時 sin = 0.866、|cos| = 0.5。改角度的話這兩個數字要一起改。
+ */
+@keyframes link-flow {
+  from { background-position: 0 0; }
+  to   { background-position: calc(var(--link-flow-period) / 0.866) 0; }
+}
+
+@media (hover: hover) {
+  .link-flow:hover,
+  .link-flow.is-active,
+  .group:hover .link-flow {
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    background-image: var(--link-flow-gradient);
+    background-size: var(--link-flow-size);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    animation: link-flow var(--link-flow-duration) linear infinite;
+  }
+
+  /* 連結裡的 icon 用 currentColor，文字變透明時改用漸層第一色，避免 icon 消失 */
+  .link-flow:hover svg,
+  .link-flow.is-active svg,
+  .group:hover .link-flow svg {
+    color: var(--link-flow-1);
+  }
+}
+
+/* 圖片 hover：同一組流動漸層，由下往上從不透明淡到透明
+ * 顯示與否由元件控制 opacity；沒 hover 時動畫暫停，淡出時不會跳回起點 */
+.image-flow {
+  background-image: var(--link-flow-gradient);
+  background-size: var(--link-flow-size);
+  background-repeat: repeat;
+  -webkit-mask-image: linear-gradient(to top, #000, transparent);
+  mask-image: linear-gradient(to top, #000, transparent);
+  animation: link-flow var(--link-flow-duration) linear infinite paused;
+}
+
+@media (hover: hover) {
+  .group:hover .image-flow,
+  .image-flow.is-active {
+    animation-play-state: running;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link-flow:hover,
+  .link-flow.is-active,
+  .group:hover .link-flow,
+  .image-flow {
+    animation: none;
+  }
 }

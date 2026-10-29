@@ -27,7 +27,7 @@ export default function Banner() {
 
           {/* Summary - Left column，右邊加右邊框線(分隔線)*/}
           <div className="relative text-[18px] flex flex-col gap-3 pr-3 items-start justify-start min-w-0 p-0 shrink-0 w-full lg:w-auto">
-            <div className="absolute top-0 right-0 h-full w-px bg-[#dfdfdf] hidden lg:block" />
+            <div className="absolute top-0 right-0 h-full w-px bg-divider hidden lg:block" />
             <p className="font-dm-sans text-[#767676] leading-normal z-10 relative">
               {t.bannerSummary1}
               <span className="text-black">{t.bannerSpecialty1}</span>
@@ -44,7 +44,7 @@ export default function Banner() {
 
           {/* Work Experience - Center column，左右各有1px邊框（分隔線）*/}
           <div className="relative hidden lg:flex flex-col gap-3 items-start justify-start min-w-0 p-0 px-3 shrink-0 w-full lg:w-auto">
-            <div className="absolute top-0 right-0 h-full w-px bg-[#dfdfdf]" />
+            <div className="absolute top-0 right-0 h-full w-px bg-divider" />
             <div className="flex flex-col text-[#767676] text-[18px] leading-normal relative z-10">
 
             <span className="font-syne text-[18px] block leading-normal relative z-10 text-[#767676]">{t.workExperience}</span>
@@ -66,13 +66,13 @@ export default function Banner() {
               <div>
                 <span className="text-[#767676] font-syne text-[18px] block leading-normal">{t.contact}</span></div>
               <a
-                className="text-black underline block cursor-pointer leading-normal whitespace-pre hover:opacity-70 hover:no-underline transition-opacity"
+                className="text-black link-underline block w-fit cursor-pointer leading-normal whitespace-pre link-flow"
                 href="mailto:imyentsen@gmail.com"
               >
                 Email
               </a>
               <a
-                className="text-black underline block leading-normal whitespace-pre hover:opacity-70 hover:no-underline transition-opacity cursor-pointer"
+                className="text-black link-underline block w-fit leading-normal whitespace-pre link-flow cursor-pointer"
                 href="https://www.linkedin.com/in/yentsenliu/"
               >
                 LinkedIn

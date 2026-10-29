@@ -111,7 +111,7 @@ export default function Outline({ content, title }) {
               className={`absolute inset-0 pointer-events-none ${
                 activeHeading === item.id
                   ? "border-[#585858] border-l-2"
-                  : "border-[#ccc] border-l-2"
+                  : "border-divider border-l-2"
               }`}
             />
             <div

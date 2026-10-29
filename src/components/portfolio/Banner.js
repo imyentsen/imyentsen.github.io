@@ -73,17 +73,13 @@ export default function Banner({ frontmatter }) {
             </div>
           </div>
 
-          {/* Decorative dots with same animation as text */}
+          {/* Divider with same animation as text */}
           <div className={`px-0 lg:pb-20 pb-8 transition-all duration-600 ease-out ${
             textVisible 
               ? 'opacity-100 transform translate-y-0' 
               : 'opacity-0 transform translate-y-[80px]'
           }`}>
-            <div className="flex items-center gap-3">
-              {Array.from({ length: 14 }, (_, i) => (
-                <div key={i} className="w-0.5 h-0.5 bg-[#ccc] rounded-full" />
-              ))}
-            </div>
+            <div aria-hidden="true" className="w-[60px] h-px bg-divider" />
           </div>
         </div>
       </div>

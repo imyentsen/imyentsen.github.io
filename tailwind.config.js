@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        divider: 'var(--color-divider)',
       },
       fontSize: {
         base: ['18px', '24px'], // [字體大小, 行高]
